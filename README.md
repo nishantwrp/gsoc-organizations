@@ -6,6 +6,10 @@
 </p>
 <h1 align="center">
   Gatsby's default starter
+  <br>
+  <center>
+  <a href="https://app.netlify.com/sites/gsoc-organizations-new/deploys"><img src="https://api.netlify.com/api/v1/badges/71cda104-920e-48f6-aa35-5c7c63655261/deploy-status"></a>
+  </center>
 </h1>
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
