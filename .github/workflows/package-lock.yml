@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:
-  lint:
+  ci:
     runs-on:  ${{ matrix.os }}
     strategy:
       matrix:
