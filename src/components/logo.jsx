@@ -11,10 +11,10 @@ const getLogoStyle = (size, color) => {
 
   return {
     border: borderSize + " solid",
-    "border-radius": "10000px",
+    borderRadius: "10000px",
     color: color,
     padding: padding,
-    "font-size": fontSize,
+    fontSize: fontSize,
   }
 }
 
@@ -35,7 +35,7 @@ Logo.propTypes = {
 
 Logo.defaultProps = {
   size: 25,
-  color: "red",
+  color: "#ffa62b",
 }
 
 export default Logo

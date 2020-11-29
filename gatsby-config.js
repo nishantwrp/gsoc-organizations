@@ -1,3 +1,11 @@
+const breakPoints = {
+  xs: "(max-width: 575px)",
+  sm: "(max-width: 767px)",
+  md: "(max-width: 991px)",
+  l: "(max-width: 1367px)",
+  xl: "(max-width: 1920px)",
+}
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -28,5 +36,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-less`,
+    {
+      resolve: "gatsby-plugin-breakpoints",
+      options: {
+        queries: breakPoints,
+      },
+    },
   ],
 }

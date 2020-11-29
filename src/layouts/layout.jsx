@@ -1,49 +1,35 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
+import "semantic-ui-less/semantic.less"
 import "./layout.css"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+import Sidebar from "../components/sidebar"
+import { Grid } from "semantic-ui-react"
 
-  return (
-    <>
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
+const Layout = ({ children }) => {
+  const breakpoints = useBreakpoint()
+
+  if (!breakpoints.md) {
+    return (
+      <Grid
+        style={{ marginLeft: "0px", marginTop: "0px", marginBottom: "0px" }}
       >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
-    </>
-  )
+        <Grid.Row style={{ paddingBottom: "0px", paddingTop: "0px" }}>
+          <Grid.Column
+            width={4}
+            style={{ paddingLeft: "0px", paddingBottom: "0px" }}
+          >
+            <Sidebar />
+          </Grid.Column>
+          <Grid.Column width={12}>{children}</Grid.Column>
+        </Grid.Row>
+      </Grid>
+    )
+  }
+
+  return <></>
 }
 
 Layout.propTypes = {
