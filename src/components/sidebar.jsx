@@ -61,7 +61,10 @@ const Sidebar = () => {
                   <span class="sidebar-footer-icon">
                     <Icon name="heart"></Icon>
                   </span>{" "}
-                  using{" "}
+                  and{" "}
+                  <span class="sidebar-footer-icon">
+                    <Icon name="coffee"></Icon>
+                  </span>{" "}
                   <a
                     href="https://www.gatsbyjs.org/"
                     class="sidebar-footer-text"
