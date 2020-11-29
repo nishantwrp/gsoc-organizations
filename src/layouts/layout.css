@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #fdfdfd;
+}
+
+@font-face {
+  font-family: "Galano Grotesque Alt Medium";
+  src: url("/fonts/GalanoGrotesqueAltMedium.woff");
+}
