@@ -29,7 +29,7 @@ const Sidebar = () => {
         <div class="sidebar-content">Filter Content</div>
         <div class="sidebar-footer">
           <center>
-            <Divider class="sidebar-footer-divider" />
+            <Divider />
           </center>
           <div>
             <center>

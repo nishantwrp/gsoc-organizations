@@ -13,14 +13,9 @@ const Layout = ({ children }) => {
 
   if (!breakpoints.md) {
     return (
-      <Grid
-        style={{ marginLeft: "0px", marginTop: "0px", marginBottom: "0px" }}
-      >
-        <Grid.Row style={{ paddingBottom: "0px", paddingTop: "0px" }}>
-          <Grid.Column
-            width={4}
-            style={{ paddingLeft: "0px", paddingBottom: "0px" }}
-          >
+      <Grid className="desktop-layout-grid">
+        <Grid.Row className="desktop-layout-grid-row">
+          <Grid.Column className="desktop-layout-grid-column" width={4}>
             <Sidebar />
           </Grid.Column>
           <Grid.Column width={12}>{children}</Grid.Column>
