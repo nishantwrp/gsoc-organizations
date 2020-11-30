@@ -30,6 +30,9 @@ const Layout = ({ children }) => {
         <Grid.Row className="desktop-layout-grid-row">
           <MobileHeader />
         </Grid.Row>
+        {/* <Grid.Row className="desktop-layout-grid-row">
+          <Grid.Column width={12}>{children}</Grid.Column>
+        </Grid.Row> */}
       </Grid>
     )
   }

@@ -1,3 +1,58 @@
+.mobileheader-mobileheader {
+  height: 8vh;
+  width: 100%;
+  position: fixed;
+}
+
+.mobileheader-div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.mobileheader-logo-description {
+  margin-top: -14px;
+  margin-left: 5px;
+  justify-content: center;
+  text-align: center;
+}
+
+.mobileheader-search-description {
+  width: 70%;
+  padding-top: 10px;
+  background-color: pink;
+  justify-content: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.mobileheader-options-button {
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: 16px;
+  margin-top: -2px;
+}
+
+.options-button {
+  color: rgb(70, 6, 6);
+}
+
+.mobileheader-logo {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.mobileheader-footer {
+  text-align: center;
+  margin-top: auto;
+  padding-bottom: 15px;
+}
+
+.ui .divider {
+  width: 90%;
+}
+
 .mobile-layout-grid {
   margin-left: 0px !important;
   margin-top: 10px !important;

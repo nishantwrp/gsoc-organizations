@@ -1,0 +1,57 @@
+.sidebar-sidebar {
+  width: inherit;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar-div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-logo-description {
+  padding-top: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.sidebar-logo {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.sidebar-description {
+  padding: 10px;
+  font-family: "Galano Grotesque Alt Medium";
+  font-size: 16px;
+  color: #db6400;
+}
+
+.sidebar-description a {
+  color: #16697a;
+}
+
+.sidebar-footer {
+  text-align: center;
+  margin-top: auto;
+  padding-bottom: 15px;
+}
+
+.ui .divider {
+  width: 80%;
+}
+
+.sidebar-footer-icon {
+  color: #db6400;
+}
+
+.sidebar-footer-text-container {
+  margin-top: 5px;
+}
+
+.sidebar-footer-text {
+  font-family: "Galano Grotesque Alt Medium";
+  color: #db6400;
+}

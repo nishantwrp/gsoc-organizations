@@ -1,13 +1,13 @@
 import React from "react"
 
 import "semantic-ui-less/semantic.less"
-import "./sidebar.css"
+import "./mobilesidebar.css"
 
 import Logo from "./logo"
 import GitHubButton from "react-github-btn"
 import { Container, Divider, Button, Icon } from "semantic-ui-react"
 
-const Sidebar = () => {
+const mobileSidebar = () => {
   return (
     <div class="sidebar-sidebar">
       <div class="sidebar-div">
@@ -79,4 +79,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default mobileSidebar
