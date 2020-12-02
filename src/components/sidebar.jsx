@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 
 import "semantic-ui-less/semantic.less"
 import "./sidebar.css"
@@ -7,10 +8,40 @@ import Logo from "./logo"
 import GitHubButton from "react-github-btn"
 import { Container, Divider, Button, Icon } from "semantic-ui-react"
 
-const Sidebar = () => {
+const getSidebarStyles = config => {
+  if (config.mode == "desktop") {
+    return [
+      {
+        width: "inherit",
+      },
+    ]
+  }
+
+  if (config.mode == "mobile") {
+    if (config.visible) {
+      return [
+        {
+          width: "60%",
+        },
+      ]
+    } else {
+      return [
+        {
+          visibilty: "hidden",
+          width: "0px",
+        },
+        {
+          display: "none",
+        },
+      ]
+    }
+  }
+}
+
+const Sidebar = ({ config }) => {
   return (
-    <div class="sidebar-sidebar">
-      <div class="sidebar-div">
+    <div class="sidebar-sidebar" style={getSidebarStyles(config)[0]}>
+      <div class="sidebar-div" style={getSidebarStyles(config)[1]}>
         <div class="sidebar-logo-description">
           <div class="sidebar-logo">
             <Logo size={60}></Logo>
@@ -77,6 +108,16 @@ const Sidebar = () => {
       </div>
     </div>
   )
+}
+
+Sidebar.propTypes = {
+  config: PropTypes.object,
+}
+
+Sidebar.defaultProps = {
+  config: {
+    mode: "desktop",
+  },
 }
 
 export default Sidebar

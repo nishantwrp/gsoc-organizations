@@ -12,7 +12,7 @@ const items = Array(100).fill({
 
 const IndexPage = () => (
   <Layout>
-    <div>
+    <div style={{ maxWidth: "100%" }}>
       <Card.Group items={items} />
     </div>
   </Layout>

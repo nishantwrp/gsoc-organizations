@@ -1,0 +1,23 @@
+.mobile-toolbar {
+  height: 56px;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  z-index: 100000;
+  background-color: #ffff;
+}
+
+.mobile-toolbar-logo {
+  padding-top: 15px;
+  padding-left: 8px;
+}
+
+.mobile-toolbar-sidebar-toggle {
+  margin-left: auto;
+  font-size: 30px;
+  padding-right: 8px;
+  padding-top: 10px;
+  color: #ffa62b;
+  cursor: pointer;
+}

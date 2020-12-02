@@ -11,7 +11,6 @@ import MobileSidebar from "./mobilesidebar"
 
 const VerticalSidebar = ({ animation, direction, visible }) => (
   <Sidebar
-    // as={Menu}
     animation={animation}
     direction={direction}
     icon="labeled"

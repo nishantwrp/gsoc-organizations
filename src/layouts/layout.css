@@ -11,18 +11,6 @@ body {
   src: url("/fonts/GalanoGrotesqueAltMedium.woff");
 }
 
-.desktop-layout-grid {
-  margin-left: 0px !important;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-}
-
-.desktop-layout-grid-row {
-  padding-bottom: 0px !important;
-  padding-top: 0px !important;
-}
-
-.desktop-layout-grid-column {
-  padding-left: 0px !important;
-  padding-bottom: 0px !important;
+.ui.cards {
+  margin: 0px;
 }

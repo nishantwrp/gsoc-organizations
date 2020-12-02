@@ -1,7 +1,8 @@
 .sidebar-sidebar {
-  width: inherit;
   height: 100vh;
   position: fixed;
+  transition: 0.5s;
+  background-color: wheat;
 }
 
 .sidebar-div {
