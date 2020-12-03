@@ -17,12 +17,12 @@ const Toolbar = () => {
 
   return (
     <div className="mobile-toolbar">
-      <div className="mobile-toolbar-logo">
+      <div className="mobile-toolbar-logo noselect">
         <Logo />
       </div>
       <div className="mobile-toolbar-serach">Search</div>
       <div
-        className="mobile-toolbar-sidebar-toggle"
+        className="mobile-toolbar-sidebar-toggle noselect"
         onClick={toggleSidebarVisibilty}
       >
         <FontAwesomeIcon icon={faBars} />

@@ -10,37 +10,34 @@ import { Container, Divider, Button, Icon } from "semantic-ui-react"
 
 const getSidebarStyles = config => {
   if (config.mode === "desktop") {
-    return [
-      {
-        width: "inherit",
-      },
-    ]
+    return {
+      width: "inherit",
+    }
   }
 
   if (config.mode === "mobile") {
+    const mobileCss = {
+      width: "60%",
+    }
+
     if (config.visible) {
-      return [
-        {
-          width: "60%",
-        },
-      ]
+      return {
+        ...mobileCss,
+        transform: "translateX(0%)",
+      }
     } else {
-      return [
-        {
-          width: "0px",
-        },
-        {
-          display: "none",
-        },
-      ]
+      return {
+        ...mobileCss,
+        transform: "translateX(-100%)",
+      }
     }
   }
 }
 
 const Sidebar = ({ config }) => {
   return (
-    <div class="sidebar-sidebar" style={getSidebarStyles(config)[0]}>
-      <div class="sidebar-div" style={getSidebarStyles(config)[1]}>
+    <div class="sidebar-sidebar" style={getSidebarStyles(config)}>
+      <div class="sidebar-div">
         <div class="sidebar-logo-description">
           <div class="sidebar-logo">
             <Logo size={60}></Logo>
