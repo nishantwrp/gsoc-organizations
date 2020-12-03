@@ -1,8 +1,8 @@
 import React from "react"
 
-import "semantic-ui-less/semantic.less"
 import "./toolbar.css"
 
+import Dimmer from "./dimmer"
 import Logo from "../logo"
 import Sidebar from "../sidebar"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -27,6 +27,10 @@ const Toolbar = () => {
       >
         <FontAwesomeIcon icon={faBars} />
       </div>
+      <Dimmer
+        onClick={toggleSidebarVisibilty}
+        isSidebarVisible={isSidebarVisible}
+      />
       <Sidebar
         config={{
           mode: "mobile",

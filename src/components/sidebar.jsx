@@ -9,7 +9,7 @@ import GitHubButton from "react-github-btn"
 import { Container, Divider, Button, Icon } from "semantic-ui-react"
 
 const getSidebarStyles = config => {
-  if (config.mode == "desktop") {
+  if (config.mode === "desktop") {
     return [
       {
         width: "inherit",
@@ -17,7 +17,7 @@ const getSidebarStyles = config => {
     ]
   }
 
-  if (config.mode == "mobile") {
+  if (config.mode === "mobile") {
     if (config.visible) {
       return [
         {
@@ -27,7 +27,6 @@ const getSidebarStyles = config => {
     } else {
       return [
         {
-          visibilty: "hidden",
           width: "0px",
         },
         {
@@ -60,7 +59,7 @@ const Sidebar = ({ config }) => {
         <div class="sidebar-content">Filter Content</div>
         <div class="sidebar-footer">
           <center>
-            <Divider />
+            <Divider className="sidebar-footer-divider" />
           </center>
           <div>
             <center>
@@ -97,6 +96,7 @@ const Sidebar = ({ config }) => {
                     href="https://www.gatsbyjs.org/"
                     class="sidebar-footer-text"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <u>Gatsby</u>
                   </a>

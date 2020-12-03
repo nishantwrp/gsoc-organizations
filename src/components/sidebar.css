@@ -1,8 +1,11 @@
 .sidebar-sidebar {
   height: 100vh;
   position: fixed;
-  transition: 0.5s;
-  background-color: wheat;
+  transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: width;
+  overflow: hidden;
+  background-color: #f5f7f9;
+  border-right: 1px solid rgb(230, 236, 241);
 }
 
 .sidebar-div {
@@ -40,7 +43,7 @@
   padding-bottom: 15px;
 }
 
-.ui .divider {
+.sidebar-footer-divider {
   width: 80%;
 }
 
