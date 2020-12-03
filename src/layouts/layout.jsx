@@ -5,26 +5,17 @@ import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import "semantic-ui-less/semantic.less"
 import "./layout.css"
 
-import Sidebar from "../components/sidebar"
-import { Grid } from "semantic-ui-react"
+import DesktopLayout from "./desktop/layout"
+import MobileLayout from "./mobile/layout"
 
 const Layout = ({ children }) => {
   const breakpoints = useBreakpoint()
 
   if (!breakpoints.md) {
-    return (
-      <Grid className="desktop-layout-grid">
-        <Grid.Row className="desktop-layout-grid-row">
-          <Grid.Column className="desktop-layout-grid-column" width={4}>
-            <Sidebar />
-          </Grid.Column>
-          <Grid.Column width={12}>{children}</Grid.Column>
-        </Grid.Row>
-      </Grid>
-    )
+    return <DesktopLayout>{children}</DesktopLayout>
+  } else {
+    return <MobileLayout>{children}</MobileLayout>
   }
-
-  return <></>
 }
 
 Layout.propTypes = {

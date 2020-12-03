@@ -1,15 +1,42 @@
 import React from "react"
+import PropTypes from "prop-types"
 
-import "semantic-ui-less/semantic.less"
 import "./sidebar.css"
 
 import Logo from "./logo"
 import GitHubButton from "react-github-btn"
 import { Container, Divider, Button, Icon } from "semantic-ui-react"
 
-const Sidebar = () => {
+const getSidebarStyles = config => {
+  if (config.mode === "desktop") {
+    return {
+      width: "inherit",
+    }
+  }
+
+  if (config.mode === "mobile") {
+    const mobileCss = {
+      width: "400px",
+      maxWidth: "70%",
+    }
+
+    if (config.visible) {
+      return {
+        ...mobileCss,
+        transform: "translateX(0%)",
+      }
+    } else {
+      return {
+        ...mobileCss,
+        transform: "translateX(-100%)",
+      }
+    }
+  }
+}
+
+const Sidebar = ({ config }) => {
   return (
-    <div class="sidebar-sidebar">
+    <div class="sidebar-sidebar" style={getSidebarStyles(config)}>
       <div class="sidebar-div">
         <div class="sidebar-logo-description">
           <div class="sidebar-logo">
@@ -29,7 +56,7 @@ const Sidebar = () => {
         <div class="sidebar-content">Filter Content</div>
         <div class="sidebar-footer">
           <center>
-            <Divider />
+            <Divider className="sidebar-footer-divider" />
           </center>
           <div>
             <center>
@@ -61,11 +88,12 @@ const Sidebar = () => {
                   <span class="sidebar-footer-icon">
                     <Icon name="heart"></Icon>
                   </span>{" "}
-                  using{" "}
+                  and{" "}
                   <a
                     href="https://www.gatsbyjs.org/"
                     class="sidebar-footer-text"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <u>Gatsby</u>
                   </a>
@@ -77,6 +105,16 @@ const Sidebar = () => {
       </div>
     </div>
   )
+}
+
+Sidebar.propTypes = {
+  config: PropTypes.object,
+}
+
+Sidebar.defaultProps = {
+  config: {
+    mode: "desktop",
+  },
 }
 
 export default Sidebar

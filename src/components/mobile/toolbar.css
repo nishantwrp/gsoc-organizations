@@ -1,0 +1,27 @@
+.mobile-toolbar {
+  height: 54px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  z-index: 100000;
+  background-color: #ffff;
+  border-bottom: 1px solid rgb(212, 218, 223);
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
+}
+
+.mobile-toolbar-logo {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 8px;
+}
+
+.mobile-toolbar-sidebar-toggle {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  font-size: 35px;
+  padding-right: 8px;
+  color: #ffa62b;
+  cursor: pointer;
+}
