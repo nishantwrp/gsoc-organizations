@@ -1,7 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import "semantic-ui-less/semantic.less"
 import "./sidebar.css"
 
 import Logo from "./logo"
@@ -17,7 +16,8 @@ const getSidebarStyles = config => {
 
   if (config.mode === "mobile") {
     const mobileCss = {
-      width: "60%",
+      width: "400px",
+      maxWidth: "70%",
     }
 
     if (config.visible) {

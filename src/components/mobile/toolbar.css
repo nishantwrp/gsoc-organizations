@@ -11,15 +11,17 @@
 }
 
 .mobile-toolbar-logo {
-  padding-top: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
   padding-left: 8px;
 }
 
 .mobile-toolbar-sidebar-toggle {
+  margin-top: auto;
+  margin-bottom: auto;
   margin-left: auto;
   font-size: 35px;
   padding-right: 8px;
-  padding-top: 10px;
   color: #ffa62b;
   cursor: pointer;
 }

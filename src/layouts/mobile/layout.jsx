@@ -1,8 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import "semantic-ui-less/semantic.less"
-
 import Toolbar from "../../components/mobile/toolbar"
 
 const Layout = ({ children }) => {
