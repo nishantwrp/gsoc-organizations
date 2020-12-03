@@ -1,6 +1,6 @@
 .mobile-toolbar {
   height: 54px;
-  width: 100vw;
+  width: 100%;
   position: fixed;
   top: 0px;
   display: flex;
