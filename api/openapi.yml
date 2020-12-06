@@ -1,0 +1,12 @@
+openapi: '3.0.2'
+info:
+  title: GSoC Organizations API
+  version: '1.0'
+servers:
+  - url: https://api.gsocorganizations.dev/
+paths:
+  /test:
+    get:
+      responses:
+        '200':
+          description: OK

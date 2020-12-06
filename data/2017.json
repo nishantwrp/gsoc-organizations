@@ -1,0 +1,2910 @@
+{
+  "year": 2017,
+  "archive_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/",
+  "organizations": [
+    {
+      "name": "52\u00b0North Initiative for Geospatial Open Source Software GmbH",
+      "image_url": "https://lh3.googleusercontent.com/EePRUqX2zAFH7FYCmTbSNH8j_aDC9lCrNhpChS4GcwXDr7K-Wg50ufpUXJZt-issW7qzuNf7r8hzBAbYn6gE6e4YOff91aE",
+      "description": "52\u00b0North works on innovative ideas and technologies in geoinformatics.",
+      "url": "http://52north.org/",
+      "num_projects": 1,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4959751460880384/",
+      "topics": [
+        "geoinformatics",
+        "sensor web",
+        "web-based geoprocessing",
+        "spatial data infrastructures",
+        "spatial information"
+      ],
+      "technologies": [
+        "web services",
+        "ogc standards",
+        "java",
+        "javascript",
+        "web"
+      ]
+    },
+    {
+      "name": "AboutCode",
+      "image_url": "https://lh3.googleusercontent.com/haTk4dmmPTfmh1C2lb4QoD3ROLteROjlQ1kYTXcGO-UthIrGJUaZFmpku4kke_yz7r5A3nsbcrk19236GEONI8eL0U3wVZo",
+      "description": "Open Source for Open Source: software license, origin and packages discovery",
+      "url": "http://aboutcode.org",
+      "num_projects": 4,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6448304984424448/",
+      "topics": [
+        "free and open source software  license and origin",
+        "package and dependencies licensing and origin",
+        "package vulnerabilities and security",
+        "code scan and matching",
+        "code analysis and spdx"
+      ],
+      "technologies": [
+        "python",
+        "c/c++",
+        "javascript",
+        "shell script",
+        "static analysis"
+      ]
+    },
+    {
+      "name": "AerospaceResearch.net",
+      "image_url": "https://lh3.googleusercontent.com/jOqR2rfJ6p_EPdLbOuSw71p0ZmGN2zsbYxcCNfzEerjClNBNTQ5JgcmY489bhCAyfBK1-s-ahmriz7XwGDgWLVlepO11LA",
+      "description": "Making Space Together",
+      "url": "http://aerospaceresearch.net/",
+      "num_projects": 6,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6713622831038464/",
+      "topics": [
+        "cubesats",
+        "space applications",
+        "software defined radio",
+        "distributed computing",
+        "simulations"
+      ],
+      "technologies": ["python", "c/c++", "vhdl", "boinc"]
+    },
+    {
+      "name": "aimacode",
+      "image_url": "https://lh3.googleusercontent.com/JzxNOZ9XiaGBC_TOJMYQIjaBB0Pzf7HZZOLiE3rzb8vHWQfQjVVgaFK7h42tCFkPJ10KKnhl_6KmaiMMP8RWJb6JNsRzTVE",
+      "description": "Code for the book \"Artificial Intelligence: A Modern Approach\"",
+      "url": "https://github.com/aimacode/",
+      "num_projects": 4,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6119722806411264/",
+      "topics": ["artificial intelligence", "machine learning", "education"],
+      "technologies": [
+        "python",
+        "javascript",
+        "machine learning",
+        "artificial intelligence",
+        "java"
+      ]
+    },
+    {
+      "name": "Amahi",
+      "image_url": "https://lh3.googleusercontent.com/3Ed5KX1Vev4zvWcYgqhvz-CUf-sEIPFhr-RKd83AQe2-eKVEHNaUXNcZaL9DTV9nNLylT8wmw4ByVB8UTOtgZw6tfdApDnNZ",
+      "description": "Making Home Networking and Storage Simple",
+      "url": "https://www.amahi.org",
+      "num_projects": 3,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6673844588773376/",
+      "topics": [
+        "home servers",
+        "networking",
+        "storage",
+        "webapps",
+        "mobile streaming"
+      ],
+      "technologies": [
+        "android",
+        "golang",
+        "restful api",
+        "streaming",
+        "ruby on rails"
+      ]
+    },
+    {
+      "name": "AOSSIE - Australian Open Source Software Innovation and Education",
+      "image_url": "https://lh3.googleusercontent.com/tosbibSE_nLmbQ-M05qQpShZDErKCZ9DyMVXrF-wJZopzCiMFGudoQkLc-26hOd7CNVoDxgiOmLE9bkWmvBLhLTnGYnuag",
+      "description": "Umbrella Org for Open-Source Projects in Australia",
+      "url": "http://www.aossie.org/",
+      "num_projects": 13,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4780102642565120/",
+      "topics": [
+        "logic",
+        "electronic voting",
+        "natural language processing",
+        "philosophy",
+        "environment"
+      ],
+      "technologies": [
+        "scala",
+        "javascript/html/css",
+        "automated reasoning",
+        "android/ios",
+        "xcode"
+      ]
+    },
+    {
+      "name": "Apache Software Foundation",
+      "image_url": "https://lh3.googleusercontent.com/9iOQHZ9QgxI1iCF1J6q7tW0LNpuMzwnSv7Oc5J7CEZcSrcB-wdupjpNjmDh_4TsXky518zS6j9CAKvr_K6My1T3xArsW0ZY",
+      "description": "Providing open source software to the public free of charge",
+      "url": "http://www.apache.org",
+      "num_projects": 23,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4633151007621120/",
+      "topics": ["cloud", "libraries", "big data"],
+      "technologies": ["java", "c", "erlang"]
+    },
+    {
+      "name": "Apertium",
+      "image_url": "https://lh3.googleusercontent.com/SPljiVBrmtAFHDkqkh6GT_UoPnM8yFylK6D3Nou7YupOKnxe4CzGCPbcHdODfn9u0HmQY1uAkaEod1VJttz3I2GXzW8W8bs",
+      "description": "Free/open-source rule-based machine translation",
+      "url": "http://www.apertium.org",
+      "num_projects": 10,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6618812501721088/",
+      "topics": [
+        "natural language processing",
+        "machine translation",
+        "lesser-resourced languages"
+      ],
+      "technologies": ["c++", "xml", "python", "nlp"]
+    },
+    {
+      "name": "Apertus Association",
+      "image_url": "https://lh3.googleusercontent.com/Um0KGRuPLrwm2mUc6CJTCRV3Ng7c2OOgApOlcSbrQwGRRCIfArXQWowVXmL3CT00HHJ4IaMLTKGaOqqS_g0a0uKzBjAm9w",
+      "description": "Open Technology for Professional Film Production",
+      "url": "http://www.apertus.org",
+      "num_projects": 1,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6354847569805312/",
+      "topics": ["video", "camera", "vision", "real time", "photography"],
+      "technologies": ["fpga", "vhdl", "c", "linux", "c++"]
+    },
+    {
+      "name": "appleseedhq",
+      "image_url": "https://lh3.googleusercontent.com/Z-oZMDK7uhRPfak-x0CKMQiEtUe0UmLdGs9NrGTmXl3AQairQnGqbUagRSYjFAn6gWMX7fXqH-kPfGbl5giCWvGLDv_vFw",
+      "description": "A modern open source rendering engine for animation and visual effects",
+      "url": "http://appleseedhq.net/",
+      "num_projects": 3,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6110372931043328/",
+      "topics": ["computer graphics", "3d", "rendering", "animation", "vfx"],
+      "technologies": ["c++", "python", "qt"]
+    },
+    {
+      "name": "ArduPilot",
+      "image_url": "https://lh3.googleusercontent.com/amcm6L26zzZQI90cwbuqPYL3P918vY0f9Cd1UMFvUAXGwIQp9UfZngktrwPdh8N8m8uBQJEbQb2jo4OJFwohhD-HdzQ31D8",
+      "description": "The worlds most advanced open source autopilot",
+      "url": "http://www.ardupilot.org",
+      "num_projects": 3,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5801067908431872/",
+      "topics": ["autopilot", "robotics", "uav", "drones", "rovers"],
+      "technologies": ["c++", "python", "embedded", "rtos", "ros"]
+    },
+    {
+      "name": "Babel",
+      "image_url": "https://lh3.googleusercontent.com/SgPfGA3yKtXE8SpqyNFL0dPQlQbXYbawc4QS2A8UvG6pdZvw4zwPECNCkbNVtZ6nXyYIxDDxL_lniJCM2GbrIgQEnLropJk",
+      "description": "Babel, the community driven compiler for writing next generation JavaScript",
+      "url": "https://babeljs.io/",
+      "num_projects": 2,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5933754749026304/",
+      "topics": ["compilers", "ast", "minifier", "tc39"],
+      "technologies": ["javascript", "babel", "nodejs"]
+    },
+    {
+      "name": "Bazel",
+      "image_url": "https://lh3.googleusercontent.com/9-qn7H5zPiovr1QqqC2PyVVaXMz3LaEi0A8BichLqe6LcNFvX6gX5bqN-RzweBjbMfgXMay_JidYt_Swo2qy3gKTygxREmE",
+      "description": "Fast and correct build system for Google scale",
+      "url": "https://bazel.build",
+      "num_projects": 0,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5765787168014336/",
+      "topics": ["development tools", "build systems"],
+      "technologies": ["java", "linux", "go"]
+    },
+    {
+      "name": "BeagleBoard.org Foundation",
+      "image_url": "https://lh3.googleusercontent.com/mGz-YlOq-jcjzsNxad6Vfj7Y4UG4ThDaWury4q4Tiv-zXNHiHVz8j4OAa8pa2w05Dwo6GpbnNRzTSY_2czSq4rS6hXuCCg",
+      "description": "open hardware physical computing for makers, educators and professionals",
+      "url": "https://beagleboard.org",
+      "num_projects": 6,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5370804795604992/",
+      "topics": [
+        "real time",
+        "robotics",
+        "iot",
+        "physical computing",
+        "coprocessing"
+      ],
+      "technologies": ["javascript", "linux", "beaglebone", "python", "c"]
+    },
+    {
+      "name": "Beam Community",
+      "image_url": "https://lh3.googleusercontent.com/iMFEDCnS6c8vxlAemq7cvE2bJzVzsb9KSmNoB4kc85lWByQvUiqubY6OEFHCg2cG1796y9SNIAUK7xqLljMgX2zwY4NwvjY",
+      "description": "From distributed systems, to robust servers and language design on the Erlang VM",
+      "url": "https://beamcommunity.github.io/",
+      "num_projects": 7,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5344914732744704/",
+      "topics": ["realtime", "communication system", "database", "clustering"],
+      "technologies": ["erlang", "elixir", "lisp", "xmpp"]
+    },
+    {
+      "name": "BeeWare Project",
+      "image_url": "https://lh3.googleusercontent.com/LJhQB0OdkDuv3SBSDqwNwQ0kNFoTK6XTPXQ-wnzjnk2zkR9LhWPfRzNnmkCxdJQILveOdfONAU33m5ANiKZNBApH9r0n9jTp",
+      "description": "The IDEs of Python. Tools for cross-platform Python application development.",
+      "url": "http://pybee.org",
+      "num_projects": 3,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5213454373748736/",
+      "topics": ["ui", "ide", "cross-platform"],
+      "technologies": ["python", "mobile", "ios", "android"]
+    },
+    {
+      "name": "Berkman Klein Center for Internet and Society at Harvard University",
+      "image_url": "https://lh3.googleusercontent.com/uvU5l_6u9M_SYC9mGCJC-fXCYJhqc-50Anw2rmidwsxlK_vZeu5YPmpUzbmkNpHfGO1ZcZ1XxjyUBbVK79QPhPXAFnP00A",
+      "description": "exploring cyberspace, sharing in its study & pioneering its development",
+      "url": "https://cyber.harvard.edu",
+      "num_projects": 5,
+      "category": "Web",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5825274612547584/",
+      "topics": [
+        "digital rights",
+        "internet access",
+        "security and privacy",
+        "law",
+        "web"
+      ],
+      "technologies": [
+        "ruby on rails",
+        "meteor.js",
+        "d3",
+        "elasticsearch",
+        "javascript"
+      ]
+    },
+    {
+      "name": "Blender Foundation",
+      "image_url": "https://lh3.googleusercontent.com/njV-87RE7bIfiAC9KEzj9Cfj2m33CKm2NcbEUtl56Ffrx1KlBSk4dJYmJwD30wTb75-789v-lGqcVcj9_Qwov_g8jeY3xxE",
+      "description": "Free and open source 3D creation for artists and teams",
+      "url": "http://www.blender.org",
+      "num_projects": 5,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6461479528169472/",
+      "topics": ["3d", "animation", "graphics", "modeling", "vfx"],
+      "technologies": ["opengl", "opencl", "python", "c", "c++"]
+    },
+    {
+      "name": "Boost C++ Libraries",
+      "image_url": "https://lh3.googleusercontent.com/urAs-QWUrTgh7XLXurIQjvWSmHKqejI6qQMsPoFdjOUxzD8HJX3QDz-mU7J4RAF83OCk55Pm9LAfpbG4VwxEonyJUtMYWFTe",
+      "description": "Boost provides free peer-reviewed portable C++ source libraries.",
+      "url": "http://www.boost.org/",
+      "num_projects": 4,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5196100961042432/",
+      "topics": ["library"],
+      "technologies": ["c++", "c++11", "c++14", "boost"]
+    },
+    {
+      "name": "Boston University / XIA",
+      "image_url": "https://lh3.googleusercontent.com/tzTctC99XjApWD7h0VSjs0e9X5_SupHffRlit1mZ-VecTe5A6gSzlu9ewgRoD_YrAMmbAy6I5UcsRcUaf9nk9eLmFldCjjw",
+      "description": "Crowdsourcing the future Internet",
+      "url": "https://github.com/AltraMayor/XIA-for-Linux/wiki",
+      "num_projects": 2,
+      "category": "Cloud",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4874213160648704/",
+      "topics": [
+        "computer networking",
+        "future internet architecture",
+        "research"
+      ],
+      "technologies": ["xia", "linux kernel", "c", "advanced data structures"]
+    },
+    {
+      "name": "BRL-CAD",
+      "image_url": "https://lh3.googleusercontent.com/mWrBNnqPMRg1CGoqk7qFw7x22WW4OfT5e-Lyb2rRQamZh4MKUZKIfHpGzyLwZD7zv9g8YYQPZ5UYspGTbmL4MFEjZiDTjg",
+      "description": "& LibreCAD, OpenSCAD, STEPcode, LinuxCNC, FreeCAD, & Slic3r!  Computer Graphics.",
+      "url": "http://brlcad.org",
+      "num_projects": 8,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5302987798872064/",
+      "topics": ["cad", "geometry", "3d", "ray tracing", "visualization"],
+      "technologies": ["c/c++", "opencl", "python", "javascript", "qt"]
+    },
+    {
+      "name": "Cadasta",
+      "image_url": "https://lh3.googleusercontent.com/YGfrXJkJlSLrcsPG3bgmjIiRXthOVmkiGr5r4X2P6ehPEX3zKktgYwuScAcAtZJzjBOURAIEL3xSoVho00Oc7jmWDRbYaGE",
+      "description": "Transforming the way land & resource rights are documented, managed and stored.",
+      "url": "http://cadasta.org/",
+      "num_projects": 1,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6571413242642432/",
+      "topics": ["web", "land rights", "mapping", "geo", "geospatial"],
+      "technologies": ["python", "django", "javasc", "javascipt"]
+    },
+    {
+      "name": "Catrobat",
+      "image_url": "https://lh3.googleusercontent.com/_Ns53i4FjkBbKY3jUsDz29u6lueWAJssHrb8DrNFcbbEpTUeCrqj3h8JF6dGe2pVFXDlu2PO4WApeCWpbJ2OZrz2JLcLQeND",
+      "description": "Computational thinking for all through visual mobile programming frameworks",
+      "url": "http://www.catrobat.org",
+      "num_projects": 5,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5758529210155008/",
+      "topics": [
+        "education",
+        "programming tools",
+        "app development",
+        "web applications",
+        "scratch"
+      ],
+      "technologies": ["android", "java", "html5", "ios", "web"]
+    },
+    {
+      "name": "cBioPortal for Cancer Genomics",
+      "image_url": "https://lh3.googleusercontent.com/zEQgMQ-U-EjNhoJrvz7jRhSPOup_8k6smQJX_WPC-LunTEb3G26uHXucVPKwP5sHBtbRDszkR1Dj2o08WeqFg7j5o01eiGo",
+      "description": "Developing open source solutions for precision medicine for cancer patients",
+      "url": "http://cbioportal.org/",
+      "num_projects": 6,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4741825894023168/",
+      "topics": ["cancer", "bioinformatics", "big data", "genomics", "biology"],
+      "technologies": ["javascript", "java", "web", "reactjs", "web services"]
+    },
+    {
+      "name": "CCExtractor Development",
+      "image_url": "https://lh3.googleusercontent.com/9a1rDKdItnPDhhL9qP3ai_4-7uT0AxX529v8ViXnmyC1zjcNy5TEOKKFM4Xw0awNildpDZslMz0QYJOwO6p6RySdJW885RE",
+      "description": "Tools for a subtitled world.",
+      "url": "https://www.ccextractor.org",
+      "num_projects": 6,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5267426006532096/",
+      "topics": ["subtitles", "television", "movies", "media"],
+      "technologies": ["c", "python", "raspberry pi", "linux", "visual studio"]
+    },
+    {
+      "name": "Ceph",
+      "image_url": "https://lh3.googleusercontent.com/8jd1o9Z0o-LZXWn06xWMPVq4MiqHreWqVH8AxrjzVHELbfqNUMAMzLjYwBGFwD51w0kSpzuqjETAwgSRpuXlRkIHB9nj0Q",
+      "description": "The Future of Storage",
+      "url": "http://ceph.com",
+      "num_projects": 4,
+      "category": "Data and Databases",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6399849700261888/",
+      "topics": ["cloud storage", "storage"],
+      "technologies": ["c++", "python", "object-storage"]
+    },
+    {
+      "name": "CERN-HSF",
+      "image_url": "https://lh3.googleusercontent.com/OvM7CH9cftL1LcYx10driIlKL3TqFjaER1fNaqNRrz6_jcufXELaLSQ0cSslrRrNSdns-OttYBVzDFTqAz1G1Dwq346gsF0",
+      "description": "CERN-HEPSoftwareFoundation, umbrella organization for particle physics in GSoC",
+      "url": "http://hepsoftwarefoundation.org/activities/gsoc.html",
+      "num_projects": 20,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6360460286754816/",
+      "topics": [
+        "particle physics",
+        "high-energy physics",
+        "machine learning",
+        "physics",
+        "big data"
+      ],
+      "technologies": [
+        "python",
+        "c/c++",
+        "machine learning",
+        "data analysis",
+        "parallel algorithms"
+      ]
+    },
+    {
+      "name": "Chapel",
+      "image_url": "https://lh3.googleusercontent.com/s4JuBTa-ubZeh2Ia905LRd6y0vUdndUgfHF3GEHwUAs-4D_F-Vvr2iPkZWd6Ml8gTtUMasmHOQ4myPU99LOIOFIz6TxHbSw",
+      "description": "a Productive Parallel Programming Language",
+      "url": "http://chapel-lang.org",
+      "num_projects": 3,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4757669491507200/",
+      "topics": [
+        "programming languages",
+        "compilers",
+        "high performance computing",
+        "distributed computing",
+        "parallel computing"
+      ],
+      "technologies": [
+        "chapel",
+        "python",
+        "high performance computing",
+        "c",
+        "c++"
+      ]
+    },
+    {
+      "name": "Checker Framework",
+      "image_url": "https://lh3.googleusercontent.com/uI0AVGltNj1XK8tQB3V-KgNJTv7wENHl6V9SeF8Tq1yJLQ6BufiJYnjRsXxLbqRCSPddr3DSOxwRIOKnyDjVaeuoO_7eZJFF",
+      "description": "Preventing programming errors before they happen, via easy-to-use verification",
+      "url": "https://checkerframework.org/",
+      "num_projects": 5,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6349316859887616/",
+      "topics": [
+        "programmer productivity",
+        "software engineering",
+        "verification"
+      ],
+      "technologies": ["java"]
+    },
+    {
+      "name": "Checkstyle",
+      "image_url": "https://lh3.googleusercontent.com/yuUCb_AsFvfYar6nIeFN7wlFpRfkHDxjFFMF-a6PyCk4OX7RoC-bLDYbNMs23t0vCQwQDON0sIXzCbUb1jQws65kji-ncg8r",
+      "description": "Dev tool to help programmers write Java code that adheres to a coding standard.",
+      "url": "http://checkstyle.sourceforge.net/",
+      "num_projects": 5,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5883569398349824/",
+      "topics": [
+        "static code analysis\u200e",
+        "code review tool",
+        "coding standards",
+        "coding conventions"
+      ],
+      "technologies": ["java", "antlr"]
+    },
+    {
+      "name": "Classical Language Toolkit",
+      "image_url": "https://lh3.googleusercontent.com/8CQlotbC9ovCGTmz3pPzaEcNCm4IYP7R4LZ7BozeWwRUe79PxILYzh944E_hz_FXmaPI5AtmL-LPglAMDhTyXYwmXyXvRRk3",
+      "description": "NLP for the ancient world",
+      "url": "http://cltk.org",
+      "num_projects": 2,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4904328934457344/",
+      "topics": ["nlp", "ai", "machine", "machine learning", "machine trans"],
+      "technologies": ["python", "javascript"]
+    },
+    {
+      "name": "CLiPS, University of Antwerp",
+      "image_url": "https://lh3.googleusercontent.com/2MTQQOsAPz8vSi4FpIlQGW4rReBA8Hxz0sHRAc7BN78vxCOmx0Ytv14nqwEkva9dW72Jm_WerRJUDwwAy3TUpNiSb6_9CAb4",
+      "description": "Computational (Psycho)Linguistics",
+      "url": "http://www.clips.uantwerpen.be",
+      "num_projects": 2,
+      "category": "Data and Databases",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4936781707345920/",
+      "topics": [
+        "text analytics",
+        "machine learning",
+        "computational linguistics",
+        "artificial intelligence",
+        "data mining"
+      ],
+      "technologies": ["python", "machine learning", "mongodb", "javascript"]
+    },
+    {
+      "name": "Clojure",
+      "image_url": "https://lh3.googleusercontent.com/KEb8AaLe8CWqA2rMpvjsmXjY13TxgLjKJj8WG4xYaJyQkYDKozx4-WwRBUKgRMdoOKk8RwCH9pWtfOXVhUBjtAJo16slIw",
+      "description": "Supporting the Clojure and ClojureScript ecosystem",
+      "url": "http://clojure.org",
+      "num_projects": 0,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5054104644616192/",
+      "topics": [
+        "programming language",
+        "development tools",
+        "compilers",
+        "functional programming",
+        "build systems"
+      ],
+      "technologies": [
+        "clojure",
+        "clojurescript",
+        "jvm",
+        "javascript",
+        "functional programming"
+      ]
+    },
+    {
+      "name": "Cloud Native Computing Foundation (CNCF)",
+      "image_url": "https://lh3.googleusercontent.com/jr_aWehm6e98roHg-RbGrOm2twnRg_xjngLDe20TpKtZNHgiF6Rmpcjqr90NqtDUYAwKjlayCJPjRZXKON1A9oxKUxS01E8",
+      "description": "The CNCF is a nonprofit committed to the development of cloud native technology",
+      "url": "https://www.cncf.io/",
+      "num_projects": 6,
+      "category": "Cloud",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6018829461225472/",
+      "topics": ["cloud", "cloud native", "monitoring", "logging", "tracing"],
+      "technologies": ["kubernetes", "go", "prometheus", "fluentd", "grpc"]
+    },
+    {
+      "name": "CloudCV",
+      "image_url": "https://lh3.googleusercontent.com/2y3Acs61-64R6YvHXBmtyZs-rTMhW0crKdolcSkykZlWbddK_jzvKRZrolm2bG_xIu_W6RB6YbFk0D-WaKyDHQ6k5i90V_Q",
+      "description": "Building platforms for reproducible AI research",
+      "url": "http://cloudcv.org",
+      "num_projects": 4,
+      "category": "Cloud",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6419112360148992/",
+      "topics": [
+        "artificial intelligence",
+        "machine learning",
+        "computer vision",
+        "web development",
+        "cloud computing"
+      ],
+      "technologies": [
+        "python",
+        "django",
+        "angularjs",
+        "reactjs",
+        "deep learning"
+      ]
+    },
+    {
+      "name": "CMU Sphinx",
+      "image_url": "https://lh3.googleusercontent.com/_vu_qb7x-5e-HEFLBfIEDvYIVrZoePvwECpa2n5RAJqTUIeOt_vrF8-i9wdz6z-owZ7ikHDuv2ab_BhAjWFUAuS3ogWhNQ",
+      "description": "Fast, Accurate, Flexible Open Source Speech Recognition",
+      "url": "http://cmusphinx.sourceforge.net/",
+      "num_projects": 11,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5510422639673344/",
+      "topics": [
+        "speech recognition",
+        "user interface",
+        "real time",
+        "education",
+        "pronunciation"
+      ],
+      "technologies": [
+        "c",
+        "cross-platform",
+        "hidden markov models",
+        "javascript",
+        "python"
+      ]
+    },
+    {
+      "name": "coala",
+      "image_url": "https://lh3.googleusercontent.com/7r3cwED-WmWH-vVOzeGYA9MF93nUncWsKrzGRwFbVqhVs9Omb-Pnns1q1UTvttLZwpZwJ7yTE87EEJ8V56B4Wkz0-cw_BGJj",
+      "description": "Linting and Fixing Code for All Languages",
+      "url": "https://coala.io",
+      "num_projects": 9,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5817061024464896/",
+      "topics": ["code analysis"],
+      "technologies": ["python"]
+    },
+    {
+      "name": "Computational Biology @ University of Nebraska-Lincoln",
+      "image_url": "https://lh3.googleusercontent.com/NdWX8dJSy0LCXTeJypbBMAeL7CCtU-KR7lEAE_k4FDclYlNgHnIgw6XUq9EUKFg_reUQRjvB2kV03e9E5nb_KmVt77qZHEE",
+      "description": "Development of software technologies for biomedical research and applications.",
+      "url": "http://helikarlab.org",
+      "num_projects": 4,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6732113738989568/",
+      "topics": [
+        "computational biology",
+        "bioinformatics",
+        "network biology",
+        "systems biology",
+        "image analysis"
+      ],
+      "technologies": ["javascript", "react", "java", "webgl", "mysql"]
+    },
+    {
+      "name": "Conversations.im",
+      "image_url": "https://lh3.googleusercontent.com/ojUDeY9hN3ZkVkUOD2vNEBx4F5Y2DHjhB6w_AbapryLe2MOyO3LWUN0yruFuad-TN9pmQ1rxDe8Bqwjcc6FUPULkcCwnKw",
+      "description": "Federated, end-to-end encrypted instant messaging based on XMPP/OMEMO",
+      "url": "https://conversations.im",
+      "num_projects": 1,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5967780016816128/",
+      "topics": ["instant messaging", "real time", "usabilty", "ui", "ux"],
+      "technologies": ["xmpp", "java", "android", "javafx", "python"]
+    },
+    {
+      "name": "Copyleft Games",
+      "image_url": "https://lh3.googleusercontent.com/uFYWvVcwmuONpfYFZKxGmQzJiernnb7qI1Eynt9CuNDiB0NJu4-lSUgN3JcKHc9B7_vpgJ2Wwa0CLUTe_ZAtty5I6pCGBURc",
+      "description": "Game libraries, frameworks, and development toolkits",
+      "url": "https://www.copyleftgames.org/",
+      "num_projects": 2,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6180004551458816/",
+      "topics": ["graphics", "networking", "web", "education"],
+      "technologies": ["python", "opengl", "javascript", "c", "xmpp"]
+    },
+    {
+      "name": "DBpedia",
+      "image_url": "https://lh3.googleusercontent.com/assw2Re_IYxchzayDG-T8lXm4TNLcTOSB94t0lpK54GOe9jSpzXflv19LTN4CCIt8CbvM5vUGP_ne_9oCNOgU1Aq7XP_tA",
+      "description": "a Large, Multilingual, Semantic Knowledge Graph",
+      "url": "http://dbpedia.org",
+      "num_projects": 7,
+      "category": "Data and Databases",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5195579256733696/",
+      "topics": [
+        "natural language processing",
+        "big data",
+        "semantic web",
+        "data science",
+        "knowledge extraction"
+      ],
+      "technologies": ["java", "scala", "graph", "nosql", "rdf"]
+    },
+    {
+      "name": "Discourse",
+      "image_url": "https://lh3.googleusercontent.com/3sa2Hf4LtzL2kBlSkpAP29xgjyPANLS5uegKuI_fk_5KezIY94kPqWKsth2oI6UPgooSGV9Q6Nv_GSa8SHTXIivE-_LjQP8",
+      "description": "Civilized discussion for your community.",
+      "url": "http://www.discourse.org/",
+      "num_projects": 4,
+      "category": "Social / Communications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4878856288731136/",
+      "topics": [
+        "asynchronous",
+        "forum",
+        "community",
+        "real time",
+        "web development"
+      ],
+      "technologies": [
+        "ruby on rails",
+        "ember",
+        "ruby",
+        "javascipt",
+        "html/css"
+      ]
+    },
+    {
+      "name": "Django Software Foundation",
+      "image_url": "https://lh3.googleusercontent.com/gBM87Hc5cMcgbJSyfvXEXIsggzdZBgtcq5YDwM78D6bd-L_rFJuPoaEqtr8teCGjtvQZohTPof8X5ZRz9hMI61-VA8vFqCU",
+      "description": "The web framework for perfectionists with deadlines.",
+      "url": "https://www.djangoproject.com",
+      "num_projects": 0,
+      "category": "Web",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4608650232463360/",
+      "topics": ["web", "web development"],
+      "technologies": ["python", "django"]
+    },
+    {
+      "name": "Drupal",
+      "image_url": "https://lh3.googleusercontent.com/KC19orrV1kqG1ayTFu1FxpkaIrdVWYRzGqHRVqMYeUOnWjI4GDUoPW_v_ETk4QeOY30xyvaavLDw0mzYYA1fM87TotOooUNL",
+      "description": "Drupal is a Free, Open, Modular CMS written in PHP. Let's make something amazing",
+      "url": "https://www.drupal.org/",
+      "num_projects": 6,
+      "category": "Web",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6388224565968896/",
+      "topics": [
+        "web",
+        "web development",
+        "content management",
+        "object-oriented",
+        "cms"
+      ],
+      "technologies": ["php", "symfony", "sql", "javascript", "drupal 8"]
+    },
+    {
+      "name": "Eclipse Vert.x",
+      "image_url": "https://lh3.googleusercontent.com/VkiPGfm8MX6JvIJbm675GIpat5g2Tv265xwmE9Owc274xFQdx60SiwOUCLswo7AXz-WREWuU8aMo6imBr83xWyCg3VsAHk0",
+      "description": "Eclipse Vert.x is a tool-kit for building reactive applications on the JVM",
+      "url": "http://vertx.io",
+      "num_projects": 3,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5851994006749184/",
+      "topics": [
+        "reactive",
+        "unopionated",
+        "polyglot",
+        "distributed",
+        "high performance computing"
+      ],
+      "technologies": [
+        "java",
+        "reactive extensions",
+        "kotlin",
+        "microservices",
+        "event-loop"
+      ]
+    },
+    {
+      "name": "Elm Software Foundation",
+      "image_url": "https://lh3.googleusercontent.com/fqsi9UFcYWf2gRtHisTVUL77H0wqC5R8EU7XRoI-yLzd6LESSqOWHS8THAVlDVG1J1lKlhE91MSHSksUrNpNs9b3C2QD8QE2",
+      "description": "A delightful functional language for reliable webapps.",
+      "url": "http://elm-lang.org/",
+      "num_projects": 1,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5658990390280192/",
+      "topics": [
+        "functional programming",
+        "compilers",
+        "web applications",
+        "programming languages",
+        "user interface"
+      ],
+      "technologies": ["elm", "javascript", "haskell"]
+    },
+    {
+      "name": "Environmental Data And Governance Initiative",
+      "image_url": "https://lh3.googleusercontent.com/6M5VZ3XHpr1IpCBDAb1NnmreVjiAW4PPYSh8kJUEspShRoZ4oTx2kPdWG0cJjfXeCwDbtfuYsSArr31ynvZMyAkIhMhrLx9C",
+      "description": "International network addressing threats to US environmental & energy policy",
+      "url": "https://envirodatagov.org/",
+      "num_projects": 2,
+      "category": "Data and Databases",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4941941976334336/",
+      "topics": [
+        "crawling",
+        "api",
+        "open data",
+        "machine learning",
+        "open science"
+      ],
+      "technologies": [
+        "python",
+        "javascript",
+        "ruby on rails",
+        "google cloud",
+        "go"
+      ]
+    },
+    {
+      "name": "Fedora Project",
+      "image_url": "https://lh3.googleusercontent.com/o6agz4S4Q0qbWTJekRn60HIIci50A70Xw4Qzt-OJgiUwRFgXCBti83OZtFyqKNEVo87Moku3BEsOj1f4eq50m3Zd-BDGBA",
+      "description": "Fedora Linux is built on the foundations of Freedom, Friends, Features, & First",
+      "url": "https://getfedora.org/",
+      "num_projects": 5,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5870752142196736/",
+      "topics": [
+        "linux distribution",
+        "upstream",
+        "community",
+        "web development",
+        "realtime messaging"
+      ],
+      "technologies": ["python", "linux", "git", "postgres", "ansible"]
+    },
+    {
+      "name": "FFmpeg",
+      "image_url": "https://lh3.googleusercontent.com/BOL9R6X621pzLGNGoD3i9DWT1WNbpbZB-4Jagpaf7Np8m77cA0A-JitDNtD1TK5TkFTQb_KsSHDZFHL1a8iZZGILJS4unw",
+      "description": "Cross-platform software to convert audio, video and subtitles.",
+      "url": "https://ffmpeg.org/",
+      "num_projects": 6,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4641979178680320/",
+      "topics": ["multimedia", "video", "audio", "filter", "compressio"],
+      "technologies": ["c", "assembly", "git"]
+    },
+    {
+      "name": "FOSDEM",
+      "image_url": "https://lh3.googleusercontent.com/tzQ02uEl73CVHq_D5Wnt7EzD-Esb-B-PRpxyU8irWBAb0OwDSZMNQXsXTorM1vsjyNlR7pG-JiTnBRBI-7vD-Z1QmUTs7Q",
+      "description": "The organization that handles all aspects of the FOSDEM conference",
+      "url": "https://fosdem.org",
+      "num_projects": 1,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5733807646834688/",
+      "topics": [
+        "web",
+        "programming tools",
+        "programming languages",
+        "ruby",
+        "rails"
+      ],
+      "technologies": ["git", "ruby on rails", "postgresql", "html/css"]
+    },
+    {
+      "name": "FOSSASIA",
+      "image_url": "https://lh3.googleusercontent.com/mEgX9LwkfS3_bHuqb54g9onkXAEq6PhQdTRTnv1Ts--M6NrXNrwpM1kmJOUuFdH79BFu9UG8IIqE0cvw1k_U8CMnIXCFqTQ",
+      "description": "Improve People's Lives",
+      "url": "http://fossasia.org",
+      "num_projects": 51,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5936828200779776/",
+      "topics": [
+        "event management",
+        "machine learning",
+        "artificial intelligence",
+        "cloud"
+      ],
+      "technologies": ["python", "java", "javascript", "android", "php"]
+    },
+    {
+      "name": "Free and Open Source Silicon Foundation",
+      "image_url": "https://lh3.googleusercontent.com/xR8AezbubAAiM5GsN0dbB-hrJfmsavDN20GhILipASprUBKl62Hwk-tijvzvwx2hEI_RiP0mKyd034GMRcji8LRwtrv7J88K",
+      "description": "Umbrella for various projects around open source hardware and tools",
+      "url": "http://fossi-foundation.org/",
+      "num_projects": 4,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5021512822161408/",
+      "topics": ["hardware", "eda tools", "web"],
+      "technologies": ["verilog", "c", "vhdl", "python"]
+    },
+    {
+      "name": "FreeBSD",
+      "image_url": "https://lh3.googleusercontent.com/6z4bZLHpx0Yls0ri4wOp9fGTYahOJZp8hO4JNRornQq1QAgv8UKd-WXTpBzTU3M71cWWFwaYzNj2PBe0ei4i34km_kIbliE",
+      "description": "FreeBSD: The Foundation of the Internet",
+      "url": "https://www.FreeBSD.org/",
+      "num_projects": 5,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5058101916991488/",
+      "topics": ["virtualization", "kernel", "cloud", "embedded", "security"],
+      "technologies": ["c/c++", "llvm", "shell", "make", "assembly"]
+    },
+    {
+      "name": "Freifunk",
+      "image_url": "https://lh3.googleusercontent.com/NyrSHsoROjfiSrEbrjgCqZAnEu6Ynhwlv93o9OHgq834LMTKAcAmtpl4_7tElUeT9mg50biHGqhLQYZzcawW30ACpvke",
+      "description": "Freifunk is a non-commercial initiative for free and open wireless networks.",
+      "url": "https://freifunk.net",
+      "num_projects": 12,
+      "category": "Social / Communications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6004756195573760/",
+      "topics": [
+        "wireless",
+        "routing",
+        "monitoring",
+        "firmware development",
+        "user interface"
+      ],
+      "technologies": [
+        "lede/openwrt",
+        "c",
+        "html/css",
+        "shell script",
+        "javascript"
+      ]
+    },
+    {
+      "name": "Frescobaldi",
+      "image_url": "https://lh3.googleusercontent.com/IRUCAU_NRRzhF33TmMt5o1k7eDlbSlcyfF59CwLJABUgeFMCXGAbRmVtozRAHmQu4xtz9T2H8Y0J2m1dJZlSpj7gHlWfU_sp",
+      "description": "Edit music scores with GNU LilyPond.",
+      "url": "http://frescobaldi.org",
+      "num_projects": 2,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4597892144693248/",
+      "topics": ["music engraving"],
+      "technologies": ["python", "pyqt"]
+    },
+    {
+      "name": "Genes, Genomes and Variation",
+      "image_url": "https://lh3.googleusercontent.com/mlNXe0QjBHcVNUACjBXyxFGOoj6x57r7X1JS3uGtsos3NIeiKeex0EeS70zAa2RE0IwugJY5vdiXjsIC7uyujxbBN4k39Isd",
+      "description": "Genome databases and browsers",
+      "url": "http://www.ensembl.org",
+      "num_projects": 5,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5455879507804160/",
+      "topics": ["genomics", "web"],
+      "technologies": ["mysql", "perl", "javascript"]
+    },
+    {
+      "name": "GENIVI Development Platform",
+      "image_url": "https://lh3.googleusercontent.com/geEoKLEJD6_aqoS84QB8nKGjAHMjFFv5UNWpljgn0KCPLgo38QhZOt0aJmFo9fYgUfkXINGh8HZXHKtdwst0uMKY-Atb3A",
+      "description": "Open Source Automotive Development Platform",
+      "url": "https://at.projects.genivi.org/wiki/pages/viewpage.action?pageId=11567210",
+      "num_projects": 0,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4914104280023040/",
+      "topics": [
+        "automotive",
+        "cars",
+        "embedded systems",
+        "embedded",
+        "automobile"
+      ],
+      "technologies": ["linux", "c", "yocto", "c++", "qt"]
+    },
+    {
+      "name": "Gentoo Foundation",
+      "image_url": "https://lh3.googleusercontent.com/JD4B1K3-iD_gIUZiPYPPJqVsA5_jFbpiFJU5SgbguRbaKeuhzbEi4BI8X8ZT6TUl4bRIzgfLZSy-zKrb0H7weh82NWb9zFE",
+      "description": "A flexible, source-based Linux distribution.",
+      "url": "http://www.gentoo.org",
+      "num_projects": 3,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6287928489672704/",
+      "topics": [
+        "linux",
+        "package management",
+        "operating system",
+        "embedded",
+        "security"
+      ],
+      "technologies": ["shell", "c/c++", "python", "linux"]
+    },
+    {
+      "name": "Git",
+      "image_url": "https://lh3.googleusercontent.com/G-TbRzzc-XH00xAc5BUOH4SkBG965RlOHFrz9Abd9E7waLiB11hQ2GkP--cZZHOm8WaCZ_3PT66gvbsUYbzHahXxMMu4Owdd",
+      "description": "fast, scalable, distributed revision control system",
+      "url": "http://git-scm.com/",
+      "num_projects": 1,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5061577619275776/",
+      "topics": ["version control", "dvcs"],
+      "technologies": ["c", "shell script", "git"]
+    },
+    {
+      "name": "Global Alliance for Genomics and Health",
+      "image_url": "https://lh3.googleusercontent.com/Q94W8_stz_AL0J_sb2f0Pr4yGUeMZogmED85nC-J3xpGdlEAcptpidaqwcVCINw4yDD7HDHV64hcFEW6xdAZIB6L1aeP34B9",
+      "description": "We develop open standards and tools for genomics to benefit human health.",
+      "url": "https://genomicsandhealth.org/",
+      "num_projects": 2,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6101170829393920/",
+      "topics": [
+        "genomics",
+        "standards",
+        "data sharing",
+        "bioinformatics",
+        "web"
+      ],
+      "technologies": ["python", "java", "sql", "c++", "mongodb"]
+    },
+    {
+      "name": "GNOME",
+      "image_url": "https://lh3.googleusercontent.com/OMtQnvdrqwkdLP5cqWve3m9I13AmKWVN-EyDx2Q770XOTFo0LzBi6TonbPKcJjTKCBHM7YBZTHMMbD4rpAvILbicVJNKrx3B",
+      "description": "Non-profit organization that creates a computing platform for the general public",
+      "url": "https://www.gnome.org/",
+      "num_projects": 19,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6040004186865664/",
+      "topics": ["desktop", "applications", "operating system"],
+      "technologies": ["c", "python", "gtk+", "javascript", "gobject"]
+    },
+    {
+      "name": "GNSS-SDR",
+      "image_url": "https://lh3.googleusercontent.com/dRn6fmVZDXmoQBqUG-mzoqDKKTwaxs-1oQ_idBC1QC0i9IbTIeeIqCMKnfTE7jYhJVBp3rXV9XjfD3phDDC0yBlRpoqCIOw",
+      "description": "An open source Global Navigation Satellite Systems software-defined receiver",
+      "url": "http://gnss-sdr.org",
+      "num_projects": 5,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5204929132101632/",
+      "topics": [
+        "gnss",
+        "geolocation",
+        "navigation",
+        "software defined radio",
+        "communications"
+      ],
+      "technologies": ["c/c++", "c++", "c++11", "c++14", "gnss"]
+    },
+    {
+      "name": "GNU Octave",
+      "image_url": "https://lh3.googleusercontent.com/jD_PThkeOUIfTvuncvZah_KWYtFHNjxlPg-bzRCZVeQoI2r8-K-HK7-hBRr6MMWb1VSy8Ml2xmd5yycSLbiWTf9a3OoxWVDQ",
+      "description": "Free Your Numbers",
+      "url": "http://www.octave.org",
+      "num_projects": 4,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6187477526118400/",
+      "topics": [
+        "mathematics",
+        "numerical computation",
+        "matlab",
+        "scientific computing",
+        "numerical methods"
+      ],
+      "technologies": ["c++", "hg"]
+    },
+    {
+      "name": "GNU Radio",
+      "image_url": "https://lh3.googleusercontent.com/YXi7zAxPBJuez7WFgMrro7Pw1ulUqJnRwSNyxHVH0vTOPxjapKqwIWb6DgpntPQRUcA1ns9LQMtF9CjWl70F4HKFmXLbtDk",
+      "description": "The Free & Open Software Radio Ecosystem",
+      "url": "https://gnuradio.org/",
+      "num_projects": 2,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5467278887878656/",
+      "topics": ["wireless communication", "signal processing", "radar", "gui"],
+      "technologies": ["software defined radio", "c++", "python", "dsp"]
+    },
+    {
+      "name": "Green Navigation",
+      "image_url": "https://lh3.googleusercontent.com/DcEeK4T4tzqj9U6hsm4k-Bsd9H5mrDPo7VOZ4zAXRVQN0I6LwXfkyMEMbADgjTcmW57pEk3rkVzHjDcWlJuMu6RBRS8fSp4",
+      "description": "Energy efficient routing for electric vehicles",
+      "url": "http://greennav.io",
+      "num_projects": 5,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6147412729004032/",
+      "topics": ["routing", "eletric mobility", "web", "machine learning"],
+      "technologies": [
+        "javascript",
+        "java",
+        "react",
+        "apache spark",
+        "tensorflow"
+      ]
+    },
+    {
+      "name": "Haiku",
+      "image_url": "https://lh3.googleusercontent.com/isqv6xucX1TkGooFI6nzguKu4BrefroDjvJ96DNvoXVDGLvzZ_nG18S-dPnXM0fiVsrgZ6eVRPqbx3KYpRTJ0iGrTJIQZW0",
+      "description": "Light open-source operating system that specifically targets personal computing.",
+      "url": "http://www.haiku-os.org",
+      "num_projects": 5,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5096040436858880/",
+      "topics": [
+        "desktop integration",
+        "operating system",
+        "kernel",
+        "user interface",
+        "frameworks"
+      ],
+      "technologies": ["c++", "posix"]
+    },
+    {
+      "name": "Homebrew",
+      "image_url": "https://lh3.googleusercontent.com/fdjEXuxA_YGqav8N95dPA3fXWxtHdPXcAeah9cd90svBM-sd-HCeTEQvHutgVHC38iBOy1X4Q_B0yDY5coDppDV4ZphqSw",
+      "description": "Homebrew is a package manager for macOS written in Ruby.",
+      "url": "https://brew.sh",
+      "num_projects": 2,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6752289616297984/",
+      "topics": ["package management", "distribution", "development tools"],
+      "technologies": ["ruby", "git", "github", "bash", "macos"]
+    },
+    {
+      "name": "illumos.org",
+      "image_url": "https://lh3.googleusercontent.com/2LrctGY6XCtdGS2LOqG1NiguqpMf52KyJWQHkEIBc1we3NM2GYoQUyEZZDFKH-6iN5bX0zBlVOb9WPTHm-OYE7VsilFdlQ",
+      "description": "Open Source successor of OpenSolaris",
+      "url": "http://illumos.org",
+      "num_projects": 0,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6221940343701504/",
+      "topics": [
+        "drivers",
+        "virtualization",
+        "storage",
+        "networking",
+        "kernel"
+      ],
+      "technologies": ["dtrace", "illumos", "unix", "openzfs", "zfs"]
+    },
+    {
+      "name": "INCF",
+      "image_url": "https://lh3.googleusercontent.com/Xg-54TuksAqZLv8Bj14C4rLp_cTk5BOq2Vh2rssQurF5LDckcr1v2qIPsmvbFsivA3FpovkKUxuupgULiDx7bKGYT1a_PV9c",
+      "description": "Advancing global collaborative brain research",
+      "url": "http://www.incf.org",
+      "num_projects": 13,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6593178794721280/",
+      "topics": [
+        "neuroscience",
+        "big data",
+        "brain modeling",
+        "science",
+        "bio/neuro image processing"
+      ],
+      "technologies": ["c++", "python", "java", "xml", "gpu"]
+    },
+    {
+      "name": "Inkscape",
+      "image_url": "https://lh3.googleusercontent.com/2UsZTSNezPwbTM0lHxn8NkJOblIhO8rBFSliJ3KZTHhoGGZWjJbQswQa-3v3sKO7hmmd1ez7Zi-ArdKGyUIVoogHWcASvZY",
+      "description": "Inkscape is a professional vector graphics editor for Windows, Mac OSX, & Linux.",
+      "url": "https://www.inkscape.org",
+      "num_projects": 2,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5404830063394816/",
+      "topics": ["graphics", "web", "standards", "geometry"],
+      "technologies": ["svg", "css", "c++", "c++11", "python"]
+    },
+    {
+      "name": "Institute for Artificial Intelligence",
+      "image_url": "https://lh3.googleusercontent.com/qtx5-tMFMwR-K8ZcWPc_PwolM0iMGigMqsNhi2illW9xr2_zLW_XxKvcdP2kpCgyY23PTR7PPRzVnbuAZSK7idV9BhEqH-A",
+      "description": "Research in Artificial Intelligence and Perception for Autonomous Mobile Robots",
+      "url": "http://ai.uni-bremen.de",
+      "num_projects": 5,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6330829038944256/",
+      "topics": [
+        "artificial intelligence",
+        "robotics",
+        "knowledge representation",
+        "machine learning",
+        "robot perception"
+      ],
+      "technologies": ["lisp", "prolog", "c++", "python", "ros"]
+    },
+    {
+      "name": "Intel Media and Audio for Linux",
+      "image_url": "https://lh3.googleusercontent.com/OMF275W3zfipnsTRtCFdCLhSuP6RAiG3V0j5KalwPILuq_f6eMytVv12qzziKRtfTOsZEaA9zZhAARj2WJL791sz94I-Kqo",
+      "description": "Open Source Media libraries, Applications and User space driver.",
+      "url": "https://01.org/linuxmedia",
+      "num_projects": 2,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6149200777576448/",
+      "topics": [
+        "accelerated media",
+        "video",
+        "compress",
+        "encoding",
+        "camera"
+      ],
+      "technologies": ["video", "decode", "encode", "vpp", "multimedia"]
+    },
+    {
+      "name": "Internet Archive",
+      "image_url": "https://lh3.googleusercontent.com/Axq28XyWp2VGzFd2_-4JpuRAY9CHEHtCjAuxyf0aIeaI-i9a1CAcSu4HJgN6KMepJHgILkNnXMR2mxqH-jrkLAqI_2erEXc",
+      "description": "Universal Access to All Knowledge",
+      "url": "http://www.archive.org",
+      "num_projects": 2,
+      "category": "Web",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5373878247358464/",
+      "topics": ["web archiving", "non-profit"],
+      "technologies": ["python", "javascript"]
+    },
+    {
+      "name": "JBoss Community",
+      "image_url": "https://lh3.googleusercontent.com/-81MMBEVzxJsxox_MuBvHaAE8AauXTszSdLmVkvYHIMaOylF_huC10E9kT3ie_bpAUpSc6sXLKB7TRIk3ytM2B0dELgoTw",
+      "description": "Community of Java projects around JBoss Middleware",
+      "url": "http://www.jboss.org/",
+      "num_projects": 3,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5307802188775424/",
+      "topics": [
+        "testing",
+        "monitoring",
+        "enterprise application",
+        "eclipse",
+        "openshift"
+      ],
+      "technologies": ["java", "android", "asciidoctor", "mobil", "kubernetes"]
+    },
+    {
+      "name": "JdeRobot - Universidad Rey Juan Carlos",
+      "image_url": "https://lh3.googleusercontent.com/It2jUXMuuJAK8B33mXnlSAHucbS2MiofAjpJcM6gR2O1T39STMj4jFLcdntiN0iVCGAdg2c5BRLXUfpi0AMsgNXHb7CqGA",
+      "description": "A software framework for developing applications in robotics and computer vision",
+      "url": "http://jderobot.org",
+      "num_projects": 4,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4923454155390976/",
+      "topics": ["robotics", "computer vision", "robot simulator", "teaching"],
+      "technologies": ["python", "c/c++", "ros", "gazebo"]
+    },
+    {
+      "name": "Jitsi",
+      "image_url": "https://lh3.googleusercontent.com/uN0ENmueoPOaWucCFlQWtV4Bfu_h4QcUKlZlZti7_1R11jqVsAA1i7TkUgNLGMyDqmeHVPnR-oAOG9RTHEhyFQ6R-8Fbuw",
+      "description": "Advanced Real-Time Communication",
+      "url": "https://jitsi.org",
+      "num_projects": 3,
+      "category": "Social / Communications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5461033468559360/",
+      "topics": ["multimedia", "real time"],
+      "technologies": ["webrtc", "java", "javascript", "sip", "xmpp"]
+    },
+    {
+      "name": "Joomla",
+      "image_url": "https://lh3.googleusercontent.com/jfMs2ig-jarY7VRjmnSWurkVzHv47lzmU1fcPbUIpOBX-CvusEZClPRr6rmOw5h8rBBLTTliDzwNCQ3YcUNvoZNmvUz_PpHc",
+      "description": "A free and Open Source CMS Trusted By Millions for their Websites",
+      "url": "https://www.joomla.org/",
+      "num_projects": 8,
+      "category": "Web",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5861923971137536/",
+      "topics": ["web", "web application", "cms", "object-oriented"],
+      "technologies": ["php", "html", "html/css", "javascript", "jquery"]
+    },
+    {
+      "name": "JSK Robotics Laboratory",
+      "image_url": "https://lh3.googleusercontent.com/Vmr-3Oo3JdWvqg7svK3mgjGtW_XLMj54UxRyuG1VPIyL3RX16e1G0P-wcVgbp2pA30UkErMpwgiXmuEMkUUBm35y8m3TiZg",
+      "description": "Humanoid Robotics Laboratory at the University of Tokyo",
+      "url": "http://www.jsk.t.u-tokyo.ac.jp/",
+      "num_projects": 2,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6380010977886208/",
+      "topics": ["robotics", "artificial intelligence"],
+      "technologies": ["ros", "lisp", "prolog", "openhrp", "openrtm"]
+    },
+    {
+      "name": "K-9 Mail",
+      "image_url": "https://lh3.googleusercontent.com/krjdwXw2oDdYr4CiiHmacAQfX7YwdVbKxXofGWXcb5BljoNWIV0Z2OJz3HvKkPMktuU3EY3dWbhQ7ulqQiDGPyVj_WjJQ-HH",
+      "description": "K-9 Mail \u2013 Advanced Email for Android",
+      "url": "https://github.com/k9mail/k-9",
+      "num_projects": 2,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6184001823834112/",
+      "topics": ["email", "communication"],
+      "technologies": ["android", "java"]
+    },
+    {
+      "name": "KDE",
+      "image_url": "https://lh3.googleusercontent.com/fscINvK_QM-401ia5RZdxBGb5V5GERuoyocQzY7HCgdVXJ0V_AVUJp-6S3ntgzm1ExgjsmXg5anlMf3rTQe6AnTqxRie4w",
+      "description": "Experience Freedom!",
+      "url": "http://kde.org",
+      "num_projects": 24,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5586250824155136/",
+      "topics": [
+        "desktop",
+        "desktop application",
+        "education",
+        "science",
+        "communication"
+      ],
+      "technologies": ["c++", "qt", "qt5"]
+    },
+    {
+      "name": "LabLua",
+      "image_url": "https://lh3.googleusercontent.com/a3rJ_JCm2lQI2BBpQxJRPkP5ou1rH-miSg54Yn-UbiVy7AHyxq2SuMXPxKjMj7jwD0WLOYX2HdPG_vZ4hWGP5x560b5U8w",
+      "description": "Programming Languages Research with emphasis on  the Lua language",
+      "url": "http://www.lua.inf.puc-rio.br/",
+      "num_projects": 6,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5842237585883136/",
+      "topics": ["scripting languages", "reactive programming"],
+      "technologies": ["lua", "c\u00e9u"]
+    },
+    {
+      "name": "LibreHealth",
+      "image_url": "https://lh3.googleusercontent.com/i74AjO1uZu3bqvBZ7LjQVdLAP53yy5lR30-LzKbiKR0tVWhFa56WMcdmostRUrVDX_hAVYagOvLM53CIMAB04k7wHwCqXA",
+      "description": "Healthcare for Humanity",
+      "url": "http://librehealth.io",
+      "num_projects": 4,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5574687430017024/",
+      "topics": ["web"],
+      "technologies": ["java", "php", "javascript", "mysql"]
+    },
+    {
+      "name": "LibreOffice",
+      "image_url": "https://lh3.googleusercontent.com/vUCqKQjTyhUpnivDWEAbxfOVLFuBXwwtWxc8IET4JY_-dGA6rbFqa7K6x6lZeIATMM0tIOrlPeaw1IoReFh6afmI9zZby_s",
+      "description": "Free Office Suite, Fun Project, Fantastic People",
+      "url": "http://www.libreoffice.org",
+      "num_projects": 9,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5507893709242368/",
+      "topics": ["office suite", "desktop application"],
+      "technologies": ["c++", "python", "java"]
+    },
+    {
+      "name": "libvirt",
+      "image_url": "https://lh3.googleusercontent.com/Dp1HXrFhIJQHJj-dhujvs-LYZcYdB3ZvSQUHxDg0fNmzVvV_NUdfX2IjvELWrX6hjinsIl9zjfri7ZggQ1ZIH_rzoha28f0",
+      "description": "virtualization abstraction library",
+      "url": "http://libvirt.org/",
+      "num_projects": 1,
+      "category": "Cloud",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6082542885142528/",
+      "topics": ["virtualization", "library"],
+      "technologies": ["kvm", "xen", "hypervisor"]
+    },
+    {
+      "name": "Liquid Galaxy Project",
+      "image_url": "https://lh3.googleusercontent.com/dF_M1k4DI4n6DFp142kqqaNB87nexn8kUOqZwMH5yLct8UjJBFaOGbb9fjaRdXnK3OU_YdbSlGjBlHKxrfb6Oygf6Bj2SJo",
+      "description": "Get immersed in open-source!",
+      "url": "https://github.com/LiquidGalaxy/liquid-galaxy/wiki",
+      "num_projects": 3,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5279287632461824/",
+      "topics": [
+        "virtual reality",
+        "geospatial",
+        "visualisation",
+        "graphics",
+        "webvr"
+      ],
+      "technologies": ["javascript", "ros", "gis", "cesiumjs"]
+    },
+    {
+      "name": "LLVM Compiler Infrastructure",
+      "image_url": "https://lh3.googleusercontent.com/8XYivFpkxnMRScblvQM83rhs5ZL-osOkoiaz5-mE24xf5s3r8t5a7xtFoB6kxIFTr4cEvqY3dSMkqMhZMCqub88mKK_ALA",
+      "description": "llvm",
+      "url": "http://www.llvm.org",
+      "num_projects": 8,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6215410651234304/",
+      "topics": ["compiler", "compilers"],
+      "technologies": ["llvm", "clang"]
+    },
+    {
+      "name": "lowRISC",
+      "image_url": "https://lh3.googleusercontent.com/5XUMSvocptXRSEOY-d4oyKP_35FqBJ07k6EscBdNa3ITNagEfLtrA9yshpKLYu0tT1T5i9ddO9_32UHa-iMLwYwhy8RrXA",
+      "description": "Creating a fully open-source SoC design",
+      "url": "http://www.lowrisc.org",
+      "num_projects": 4,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5688479367299072/",
+      "topics": ["fpga", "hardware", "soc", "security"],
+      "technologies": ["verilog", "chisel", "risc-v", "linux"]
+    },
+    {
+      "name": "LuaRocks",
+      "image_url": "https://lh3.googleusercontent.com/9rIhv2IzXuF4MxqM1aBqTyTknFw_M3lCvPqUq4CeJTqxze5qZcE18tcnaESd64iw9_sO0Z3V0whMa6LUfIU1lZOgZnxHRoI",
+      "description": "The package manager for the Lua programming language",
+      "url": "http://luarocks.org",
+      "num_projects": 1,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5624527572697088/",
+      "topics": [
+        "programming tools",
+        "programming language",
+        "package management"
+      ],
+      "technologies": ["lua", "lua", "luarocks"]
+    },
+    {
+      "name": "MariaDB",
+      "image_url": "https://lh3.googleusercontent.com/p4iPQ-wqOkHf7VKTHqMxaai-WNM4489_8f94bDi4Nke6v83vX_G3q-APyJzs1bQs2e4rKRtaT7EmtqT96tP79XK4hO61tw",
+      "description": "One of the most popular databases on the web with many notable users",
+      "url": "https://mariadb.org",
+      "num_projects": 1,
+      "category": "Data and Databases",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4752192066027520/",
+      "topics": ["database"],
+      "technologies": ["mariadb", "mysql", "c", "c++", "java"]
+    },
+    {
+      "name": "Matrix.org",
+      "image_url": "https://lh3.googleusercontent.com/WBhR4h-aEjQBcb-2lHWyFpIrdJdjdYteemzupMjD-aFiQa56CbdZEEr2Hr_J2QPhJYHOe438f7b_UtJytVm_f6zlIQNue10",
+      "description": "An ambitious open source project creating a new decentralised comms ecosystem.",
+      "url": "https://matrix.org",
+      "num_projects": 3,
+      "category": "Social / Communications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6700587336859648/",
+      "topics": [
+        "real time",
+        "communication",
+        "collaboration",
+        "decentralisation",
+        "interoperability"
+      ],
+      "technologies": ["react", "android", "ios", "golang", "nodejs"]
+    },
+    {
+      "name": "MBDyn",
+      "image_url": "https://lh3.googleusercontent.com/N4CUGfHbPXYMLR42AV09UMk94-E5Y8cGu5vaAnDHXbz5z_6OmX4uul-7EswcdWhEJD0M_f59g7I9JEWHHcmSNsB67HlBbxve",
+      "description": "High fidelity multibody dynamics engine with extended capabilities",
+      "url": "http://www.mbdyn.org/",
+      "num_projects": 2,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6633793616084992/",
+      "topics": [
+        "engineering",
+        "science",
+        "numerical methods",
+        "aerospace",
+        "mechanics"
+      ],
+      "technologies": ["c++", "python"]
+    },
+    {
+      "name": "MetaBrainz Foundation Inc.",
+      "image_url": "https://lh3.googleusercontent.com/qZLoNlICnffNGh_i7PolRUX2qYh-Pu-s9gfV3bI9bkkM2YHiVtLAOGjaRuayi6LB09tiJyRXMAQAQT-mjt88O6axQs0i9Kql",
+      "description": "MetaBrainz operates MusicBrainz and a number of related open data projects.",
+      "url": "http://metabrainz.org",
+      "num_projects": 5,
+      "category": "Data and Databases",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5723792051535872/",
+      "topics": ["music", "data", "big data", "open data", "community"],
+      "technologies": ["postgres", "perl", "python", "javascript", "bigquery"]
+    },
+    {
+      "name": "Metasploit",
+      "image_url": "https://lh3.googleusercontent.com/AJly1rcZCcbTGu9BHMnCo45SkNIljiBdomdGPlX5dW0E04MAO7Ue-G_2unkRoYslPqARzPOuOFgIcWIYXdJolWBKf1QQA94",
+      "description": "Open Source framework for exploit development and penetration testing",
+      "url": "http://metasploit.com",
+      "num_projects": 2,
+      "category": "Security",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5632986779222016/",
+      "topics": ["security", "exploitation"],
+      "technologies": ["ruby", "c", "asm"]
+    },
+    {
+      "name": "Microkernel devroom",
+      "image_url": "https://lh3.googleusercontent.com/XeXZIspaZAf8QZNUxWJBehgrnCcvKiy5WIAja2N9AEGcaQC81kS1lzPkh38BYkJJMkPBVTUmAvMoBAAMnQX-Lw-AgxE19Ab0",
+      "description": "Confederation of microkernel projects (Genode, HelenOS, GNU Hurd, MINIX, Redox)",
+      "url": "http://www.microkernel.info/",
+      "num_projects": 3,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5026327212064768/",
+      "topics": [
+        "microkernel",
+        "components",
+        "ipc",
+        "desktop",
+        "virtualization"
+      ],
+      "technologies": ["c", "c++", "rust", "arm", "x86"]
+    },
+    {
+      "name": "Mifos Initiative",
+      "image_url": "https://lh3.googleusercontent.com/MhbfOJUdZ-yYSTxBM3jiTh8GBSA2ritD8FSfCMwyB3Flv6gZCvMo-crkhZLrIQNAUmRk203Ufht0DrPrC-yEkjZdjwHAaMo",
+      "description": "End Poverty One Line of Code at a Time",
+      "url": "http://mifos.org",
+      "num_projects": 10,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5486404108812288/",
+      "topics": [
+        "fintech",
+        "mobile banking",
+        "digital financial services",
+        "microfinance",
+        "financial inclusion"
+      ],
+      "technologies": ["java", "android", "angularjs", "spring", "mysql"]
+    },
+    {
+      "name": "MIT App Inventor",
+      "image_url": "https://lh3.googleusercontent.com/zjSf9bi_EsbRhVgk8gwyqkbIxrlxhNOT8WLvZuy4aLCZSiZumgLD6Wc2g9nPJZk5Bkqrz0OtNy6_wx0cPFUq4JIqfbV40HTi",
+      "description": "Empowering anyone to make their world a better place",
+      "url": "http://appinventor.mit.edu/",
+      "num_projects": 4,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6712150730997760/",
+      "topics": ["mobile apps", "api", "blockchain", "education", "iot"],
+      "technologies": ["java", "javascipt", "app", "google app engine", "gwt"]
+    },
+    {
+      "name": "Mixxx DJ Software",
+      "image_url": "https://lh3.googleusercontent.com/y66G7cyFoEB-ny79vPLICRV0IS4r-AJZ-9Xbot5l8rBubSjBj66k9KVqL_jko94yVq4Z9b2Et94BjEVs-X8wV8kqu_x8-5Y",
+      "description": "DJ Your Way. For Free.",
+      "url": "http://mixxx.org/",
+      "num_projects": 2,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5298974017716224/",
+      "topics": ["audio", "dsp", "music", "dj", "art"],
+      "technologies": ["qt", "c++", "c++11", "midi", "hid"]
+    },
+    {
+      "name": "mlpack",
+      "image_url": "https://lh3.googleusercontent.com/X8hF1Iz5fdFuR_T9k8AZ6DZc-kfN-xgFdl5VJ3PZPpmUAIuAswKbTX2uUZ-n8nmLQec0-yjkKABI3Ta5dSpWYSkfOiTr7i8",
+      "description": "a scalable C++ machine learning library",
+      "url": "http://www.mlpack.org/",
+      "num_projects": 10,
+      "category": "Data and Databases",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5584462775582720/",
+      "topics": ["machine learning"],
+      "technologies": ["c++"]
+    },
+    {
+      "name": "Mobile Robot Programming Toolkit (MRPT)",
+      "image_url": "https://lh3.googleusercontent.com/HUlOL_akwzwxvNBdVjKh3rRyiKJx-nRWohZdMJ_754x6zERDWxHtBEFmzvWV0Rj4sUnmSTires4v0qWOkHoHvDMm0suWgAA",
+      "description": "Mobile Robot Programming Toolkit: empowering C++ development in robotics",
+      "url": "http://www.mrpt.org/",
+      "num_projects": 4,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5289044053327872/",
+      "topics": [
+        "robotics",
+        "slam",
+        "computer vision",
+        "webapps",
+        "algorithms"
+      ],
+      "technologies": ["qt", "c++", "opengl", "wxwidgets", "ros"]
+    },
+    {
+      "name": "Mono Project",
+      "image_url": "https://lh3.googleusercontent.com/Wnx2UKIIjXTvvrIgRrPHvnIbw6WXjSbBGOleTchd-Kv0D9gbrdmf21-x9IpyXYONEza_KVi1TkwcIiyUpn8kOQV2wD3PGmo",
+      "description": "Cross-platform C#/F#/.NET runtime and tools",
+      "url": "http://www.mono-project.com/",
+      "num_projects": 9,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4814565460148224/",
+      "topics": [
+        "compiler",
+        "ide",
+        "mobile development",
+        "web development",
+        "programming tools"
+      ],
+      "technologies": ["c#", ".net", "f#", "c"]
+    },
+    {
+      "name": "Moodle",
+      "image_url": "https://lh3.googleusercontent.com/cNaaZ8_ej_R3YA-Pa3rZ75ksisMW6aew7zGuyBZNBWLDW89rM_t-y0DclFPY8TVFR9f2iM1XlMySjIfBv_EQ9sLBqmd83g",
+      "description": "The world's open source learning platform",
+      "url": "https://moodle.org/",
+      "num_projects": 1,
+      "category": "Social / Communications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5171600185884672/",
+      "topics": [
+        "education",
+        "web application",
+        "e-learning",
+        "school system",
+        "learning management"
+      ],
+      "technologies": ["php", "jquery", "mysql", "postgresql", "javascript"]
+    },
+    {
+      "name": "MovingBlocks",
+      "image_url": "https://lh3.googleusercontent.com/ZvhRcRIvX4zHr3Ola_C5IoWy0Im6Dlep3FbA7bqW04GuChw4kpOPYG6sR53dhLfz0Nxf7_Pm1sapOAikGdv5fx3mAIOG8wg",
+      "description": "Terasology: like an open source Minecraft - imagine the possibilities!",
+      "url": "http://www.terasology.org",
+      "num_projects": 10,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4985951029821440/",
+      "topics": ["games", "voxel", "minecraft", "sandbox", "modding"],
+      "technologies": ["java", "opengl", "blender", "json", "gradle"]
+    },
+    {
+      "name": "Mozilla",
+      "image_url": "https://lh3.googleusercontent.com/gV8U7f42_azvTQhIoQraelwUwscd2nzYx73X4MThhqrlFaLwbsdsI8DiuCyDkIvNZt68K3zFHM952dtXNJ_itbmJYO6-5w",
+      "description": "Internet for people, not profit.",
+      "url": "https://www.mozilla.org/",
+      "num_projects": 21,
+      "category": "Web",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6414943960170496/",
+      "topics": [
+        "web",
+        "web platform and services",
+        "education",
+        "web browser"
+      ],
+      "technologies": ["js", "rust", "html/css", "c++", "python"]
+    },
+    {
+      "name": "MuseScore",
+      "image_url": "https://lh3.googleusercontent.com/YcK6wPECmZZUzjaUu1h7U1mlGKXgN7u893khGUdMBXW65xOsf2F5kIGpOu45_6bBNXvOREGrxNW00abmXzwLb0TjaOrC_8w",
+      "description": "Free and open-source music notation software",
+      "url": "https://musescore.org",
+      "num_projects": 3,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4738118800375808/",
+      "topics": ["music engraving", "music", "midi", "sheet music"],
+      "technologies": ["c++11", "qt5", "qt", "breakpad"]
+    },
+    {
+      "name": "National Resource for Network Biology (NRNB)",
+      "image_url": "https://lh3.googleusercontent.com/CDFrm3jmC0RWKdTU5d1tKdTho8hhJFTyu9dWbzNjRL7bwe6eTwX1k3fQAfAB81XK3koMJ9pYE3un1aROiSYXcz1QwE43q4I",
+      "description": "Developing open source software to enable network-based biomedical discovery",
+      "url": "http://www.nrnb.org/gsoc.html",
+      "num_projects": 20,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6499778154201088/",
+      "topics": ["network biology", "graphics", "web", "ui/ux", "database"],
+      "technologies": ["java", "javascript", "python", "php", "c++"]
+    },
+    {
+      "name": "Netfilter project",
+      "image_url": "https://lh3.googleusercontent.com/oaJnMbZY1omAC2NPmr0FdyhME582EygGU5dR8j_pSXrMHyEh_GZDVO-uVIww0LoXOW26e-l2tbE9gr0Ugl0MLgE6lrM81cQ",
+      "description": "FOSS community-driven project that provides firewalling tools for Linux",
+      "url": "http://www.netfilter.org",
+      "num_projects": 2,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6602954140286976/",
+      "topics": ["firewall", "networking"],
+      "technologies": ["linux", "kernel", "c"]
+    },
+    {
+      "name": "Nmap Security Scanner",
+      "image_url": "https://lh3.googleusercontent.com/lQ6DoH3aMVO2MR3rpw0gAQNFybSqZ1VkFXb1rBy0GAtKT0Xm-PM-Vdq3hY29BlgkIVphh_YeZP-oBL4g45yhpzPDupN7Qg",
+      "description": "Swiss Army knife of network discovery and security auditing",
+      "url": "https://nmap.org/",
+      "num_projects": 4,
+      "category": "Security",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5603880054292480/",
+      "topics": ["security", "networking", "ipv6", "linux", "network mapping"],
+      "technologies": ["c/c++", "lua", "python", "c", "c++"]
+    },
+    {
+      "name": "NumFOCUS",
+      "image_url": "https://lh3.googleusercontent.com/Wi0Yt8t7odMwPj30_48NJCj9A8wQAniNl8kNa5huXs5Y0nDESnKKUCdezvK5izynm7yg9hHE9_1JPnBxWfeiBUm6JAfbN64",
+      "description": "NumFOCUS promotes open source scientific software.",
+      "url": "http://www.numfocus.org/",
+      "num_projects": 10,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6630791836598272/",
+      "topics": [
+        "scientific computing",
+        "numerical computation",
+        "graphics",
+        "data science"
+      ],
+      "technologies": ["python", "javascript", "r", "c/c++"]
+    },
+    {
+      "name": "Open Bioinformatics Foundation",
+      "image_url": "https://lh3.googleusercontent.com/G0btWyuJT_OA6O63RjBgc0sXt-rv9HtsZo-bNyY2exbQHkmoQ5vcDd1jU3VefHxSTiw_Rr9HhwUmlC5viExN0e8msNScHg",
+      "description": "Promoting practice & philosophy of OSS & Open Science in biological research.",
+      "url": "https://www.open-bio.org/wiki/Main_Page",
+      "num_projects": 7,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6098536001175552/",
+      "topics": ["bioinformatics"],
+      "technologies": ["python", "perl", "java", "c++", "c/c++"]
+    },
+    {
+      "name": "Open Chemistry",
+      "image_url": "https://lh3.googleusercontent.com/SiZkvMl6HFXMVadYocyXaywo53aIFPwjdd0_DmCREXCGcSeJy2aX40Vy2t5Vqv0XU-yNu7F7wg0kwE7coP_voqOiW5sPKFY",
+      "description": "Advancing Open Source and Open Science for Chemistry",
+      "url": "http://www.openchemistry.org",
+      "num_projects": 6,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5928781713768448/",
+      "topics": [
+        "scientific visualization",
+        "graphics",
+        "chemistry",
+        "data science"
+      ],
+      "technologies": ["python", "c++", "opengl", "javascript", "java"]
+    },
+    {
+      "name": "Open Data Kit",
+      "image_url": "https://lh3.googleusercontent.com/l42QYXCtLJdNoRvjNUDV3TXH7zkuOShjpQ4NzbYB2oX-59SUrVBmbH9Aul11-tevyyPsApGUEB9K_voJEXMBnWf8dBzOK44",
+      "description": "Open Data Kit is used to collect data for social good in difficult environments.",
+      "url": "https://opendatakit.org",
+      "num_projects": 1,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4593100034932736/",
+      "topics": [
+        "mobile",
+        "cloud",
+        "global development",
+        "global health",
+        "social good"
+      ],
+      "technologies": ["android", "java", "python", "javascript", "ruby"]
+    },
+    {
+      "name": "Open Detection",
+      "image_url": "https://lh3.googleusercontent.com/iQnB3bLxuBT0oQgjrJtWgD6FjJpenOT8crAYRRDnwfkBxDMqEVIFqaba4lPfNSCPCKeWyu1Lf0orHbVQ_EaSL8dA8NiY6g",
+      "description": "Open Detection is a open source project for object detection and recognition.",
+      "url": "http://opendetection.com",
+      "num_projects": 2,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6015282623545344/",
+      "topics": ["computer vision", "ai"],
+      "technologies": ["c++", "caffe", "pcl", "opencv"]
+    },
+    {
+      "name": "Open Genome Informatics",
+      "image_url": "https://lh3.googleusercontent.com/mU1RDk7MvnoywJn51IgSnFSzRBlE4KcQx0qvX2SbEXmh6QmEYO6FX3bHYZUiiQTgkF2ztN3VbpkJEF-NomW_LCuHuxGCAg",
+      "description": "Open Genome Informatics represents the efforts of many bioinformatics projects.",
+      "url": "http://gmod.org/wiki/GSoC",
+      "num_projects": 8,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4997812655751168/",
+      "topics": [
+        "bioinformatics",
+        "data mining",
+        "genome",
+        "databases",
+        "computational biology"
+      ],
+      "technologies": ["python", "java", "javascript", "nodejs", "gwt"]
+    },
+    {
+      "name": "Open States",
+      "image_url": "https://lh3.googleusercontent.com/oTnp3kLMh4OizCVQx-tGblJCvAZhXJppgmrIXhdpIYcSICHWwETHJFhjTPlFDi9kHP_JVUPLFk0WiE8nTqsfybWe6fKHFw",
+      "description": "Opening State Legislatures",
+      "url": "https://openstates.org",
+      "num_projects": 1,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5076494711783424/",
+      "topics": ["government", "web", "journalism", "civic"],
+      "technologies": ["python", "django", "javascript", "postgresql"]
+    },
+    {
+      "name": "Open Technologies Alliance - GFOSS",
+      "image_url": "https://lh3.googleusercontent.com/k9dBEsZOew3V-uGpacH4loWxNBKa3TVTP9zk0F4xj_MlFCFVieTo-3V7QASFztyGaVf97Xi764CafgRKDiQ6Y87MAGkv-Fo",
+      "description": "Promote Openness through use and development of Open Standards and Technologies",
+      "url": "http://www.gfoss.eu",
+      "num_projects": 4,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6266968780832768/",
+      "topics": ["data", "cloud", "hardware"],
+      "technologies": ["php", "java", "mysql", "virtuoso", "python"]
+    },
+    {
+      "name": "OpenAstronomy",
+      "image_url": "https://lh3.googleusercontent.com/k97j4nu_jYtIPGDm0_CGWlcchojQzSJ-1Xy8lqKLTYV7smiai61bIQryKr98QqlgQkpmEtYOx7Er9G_F4RtmC96jd1Zqbg",
+      "description": "Opening the eyes of research astronomy software to the whole world.",
+      "url": "http://www.OpenAstronomy.org",
+      "num_projects": 8,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6563063020912640/",
+      "topics": [
+        "visualisation",
+        "data science",
+        "astrophysics",
+        "solar physics"
+      ],
+      "technologies": ["python", "julia", "qt"]
+    },
+    {
+      "name": "OpenCV",
+      "image_url": "https://lh3.googleusercontent.com/Yiody1kLVKupF99Qq0RKTzC2QWy0fATtVGo-bRiR-LrDKzkT_Yn8MWXVxWJubelvPko_Svm51mZhgs0erqFEp1jGg6_0DA",
+      "description": "Open Source Computer Vision and Machine Learning Library",
+      "url": "http://opencv.org",
+      "num_projects": 15,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6424873924558848/",
+      "topics": [
+        "computer vision",
+        "deep learning",
+        "robotics",
+        "virtual reality",
+        "real time"
+      ],
+      "technologies": ["vision", "deep learning", "c++", "python"]
+    },
+    {
+      "name": "OpenMRS",
+      "image_url": "https://lh3.googleusercontent.com/A017Q1uXQvk-YfW9c0KWoL8twfKpw-dqOi3ecFWZxjBt2jaCuavkz1LSkexc3bE7U9XCNWb0xtG7p85d2a1tn_H-XnnP2A",
+      "description": "Write Code. Save Lives.",
+      "url": "http://www.openmrs.org/",
+      "num_projects": 15,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6111850936664064/",
+      "topics": ["clinical", "developing world", "medical records"],
+      "technologies": ["java", "javascript", "html/css", "hibernate", "mysql"]
+    },
+    {
+      "name": "OpenStreetMap",
+      "image_url": "https://lh3.googleusercontent.com/cvbO37qIACZhlfNEp1qR64SB0poBi7BMOALOHt9VMB5kXRlgBwurpcsBU_fvXshB8eUSKq-WC96gc8LPPTosNeR4xeBTvQ",
+      "description": "OpenStreetMap - Creating and distributing free geographic data for the world.",
+      "url": "http://www.openstreetmap.org/",
+      "num_projects": 5,
+      "category": "Data and Databases",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6746951777255424/",
+      "topics": ["gis", "maps", "crowdsourcing", "geoinformatics"],
+      "technologies": ["postgis", "java", "ruby", "javascript"]
+    },
+    {
+      "name": "openSUSE",
+      "image_url": "https://lh3.googleusercontent.com/4HIku5FivMC5UwHbGJ_-BVeUxwfFhA5ZkKr_u7JC-Rk5Hf63teRpjiQBixAVxnM6KNOTj2W6bYh3PadJcQRnQuLYlmY-kw",
+      "description": "The makers' choice for sysadmins, developers and desktop users.",
+      "url": "https://opensuse.org/",
+      "num_projects": 5,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6729779961135104/",
+      "topics": [
+        "linux distribution",
+        "web development",
+        "realtime",
+        "virtualization",
+        "conferences"
+      ],
+      "technologies": [
+        "ruby on rails",
+        "javascript",
+        "docker",
+        "linux",
+        "angular.js"
+      ]
+    },
+    {
+      "name": "OpenWISP",
+      "image_url": "https://lh3.googleusercontent.com/--u1VxOKOF1MV64kY2wRdG6g1_wlidSOXAHqjigTogQ0RQdNXKnXXu8tO5kAzSX1te5I3QZk4wZobbMWbsJfOAXk8m5T8H0",
+      "description": "Open Source solution to build and manage wifi networks",
+      "url": "http://openwisp.org",
+      "num_projects": 5,
+      "category": "Web",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4763591446102016/",
+      "topics": [
+        "networking",
+        "wireless",
+        "configuration management",
+        "telecommunications",
+        "web"
+      ],
+      "technologies": [
+        "python",
+        "django",
+        "javascript",
+        "openwrt",
+        "raspberry pi"
+      ]
+    },
+    {
+      "name": "Oppia Foundation",
+      "image_url": "https://lh3.googleusercontent.com/rRDAR75xpdPsPiGSxfDuyP1pGmgJTKxcAEnPTpvfE7omfNU-a6C4TnyJ2JgLly_i9_8ayEUIMUj1HTlwcsCExwikLmTbeQs",
+      "description": "Oppia is a tool for collaboratively building interactive and intelligent tutors.",
+      "url": "https://www.oppia.org",
+      "num_projects": 3,
+      "category": "Web",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6040525891174400/",
+      "topics": ["education", "interactive", "web", "tools", "community"],
+      "technologies": [
+        "python",
+        "google app engine",
+        "angularjs",
+        "javascript",
+        "css"
+      ]
+    },
+    {
+      "name": "OSGeo",
+      "image_url": "https://lh3.googleusercontent.com/0zY-jMP7tGTqrTUhVRwxyx9n_o6SMWBoE4GTihlfQkXRIBJ9n16otYfTuRmygk6tBE_vFSfDMfQZfYbhfX6_3ucPZiwy4yyk",
+      "description": "Open Source Geospatial Foundation",
+      "url": "http://www.osgeo.org/",
+      "num_projects": 13,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4554340639440896/",
+      "topics": ["gis", "cartography", "maps", "science", "geospatial"],
+      "technologies": ["c++", "python", "c", "sql", "java"]
+    },
+    {
+      "name": "oVirt",
+      "image_url": "https://lh3.googleusercontent.com/W_PtFwhzkdm5Dfr1awr7uSKqbMoWtpUVdlp9gLzlRfQkQyL_dcULt1xsZE8616k8kFuTJcn2hAPgywWiLACcTK5kCSs7Zg",
+      "description": "Open virtual datacenter management for all",
+      "url": "http://www.ovirt.org",
+      "num_projects": 2,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5718999941775360/",
+      "topics": ["virtualization", "enterprise application"],
+      "technologies": ["java", "python", "kvm"]
+    },
+    {
+      "name": "ownCloud",
+      "image_url": "https://lh3.googleusercontent.com/DfB90GrSxjjUVgE4ye84i6KbkUQVUkzoIJtpZfqCkHbRuIbf9h4Twj6DKYU4ul4zJHk01UKjz7NGXRfJ9NcIDcH1uMhxCqE",
+      "description": "A safe home for all your data",
+      "url": "http://owncloud.org",
+      "num_projects": 3,
+      "category": "Cloud",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5721528872206336/",
+      "topics": ["cloud", "sync", "file share"],
+      "technologies": ["php", "qt", "android", "ios", "javascript"]
+    },
+    {
+      "name": "P2PSP.org",
+      "image_url": "https://lh3.googleusercontent.com/H9208Klu8hxsUJPgPyNC9Ea6bKjvX9YZkCPS4bV1EF3tkan04q5u8-lwMowJIRpgvrWcDRnnzPh7Rt8dWz3175i71z1hwW36",
+      "description": "Shaping the future Internet TV",
+      "url": "http://p2psp.org",
+      "num_projects": 2,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6195936732643328/",
+      "topics": ["p2p", "multimedia", "streaming", "security", "video"],
+      "technologies": ["c++", "python", "qt", "sockets", "webrtc"]
+    },
+    {
+      "name": "PEcAn Project",
+      "image_url": "https://lh3.googleusercontent.com/NlUBSPbXP9cQqsn4Gy_oKUJj3H3R_-NVduMtv3X-Nu__AWFSFyw-_k54hDXdwtJ8Fi7RoPRBuP1KIEisBSg4m0oLTrftPg",
+      "description": "Develop accessible tools for reproducible ecosystem modeling and forecasting",
+      "url": "http://pecanproject.github.io/",
+      "num_projects": 3,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4773366791667712/",
+      "topics": [
+        "ecosystem models",
+        "ecological forecasting",
+        "scientific visualization",
+        "data science",
+        "climate science"
+      ],
+      "technologies": ["r", "php", "postgresql", "javascript", "c"]
+    },
+    {
+      "name": "Performance Co-Pilot",
+      "image_url": "https://lh3.googleusercontent.com/PQdIfO2y0F5p09c9eT_3e6ugOHIpSbQa--YnkLQBkOawlljH4iT0qgITGwvLzECIcpiNLLqw7toAP1RzzJ0VsGOWtD3y6mQ",
+      "description": "System-level performance analysis toolkit",
+      "url": "http://pcp.io",
+      "num_projects": 5,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5840169290694656/",
+      "topics": [
+        "high performance computing",
+        "visualization",
+        "web development",
+        "kernel",
+        "performance"
+      ],
+      "technologies": ["python", "javascript", "c", "linux", "windows"]
+    },
+    {
+      "name": "Pharo Consortium",
+      "image_url": "https://lh3.googleusercontent.com/k0wTYgDp-KB4HmiGow-0HSfzWNUp_BV1Zkwk9d4lVzohlR3qfI0IzyIEnUmgLGxnNO-IHEAvw1TQng6E6jQwAht5P157yg",
+      "description": "Pharo: The Immersive Programming Experience",
+      "url": "http://pharo.org/",
+      "num_projects": 5,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5691803940421632/",
+      "topics": [
+        "object oriented programming",
+        "dynamic environment",
+        "data science",
+        "user interface",
+        "ide"
+      ],
+      "technologies": ["smalltalk", "roassal", "polymath", "pharo"]
+    },
+    {
+      "name": "phpBB Forum Software",
+      "image_url": "https://lh3.googleusercontent.com/z4Bw8NrPhbTTZ3iOhn9tUkhJQE8-VJj2tL8isX9EshHXfwkBGH7LYErTEhfOVtHiOPtWdgUsGmojaoAVMee82_lew45rUxQ",
+      "description": "phpBB is the most widely used free and open source forum software",
+      "url": "https://www.phpbb.com",
+      "num_projects": 2,
+      "category": "Social / Communications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5715998162288640/",
+      "topics": [
+        "social",
+        "communication",
+        "collaboration",
+        "forum",
+        "community"
+      ],
+      "technologies": ["php", "mysql", "javascript", "symfony", "css"]
+    },
+    {
+      "name": "phpMyAdmin",
+      "image_url": "https://lh3.googleusercontent.com/5P06_Sp0FVRrO-VN3D7kOP3xIAQwkpPmUr9Jg3n9T6-jpWOGef7RaHF7u7EIuVrn8JfLncVcuqEp7r1Pa0f4Yk0uevlN9lo",
+      "description": "A web interface for MySQL written in PHP",
+      "url": "https://www.phpmyadmin.net",
+      "num_projects": 3,
+      "category": "Data and Databases",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5535586047754240/",
+      "topics": [
+        "database",
+        "mysql",
+        "developer",
+        "administrator",
+        "web application"
+      ],
+      "technologies": ["php", "mysql", "jquery", "javascript", "cakephp"]
+    },
+    {
+      "name": "Physical Web Project",
+      "image_url": "https://lh3.googleusercontent.com/4louIdBvWdQ5Jz_c-9lYN8p0OjZKSZ6DJoCPgBlqdyRI5UjJ8PmrYew-CWgjBlIJm_8NJnlv0Wsn6zvHvp4WASe07-0UCg",
+      "description": "Physical Web GSoC project based on the Physical Web",
+      "url": "http://physical-web-project.github.io/",
+      "num_projects": 5,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6491731667189760/",
+      "topics": ["internet of things", "beacons"],
+      "technologies": ["beacon", "web bluetooth", "physical web", "bluetooth"]
+    },
+    {
+      "name": "Plone Foundation",
+      "image_url": "https://lh3.googleusercontent.com/QCoHOee49c1CKl-HiBvGvdtOQvVMrhFW8A5G9fvOcAGf9alQlHVQiNSusEJZuY9HddzsLlOeve549VEWYo-xU97o_qirjkw",
+      "description": "The premier python-based open source CMS",
+      "url": "https://plone.org",
+      "num_projects": 4,
+      "category": "Web",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4530756705583104/",
+      "topics": ["content management", "cms"],
+      "technologies": ["python", "javascript", "html/css"]
+    },
+    {
+      "name": "PMD",
+      "image_url": "https://lh3.googleusercontent.com/Vubc5vjB--L-00zjtqS4no0NiuvzntQJQY6Ejn5DDS4N4CJDNNNqgMvhKX-djFHBrONMSqerdRRDW-BRLrFUwWYdYtLc32c",
+      "description": "An extensible cross-language static code analyzer.",
+      "url": "https://pmd.github.io/",
+      "num_projects": 2,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5158578918785024/",
+      "topics": [
+        "code quality",
+        "source code analyzer",
+        "code analysis",
+        "linter"
+      ],
+      "technologies": ["java", "javacc", "xml", "antlr", "xpath"]
+    },
+    {
+      "name": "Polly Labs",
+      "image_url": "https://lh3.googleusercontent.com/zRSoYfZa7Wx6lQzLq8MO_QkpWtZbVCP5jf3ZIUxStrDtEMI2QjRc5F8sueJR5gArWMgR4EdAe42nktNPVUgcCs-Bi_8U_aDL",
+      "description": "Promoting Polyhedral Compilation",
+      "url": "http://www.pollylabs.org",
+      "num_projects": 1,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4788561849090048/",
+      "topics": [
+        "polyhedral compilation",
+        "parallelization",
+        "program verification",
+        "optimization",
+        "fpga"
+      ],
+      "technologies": ["llvm", "integer set library", "ppcg", "pencil", "polly"]
+    },
+    {
+      "name": "Portland State University",
+      "image_url": "https://lh3.googleusercontent.com/sAIPHC0hT4utSZW0pR7kqUAbtNkZZJivcSJZrbA15Cs6adP4oxthezndn2EffbpBLBN-2lSyz-pHYjqiIvfZAqMrUWClvnw",
+      "description": "Individual and Academic Open Source",
+      "url": "http://wiki.cs.pdx.edu/psu-gsoc",
+      "num_projects": 7,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5827042528460800/",
+      "topics": ["new projects", "academic projects", "individual projects"],
+      "technologies": ["open hardware", "language-agnostic"]
+    },
+    {
+      "name": "PostgreSQL",
+      "image_url": "https://lh3.googleusercontent.com/fOqj5WqGB9B9zsoMdSkR7nZaGgqSp6i8uZ2lSDkvpRfnnl_zWTnaBaTuabq51FpZMMgN61d9pMgF8e0I2o4adG_O30Do_I0u",
+      "description": "PostgreSQL is a powerful, open source object-relational database system.",
+      "url": "https://postgresql.org",
+      "num_projects": 4,
+      "category": "Data and Databases",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5443503559540736/",
+      "topics": ["database", "rdbms"],
+      "technologies": ["postgresql", "c", "perl", "sql"]
+    },
+    {
+      "name": "Public Lab",
+      "image_url": "https://lh3.googleusercontent.com/MwbL7vWbFjDEufppCnooCkSgHO689b_BI-N1qS1JW_sWlhUpWF3Pe1Rl_4jFI9RfdaJ0edLtXCwzFLYOkteMpFpyKLWr881y",
+      "description": "Open hardware and software to help communities measure and analyze pollution",
+      "url": "https://publiclab.org",
+      "num_projects": 5,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6029803371102208/",
+      "topics": [
+        "environment",
+        "pollution",
+        "hardware",
+        "science",
+        "community"
+      ],
+      "technologies": ["javascript", "ruby", "ruby on rails"]
+    },
+    {
+      "name": "Python Software Foundation",
+      "image_url": "https://lh3.googleusercontent.com/6MpqlrxDIIVeuWIHdu3k8Gm6qrcYqQ_UnAkrL69wL4w-hZ64l7kNrVtm4x_pUOy_XSil2UTXrIoHX9CEb_NqUmTInclq5Xw",
+      "description": "Python is a programming language used by scientists & software developers alike.",
+      "url": "https://www.python.org",
+      "num_projects": 29,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5370985721102336/",
+      "topics": ["hardware", "programming languages", "science"],
+      "technologies": ["python"]
+    },
+    {
+      "name": "QEMU",
+      "image_url": "https://lh3.googleusercontent.com/78cLfhQzz12zr-SfaHTL3LLIoATw7g3etAKkMHyaYtyDwMxpjSFcqX4qUcmiTZWlLgB3CqncbvnSa6hEAbT5m1uQ72JtTQ",
+      "description": "Open source machine emulator and virtualizer",
+      "url": "http://qemu.org/",
+      "num_projects": 4,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4782716667035648/",
+      "topics": ["compiler", "virtualization", "emulation", "hypervisor"],
+      "technologies": ["c", "python"]
+    },
+    {
+      "name": "Qubes OS",
+      "image_url": "https://lh3.googleusercontent.com/ZnOVM9SzAVwGiqTWAw-cZJiQtAKDR1bD3MdaVvxq7CstlW3Ph00wRX21AyiKrsKK84-s-2vDAgY8PS_MBvoKAfiHcXfGuqE",
+      "description": "A reasonably secure operating system",
+      "url": "https://www.qubes-os.org/",
+      "num_projects": 2,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5074771758809088/",
+      "topics": ["security", "privacy", "virtualization", "operating system"],
+      "technologies": ["c", "python", "shell", "xen", "linux"]
+    },
+    {
+      "name": "R project for statistical computing",
+      "image_url": "https://lh3.googleusercontent.com/ZI5ThwOwjeTwKrtxLwQj4s6mQOYrEv10k9xMy-VitlecR5gnM6lq_uHBf1pVTTe55hG7Ce0IaXn82jRyUSArCUtltuJB78pD",
+      "description": "R is a free software environment for statistical computing and graphics",
+      "url": "https://www.r-project.org/",
+      "num_projects": 33,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5555424770129920/",
+      "topics": [
+        "data science",
+        "visualization",
+        "machine learning",
+        "statistics",
+        "graphics"
+      ],
+      "technologies": ["r-project", "c", "c++", "fortran", "javascript"]
+    },
+    {
+      "name": "radare2",
+      "image_url": "https://lh3.googleusercontent.com/VVN5lpkxKUbYGUnBJ7HpHRnD6U8JK1hj_JhN6pxVAfRIOlISX0O0tU5m35EuMxGoR10prC4G-mOFsVLsSWR4iozUEhj3jA0",
+      "description": "Radare2 reverse engineering framework and toolset",
+      "url": "http://radare.org",
+      "num_projects": 3,
+      "category": "Security",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4795019735072768/",
+      "topics": ["reverse engineering"],
+      "technologies": ["c", "rust", "python", "nodejs"]
+    },
+    {
+      "name": "ReactOS",
+      "image_url": "https://lh3.googleusercontent.com/aVjZ3TEaRQjkhtt2_lPztvbrrCLmAJk6ViAjMMEgu0prlZLjTkh8ZJ9BVdHbiiQl3Ubi59s2L0aGCFq6OqTE8P89u473A38",
+      "description": "ReactOS is a free, open source, Windows compatible operating system.",
+      "url": "https://reactos.org/",
+      "num_projects": 4,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6057879303880704/",
+      "topics": [
+        "operating systems",
+        "drivers",
+        "desktop",
+        "kernel",
+        "windows"
+      ],
+      "technologies": ["c", "c++"]
+    },
+    {
+      "name": "Red Hen Lab",
+      "image_url": "https://lh3.googleusercontent.com/UY6NntUG3C_iAxyR5tkKLd7B87nvYVQAS7YqHlWEriO764Wg_NYl88CDLIJmulGiOLRxCH3dBF0-5YX5MTInXWrxouV8xVnQ",
+      "description": "Research on Multimodal Communication",
+      "url": "http://redhenlab.org",
+      "num_projects": 9,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6645492838563840/",
+      "topics": [
+        "natural language processing",
+        "co-speech gesture",
+        "big data visualization",
+        "deep learning",
+        "multimedia"
+      ],
+      "technologies": [
+        "high performance computing",
+        "machine learning",
+        "opencv",
+        "audio processing",
+        "multimodal analysis"
+      ]
+    },
+    {
+      "name": "RoboComp",
+      "image_url": "https://lh3.googleusercontent.com/TLSFajTMYU9aSS2hWuYGRN5BksO7-T-daan9xC0WK6lQpSEb7w6XfvlomYmhg9FvXhgoMq2aqenLQ75-yT-nAo1Sk5thWjY",
+      "description": "A simple robotics framework.",
+      "url": "http://robocomp.org",
+      "num_projects": 9,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5477575937753088/",
+      "topics": ["computer vision", "robotics", "robotics simulation"],
+      "technologies": ["c++", "cmake", "python", "openscenegraph", "qt"]
+    },
+    {
+      "name": "Rocket.Chat",
+      "image_url": "https://lh3.googleusercontent.com/YnqJpwKfMzgUrQPlKAxMZzFTrsDYjQEi8GTLbsD8WFFlhR7YN_xMC4i-ZYDOoLfb18aGM0T8DNRSF78bq7xKXqLOFdGjUSE",
+      "description": "The ultimate open source chat and messaging platform",
+      "url": "https://github.com/RocketChat/Rocket.Chat",
+      "num_projects": 4,
+      "category": "Social / Communications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5788044225413120/",
+      "topics": [
+        "chat",
+        "progressive web apps",
+        "realtime",
+        "collaboration",
+        "instant messaging"
+      ],
+      "technologies": ["javascript", "meteor.js", "mongo", "webrtc"]
+    },
+    {
+      "name": "Rspamd",
+      "image_url": "https://lh3.googleusercontent.com/FNoDwqYiECa07UKDfGUtOK7WmDblUp8eFA4HFdG3JjmIGIDUND7vQdxYDVomDGfVu7Wt5ASVuYCAEmGkA4Iqsu9IuV1syIh6",
+      "description": "High-performance spam filtering system",
+      "url": "https://rspamd.com",
+      "num_projects": 1,
+      "category": "Social / Communications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5230067307249664/",
+      "topics": ["machine learning", "email", "spam filtering"],
+      "technologies": ["c", "lua", "cmake"]
+    },
+    {
+      "name": "RTEMS Project",
+      "image_url": "https://lh3.googleusercontent.com/DB1LdjBqEwe0NSdMOsC1CLKuU6L9-YBnhnaAeaUN7Q3zp-cAv56jttxkkPRa9B68kmoDxgMLRhHULWDyhYAp88h3Qqo-OkA",
+      "description": "RTEMS is a real-time operating system used around the world and in space.",
+      "url": "https://www.rtems.org/",
+      "num_projects": 4,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6586933375401984/",
+      "topics": [
+        "real time",
+        "operating system",
+        "kernel",
+        "embedded systems",
+        "multicore"
+      ],
+      "technologies": ["c", "python", "posix"]
+    },
+    {
+      "name": "Ruby on Rails",
+      "image_url": "https://lh3.googleusercontent.com/c276B7NxmAOEBnq4vaSbOwUd1bvPUdUJC2XNNQnGk9cce7_-7uff7d6mbfpuW2QBcI699Lu6XrTrfo2lgpZGAJsQ9MmRDCM",
+      "description": "Ruby on Rails make web application development easy and fun.",
+      "url": "http://rubyonrails.org/",
+      "num_projects": 2,
+      "category": "Web",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5017499041005568/",
+      "topics": ["web", "full stack"],
+      "technologies": ["html", "ruby on rails", "ruby"]
+    },
+    {
+      "name": "Ruby Science Foundation",
+      "image_url": "https://lh3.googleusercontent.com/AGhVpjj4DSMCpJhxUjdFqGtTHoMDeyz4v4NFgacKReNQiaerwjC9AXrgHQ7A3s2QMw-4xGa9q4E_pIKos3FXue9tsHORVA",
+      "description": "Tools for Scientific Computing in Ruby",
+      "url": "http://sciruby.com/",
+      "num_projects": 3,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6710362682425344/",
+      "topics": ["science", "data", "web", "package management", "hpc"],
+      "technologies": ["ruby", "science", "web", "data", "gpu"]
+    },
+    {
+      "name": "Sage Mathematical Software System",
+      "image_url": "https://lh3.googleusercontent.com/99y5NbDUXdd32mgBKjcidnDzrt6ntx0-77Q7W-jmENkJwZpi3EQFobouaZu6qS9IQ6l9sz27QCxE3ZkCXocDpmEBTpYsx7f8",
+      "description": "open source math software",
+      "url": "http://www.sagemath.org",
+      "num_projects": 5,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5071296056524800/",
+      "topics": ["mathematics", "algorithms"],
+      "technologies": ["python", "cython", "c++", "c"]
+    },
+    {
+      "name": "Samba",
+      "image_url": "https://lh3.googleusercontent.com/rD1kh5ljL5e_xVm2A38dl4S3kKWGspHq4e2W6yemA2jqHpqDXzvH7E0_Q0HKoVqQKcdxf9qBc4hCEEgyN-YJYc-Uox434j4",
+      "description": "Opening windows to a wider world.",
+      "url": "https://www.samba.org/",
+      "num_projects": 1,
+      "category": "Cloud",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5093706659004416/",
+      "topics": ["samba", "networks", "interoperability"],
+      "technologies": ["c", "python"]
+    },
+    {
+      "name": "Scala",
+      "image_url": "https://lh3.googleusercontent.com/EfPjiSXyWRJFZS5idWZo5thkjEbuVk0spqEsvV9SO46IEOIXwk6hRTdePYNGbV2AZ17z1dYGZDMsdZkeDBPG8D5f-HF3IK0F",
+      "description": "The programming language where object-oriented meets functional.",
+      "url": "http://www.scala-lang.org",
+      "num_projects": 8,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6452441306365952/",
+      "topics": [
+        "compiler",
+        "programming tools",
+        "functional programming",
+        "programming languages"
+      ],
+      "technologies": ["scala", "jvm"]
+    },
+    {
+      "name": "Scilab",
+      "image_url": "https://lh3.googleusercontent.com/ciM8klwqNEZfQcSwIFTjazdZ2oBb_MhfRStvR7l_52RgNrfdle3XfebJtH6edg_3KfUnZCLwZoOEigXqvuajR7ABWyqBeJM",
+      "description": "Numerical computational package and high-level programming language.",
+      "url": "http://www.scilab.org",
+      "num_projects": 5,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6603475844595712/",
+      "topics": [
+        "graphics",
+        "numerical computing",
+        "programming language",
+        "scientific visualization"
+      ],
+      "technologies": ["c++", "java", "python", "c", "opengl"]
+    },
+    {
+      "name": "ScummVM",
+      "image_url": "https://lh3.googleusercontent.com/mU6cBaJ-fL843_k3vp3okXqqFa49WvvL26wNG4yT448_RDaijiyZF-jSsoaQXHXtez8WT6RcKQls1Qv1WWJwsv4e56ZK7w",
+      "description": "ScummVM is a GSoC umbrella for game preservation projects",
+      "url": "http://www.scummvm.org/",
+      "num_projects": 2,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6165044375060480/",
+      "topics": ["game", "engines", "software preservation"],
+      "technologies": ["c++", "sdl", "opengl", "assembly"]
+    },
+    {
+      "name": "Shogun Machine Learning Toolbox",
+      "image_url": "https://lh3.googleusercontent.com/GH1nNTJd4lsY-I4oxhehL-L2ROAAyxmG_axiGL0s-nniW1a0QuBs3MpCPz3z-SDT7_Yiq-2hUmUnNVr2KfMk3Dr66mjCsmM",
+      "description": "Unified and efficient Machine Learning",
+      "url": "http://shogun-toolbox.org/",
+      "num_projects": 4,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4704476053110784/",
+      "topics": [
+        "machine learning",
+        "statistics",
+        "fast algorithms",
+        "bioinformatics",
+        "software engineering"
+      ],
+      "technologies": ["c/c++", "python", "swig", "machine learning", "cmake"]
+    },
+    {
+      "name": "Sigmah",
+      "image_url": "https://lh3.googleusercontent.com/93j_B6_iRuj44vvNZhG5HeC8UY4b74xxz3SfQQF6r0dqq8S3yzv76u1BUM09yp2IzcGu_aWvbWrymJYkaKXTO6oGTDbYGQ",
+      "description": "Java/GWT platform for humanitarian project management",
+      "url": "http://www.sigmah.org",
+      "num_projects": 2,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5019976297611264/",
+      "topics": ["humanitarian", "project-management"],
+      "technologies": ["gwt", "java", "postgresql"]
+    },
+    {
+      "name": "Software Product Data Exchange (SPDX)",
+      "image_url": "https://lh3.googleusercontent.com/jp89zqVYlb5DFuc9HjcPPUbuRUdCQgqs3-PBBZFn3DIELK704lntXmsW3DFtsHGpESagwyMqcGuJq4FSnl6VX2VLed3aPE4",
+      "description": "Promoting open source compliance through standard communication of SW licenses.",
+      "url": "http://spdx.org",
+      "num_projects": 4,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6300304437936128/",
+      "topics": ["compliance", "opensource", "licensing"],
+      "technologies": ["rdf", "python", "java", "github", "c"]
+    },
+    {
+      "name": "STE||AR Group",
+      "image_url": "https://lh3.googleusercontent.com/Kc-BNjySFJaBDzsEedTqUjvXt0yTXyrc_URSvFTXioggacbB2E3K8yEZmthrnVhEsHX-THYIDE1cUVVR1WD255XJcX0YvLk",
+      "description": "The C++ Standards Library for Concurrency and Parallelism",
+      "url": "http://stellar-group.org/",
+      "num_projects": 4,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6145876204453888/",
+      "topics": [
+        "runtime systems",
+        "c++ standardizaion",
+        "algorithms",
+        "parallel computing",
+        "high performance computing"
+      ],
+      "technologies": [
+        "c++",
+        "boost",
+        "hpx",
+        "c++17 parallel stl",
+        "parallel algorithms"
+      ]
+    },
+    {
+      "name": "Stony Brook University, Biomedical Informatics",
+      "image_url": "https://lh3.googleusercontent.com/fMyKpsVNH6HY15TUJ7sJRMGYeB3kKht8uvtQhN-Xlyh2wMwqASsMx_4x90UGgeCs4c1HFmkjspRW761Aop5snvcqNfb7t3xb",
+      "description": "Advance biomedical knowledge through innovative data science research",
+      "url": "https://bmi.stonybrookmedicine.edu/",
+      "num_projects": 3,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6367868836904960/",
+      "topics": [
+        "biomedical informatics",
+        "medical imaging",
+        "bioinformtics",
+        "big data",
+        "database"
+      ],
+      "technologies": ["big data", "apache spark", "matlab", "c++", "hadoop"]
+    },
+    {
+      "name": "strace",
+      "image_url": "https://lh3.googleusercontent.com/l2t1T9gvkoaETh9IYLRu4TQKKquWXKYHYLfe0nHyWTwmuuTbQO_gyFRd4ayH4tNaaeO8TBJg7PY1WlqOJWJn76Cy8BaYi7g",
+      "description": "linux syscall tracer",
+      "url": "https://strace.io",
+      "num_projects": 4,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6249254993526784/",
+      "topics": ["linux", "syscall", "tracing", "c", "git"],
+      "technologies": ["linux", "c", "git", "shell script", "make"]
+    },
+    {
+      "name": "Sugar Labs",
+      "image_url": "https://lh3.googleusercontent.com/31vEsi-7egkWtNq9_4SjGxJyvlRqzXUjIU9JpuMTztwQQFCby-wMn8RSrU6dNTxlsq1ybF4Ff8bcOFrN6fBXsLWJRzWZK5M",
+      "description": "We make tools that learners use to explore, discover, create, and reflect.",
+      "url": "http://sugarlabs.org",
+      "num_projects": 9,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4675168001589248/",
+      "topics": ["learning", "education"],
+      "technologies": ["python", "javascript", "gtk", "android"]
+    },
+    {
+      "name": "Sustainable Computing Research Group ( SCoRe )",
+      "image_url": "https://lh3.googleusercontent.com/ad7xW_8lHwuwPv_atbM_5VR9oQFPis_OWi4Y4orCxLTCisyRJdISMc8jjKhsOi3iARVUpuwOZjT7NdH477Hc-pAoFgOgzos",
+      "description": "SCoRe has conducted research covering various aspects of Security, Mobile & IOT.",
+      "url": "http://www.scorelab.org/",
+      "num_projects": 16,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4984473024200704/",
+      "topics": ["iot", "security", "mobile applications", "embedded systems"],
+      "technologies": ["python", "java", "gcp", "android", "golan"]
+    },
+    {
+      "name": "SymPy",
+      "image_url": "https://lh3.googleusercontent.com/_Z-ffewY-CgphMspm9NvlVaNeYSDLaYbU4u8ZW7FMhgYYsLe1gfxCBSQME-sZkyd-EmEkPL0yO4px_1Yy9O0oiOEkKTIGg",
+      "description": "SymPy is a Python library for symbolic mathematics.",
+      "url": "http://www.sympy.org/",
+      "num_projects": 8,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5228947662962688/",
+      "topics": ["mathematics", "science", "computer algebra"],
+      "technologies": ["python", "c++"]
+    },
+    {
+      "name": "Systers, an Anita Borg Institute community",
+      "image_url": "https://lh3.googleusercontent.com/tFOFnRaUTNGblP4QyLG6X0IlRCU6PNrYL6VgZbGuLVX2MMJc0tSM-LHaGEGfhJ8_eQKoq7Zu4oOzBQWBW8brmLP9uji0fg",
+      "description": "Helping women find their potential in code.",
+      "url": "http://systers.org",
+      "num_projects": 11,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5429781541683200/",
+      "topics": ["women in tech", "games", "peace corps", "web", "mobile"],
+      "technologies": ["android", "ios", "python", "java", "javascript"]
+    },
+    {
+      "name": "TEAMMATES @ National University of Singapore",
+      "image_url": "https://lh3.googleusercontent.com/luZzJwQlVaYB51AhxnDJaZe6lM-sN8VyEinlxbuFmC5JbKjeaKTMrZ8znvSHoTxtalBLz85S8_ImfDoqrcZ8od_89cbMYgY",
+      "description": "An online feedback management system for students and teachers",
+      "url": "https://github.com/teammates/teammates",
+      "num_projects": 8,
+      "category": "Web",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5786366906466304/",
+      "topics": ["education", "peer feedback", "webapps", "saas"],
+      "technologies": [
+        "java",
+        "javascript",
+        "google app engine",
+        "css",
+        "java ee"
+      ]
+    },
+    {
+      "name": "The Center for Connected Learning and Computer-Based Modeling",
+      "image_url": "https://lh3.googleusercontent.com/w1Pg9I5er9AD4G26-qAmfR_Gad4y5rmu2CjaY3I53rEpNoYG2T5rctUUOkRnhVDlGPsIq4bWE0R9YZRJLPGbEfT8GK6qf1k",
+      "description": "NetLogo: A language and IDE for programming and scientific simulations",
+      "url": "http://ccl.northwestern.edu/netlogo",
+      "num_projects": 1,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4578118920568832/",
+      "topics": [
+        "simulation",
+        "education",
+        "programming language",
+        "science",
+        "research"
+      ],
+      "technologies": ["javascript", "scala", "html5"]
+    },
+    {
+      "name": "The CGAL Project",
+      "image_url": "https://lh3.googleusercontent.com/k1NQ7oJzghEJ-d8GjBrwJAN2H7kBpGrUhHSmpndPIv9YjjHdj3BmMQayTKWm0KMZUku2ZeUc-uQ7q0sRvJzjHhNp13dsrls",
+      "description": "C++ library of computational geometry and geometry processing",
+      "url": "http://www.cgal.org",
+      "num_projects": 4,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6565611412914176/",
+      "topics": [
+        "computational geometry",
+        "geometry processing",
+        "mesh processing",
+        "triangulaton",
+        "arrangement"
+      ],
+      "technologies": ["c++", "git", "github"]
+    },
+    {
+      "name": "The Eclipse Foundation",
+      "image_url": "https://lh3.googleusercontent.com/BpodiV7RsCFQ9xn2JYupSYyUqkjQliydUTz9nicVpLgSBEat1gu4M3eac_NmChTwXto-ZR2EfFnrut9LU6KgJleGJGFsk3U",
+      "description": "An amazing open source community of tools, projects, and  collaboration.",
+      "url": "http://www.eclipse.org",
+      "num_projects": 10,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5043263878725632/",
+      "topics": ["locationtech", "developer tools", "runtimes", "frameworks"],
+      "technologies": ["java", "geo", "iot", "che", "ide"]
+    },
+    {
+      "name": "The FreeType Project",
+      "image_url": "https://lh3.googleusercontent.com/ozLcPJH-oZD8tcrVpqhKlD0AWsmY5Qd5HSuS97cfytLDkF3r77Z-urkvZixDRMTWbV6o8tMZ_g9dg-RUwkS1MS6J2edOu34I",
+      "description": "FreeType font rendering library",
+      "url": "http://freetype.org",
+      "num_projects": 2,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4699374705704960/",
+      "topics": ["fonts", "opentype", "rendering", "graphics", "truetype"],
+      "technologies": ["fonts", "opentype", "c", "library"]
+    },
+    {
+      "name": "The GNU Project",
+      "image_url": "https://lh3.googleusercontent.com/9KIj4OBSSC_nz4J3SA6ak2zP6mCjV81YaPguPJVQ3Hyt1WNdUDri1BZh22LqXxVytW9rnH7AybcXyickN1HG32uAZLBCGg",
+      "description": "GNU is an operating system that is free software",
+      "url": "http://www.gnu.org",
+      "num_projects": 13,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5556772852989952/",
+      "topics": ["operating system"],
+      "technologies": ["c", "guile", "python"]
+    },
+    {
+      "name": "The Honeynet Project",
+      "image_url": "https://lh3.googleusercontent.com/9Q04KXcA1LwynVd9KNq5iyrGftX4SlLCsqkqNqfo1sCl-ojJSXtUpJz-R38uZIBzWDYPXozTelb0-JNWHj6Ib5ffQJaxMw",
+      "description": "The Honeynet Project - R&D for Honeypot/Honeynet Technology and InfoSec Research",
+      "url": "https://honeynet.org/",
+      "num_projects": 12,
+      "category": "Security",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5512685819002880/",
+      "topics": ["security", "honeypots", "deception", "research", "malware"],
+      "technologies": [
+        "python",
+        "javascript",
+        "golang",
+        "android",
+        "network stack"
+      ]
+    },
+    {
+      "name": "The Java Pathfinder Team",
+      "image_url": "https://lh3.googleusercontent.com/vZDz6Z7CAGAgCj5PHzQl8lLzj9DuQxCmS1BSlrhxv695RQvdF1W41Z-M6qh-qfuPBujf2X8yH1FRi6s-7gXqsIP0k23stw",
+      "description": "JPF is a highly extensible Java virtual machine built for software analysis",
+      "url": "http://babelfish.arc.nasa.gov/trac/jpf/",
+      "num_projects": 7,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4740037845450752/",
+      "topics": [
+        "program analysis",
+        "testing",
+        "verification",
+        "model checking",
+        "environment generation"
+      ],
+      "technologies": ["java", "jvm", "android", "distributed systems"]
+    },
+    {
+      "name": "The Julia Language",
+      "image_url": "https://lh3.googleusercontent.com/QkmKOCDnjRtNcTCB0waE8K4GGORcz5xAkXWakciX3ojPMZ7OGHsFFTfkGEZ4vq_j0G_btVvC0qBtTxgfKI-jN9ALBo56n9E",
+      "description": "A fresh approach to Technical Computing",
+      "url": "http://julialang.org/",
+      "num_projects": 16,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6682672759832576/",
+      "topics": [
+        "graphics",
+        "plotting",
+        "numerical computing",
+        "high performance computing",
+        "linear algebra"
+      ],
+      "technologies": ["julia", "javascript", "gpu", "c/c++", "llvm"]
+    },
+    {
+      "name": "The Libreswan Project",
+      "image_url": "https://lh3.googleusercontent.com/xieZvftH7NsAeeki3MpMGN5ShPyspPB84pmQbCa7pE9Gbichc2OntsSb_L2JrQSovN5QZdL8DTH4KRcfis843VqaYtuSOBA",
+      "description": "Encrypting the internet using IKE and IPsec",
+      "url": "https://libreswan.org",
+      "num_projects": 2,
+      "category": "Security",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6311703818010624/",
+      "topics": ["vpn", "ipsec", "ike"],
+      "technologies": ["c", "python", "shell script"]
+    },
+    {
+      "name": "The Linux Foundation",
+      "image_url": "https://lh3.googleusercontent.com/iMdi7DLry09inhV9HjzqgvhPYcZpRb6B6W7C0WgUtO9BVGHqG7B7ONs20DDF1jWCIuOAICYB2RlC8-UvokiKlASbiWdgVQ",
+      "description": "A non-profit consortium dedicated to fostering the growth of Linux",
+      "url": "http://www.linuxfoundation.org/",
+      "num_projects": 11,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5902526847123456/",
+      "topics": ["kernel", "printing", "lsb", "wireless", "wireguard"],
+      "technologies": ["c", "c++", "cups", "mysql", "gtk"]
+    },
+    {
+      "name": "The MacPorts Project",
+      "image_url": "https://lh3.googleusercontent.com/NKbhP7-Viu3qEN3Icc9aRrQU5VbhsL8gUOw0IEle-6p1BcTbsD-9M_E59RYrCTJw2ATcG8MFUYMcrFyv7p8rLfkKoWYfHw",
+      "description": "Open Source package manager for Mac OS.",
+      "url": "https://www.macports.org/",
+      "num_projects": 2,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5223416953044992/",
+      "topics": ["package manager", "mac os x", "macos"],
+      "technologies": ["tcl", "make", "git"]
+    },
+    {
+      "name": "The NetBSD Foundation",
+      "image_url": "https://lh3.googleusercontent.com/OumI8nQh34M_zWCXk6Xn3a23r8DHAwUQ4GLSB3POYiDpu2qENGEA5CJzmvWJfKwfcDn8NMqD7r91wCCH03519AI1weM0Olk",
+      "description": "Of course it runs NetBSD!",
+      "url": "https://www.NetBSD.org/",
+      "num_projects": 3,
+      "category": "Operating Systems",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5856162406727680/",
+      "topics": [
+        "general purpose os",
+        "real unix",
+        "package management",
+        "free and open source software"
+      ],
+      "technologies": [
+        "virtualization",
+        "filesystems",
+        "network stack",
+        "arm",
+        "mips"
+      ]
+    },
+    {
+      "name": "The ns-3 Network Simulator Project",
+      "image_url": "https://lh3.googleusercontent.com/p6k-6XOmBgul_JbDQSlzB636AcBQkeXGkJ9m7eyEYPi6nw6uA1ti_bFlVEnqkuVGOSOyzrzpZ9GQf-K2O8x0NA2i8f9uDuU",
+      "description": "ns-3 is a packet-level network simulator for research and education.",
+      "url": "https://www.nsnam.org",
+      "num_projects": 5,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5226418732531712/",
+      "topics": [
+        "networking",
+        "computer networking",
+        "simulation",
+        "research and development"
+      ],
+      "technologies": ["c++", "python"]
+    },
+    {
+      "name": "The Processing Foundation",
+      "image_url": "https://lh3.googleusercontent.com/Ep13dfXMYTVwmXjuE0rZeJ6PqsLluisZOUtClGXByqXf2PDYWu8E9JK718NrEZLIbyJVIFvSXNgc40sYO-eqXS3Rg9TpTdY",
+      "description": "Our goal is to empower people of all backgrounds to learn how to program.",
+      "url": "http://processingfoundation.org",
+      "num_projects": 14,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5256745899261952/",
+      "topics": ["creative coding", "graphics", "web", "education", "design"],
+      "technologies": ["java", "javascript", "python", "android", "opengl"]
+    },
+    {
+      "name": "The Wine Project",
+      "image_url": "https://lh3.googleusercontent.com/ykorz0_dV9cM3CgiEDK3Krr7CYhGuncQWw49ijPQZ1pTrCYwCRAyh93N5q4iwOOlpvHAGUj4vOm4LBgnowrTdk3tbGcqRgQ",
+      "description": "Wine runs Windows applications on Linux, BSD, Solaris and Mac OS X.",
+      "url": "http://www.winehq.org/",
+      "num_projects": 0,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5417956825628672/",
+      "topics": ["compatibility", "desktop integration"],
+      "technologies": ["c", "opengl", "directx", "x11", "win32"]
+    },
+    {
+      "name": "Tiled",
+      "image_url": "https://lh3.googleusercontent.com/N82LnqT49LVmJ28wMr-Rkos0G1sWptTlzlDufgbUAaAe7gg7_p2tbsEQSDOKJl--rLX9X1GI7nbQdzTOKEGKsaqwAJkf7zp5",
+      "description": "A free, easy to use and flexible 2D level editor.",
+      "url": "http://www.mapeditor.org",
+      "num_projects": 3,
+      "category": "End User Applications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6470814639587328/",
+      "topics": ["edit", "editing", "level", "game", "game development"],
+      "technologies": ["qt", "c++", "git", "github"]
+    },
+    {
+      "name": "TimVideos",
+      "image_url": "https://lh3.googleusercontent.com/CFfiFkBCFCpy3Ca0VINsgQOJPLAa1GRAl3mX9JETHRyGKJ8SPmaN-j68TB_b85JtLIDEiLuke15X8pPfxT2J0JQkUGfBPw",
+      "description": "Software & hardware to recording + streaming conferences, meetings & usergroups.",
+      "url": "https://code.timvideos.us",
+      "num_projects": 2,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6543856732471296/",
+      "topics": ["hardware", "embedded", "video", "fpga"],
+      "technologies": ["python", "verilog", "fpga", "vhdl", "c"]
+    },
+    {
+      "name": "Tor",
+      "image_url": "https://lh3.googleusercontent.com/ZcWy5qLWZqlLaho3GTMOH7FedbhtrOqcTld6n1pJmOGJKJwbe981Sxv6_phqyUDH7MhDC99a9alMfb4KgFxCCEd9QH4cALwq",
+      "description": "Internet privacy and anonymity",
+      "url": "https://www.torproject.org/",
+      "num_projects": 4,
+      "category": "Security",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5273949793419264/",
+      "topics": ["privacy", "anonymity", "counter-censorship", "free-speech"],
+      "technologies": ["c", "python", "javascript", "c++"]
+    },
+    {
+      "name": "UCSC Xena",
+      "image_url": "https://lh3.googleusercontent.com/e7Ri2a2tncmttWUA1YSmMvOa1ONgq02-f3OO7a4Bctz1259dduHPCsnZGGLVUD1whMEDPLG_yR1uJITp51CJppxQyZAGZUU",
+      "description": "Helping biologists see the bigger picture in diverse cancer genomics data",
+      "url": "http://xena.ucsc.edu",
+      "num_projects": 1,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4944943755821056/",
+      "topics": [
+        "genomics",
+        "data visualization",
+        "cancer",
+        "bioinformatics",
+        "web application"
+      ],
+      "technologies": ["javascript", "react", "clojure", "d3", "python"]
+    },
+    {
+      "name": "Urban Energy Systems Laboratory, Empa",
+      "image_url": "https://lh3.googleusercontent.com/2ZeU3O2oOvAkneIhXFjY_bIuvV0vRzmyAgzKDM7UP5a2LP6TwohTU5MpYR43-zd7pfpjhBVYzIRlap8fkpY8RJwhJwABEGvD",
+      "description": "HUES is a platform for modeling & analysis of distributed energy systems",
+      "url": "https://hues-platform.github.io/",
+      "num_projects": 3,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4513544758362112/",
+      "topics": [
+        "distributed energy systems",
+        "modeling & optimization",
+        "data portal"
+      ],
+      "technologies": ["python", "gis", "fast fluid dynamics"]
+    },
+    {
+      "name": "VideoLAN",
+      "image_url": "https://lh3.googleusercontent.com/qLSJFgSiCVKxEWT0bou38OWPKQIkhCs3chuGRiabN-zMkY3lzOZGo4JQ6rDhXwutHPRgh6SxA06X3xrkpii2gyZAqx6hT88",
+      "description": "A team of volunteers, believing in the power of open source multimedia.",
+      "url": "https://www.videolan.org",
+      "num_projects": 9,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4898083515138048/",
+      "topics": ["video", "audio", "multimedia"],
+      "technologies": ["c++", "c", "opengl", "qt", "assembly"]
+    },
+    {
+      "name": "ViSP",
+      "image_url": "https://lh3.googleusercontent.com/XrpZP_r_9tqAairFbr4e_svLCX6D6rbxDM1PNmsODLridMl6l50Rgxzw6AP_a-VEWmxbGbyXCVsOQLg8UYF2eKbfAJLw3QY",
+      "description": "Visual tracking and visual servoing library",
+      "url": "https://visp.inria.fr/",
+      "num_projects": 1,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4892929554382848/",
+      "topics": ["robotics", "vision"],
+      "technologies": ["vision", "c++"]
+    },
+    {
+      "name": "Wikimedia Foundation",
+      "image_url": "https://lh3.googleusercontent.com/x0Pj8ORuPpana8r5jbptb2yIO40wg6ouIUtkqpOutRIULqLOgGqla1-JLHidt4U02NXkGWzTTUp2DS0jcHAW6gpYw23_uA",
+      "description": "Global movement whose mission is to bring free educational content to the world",
+      "url": "http://wikimediafoundation.org",
+      "num_projects": 7,
+      "category": "Web",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6468952502829056/",
+      "topics": ["web", "wiki", "encyclopedia"],
+      "technologies": ["php", "javascript", "html", "css", "jquery"]
+    },
+    {
+      "name": "WorldBrain - Verifying the Internet with Science",
+      "image_url": "https://lh3.googleusercontent.com/6xf1OSTMNXR9eGkMle49rCCSn9asH7e_YR0ZaPvZb_dpFuQuDXXyioLV6YBT78vBd1u2c7LuNmsZmqqrmeRd_KU95RemzdzE",
+      "description": "Full-text search your history, bookmarks and all your apps.",
+      "url": "http://worldbrain.io",
+      "num_projects": 1,
+      "category": "Social / Communications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6393325913374720/",
+      "topics": ["fake-news", "misinformation", "search", "digital knowledge"],
+      "technologies": ["reactjs", "javascript"]
+    },
+    {
+      "name": "WSO2",
+      "image_url": "https://lh3.googleusercontent.com/1E8AX1katjzwQ4Lu7AQVzd-V2E0y-RWFm4ZR7_eS7yct9wEagNcya2aGsZMH4TOaD0RF75iKM3uom-4enwPlyCMQ_tOXgg",
+      "description": "Comprehensive and open source middleware platform that spans the breadth of SOA",
+      "url": "http://wso2.com/",
+      "num_projects": 9,
+      "category": "Other",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6070843662663680/",
+      "topics": [
+        "cloud",
+        "iot",
+        "security",
+        "micro services",
+        "api management"
+      ],
+      "technologies": [
+        "soa",
+        "middleware",
+        "java",
+        "distributed computing",
+        "web services"
+      ]
+    },
+    {
+      "name": "wxWidgets",
+      "image_url": "https://lh3.googleusercontent.com/eOVcxwPPFY88vbPAbL0VdS3UXorKsdc3Ow4SIUsUecOXlnaNEOgMxlvJeKw6AG3zMw9IZdSp5_Xz93Rr5f8-EsrW2hAwrrg",
+      "description": "Library for creating portable native GUIs in C++",
+      "url": "http://www.wxwidgets.org/",
+      "num_projects": 2,
+      "category": "Programming Languages and Development Tools",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5262324659126272/",
+      "topics": ["cross-platform", "desktop", "gui"],
+      "technologies": ["c++", "gtk+", "win32", "cocoa"]
+    },
+    {
+      "name": "X.Org Foundation",
+      "image_url": "https://lh3.googleusercontent.com/2UvufG7SrBIU6iHAqqawF2JU4I4bGpPdB3UvyI9jJyD4Q8qMUJwnjRlPKcEyV2JeGXWmqShG5XipMNM9UuUuENflR4vV7slF",
+      "description": "X Window System and related projects (Mesa, DRI, Wayland, etc.)",
+      "url": "http://www.x.org",
+      "num_projects": 4,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6339354280591360/",
+      "topics": [
+        "graphics stack",
+        "operating system",
+        "graphics",
+        "3d",
+        "video"
+      ],
+      "technologies": ["opengl", "vulkan", "x11", "wayland", "opencl"]
+    },
+    {
+      "name": "Xapian Search Engine Library",
+      "image_url": "https://lh3.googleusercontent.com/nUKe3F1aZ12vp_VXwCKDRoFRT4VESQyh-Jo7luPj1ULSn_WCU8QvhoUEa-8B_l-gShRwsEPvAHNY47bF2mm2cAG88qjZZNg",
+      "description": "Fast, scalable and flexible search",
+      "url": "https://xapian.org/",
+      "num_projects": 3,
+      "category": "Data and Databases",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6189339662876672/",
+      "topics": [
+        "search",
+        "information retrieval",
+        "machine learning",
+        "linguistics",
+        "indexing"
+      ],
+      "technologies": ["c++", "unicode", "swig", "linux", "golang"]
+    },
+    {
+      "name": "XBMC Foundation",
+      "image_url": "https://lh3.googleusercontent.com/7kBt6Z9y28DiJ2H0O5F6alI5uzgmIJqd8-Ep493qS9GuDWZyWpBY0MdL86dyy3qXN9WsWO01ofuHZiwX4SzQYwx4_Y18X7os",
+      "description": "Kodi Media Center",
+      "url": "http://kodi.tv",
+      "num_projects": 3,
+      "category": "Graphics / Video / Audio / Virtual Reality",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5704018827411456/",
+      "topics": ["media center", "video player", "audio", "media management"],
+      "technologies": ["python", "c++11", "xml", "git", "drupal"]
+    },
+    {
+      "name": "Xen Project",
+      "image_url": "https://lh3.googleusercontent.com/8-1iv11qUH3NQh51RUUucz5KaFc-xnirXU3Bsd_oQfGzen68L0H4YvyGdbDuwZqLRhiBRKjAJ_XTkzdJiMMvJTKKb94AmQ",
+      "description": "Bringing the power of virtualization everywhere",
+      "url": "http://xenproject.org/",
+      "num_projects": 2,
+      "category": "Cloud",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5748328394391552/",
+      "topics": [
+        "virtualization",
+        "security",
+        "cloud computing",
+        "unikernels",
+        "embedded/automotive"
+      ],
+      "technologies": ["linux", "free/netbsd", "asm/c/c++", "qemu", "ocaml"]
+    },
+    {
+      "name": "XMPP Standards Foundation",
+      "image_url": "https://lh3.googleusercontent.com/gd-sdsaL3PtSKtI2lX4wgyvA-_jJGUYlqLInZL5AOlfpWB9G7lxRF_XQTwJNhchca4hwAv3RpIituJ2lLw0TbJHveYcIK4s",
+      "description": "Secure messaging with open standards",
+      "url": "https://xmpp.org",
+      "num_projects": 2,
+      "category": "Social / Communications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6062681614188544/",
+      "topics": [
+        "chat",
+        "messaging",
+        "instant messaging",
+        "social",
+        "communications"
+      ],
+      "technologies": ["xmpp", "c++", "java", "erlang", "javascript"]
+    },
+    {
+      "name": "XWiki",
+      "image_url": "https://lh3.googleusercontent.com/S58ALZNJHSaVWIyZCoYgZu1vHsyRfXWKdSR4juj8o18xWLcvLeGI-gGXcTG5PPxG_k5awu166FDB4yVAvkfWdYCWmxTjH-Y",
+      "description": "The Advanced Open Source Enterprise Wiki",
+      "url": "http://www.xwiki.org/",
+      "num_projects": 2,
+      "category": "Web",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6636322546515968/",
+      "topics": ["web development", "web platform and services", "wiki"],
+      "technologies": ["java", "javascript", "html5", "css3", "velocity"]
+    },
+    {
+      "name": "Zenodo",
+      "image_url": "https://lh3.googleusercontent.com/t18I4Tabm3yIeT595HG9pbjrqUelCzLjUoWehqSCdBmLS9uk7vgPCJRQoBJRFArkA_pbyj-LZisqDm-IjCbLfKgT0Ek2UA",
+      "description": "A free and open digital archive for the long-tail of science.",
+      "url": "https://zenodo.org",
+      "num_projects": 2,
+      "category": "Science and Medicine",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4744852235354112/",
+      "topics": [
+        "content management",
+        "web",
+        "open science",
+        "digital library",
+        "machine learning"
+      ],
+      "technologies": [
+        "python",
+        "postgresql",
+        "flask",
+        "angularjs",
+        "elasticsearch"
+      ]
+    },
+    {
+      "name": "Zulip",
+      "image_url": "https://lh3.googleusercontent.com/fOxr2i7xgNsXlEtEnnbCZCQQSVImnqXVKbf_-oo5Hm_Lq38KwmDryVdCmvd1lOnlQLtRsiess_b4WHce6FnsuvtF3F7kc1E",
+      "description": "Powerful, modern, open source group chat, complete with apps for every platform.",
+      "url": "https://zulip.org/",
+      "num_projects": 10,
+      "category": "Social / Communications",
+      "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4533090483437568/",
+      "topics": [
+        "enterprise",
+        "web development",
+        "group chat",
+        "cross-platform",
+        "mobile applications"
+      ],
+      "technologies": [
+        "python",
+        "django",
+        "javascript",
+        "react native",
+        "electron"
+      ]
+    }
+  ]
+}
