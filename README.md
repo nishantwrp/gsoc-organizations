@@ -9,6 +9,7 @@
   <br>
   <center>
   <a href="https://app.netlify.com/sites/gsoc-organizations-new/deploys"><img src="https://api.netlify.com/api/v1/badges/71cda104-920e-48f6-aa35-5c7c63655261/deploy-status"></a>
+  <a href="https://app.netlify.com/sites/gsoc-organizations-api/deploys"><img src="https://api.netlify.com/api/v1/badges/15064b7c-f1e9-43cd-8c7e-a3709214d21e/deploy-status"></a>
   </center>
 </h1>
 
