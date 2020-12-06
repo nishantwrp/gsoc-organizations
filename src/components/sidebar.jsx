@@ -74,9 +74,20 @@ const Sidebar = ({ config }) => {
                     </GitHubButton>
                   </td>
                   <td>
+                    <a
+                      href="https://api.gsocorganizations.dev/"
+                      target="_blank"
+                      rel="norefferer"
+                    >
+                      <Button icon compact={true}>
+                        <Icon name="database"></Icon>
+                      </Button>
+                    </a>
+                  </td>
+                  <td>
                     <a href="mailto:contact@gsocorganizations.dev">
-                      <Button basic color="black" compact={true}>
-                        <Icon name="mail"></Icon>Contact
+                      <Button icon compact={true}>
+                        <Icon name="mail"></Icon>
                       </Button>
                     </a>
                   </td>
