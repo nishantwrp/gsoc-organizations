@@ -13,7 +13,7 @@
 .mobile-toolbar-logo {
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 8px;
+  min-width: 50px;
 }
 
 .mobile-toolbar-sidebar-toggle {
@@ -21,7 +21,13 @@
   margin-bottom: auto;
   margin-left: auto;
   font-size: 35px;
-  padding-right: 8px;
+  min-width: 50px;
   color: #ffa62b;
   cursor: pointer;
+}
+
+.mobile-toolbar-search {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
 }

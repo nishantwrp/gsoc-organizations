@@ -79,14 +79,22 @@ const Sidebar = ({ config }) => {
                       target="_blank"
                       rel="norefferer"
                     >
-                      <Button icon compact={true}>
+                      <Button
+                        className="sidebar-footer-icon-link"
+                        icon
+                        compact={true}
+                      >
                         <Icon name="database"></Icon>
                       </Button>
                     </a>
                   </td>
                   <td>
                     <a href="mailto:contact@gsocorganizations.dev">
-                      <Button icon compact={true}>
+                      <Button
+                        className="sidebar-footer-icon-link"
+                        icon
+                        compact={true}
+                      >
                         <Icon name="mail"></Icon>
                       </Button>
                     </a>

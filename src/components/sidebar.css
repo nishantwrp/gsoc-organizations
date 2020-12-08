@@ -51,6 +51,10 @@
   color: #db6400;
 }
 
+.sidebar-footer-icon-link {
+  margin: 0px !important;
+}
+
 .sidebar-footer-text-container {
   margin-top: 5px;
 }
