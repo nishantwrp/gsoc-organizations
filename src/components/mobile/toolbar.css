@@ -4,7 +4,7 @@
   position: fixed;
   top: 0px;
   display: flex;
-  z-index: 100000;
+  z-index: 10;
   background-color: #ffff;
   border-bottom: 1px solid rgb(212, 218, 223);
   box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
