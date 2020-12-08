@@ -2,6 +2,7 @@
   margin-left: 0px !important;
   margin-top: 0px !important;
   margin-bottom: 0px !important;
+  margin-right: 0px !important;
 }
 
 .desktop-layout-grid-row {
@@ -10,6 +11,23 @@
 }
 
 .desktop-layout-grid-column {
+  padding-right: 0px !important;
   padding-left: 0px !important;
   padding-bottom: 0px !important;
+}
+
+.desktop-layout-search {
+  position: fixed;
+  z-index: 10;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* 75% because sidebar is 25% of the width. */
+  width: 75%;
+  background-color: #ffff;
+  border-bottom: 1px solid rgb(212, 218, 223);
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
+}
+
+.desktop-layout-content {
+  padding-top: 60px;
 }
