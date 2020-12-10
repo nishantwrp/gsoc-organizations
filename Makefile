@@ -6,4 +6,7 @@ api:
 	rm -rf api-dist && \
 	mkdir api-dist && \
 	cp redoc-static.html api-dist/index.html && \
-	rm redoc-static.html
+	rm redoc-static.html && \
+	cp api/data/* api-dist/ && \
+	node scripts/generate-data.js && \
+	mv organizations.json api-dist

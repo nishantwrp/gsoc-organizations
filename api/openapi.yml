@@ -1,12 +1,260 @@
 openapi: '3.0.2'
 info:
   title: GSoC Organizations API
+  description: |
+    The data displayed in <a href="https://gsocorganizations.dev" target="_blank">GSoC Organizations</a> is scraped from the official <a href="https://summerofcode.withgoogle.com/archive" target="_blank">GSoC archive</a>.
+    You can access the scraped data from the following endpoints.
+  contact:
+    name: GSoC Organizations
+    email: contact@gsocorganizations.dev
   version: '1.0'
 servers:
   - url: https://api.gsocorganizations.dev/
+
+components:
+  schemas:
+    Organizations:
+      type: object
+      required:
+        - name
+        - image_url
+        - description
+        - url
+        - category
+        - topics
+        - technologies
+        - years
+      properties:
+        name:
+          type: string
+        image_url:
+          type: string
+        description:
+          type: string
+        url:
+          type: string
+        category:
+          type: string
+        topics:
+          type: array
+          items:
+            type: string
+        technologies:
+          type: array
+          items:
+            type: string
+        years:
+          type: object
+          properties:
+            2016:
+              type: object
+              required:
+                - projects_url
+                - num_projects
+              properties:
+                projects_url:
+                  type: string
+                num_projects:
+                  type: number
+            2017:
+              type: object
+              required:
+                - projects_url
+                - num_projects
+              properties:
+                projects_url:
+                  type: string
+                num_projects:
+                  type: number
+            2018:
+              type: object
+              required:
+                - projects_url
+                - num_projects
+              properties:
+                projects_url:
+                  type: string
+                num_projects:
+                  type: number
+            2019:
+              type: object
+              required:
+                - projects_url
+                - num_projects
+              properties:
+                projects_url:
+                  type: string
+                num_projects:
+                  type: number
+            2020:
+              type: object
+              required:
+                - projects_url
+                - num_projects
+              properties:
+                projects_url:
+                  type: string
+                num_projects:
+                  type: number
+    OrganizationSingleYear:
+      type: object
+      required:
+        - name
+        - image_url
+        - description
+        - url
+        - num_projects
+        - category
+        - projects_url
+        - topics
+        - technologies
+      properties:
+        name:
+          type: string
+        image_url:
+          type: string
+        description:
+          type: string
+        url:
+          type: string
+        num_projects:
+          type: number
+        category:
+          type: string
+        projects_url:
+          type: string
+        topics:
+          type: array
+          items:
+            type: string
+        technologies:
+          type: array
+          items:
+            type: string
+
 paths:
-  /test:
+  /organizations.json:
     get:
+      operationId: orgsAll
+      summary: All Organizations
+      description: |
+        Get the data of all the organizations that participated in Google Summer of Code from 2016 to 2020.
       responses:
         '200':
           description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Organizations"
+  /2020.json:
+    get:
+      operationId: orgs2020
+      summary: 2020 Organizations
+      description: |
+        Get the data of all the organizations that participated in Google Summer of Code 2020.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  year:
+                    type: string
+                  archive_url:
+                    type: string
+                  organizations:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/OrganizationSingleYear"
+  /2019.json:
+    get:
+      operationId: orgs2019
+      summary: 2019 Organizations
+      description: |
+        Get the data of all the organizations that participated in Google Summer of Code 2019.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  year:
+                    type: string
+                  archive_url:
+                    type: string
+                  organizations:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/OrganizationSingleYear"
+  /2018.json:
+    get:
+      operationId: orgs2018
+      summary: 2018 Organizations
+      description: |
+        Get the data of all the organizations that participated in Google Summer of Code 2018.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  year:
+                    type: string
+                  archive_url:
+                    type: string
+                  organizations:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/OrganizationSingleYear"
+  /2017.json:
+    get:
+      operationId: orgs2017
+      summary: 2017 Organizations
+      description: |
+        Get the data of all the organizations that participated in Google Summer of Code 2017.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  year:
+                    type: string
+                  archive_url:
+                    type: string
+                  organizations:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/OrganizationSingleYear"
+  /2016.json:
+    get:
+      operationId: orgs2016
+      summary: 2016 Organizations
+      description: |
+        Get the data of all the organizations that participated in Google Summer of Code 2016.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  year:
+                    type: string
+                  archive_url:
+                    type: string
+                  organizations:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/OrganizationSingleYear"   
