@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import "./sidebar.css"
+import Filter from "./Filter"
 
 import Logo from "./logo"
 import GitHubButton from "react-github-btn"
@@ -53,7 +54,9 @@ const Sidebar = ({ config }) => {
             </Container>
           </div>
         </div>
-        <div class="sidebar-content">Filter Content</div>
+        <div class="sidebar-content">
+          <Filter />
+        </div>
         <div class="sidebar-footer">
           <center>
             <Divider className="sidebar-footer-divider" />
