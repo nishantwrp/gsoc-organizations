@@ -77,7 +77,7 @@ const Sidebar = ({ config }) => {
                     <a
                       href="https://api.gsocorganizations.dev/"
                       target="_blank"
-                      rel="norefferer"
+                      rel="noreferrer"
                     >
                       <Button
                         className="sidebar-footer-icon-link"
