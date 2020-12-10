@@ -163,7 +163,7 @@ paths:
                 type: object
                 properties:
                   year:
-                    type: string
+                    type: number
                   archive_url:
                     type: string
                   organizations:
@@ -185,7 +185,7 @@ paths:
                 type: object
                 properties:
                   year:
-                    type: string
+                    type: number
                   archive_url:
                     type: string
                   organizations:
@@ -207,7 +207,7 @@ paths:
                 type: object
                 properties:
                   year:
-                    type: string
+                    type: number
                   archive_url:
                     type: string
                   organizations:
@@ -229,7 +229,7 @@ paths:
                 type: object
                 properties:
                   year:
-                    type: string
+                    type: number
                   archive_url:
                     type: string
                   organizations:
@@ -251,7 +251,7 @@ paths:
                 type: object
                 properties:
                   year:
-                    type: string
+                    type: number
                   archive_url:
                     type: string
                   organizations:
