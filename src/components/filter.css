@@ -1,34 +1,32 @@
-.singlefilter {
-  border-bottom: 2px solid white;
-  height: 120px;
-  overflow: auto;
+.filter-filter {
+  justify-content: center;
+  text-align: center;
 }
 
-.checkboxes {
-  display: flex;
-  flex-direction: column;
-  margin-left: 5px;
-}
-
-.filtername {
+.filter-topic {
   color: #16697a;
-  margin-left: 4px;
-  font-weight: 900;
-  font-size: 16px;
+  font-family: "Galano Grotesque Alt Medium";
+  font-size: 15px;
 }
 
-.search {
-  margin-top: 3px;
-  margin-left: 4px;
-  margin-right: 15px;
-  color: #db6400;
+.filter-search {
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
-.input {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 5px;
-  height: 28px;
-  width: 100%;
-  color: #db6400;
+.filter-boxes-container {
+  width: 80%;
+  text-align: left;
+  justify-content: left;
+}
+
+.filter-view-more {
+  cursor: pointer;
+  color: #16697a;
+  font-family: "Lato";
+  font-size: 12px;
+}
+
+.filter-divider {
+  width: 40%;
 }
