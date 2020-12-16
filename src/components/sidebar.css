@@ -1,4 +1,5 @@
 .sidebar-sidebar {
+  z-index: 20;
   height: 100%;
   position: fixed;
   transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -13,6 +14,25 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar-content-clear-filters {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: auto;
+}
+
+.sidebar-content-filters {
+  padding-top: 10px;
+  height: 100%;
+  overflow: auto;
 }
 
 .sidebar-logo-description {
@@ -49,6 +69,10 @@
 
 .sidebar-footer-icon {
   color: #db6400;
+}
+
+.sidebar-footer-icon-link {
+  margin: 0px !important;
 }
 
 .sidebar-footer-text-container {

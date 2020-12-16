@@ -5,6 +5,7 @@ import "./toolbar.css"
 import Dimmer from "./dimmer"
 import Logo from "../logo"
 import Sidebar from "../sidebar"
+import Search from "../search"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 
@@ -18,14 +19,22 @@ const Toolbar = () => {
   return (
     <div className="mobile-toolbar">
       <div className="mobile-toolbar-logo noselect">
-        <Logo />
+        <center>
+          <Logo />
+        </center>
       </div>
-      <div className="mobile-toolbar-serach">Search</div>
+      <div className="mobile-toolbar-search">
+        <center>
+          <Search />
+        </center>
+      </div>
       <div
         className="mobile-toolbar-sidebar-toggle noselect"
         onClick={toggleSidebarVisibilty}
       >
-        <FontAwesomeIcon icon={faBars} />
+        <center>
+          <FontAwesomeIcon icon={faBars} />
+        </center>
       </div>
       <Dimmer
         onClick={toggleSidebarVisibilty}

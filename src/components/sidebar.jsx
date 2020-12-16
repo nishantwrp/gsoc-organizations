@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import "./sidebar.css"
+import Filter from "./filter"
 
 import Logo from "./logo"
 import GitHubButton from "react-github-btn"
@@ -36,13 +37,13 @@ const getSidebarStyles = config => {
 
 const Sidebar = ({ config }) => {
   return (
-    <div class="sidebar-sidebar" style={getSidebarStyles(config)}>
-      <div class="sidebar-div">
-        <div class="sidebar-logo-description">
-          <div class="sidebar-logo">
+    <div className="sidebar-sidebar" style={getSidebarStyles(config)}>
+      <div className="sidebar-div">
+        <div className="sidebar-logo-description">
+          <div className="sidebar-logo">
             <Logo size={60}></Logo>
           </div>
-          <div class="sidebar-description">
+          <div className="sidebar-description">
             <Container>
               {" "}
               open-source organizations participating in{" "}
@@ -53,8 +54,20 @@ const Sidebar = ({ config }) => {
             </Container>
           </div>
         </div>
-        <div class="sidebar-content">Filter Content</div>
-        <div class="sidebar-footer">
+        <div className="sidebar-content">
+          <div className="sidebar-content-clear-filters">
+            <Button size="tiny" basic color="orange">
+              Clear all filters
+            </Button>
+          </div>
+          <div className="sidebar-content-filters">
+            <Filter />
+            <Filter />
+            <Filter />
+            <Filter />
+          </div>
+        </div>
+        <div className="sidebar-footer">
           <center>
             <Divider className="sidebar-footer-divider" />
           </center>
@@ -74,24 +87,43 @@ const Sidebar = ({ config }) => {
                     </GitHubButton>
                   </td>
                   <td>
+                    <a
+                      href="https://api.gsocorganizations.dev/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Button
+                        className="sidebar-footer-icon-link"
+                        icon
+                        compact={true}
+                      >
+                        <Icon name="database"></Icon>
+                      </Button>
+                    </a>
+                  </td>
+                  <td>
                     <a href="mailto:contact@gsocorganizations.dev">
-                      <Button basic color="black" compact={true}>
-                        <Icon name="mail"></Icon>Contact
+                      <Button
+                        className="sidebar-footer-icon-link"
+                        icon
+                        compact={true}
+                      >
+                        <Icon name="mail"></Icon>
                       </Button>
                     </a>
                   </td>
                 </tr>
               </table>
-              <div class="sidebar-footer-text-container">
-                <span class="sidebar-footer-text">
+              <div className="sidebar-footer-text-container">
+                <span className="sidebar-footer-text">
                   Made with{" "}
-                  <span class="sidebar-footer-icon">
+                  <span className="sidebar-footer-icon">
                     <Icon name="heart"></Icon>
                   </span>{" "}
                   and{" "}
                   <a
                     href="https://www.gatsbyjs.org/"
-                    class="sidebar-footer-text"
+                    className="sidebar-footer-text"
                     target="_blank"
                     rel="noreferrer"
                   >

@@ -1,0 +1,32 @@
+.filter-filter {
+  justify-content: center;
+  text-align: center;
+}
+
+.filter-topic {
+  color: #16697a;
+  font-family: "Galano Grotesque Alt Medium";
+  font-size: 15px;
+}
+
+.filter-search {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.filter-boxes-container {
+  width: 80%;
+  text-align: left;
+  justify-content: left;
+}
+
+.filter-view-more {
+  cursor: pointer;
+  color: #16697a;
+  font-family: "Lato";
+  font-size: 12px;
+}
+
+.filter-divider {
+  width: 40%;
+}

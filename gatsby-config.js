@@ -35,11 +35,17 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-less`,
     {
       resolve: "gatsby-plugin-breakpoints",
       options: {
         queries: breakPoints,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `#db6400`,
+        showSpinner: false,
       },
     },
   ],
