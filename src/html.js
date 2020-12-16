@@ -16,6 +16,29 @@ export default function HTML(props) {
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
         <div
+          key={`loader`}
+          id="___loader"
+          style={{
+            alignItems: "center",
+            backgroundColor: "#ffffff",
+            display: "flex",
+            justifyContent: "center",
+            position: "absolute",
+            left: 0,
+            top: 0,
+            right: 0,
+            bottom: 0,
+            zIndex: 100,
+          }}
+        >
+          <img
+            src="/images/loading.gif"
+            alt="Loading"
+            width="150"
+            height="auto"
+          />
+        </div>
+        <div
           key={`body`}
           id="___gatsby"
           dangerouslySetInnerHTML={{ __html: props.body }}
