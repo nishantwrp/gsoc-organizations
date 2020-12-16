@@ -42,5 +42,12 @@ module.exports = {
         queries: breakPoints,
       },
     },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `#db6400`,
+        showSpinner: false,
+      },
+    },
   ],
 }
