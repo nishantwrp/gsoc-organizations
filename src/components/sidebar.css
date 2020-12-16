@@ -17,6 +17,21 @@
 }
 
 .sidebar-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar-content-clear-filters {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: auto;
+}
+
+.sidebar-content-filters {
+  padding-top: 10px;
+  height: 100%;
   overflow: auto;
 }
 
