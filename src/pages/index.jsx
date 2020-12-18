@@ -1,180 +1,207 @@
 import React from "react"
 
+import "./index.css"
+
 import Layout from "../layouts/layout"
-import { Card, Icon, List, Image } from "semantic-ui-react"
+import OrgCard from "../components/org-card"
+import { Grid } from "semantic-ui-react"
 
-const CardExampleCardProps = () => (
-  <Card>
-    <Image
-      src="https://lh3.googleusercontent.com/jq4RtxaUJf4KNYhzaFpeRqkS6MywFFMIpCeQ4FxZduX6HkpS_qQZasGfF1HXy3D9AhFyjQEb378xoolb77sOYdumqt3ASQ"
-      wrapped
-      ui={false}
-    />
-    <Card.Content>
-      <Card.Header
-        style={{
-          textAlign: "center",
-          color: "#16697a",
-        }}
-      >
-        OPPIA
-      </Card.Header>
+const orgs = [
+  {
+    name: "3DTK",
+    url: "http://threedtk.de",
+    image_url:
+      "https://lh3.googleusercontent.com/5bb1zuSJfNaskJVgD5jO4Mdzamk1udiUH1BXVSzMcM8fB-kIy62kBFS6MtQj1EW445ZkQ1BWlvJL2oXRJNqsYBcmPWpSXng",
+    description:
+      "The 3D Toolkit provides algorithms and methods to process 3D point clouds",
+    category: "Science and Medicine",
+    topics: ["3d", "point clouds", "slam", "robotics", "mapping"],
+    technologies: ["c/c++", "cmake", "opencv", "ros", "boost"],
+    years: {
+      2018: {
+        projects_url:
+          "https://summerofcode.withgoogle.com/archive/2018/organizations/5685665089978368/",
+        num_projects: 2,
+      },
+    },
+  },
+  {
+    name: "52° North GmbH",
+    url: "https://52north.org",
+    image_url:
+      "https://lh3.googleusercontent.com/b3Eq2hMuwWVThPV-5EqL3UB8qWSOnMabjXaYn_UaYg6UUvDc1aiSyTGrxEddbCVZZLYeoCyjgtsvkUvCuQ8trdbFR6-YLA",
+    description:
+      "52°North works on innovative ideas and technologies in geoinformatics",
+    category: "Science and Medicine",
+    topics: [
+      "spatial data",
+      "sensor web",
+      "web-based geoprocessing",
+      "earth observation",
+      "geoinformatics",
+      "spatial data infrastructures",
+      "spatial information",
+      "geoprocessing",
+      "remote sensing",
+      "geostatistics",
+      "ogc",
+      "web processing",
+      "sensorweb",
+      "floating car data",
+      "web services",
+      "ogc standards",
+      "trajectory analytics",
+    ],
+    technologies: [
+      "javascript",
+      "java",
+      "ogc standards",
+      "web services",
+      "web",
+      "spring",
+      "r",
+      "big data",
+      "android",
+      "python",
+      "react",
+    ],
+    years: {
+      2016: {
+        projects_url:
+          "https://summerofcode.withgoogle.com/archive/2016/organizations/5429283996565504/",
+        num_projects: 3,
+      },
+      2017: {
+        projects_url:
+          "https://summerofcode.withgoogle.com/archive/2017/organizations/4959751460880384/",
+        num_projects: 1,
+      },
+      2018: {
+        projects_url:
+          "https://summerofcode.withgoogle.com/archive/2018/organizations/5067792839606272/",
+        num_projects: 1,
+      },
+      2019: {
+        projects_url:
+          "https://summerofcode.withgoogle.com/archive/2019/organizations/6331236958601216/",
+        num_projects: 2,
+      },
+      2020: {
+        projects_url:
+          "https://summerofcode.withgoogle.com/archive/2020/organizations/6309633414660096/",
+        num_projects: 3,
+      },
+    },
+  },
+  {
+    name: "AOSSIE",
+    url: "https://aossie.gitlab.io/",
+    image_url:
+      "https://lh3.googleusercontent.com/87Kab9O_6iDrF_hVUPa9qOTjiiIh9aoqJAKkyG-31gomCoQoU85TPtx7fd7PlyGnMjRStm9IELvhsWrdbijhOYNGJgPa3bM",
+    description: "Australian Umbrella Org for Open-Source Projects",
+    category: "End User Applications",
+    topics: [
+      "electronic voting",
+      "natural language processing",
+      "machine learning",
+      "environment",
+      "social science",
+    ],
+    technologies: ["javascript", "swift", "kotlin", "python"],
+    years: {
+      2020: {
+        projects_url:
+          "https://summerofcode.withgoogle.com/archive/2020/organizations/5037209255673856/",
+        num_projects: 9,
+      },
+    },
+  },
+  {
+    name: "AOSSIE - Australian Open Source Software Innovation and Education",
+    url: "http://aossie.org/",
+    image_url:
+      "https://lh3.googleusercontent.com/vnZyDSkHg8vXeaqv85AbqSY1i01hBkwZxsOS3hJgy7GeFRaXNvUNwamhd2y0pELzJEDoQoZzqdH2zBs_HpC_63clXRxwIj31",
+    description: "Australian Umbrella Org for Open-Source Projects",
+    category: "End User Applications",
+    topics: [
+      "logic",
+      "electronic voting",
+      "natural language processing",
+      "philosophy",
+      "environment",
+      "machine learning",
+    ],
+    technologies: [
+      "scala",
+      "javascript/html/css",
+      "automated reasoning",
+      "android/ios",
+      "xcode",
+      "isabelle proof assistant",
+      "browser extension",
+      "javascript/html5/css3",
+      "javascript",
+      "android",
+      "ios",
+    ],
+    years: {
+      2017: {
+        projects_url:
+          "https://summerofcode.withgoogle.com/archive/2017/organizations/4780102642565120/",
+        num_projects: 13,
+      },
+      2018: {
+        projects_url:
+          "https://summerofcode.withgoogle.com/archive/2018/organizations/6209824106741760/",
+        num_projects: 13,
+      },
+      2019: {
+        projects_url:
+          "https://summerofcode.withgoogle.com/archive/2019/organizations/4551437139312640/",
+        num_projects: 18,
+      },
+    },
+  },
+  {
+    name:
+      "AOSSIE - The Australian National University's Open-Source Software Innovation and Education",
+    url:
+      "https://cecs.anu.edu.au/current-students/student-opportunities/google-summer-code-anu",
+    image_url:
+      "https://lh3.googleusercontent.com/XfzAMWazpWFv5aKpdEt9P6PMkHbX4Hz5LFbxdwNWnBiheiQKPYcUlbneEYs7ipnGdYTxnly9g6XCOF9jHm5lF2LxJxLYH0UJ",
+    description:
+      "Research-Intensive Open-Source Projects at Australia's Leading University",
+    category: "Science and Medicine",
+    topics: ["logic", "live programming", "data analysis", "health", "privacy"],
+    technologies: ["scala", "lisp", "llvm", "python", "postgresql"],
+    years: {
+      2016: {
+        projects_url:
+          "https://summerofcode.withgoogle.com/archive/2016/organizations/5127141637226496/",
+        num_projects: 6,
+      },
+    },
+  },
+]
 
-      <Card.Meta
-        style={{
-          color: "orange",
-          fontWeight: "bold",
-          fontFamily: "Montserrat",
-        }}
-      >
-        2016
-      </Card.Meta>
+const IndexPage = () => {
+  const cards = []
 
-      <Card.Description>
-        <List bulleted horizontal>
-          <List.Item
-            style={{
-              color: "#db6400",
-            }}
-            as="a"
-          >
-            C++
-          </List.Item>
-          <List.Item
-            style={{
-              color: "#db6400",
-            }}
-            as="a"
-          >
-            C++
-          </List.Item>
-          <List.Item
-            style={{
-              color: "#db6400",
-            }}
-            as="a"
-          >
-            C++
-          </List.Item>
-        </List>
-      </Card.Description>
-    </Card.Content>
-    <Card.Content extra>
-      <List horizontal>
-        <List.Item as="a">About Us</List.Item>
-        <List.Item as="a">Sitemap</List.Item>
-        <List.Item as="a">Contact</List.Item>
-      </List>
-    </Card.Content>
-  </Card>
-)
+  for (const org of orgs) {
+    cards.push(
+      <Grid.Column>
+        <OrgCard data={org} />
+      </Grid.Column>
+    )
+  }
 
-const CardExampleCardProps2 = () => (
-  <Card>
-    <Image
-      src="https://lh3.googleusercontent.com/aaKLhcIBHjVUTOfv1THA3FyAljtzAfxhXWZc_UKrVgNmN1A7Ef753BxfUudazULdnboLTgyXpKbJl4GzRM0-08FVVy_BB6E"
-      wrapped
-      ui={false}
-    />
-    <Card.Content>
-      <Card.Header
-        style={{
-          textAlign: "center",
-          color: "#16697a",
-        }}
-      >
-        KODI
-      </Card.Header>
-
-      <Card.Meta
-        style={{
-          color: "orange",
-          fontWeight: "bold",
-          fontFamily: "Montserrat",
-        }}
-      >
-        2016
-      </Card.Meta>
-
-      <Card.Description>
-        <List bulleted horizontal>
-          <List.Item
-            style={{
-              color: "#db6400",
-            }}
-            as="a"
-          >
-            C++
-          </List.Item>
-          <List.Item
-            style={{
-              color: "#db6400",
-            }}
-            as="a"
-          >
-            C++
-          </List.Item>
-          <List.Item
-            style={{
-              color: "#db6400",
-            }}
-            as="a"
-          >
-            C++
-          </List.Item>
-        </List>
-      </Card.Description>
-    </Card.Content>
-    <Card.Content extra>
-      <List horizontal>
-        <List.Item as="a">About Us</List.Item>
-        <List.Item as="a">Sitemap</List.Item>
-        <List.Item as="a">Contact</List.Item>
-      </List>
-    </Card.Content>
-  </Card>
-)
-
-// export default CardExampleCardProps
-
-const items2 = Array(100).fill({
-  header: "Project Report - April",
-  description:
-    "Leverage agile frameworks to provide a robust synopsis for high level overviews.",
-  meta: "ROI: 30%",
-  image:
-    "https://repository-images.githubusercontent.com/40687563/6ebdd900-b879-11e9-927a-490af85f8567",
-  header: "Elliot Baker",
-  meta: "Friend",
-  description:
-    "Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.",
-})
-
-const items = Array(100).fill({
-  image:
-    "https://repository-images.githubusercontent.com/40687563/6ebdd900-b879-11e9-927a-490af85f8567",
-  header: "Project Report - April",
-  description:
-    "Leverage agile frameworks to provide a robust synopsis for high level overviews.",
-  meta: "ROI: 30%",
-})
-
-let rows = []
-for (let i = 0; i < 100; i++) {
-  rows.push(<CardExampleCardProps key={i} />)
+  return (
+    <Layout>
+      <Grid className="index-org-cards-grid" stackable columns={4}>
+        {cards}
+      </Grid>
+    </Layout>
+  )
 }
-
-const IndexPage = () => (
-  <Layout>
-    {/* <rows/> */}
-
-    <div>
-      <CardExampleCardProps />
-      <CardExampleCardProps2 />
-      {/* <Card.Group items={items} />  */}
-      {/* <div class="ui card"><div class="image"><img src="/images/avatar/large/elliot.jpg"/></div><div class="content"><div class="header">Elliot Baker</div><div class="meta">Friend</div><div class="description">Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.</div></div><div class="extra content"><a><i aria-hidden="true" class="user icon"></i>16 Friends</a></div></div> */}
-    </div>
-  </Layout>
-)
 
 export default IndexPage
