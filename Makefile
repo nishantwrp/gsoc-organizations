@@ -9,4 +9,5 @@ api:
 	rm redoc-static.html && \
 	cp api/data/* api-dist/ && \
 	node scripts/generate-data.js && \
-	mv organizations.json api-dist
+	mv organizations.json api-dist && \
+	npx prettier --write api-dist/organizations.json
