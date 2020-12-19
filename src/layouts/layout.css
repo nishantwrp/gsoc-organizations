@@ -5,6 +5,15 @@ body {
   background-color: #fdfdfd;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
 @font-face {
   font-family: "Galano Grotesque Alt Medium";
   src: url("/fonts/GalanoGrotesqueAltMedium.woff");

@@ -196,7 +196,7 @@ const IndexPage = () => {
   }
 
   return (
-    <Layout>
+    <Layout homePage={true}>
       <Grid className="index-org-cards-grid" stackable columns={4}>
         {cards}
       </Grid>
