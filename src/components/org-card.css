@@ -1,0 +1,92 @@
+.org-card-container {
+  width: 100%;
+  border: 1px solid rgb(230, 236, 241);
+  height: 100%;
+  cursor: pointer;
+}
+
+.org-card-container:hover {
+  box-shadow: 0 9px 11px -5px rgba(0, 0, 0, 0.2),
+    0 18px 28px 2px rgba(0, 0, 0, 0.14), 0 7px 34px 6px rgba(0, 0, 0, 0.12);
+}
+
+.org-card-logo-container {
+  height: 128px;
+  padding: 5% 10%;
+  background-color: #ffffff;
+}
+
+.org-card-logo {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.org-card-name-container {
+  justify-content: center;
+  text-align: center;
+  padding: 0% 10%;
+  font-size: 16px;
+  font-family: "Galano Grotesque Alt Medium";
+}
+
+.org-card-description-container {
+  padding: 2% 3%;
+  font-family: "Galano Grotesque Alt Light";
+}
+
+.org-card-category-container {
+  text-align: center;
+  padding: 2% 2%;
+}
+
+.org-card-category-container span {
+  text-overflow: ellipsis;
+  display: inline-block;
+  width: inherit;
+  padding: 1%;
+  background-color: #db6400;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: "Galano Grotesque Alt Medium";
+}
+
+.org-card-years-container {
+  padding: 2% 2%;
+}
+
+.org-card-year {
+  display: inline-block;
+  margin: 1%;
+  padding: 1%;
+  background-color: #16697a;
+  color: white;
+  border-radius: 2px;
+  font-family: "Galano Grotesque Alt Medium";
+}
+
+.org-card-technologies-container {
+  padding: 2% 2%;
+}
+
+.org-card-technology {
+  display: inline-block;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid #db6400;
+  color: #db6400;
+  border-radius: 2px;
+  font-family: "Galano Grotesque Alt Medium";
+}
+
+.org-card-technology-extra {
+  text-decoration: underline;
+  display: inline-block;
+  margin: 1%;
+  padding: 1%;
+  color: #db6400;
+  border-radius: 2px;
+  font-family: "Galano Grotesque Alt Medium";
+}

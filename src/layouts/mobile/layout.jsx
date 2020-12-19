@@ -1,6 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+import "./layout.css"
+
 import Toolbar from "../../components/mobile/toolbar"
 
 const Layout = ({ children }) => {

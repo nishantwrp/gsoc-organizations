@@ -10,8 +10,9 @@ body {
   src: url("/fonts/GalanoGrotesqueAltMedium.woff");
 }
 
-.ui.cards {
-  margin: 0px;
+@font-face {
+  font-family: "Galano Grotesque Alt Light";
+  src: url("/fonts/GalanoGrotesqueAltLight.otf");
 }
 
 .noselect {
