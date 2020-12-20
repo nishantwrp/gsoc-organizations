@@ -4,6 +4,7 @@ import "./organization.css"
 
 import Layout from "../layouts/layout"
 import OrgInfo from "../components/org-info"
+import ProjectsGraph from "../components/projects-graph"
 import { Grid } from "semantic-ui-react"
 
 const org = {
@@ -83,7 +84,9 @@ const OrganizationPage = () => {
         <Grid.Column>
           <OrgInfo data={org} />
         </Grid.Column>
-        <Grid.Column>Graph</Grid.Column>
+        <Grid.Column>
+          <ProjectsGraph />
+        </Grid.Column>
       </Grid>
     </Layout>
   )
