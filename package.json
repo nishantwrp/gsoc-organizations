@@ -28,7 +28,8 @@
     "react-helmet": "^6.1.0",
     "redoc-cli": "^0.10.2",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.0.1"
+    "semantic-ui-react": "^2.0.1",
+    "slugify": "^1.4.6"
   },
   "devDependencies": {
     "husky": "^4.3.0",

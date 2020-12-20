@@ -1,27 +1,45 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { useStaticQuery, graphql } from "gatsby"
 
 import { Line } from "react-chartjs-2"
 
-const year = [0, 2016, 2017, 2018, 2019, 2020]
-const numberofselects = [0, 4, 4, 8, 6, 0]
+const ProjectsGraph = ({ data }) => {
+  const queryData = useStaticQuery(graphql`
+    query {
+      filter {
+        years
+      }
+    }
+  `)
 
-const state = {
-  labels: year,
-  datasets: [
-    {
-      label: "Number of projects",
-      fill: false,
-      lineTension: 0.38,
-      backgroundColor: "#db6400",
-      borderColor: "#16697a",
-      borderWidth: 3,
-      data: numberofselects,
-    },
-  ],
-}
+  const years = queryData.filter.years
+  years.sort()
+  const numProjects = []
 
-const ProjectsGraph = () => {
+  for (const year of years) {
+    if (Object.keys(data).includes(year)) {
+      numProjects.push(data[year].num_projects)
+    } else {
+      numProjects.push(0)
+    }
+  }
+
+  const state = {
+    labels: years,
+    datasets: [
+      {
+        label: "Number of projects",
+        fill: false,
+        lineTension: 0.38,
+        backgroundColor: "#db6400",
+        borderColor: "#16697a",
+        borderWidth: 3,
+        data: numProjects,
+      },
+    ],
+  }
+
   return (
     <Line
       data={state}
@@ -52,6 +70,7 @@ const ProjectsGraph = () => {
                 drawOnChartArea: false,
               },
               ticks: {
+                beginAtZero: true,
                 stepSize: 1,
               },
             },
@@ -60,6 +79,10 @@ const ProjectsGraph = () => {
       }}
     />
   )
+}
+
+ProjectsGraph.propTypes = {
+  data: PropTypes.object.isRequired,
 }
 
 export default ProjectsGraph

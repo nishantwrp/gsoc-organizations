@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import slugify from "slugify"
 
 import "./org-card.css"
 
@@ -25,7 +26,7 @@ const OrgCard = ({ data }) => {
   }
 
   return (
-    <Link to="/organization">
+    <Link to={`/organization/${slugify(data.name, { lower: true })}`}>
       <div className="org-card-container">
         <div className="org-card-logo-container">
           <div
