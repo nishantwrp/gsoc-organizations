@@ -1,22 +1,16 @@
-.org-card-container {
-  width: 100%;
-  border: 1px solid rgb(230, 236, 241);
-  height: 100%;
-  cursor: pointer;
+.org-info-container {
+  margin: 3%;
+  border: 2px solid rgb(230, 236, 241);
+  box-shadow: 9px 9px 10px #d1d9e6, -6px -6px 10px rgb(230, 236, 241);
 }
 
-.org-card-container:hover {
-  box-shadow: 0 4.5px 5.5px -2.5px rgba(0, 0, 0, 0.2),
-    0 9px 14px 1px rgba(0, 0, 0, 0.14), 0 3.5px 17px 3px rgba(0, 0, 0, 0.12);
-}
-
-.org-card-logo-container {
+.org-info-logo-container {
   height: 128px;
   padding: 5% 10%;
   background-color: #ffffff;
 }
 
-.org-card-logo {
+.org-info-logo {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -24,25 +18,27 @@
   width: 100%;
 }
 
-.org-card-name-container {
+.org-info-site-container {
+  text-align: center;
+}
+
+.org-info-description-container {
+  text-align: center;
   justify-content: center;
-  text-align: center;
-  padding: 0% 10%;
-  font-size: 16px;
-  font-family: "Galano Grotesque Alt Medium";
-}
-
-.org-card-description-container {
   padding: 2% 3%;
-  font-family: "Galano Grotesque Alt Light";
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
 }
 
-.org-card-category-container {
+.org-info-divider {
+  width: 80%;
+}
+
+.org-info-category-container {
   text-align: center;
-  padding: 2% 2%;
 }
 
-.org-card-category-container span {
+.org-info-category-container span {
   display: inline-block;
   width: inherit;
   padding: 1%;
@@ -52,13 +48,13 @@
   font-family: "Galano Grotesque Alt Medium";
 }
 
-.org-card-years-container {
-  padding: 2% 2%;
+.org-info-years-container {
+  text-align: center;
 }
 
-.org-card-year {
+.org-info-year {
   display: inline-block;
-  margin: 1%;
+  margin-left: 1%;
   padding: 1%;
   background-color: #16697a;
   color: white;
@@ -66,11 +62,11 @@
   font-family: "Galano Grotesque Alt Medium";
 }
 
-.org-card-technologies-container {
-  padding: 2% 2%;
+.org-info-technologies-container {
+  text-align: center;
 }
 
-.org-card-technology {
+.org-info-technology {
   display: inline-block;
   margin: 1%;
   padding: 1%;
@@ -80,12 +76,17 @@
   font-family: "Galano Grotesque Alt Medium";
 }
 
-.org-card-technology-extra {
-  text-decoration: underline;
+.org-info-topics-container {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.org-info-topic {
   display: inline-block;
   margin: 1%;
   padding: 1%;
-  color: #db6400;
+  border: 1px solid #16697a;
+  color: #16697a;
   border-radius: 2px;
   font-family: "Galano Grotesque Alt Medium";
 }

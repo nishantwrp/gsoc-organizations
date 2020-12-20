@@ -6,6 +6,7 @@ import Filter from "./filter"
 
 import Logo from "./logo"
 import GitHubButton from "react-github-btn"
+import { Link } from "gatsby"
 import { Container, Divider, Button, Icon } from "semantic-ui-react"
 
 const getSidebarStyles = config => {
@@ -35,13 +36,24 @@ const getSidebarStyles = config => {
   }
 }
 
-const Sidebar = ({ config }) => {
+const Sidebar = ({ config, showFilters }) => {
+  const filterStyle = () => {
+    if (!showFilters) {
+      return {
+        display: "none",
+      }
+    }
+    return {}
+  }
+
   return (
     <div className="sidebar-sidebar" style={getSidebarStyles(config)}>
       <div className="sidebar-div">
         <div className="sidebar-logo-description">
           <div className="sidebar-logo">
-            <Logo size={60}></Logo>
+            <Link to="/">
+              <Logo size={60}></Logo>
+            </Link>
           </div>
           <div className="sidebar-description">
             <Container>
@@ -54,7 +66,7 @@ const Sidebar = ({ config }) => {
             </Container>
           </div>
         </div>
-        <div className="sidebar-content">
+        <div className="sidebar-content" style={filterStyle()}>
           <div className="sidebar-content-clear-filters">
             <Button size="tiny" basic color="orange">
               Clear all filters
@@ -141,12 +153,14 @@ const Sidebar = ({ config }) => {
 
 Sidebar.propTypes = {
   config: PropTypes.object,
+  showFilters: PropTypes.bool,
 }
 
 Sidebar.defaultProps = {
   config: {
     mode: "desktop",
   },
+  showFilters: true,
 }
 
 export default Sidebar

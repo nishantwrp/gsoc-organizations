@@ -8,18 +8,19 @@ import "./layout.css"
 import DesktopLayout from "./desktop/layout"
 import MobileLayout from "./mobile/layout"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, homePage }) => {
   const breakpoints = useBreakpoint()
 
   if (!breakpoints.md) {
-    return <DesktopLayout>{children}</DesktopLayout>
+    return <DesktopLayout homePage={homePage}>{children}</DesktopLayout>
   } else {
-    return <MobileLayout>{children}</MobileLayout>
+    return <MobileLayout homePage={homePage}>{children}</MobileLayout>
   }
 }
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  homePage: PropTypes.bool.isRequired,
 }
 
 export default Layout
