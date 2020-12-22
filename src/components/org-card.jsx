@@ -1,12 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
 import slugify from "slugify"
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 import "./org-card.css"
 
 import { Link } from "gatsby"
 
 const OrgCard = ({ data }) => {
+  const isMobile = useBreakpoint().md
+
   const years = Object.keys(data.years)
     .map(year => {
       return <span className="org-card-year">{year}</span>
@@ -25,26 +28,37 @@ const OrgCard = ({ data }) => {
     )
   }
 
-  return (
-    <Link to={`/organization/${slugify(data.name, { lower: true })}`}>
-      <div className="org-card-container">
-        <div className="org-card-logo-container">
-          <div
-            className="org-card-logo"
-            style={{
-              backgroundImage: `url(${data.image_url})`,
-            }}
-          ></div>
-        </div>
-        <div className="org-card-name-container">{data.name}</div>
-        <div className="org-card-category-container">
-          <span>{data.category}</span>
-        </div>
-        <div className="org-card-description-container">{data.description}</div>
-        <div className="org-card-years-container">{years}</div>
-        <div className="org-card-technologies-container">{technologies}</div>
+  const card = (
+    <div className="org-card-container">
+      <div className="org-card-logo-container">
+        <div
+          className="org-card-logo"
+          style={{
+            backgroundImage: `url(${data.image_url})`,
+          }}
+        ></div>
       </div>
+      <div className="org-card-name-container">{data.name}</div>
+      <div className="org-card-category-container">
+        <span>{data.category}</span>
+      </div>
+      <div className="org-card-description-container">{data.description}</div>
+      <div className="org-card-years-container">{years}</div>
+      <div className="org-card-technologies-container">{technologies}</div>
+    </div>
+  )
+
+  return isMobile ? (
+    <Link to={`/organization/${slugify(data.name, { lower: true })}`}>
+      {card}
     </Link>
+  ) : (
+    <a
+      href={`/organization/${slugify(data.name, { lower: true })}`}
+      target="_blank"
+    >
+      {card}
+    </a>
   )
 }
 

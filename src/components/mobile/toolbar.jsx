@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "gatsby"
 
-const Toolbar = ({ showSearch }) => {
+const Toolbar = ({ showSearch, searchState }) => {
   const [isSidebarVisible, setSidebarVisibilty] = React.useState(false)
 
   const toggleSidebarVisibilty = () => {
@@ -38,7 +38,7 @@ const Toolbar = ({ showSearch }) => {
       </div>
       <div className="mobile-toolbar-search" style={searchStyle()}>
         <center>
-          <Search />
+          <Search searchState={searchState} />
         </center>
       </div>
       <div
@@ -66,6 +66,7 @@ const Toolbar = ({ showSearch }) => {
 
 Toolbar.propTypes = {
   showSearch: PropTypes.bool.isRequired,
+  searchState: PropTypes.object,
 }
 
 export default Toolbar

@@ -5,10 +5,10 @@ import "./layout.css"
 
 import Toolbar from "../../components/mobile/toolbar"
 
-const Layout = ({ children, homePage }) => {
+const Layout = ({ children, homePage, searchState }) => {
   return (
     <div className="mobile-layout">
-      <Toolbar showSearch={homePage} />
+      <Toolbar searchState={searchState} showSearch={homePage} />
       <div className="mobile-layout-content">{children}</div>
     </div>
   )
@@ -17,6 +17,7 @@ const Layout = ({ children, homePage }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   homePage: PropTypes.bool.isRequired,
+  searchState: PropTypes.object,
 }
 
 export default Layout
