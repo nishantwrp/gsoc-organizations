@@ -5,8 +5,32 @@ import "./filter-modal.css"
 
 import { Modal, Button, Input, Grid, Checkbox } from "semantic-ui-react"
 
-const FilterModal = ({ trigger }) => {
+const FilterModal = ({ trigger, name, optionsState, updateAllFilters }) => {
   const [open, setOpen] = React.useState(false)
+  let [allOptions, setOptions] = optionsState
+
+  const toggleChecked = index => {
+    return () => {
+      const newOptions = allOptions
+      newOptions[index].selected = !newOptions[index].selected
+      setOptions(newOptions)
+      updateAllFilters()
+    }
+  }
+
+  let filterCheckboxes = []
+  for (let i = 0; i < allOptions.length; i++) {
+    filterCheckboxes.push(
+      <Grid.Column>
+        <Checkbox
+          checked={allOptions[i].selected}
+          label={allOptions[i].name}
+          value={allOptions[i].selected}
+          onChange={toggleChecked(i)}
+        />
+      </Grid.Column>
+    )
+  }
 
   return (
     <div className="filter-modal">
@@ -16,7 +40,7 @@ const FilterModal = ({ trigger }) => {
         open={open}
         trigger={trigger}
       >
-        <Modal.Header>Filter by technology</Modal.Header>
+        <Modal.Header>Filter by {name}</Modal.Header>
         <Modal.Content className="filter-modal-content" scrolling>
           <Input
             size="small"
@@ -26,21 +50,7 @@ const FilterModal = ({ trigger }) => {
           />
           <div className="filter-modal-content-filters">
             <Grid stackable columns={3}>
-              <Grid.Column>
-                <Checkbox label="test value"></Checkbox>
-              </Grid.Column>
-              <Grid.Column>
-                <Checkbox label="test value"></Checkbox>
-              </Grid.Column>
-              <Grid.Column>
-                <Checkbox label="test value"></Checkbox>
-              </Grid.Column>
-              <Grid.Column>
-                <Checkbox label="test value"></Checkbox>
-              </Grid.Column>
-              <Grid.Column>
-                <Checkbox label="test value"></Checkbox>
-              </Grid.Column>
+              {filterCheckboxes}
             </Grid>
           </div>
         </Modal.Content>
@@ -60,6 +70,9 @@ const FilterModal = ({ trigger }) => {
 
 FilterModal.propTypes = {
   trigger: PropTypes.node.isRequired,
+  name: PropTypes.string.isRequired,
+  optionsState: PropTypes.array.isRequired,
+  updateAllFilters: PropTypes.func.isRequired,
 }
 
 export default FilterModal

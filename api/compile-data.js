@@ -1,5 +1,9 @@
 const fs = require("fs")
-const { technologyFilters, topicFilters } = require("./filters")
+const {
+  technologyFilters,
+  topicFilters,
+  categoryFilters,
+} = require("./filters")
 
 const YEARS = [2016, 2017, 2018, 2019, 2020]
 
@@ -63,7 +67,7 @@ const updateBasicOrgInfo = (
     gsocOrganizations[index].image_url = imageUrl
     gsocOrganizations[index].description = description
     gsocOrganizations[index].url = url
-    gsocOrganizations[index].category = category
+    gsocOrganizations[index].category = categoryFilters.filter(category)
   }
 }
 
