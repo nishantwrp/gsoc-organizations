@@ -24,16 +24,37 @@ const getOrganizations = data => {
   })
 }
 
+const getFuseSearch = organizations => {
+  const options = {
+    threshold: 0.3,
+    keys: ["name"],
+  }
+
+  return new Fuse(organizations, options)
+}
+
+const getFilteredOrganizations = (data, searchQuery) => {
+  const organizations = getOrganizations(data)
+
+  if (searchQuery === "") {
+    return organizations
+  }
+
+  const fuse = getFuseSearch(organizations)
+  return fuse.search(searchQuery).map(res => res.item)
+}
+
 const IndexPage = ({ data }) => {
   const [searchQuery, setSearchQuery] = React.useState("")
-  const orgs = getOrganizations(data)
+
+  let filteredOrganizations = getFilteredOrganizations(data, searchQuery)
 
   const cards = []
 
-  for (const org of orgs) {
+  for (const organization of filteredOrganizations) {
     cards.push(
       <Grid.Column>
-        <OrgCard data={org} />
+        <OrgCard data={organization} />
       </Grid.Column>
     )
   }
