@@ -1,13 +1,21 @@
-import React from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
-
+import Fuse from "fuse.js"
 import "./filter.css"
 
 import FilterModal from "./filter-modal"
 import { Checkbox, Input, Divider } from "semantic-ui-react"
 
-const Filter = ({ name, optionsState, showDivider, updateAllFilters }) => {
+const Filter = ({
+  name,
+  optionsState,
+  showDivider,
+  updateAllFilters,
+  searchState,
+}) => {
+  // const { makechange, setmakechange } = useState('false')
   let [allOptions, setOptions] = optionsState
+  const { searchQuery, setSearchQuery } = searchState
 
   const toggleChecked = index => {
     return () => {
@@ -18,22 +26,50 @@ const Filter = ({ name, optionsState, showDivider, updateAllFilters }) => {
     }
   }
 
+  const getFuseSearch = allOptions => {
+    const options = {
+      threshold: 0.3,
+      keys: ["name"],
+    }
+
+    return new Fuse(allOptions, options)
+  }
+
+  const handleChange = e => {
+    setSearchQuery(e.target.value)
+  }
+
+  const getfilteredCheckboxes = (allOptions, searchQuery) => {
+    let filteredOrganizations = allOptions
+
+    if (searchQuery !== "") {
+      // setmakechange('true')
+      const fuse = getFuseSearch(allOptions)
+      filteredOrganizations = fuse.search(searchQuery).map(res => res.item)
+    }
+    // else setmakechange('false')
+    return filteredOrganizations
+  }
+
+  let filteredCheckboxes = getfilteredCheckboxes(allOptions, searchQuery)
+
   let filterCheckboxes = []
-  for (let i = 0; i < allOptions.length && i < 5; i++) {
+  // if(makechange === 'true'){
+  for (let i = 0; i < filteredCheckboxes.length && i < 5; i++) {
     filterCheckboxes.push(
       <tr>
         <td>
           <Checkbox
-            checked={allOptions[i].selected}
-            label={allOptions[i].name}
-            value={allOptions[i].selected}
+            checked={filteredCheckboxes[i].selected}
+            label={filteredCheckboxes[i].name}
+            value={filteredCheckboxes[i].selected}
             onChange={toggleChecked(i)}
           />
         </td>
       </tr>
     )
   }
-
+  // }
   const displayModalOption = allOptions.length > 5
 
   return (
@@ -42,7 +78,12 @@ const Filter = ({ name, optionsState, showDivider, updateAllFilters }) => {
         <u>{name}</u>
       </div>
       <div className="filter-search">
-        <Input size="mini" icon="search" placeholder={`Search ${name}`} />
+        <Input
+          size="mini"
+          icon="search"
+          placeholder={`Search ${name}`}
+          onChange={handleChange.bind(this)}
+        />
       </div>
       <div className="filter-boxes">
         <center>
@@ -57,6 +98,7 @@ const Filter = ({ name, optionsState, showDivider, updateAllFilters }) => {
           optionsState={optionsState}
           updateAllFilters={updateAllFilters}
           trigger={<div className="filter-view-more">View all</div>}
+          searchState={searchState}
         />
       </div>
       <div style={showDivider ? {} : { display: "none" }}>

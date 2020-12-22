@@ -76,6 +76,7 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
     }
   `)
 
+  const [searchQuery, setSearchQuery] = React.useState("")
   const topicsState = React.useState(
     topics.map(topic => {
       return {
@@ -184,22 +185,38 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
               name="Years"
               updateAllFilters={updateAllFilters}
               optionsState={yearsState}
+              searchState={{
+                searchQuery: searchQuery,
+                setSearchQuery: setSearchQuery,
+              }}
             />
             <Filter
               name="Categories"
               updateAllFilters={updateAllFilters}
               optionsState={categoriesState}
+              searchState={{
+                searchQuery: searchQuery,
+                setSearchQuery: setSearchQuery,
+              }}
             />
             <Filter
               name="Technologies"
               updateAllFilters={updateAllFilters}
               optionsState={technologiesState}
+              searchState={{
+                searchQuery: searchQuery,
+                setSearchQuery: setSearchQuery,
+              }}
             />
             <Filter
               name="Topics"
               updateAllFilters={updateAllFilters}
               optionsState={topicsState}
               showDivider={false}
+              searchState={{
+                searchQuery: searchQuery,
+                setSearchQuery: setSearchQuery,
+              }}
             />
           </div>
         </div>
