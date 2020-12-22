@@ -10,4 +10,6 @@ api:
 	cp api/data/* api-dist/ && \
 	node scripts/generate-data.js && \
 	mv organizations.json api-dist && \
-	npx prettier --write api-dist/organizations.json
+	npx prettier --write api-dist/organizations.json && \
+	cp static/images/logo.png api-dist/logo.png && \
+	cp static/images/favicon.ico api-dist/favicon.ico
