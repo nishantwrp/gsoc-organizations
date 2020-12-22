@@ -8,18 +8,26 @@ import "./layout.css"
 import DesktopLayout from "./desktop/layout"
 import MobileLayout from "./mobile/layout"
 
-const Layout = ({ children, homePage, searchState }) => {
+const Layout = ({ children, homePage, searchState, filtersState }) => {
   const breakpoints = useBreakpoint()
 
   if (!breakpoints.md) {
     return (
-      <DesktopLayout searchState={searchState} homePage={homePage}>
+      <DesktopLayout
+        filtersState={filtersState}
+        searchState={searchState}
+        homePage={homePage}
+      >
         {children}
       </DesktopLayout>
     )
   } else {
     return (
-      <MobileLayout searchState={searchState} homePage={homePage}>
+      <MobileLayout
+        filtersState={filtersState}
+        searchState={searchState}
+        homePage={homePage}
+      >
         {children}
       </MobileLayout>
     )
@@ -30,6 +38,7 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
   homePage: PropTypes.bool.isRequired,
   searchState: PropTypes.object,
+  filtersState: PropTypes.object,
 }
 
 export default Layout

@@ -36,6 +36,11 @@ const getAllNodesData = organizations => {
     }
   }
 
+  allYears.sort()
+  allTechnologies.sort()
+  allTopics.sort()
+  allCategories.sort()
+
   return {
     Filter: {
       years: allYears,

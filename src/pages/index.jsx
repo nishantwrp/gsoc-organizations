@@ -33,24 +33,92 @@ const getFuseSearch = organizations => {
   return new Fuse(organizations, options)
 }
 
-const getFilteredOrganizations = (data, searchQuery) => {
+const getFilteredOrganizations = (data, searchQuery, filters) => {
   const organizations = getOrganizations(data)
+  let filteredOrganizations = organizations
 
-  if (searchQuery === "") {
-    return organizations
+  if (searchQuery !== "") {
+    const fuse = getFuseSearch(organizations)
+    filteredOrganizations = fuse.search(searchQuery).map(res => res.item)
   }
 
-  const fuse = getFuseSearch(organizations)
-  return fuse.search(searchQuery).map(res => res.item)
+  // NOTE: YEARS - intersection, REST - union.
+  const { years, categories, technologies, topics } = filters
+
+  if (years.length > 0) {
+    let newFilteredOrganizations = []
+    for (const organization of filteredOrganizations) {
+      let matches = 0
+      for (const year of years) {
+        if (Object.keys(organization.years).includes(year)) {
+          matches++
+        }
+      }
+      if (matches === years.length) {
+        newFilteredOrganizations.push(organization)
+      }
+    }
+    filteredOrganizations = newFilteredOrganizations
+  }
+
+  if (categories.length > 0) {
+    let newFilteredOrganizations = []
+    for (const organization of filteredOrganizations) {
+      for (const category of categories) {
+        if (organization.category === category) {
+          newFilteredOrganizations.push(organization)
+          break
+        }
+      }
+    }
+    filteredOrganizations = newFilteredOrganizations
+  }
+
+  if (technologies.length > 0) {
+    let newFilteredOrganizations = []
+    for (const organization of filteredOrganizations) {
+      for (const technology of technologies) {
+        if (organization.technologies.includes(technology)) {
+          newFilteredOrganizations.push(organization)
+          break
+        }
+      }
+    }
+    filteredOrganizations = newFilteredOrganizations
+  }
+
+  if (topics.length > 0) {
+    let newFilteredOrganizations = []
+    for (const organization of filteredOrganizations) {
+      for (const topic of topics) {
+        if (organization.topics.includes(topic)) {
+          newFilteredOrganizations.push(organization)
+          break
+        }
+      }
+    }
+    filteredOrganizations = newFilteredOrganizations
+  }
+
+  return filteredOrganizations
 }
 
 const IndexPage = ({ data }) => {
   const [searchQuery, setSearchQuery] = React.useState("")
+  const [filters, setFilters] = React.useState({
+    years: [],
+    categories: [],
+    technologies: [],
+    topics: [],
+  })
 
-  let filteredOrganizations = getFilteredOrganizations(data, searchQuery)
+  let filteredOrganizations = getFilteredOrganizations(
+    data,
+    searchQuery,
+    filters
+  )
 
   const cards = []
-
   for (const organization of filteredOrganizations) {
     cards.push(
       <Grid.Column>
@@ -62,6 +130,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout
       searchState={{ searchQuery: searchQuery, setSearchQuery: setSearchQuery }}
+      filtersState={{ filters: filters, setFilters: setFilters }}
       homePage={true}
     >
       <Grid className="index-org-cards-grid" stackable columns={4}>

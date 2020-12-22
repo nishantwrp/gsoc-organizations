@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { useStaticQuery, graphql } from "gatsby"
 
 import "./sidebar.css"
 import Filter from "./filter"
@@ -36,7 +37,113 @@ const getSidebarStyles = config => {
   }
 }
 
-const Sidebar = ({ config, showFilters }) => {
+const updateFiltersState = (
+  setFilters,
+  topics,
+  technologies,
+  years,
+  categories
+) => {
+  const getSelectedValues = options => {
+    const selectedValues = []
+    options.map(option => {
+      if (option.selected) {
+        selectedValues.push(option.name)
+      }
+    })
+    return selectedValues
+  }
+
+  setFilters({
+    years: getSelectedValues(years),
+    categories: getSelectedValues(categories),
+    technologies: getSelectedValues(technologies),
+    topics: getSelectedValues(topics),
+  })
+}
+
+const Sidebar = ({ config, showFilters, filtersState }) => {
+  const {
+    filter: { topics, technologies, years, categories },
+  } = useStaticQuery(graphql`
+    {
+      filter {
+        topics
+        technologies
+        years
+        categories
+      }
+    }
+  `)
+
+  const topicsState = React.useState(
+    topics.map(topic => {
+      return {
+        name: topic,
+        selected: false,
+      }
+    })
+  )
+  const technologiesState = React.useState(
+    technologies.map(technology => {
+      return {
+        name: technology,
+        selected: false,
+      }
+    })
+  )
+  const yearsState = React.useState(
+    years.map(year => {
+      return {
+        name: year,
+        selected: false,
+      }
+    })
+  )
+  const categoriesState = React.useState(
+    categories.map(category => {
+      return {
+        name: category,
+        selected: false,
+      }
+    })
+  )
+
+  const updateAllFilters = () => {
+    updateFiltersState(
+      filtersState.setFilters,
+      topicsState[0],
+      technologiesState[0],
+      yearsState[0],
+      categoriesState[0]
+    )
+  }
+
+  const clearAllFilters = () => {
+    const clearFilter = filterState => {
+      const [filter, setFilter] = filterState
+      const unselectedOptions = filter.map(option => {
+        return {
+          name: option.name,
+          selected: false,
+        }
+      })
+      setFilter(unselectedOptions)
+    }
+
+    clearFilter(topicsState)
+    clearFilter(technologiesState)
+    clearFilter(yearsState)
+    clearFilter(categoriesState)
+
+    filtersState.setFilters({
+      years: [],
+      categories: [],
+      technologies: [],
+      topics: [],
+    })
+  }
+
   const filterStyle = () => {
     if (!showFilters) {
       return {
@@ -68,15 +175,32 @@ const Sidebar = ({ config, showFilters }) => {
         </div>
         <div className="sidebar-content" style={filterStyle()}>
           <div className="sidebar-content-clear-filters">
-            <Button size="tiny" basic color="orange">
+            <Button size="tiny" basic color="orange" onClick={clearAllFilters}>
               Clear all filters
             </Button>
           </div>
           <div className="sidebar-content-filters">
-            <Filter />
-            <Filter />
-            <Filter />
-            <Filter />
+            <Filter
+              name="Years"
+              updateAllFilters={updateAllFilters}
+              optionsState={yearsState}
+            />
+            <Filter
+              name="Categories"
+              updateAllFilters={updateAllFilters}
+              optionsState={categoriesState}
+            />
+            <Filter
+              name="Technologies"
+              updateAllFilters={updateAllFilters}
+              optionsState={technologiesState}
+            />
+            <Filter
+              name="Topics"
+              updateAllFilters={updateAllFilters}
+              optionsState={topicsState}
+              showDivider={false}
+            />
           </div>
         </div>
         <div className="sidebar-footer">
@@ -154,6 +278,7 @@ const Sidebar = ({ config, showFilters }) => {
 Sidebar.propTypes = {
   config: PropTypes.object,
   showFilters: PropTypes.bool,
+  filtersState: PropTypes.object,
 }
 
 Sidebar.defaultProps = {
