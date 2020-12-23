@@ -6,16 +6,10 @@ import "./filter.css"
 import FilterModal from "./filter-modal"
 import { Checkbox, Input, Divider } from "semantic-ui-react"
 
-const Filter = ({
-  name,
-  optionsState,
-  showDivider,
-  updateAllFilters,
-  searchState,
-}) => {
-  // const { makechange, setmakechange } = useState('false')
+const Filter = ({ name, optionsState, showDivider, updateAllFilters }) => {
+  const [hidden, setHidden] = useState(true)
   let [allOptions, setOptions] = optionsState
-  const { searchQuery, setSearchQuery } = searchState
+  const [searchQuery, setSearchQuery] = React.useState("")
 
   const toggleChecked = index => {
     return () => {
@@ -43,18 +37,16 @@ const Filter = ({
     let filteredOrganizations = allOptions
 
     if (searchQuery !== "") {
-      // setmakechange('true')
       const fuse = getFuseSearch(allOptions)
       filteredOrganizations = fuse.search(searchQuery).map(res => res.item)
     }
-    // else setmakechange('false')
+
     return filteredOrganizations
   }
 
   let filteredCheckboxes = getfilteredCheckboxes(allOptions, searchQuery)
 
   let filterCheckboxes = []
-  // if(makechange === 'true'){
   for (let i = 0; i < filteredCheckboxes.length && i < 5; i++) {
     filterCheckboxes.push(
       <tr>
@@ -69,7 +61,7 @@ const Filter = ({
       </tr>
     )
   }
-  // }
+
   const displayModalOption = allOptions.length > 5
 
   return (
@@ -98,7 +90,10 @@ const Filter = ({
           optionsState={optionsState}
           updateAllFilters={updateAllFilters}
           trigger={<div className="filter-view-more">View all</div>}
-          searchState={searchState}
+          searchState={{
+            searchQuery: searchQuery,
+            setSearchQuery: setSearchQuery,
+          }}
         />
       </div>
       <div style={showDivider ? {} : { display: "none" }}>
