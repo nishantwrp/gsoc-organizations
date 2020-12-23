@@ -6,16 +6,10 @@ import "./filter-modal.css"
 
 import { Modal, Button, Input, Grid, Checkbox } from "semantic-ui-react"
 
-const FilterModal = ({
-  trigger,
-  name,
-  optionsState,
-  updateAllFilters,
-  searchState,
-}) => {
+const FilterModal = ({ trigger, name, optionsState, updateAllFilters }) => {
   const [open, setOpen] = React.useState(false)
   let [allOptions, setOptions] = optionsState
-  const { searchQuery, setSearchQuery } = searchState
+  const [searchQuery, setSearchQuery] = React.useState("")
 
   const toggleChecked = index => {
     return () => {
@@ -39,15 +33,38 @@ const FilterModal = ({
     setSearchQuery(e.target.value)
   }
 
+  const getSelectedOptionIndexes = allOptions => {
+    const selectedIndexes = []
+    allOptions.map((value, index) => {
+      if (value.selected) {
+        selectedIndexes.push(index)
+      }
+    })
+    return selectedIndexes
+  }
+
+  const getUnselectedOptionIndexes = allOptions => {
+    const unselectedIndexes = []
+    allOptions.map((value, index) => {
+      if (!value.selected) {
+        unselectedIndexes.push(index)
+      }
+    })
+    return unselectedIndexes
+  }
+
   const getfilteredCheckboxes = (allOptions, searchQuery) => {
-    let filteredOrganizations = allOptions
+    let filteredOptionIndexes = getSelectedOptionIndexes(allOptions)
+    filteredOptionIndexes = filteredOptionIndexes.concat(
+      getUnselectedOptionIndexes(allOptions)
+    )
 
     if (searchQuery !== "") {
       const fuse = getFuseSearch(allOptions)
-      filteredOrganizations = fuse.search(searchQuery).map(res => res.item)
+      filteredOptionIndexes = fuse.search(searchQuery).map(res => res.refIndex)
     }
 
-    return filteredOrganizations
+    return filteredOptionIndexes
   }
 
   let filteredCheckboxes = getfilteredCheckboxes(allOptions, searchQuery)
@@ -57,10 +74,10 @@ const FilterModal = ({
     filterCheckboxes.push(
       <Grid.Column>
         <Checkbox
-          checked={filteredCheckboxes[i].selected}
-          label={filteredCheckboxes[i].name}
-          value={filteredCheckboxes[i].selected}
-          onChange={toggleChecked(i)}
+          checked={allOptions[filteredCheckboxes[i]].selected}
+          label={allOptions[filteredCheckboxes[i]].name}
+          value={allOptions[filteredCheckboxes[i]].selected}
+          onChange={toggleChecked(filteredCheckboxes[i])}
         />
       </Grid.Column>
     )
