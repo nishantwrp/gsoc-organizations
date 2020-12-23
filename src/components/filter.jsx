@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import Fuse from "fuse.js"
+
 import "./filter.css"
 
 import FilterModal from "./filter-modal"

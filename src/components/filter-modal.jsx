@@ -81,7 +81,7 @@ const FilterModal = ({
             icon="search"
             className="filter-modal-content-search"
             onChange={handleChange.bind(this)}
-            placeholder={"search " + name.toLowerCase()}
+            placeholder={`Search ${name}`}
           />
           <div className="filter-modal-content-filters">
             <Grid stackable columns={3}>
