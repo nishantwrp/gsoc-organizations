@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Fuse from "fuse.js"
 
 import "./filter-modal.css"
 
@@ -8,6 +9,7 @@ import { Modal, Button, Input, Grid, Checkbox } from "semantic-ui-react"
 const FilterModal = ({ trigger, name, optionsState, updateAllFilters }) => {
   const [open, setOpen] = React.useState(false)
   let [allOptions, setOptions] = optionsState
+  const [searchQuery, setSearchQuery] = React.useState("")
 
   const toggleChecked = index => {
     return () => {
@@ -18,15 +20,64 @@ const FilterModal = ({ trigger, name, optionsState, updateAllFilters }) => {
     }
   }
 
+  const getFuseSearch = allOptions => {
+    const options = {
+      threshold: 0.3,
+      keys: ["name"],
+    }
+
+    return new Fuse(allOptions, options)
+  }
+
+  const handleChange = e => {
+    setSearchQuery(e.target.value)
+  }
+
+  const getSelectedOptionIndexes = allOptions => {
+    const selectedIndexes = []
+    allOptions.map((value, index) => {
+      if (value.selected) {
+        selectedIndexes.push(index)
+      }
+    })
+    return selectedIndexes
+  }
+
+  const getUnselectedOptionIndexes = allOptions => {
+    const unselectedIndexes = []
+    allOptions.map((value, index) => {
+      if (!value.selected) {
+        unselectedIndexes.push(index)
+      }
+    })
+    return unselectedIndexes
+  }
+
+  const getfilteredCheckboxes = (allOptions, searchQuery) => {
+    let filteredOptionIndexes = getSelectedOptionIndexes(allOptions)
+    filteredOptionIndexes = filteredOptionIndexes.concat(
+      getUnselectedOptionIndexes(allOptions)
+    )
+
+    if (searchQuery !== "") {
+      const fuse = getFuseSearch(allOptions)
+      filteredOptionIndexes = fuse.search(searchQuery).map(res => res.refIndex)
+    }
+
+    return filteredOptionIndexes
+  }
+
+  let filteredCheckboxes = getfilteredCheckboxes(allOptions, searchQuery)
+
   let filterCheckboxes = []
-  for (let i = 0; i < allOptions.length; i++) {
+  for (let i = 0; i < filteredCheckboxes.length; i++) {
     filterCheckboxes.push(
       <Grid.Column>
         <Checkbox
-          checked={allOptions[i].selected}
-          label={allOptions[i].name}
-          value={allOptions[i].selected}
-          onChange={toggleChecked(i)}
+          checked={allOptions[filteredCheckboxes[i]].selected}
+          label={allOptions[filteredCheckboxes[i]].name}
+          value={allOptions[filteredCheckboxes[i]].selected}
+          onChange={toggleChecked(filteredCheckboxes[i])}
         />
       </Grid.Column>
     )
@@ -46,7 +97,8 @@ const FilterModal = ({ trigger, name, optionsState, updateAllFilters }) => {
             size="small"
             icon="search"
             className="filter-modal-content-search"
-            placeholder="Search technologies"
+            onChange={handleChange.bind(this)}
+            placeholder={`Search ${name}`}
           />
           <div className="filter-modal-content-filters">
             <Grid stackable columns={3}>
