@@ -53,8 +53,11 @@ const Filter = ({ name, optionsState, showDivider, updateAllFilters }) => {
     return unselectedIndexes
   }
 
+  let max_options_displayed = 5
+
   const getfilteredCheckboxes = (allOptions, searchQuery) => {
     let filteredOptionIndexes = getSelectedOptionIndexes(allOptions)
+    max_options_displayed = Math.max(filteredOptionIndexes.length, 5)
     filteredOptionIndexes = filteredOptionIndexes.concat(
       getUnselectedOptionIndexes(allOptions)
     )
@@ -70,7 +73,11 @@ const Filter = ({ name, optionsState, showDivider, updateAllFilters }) => {
   let filteredCheckboxes = getfilteredCheckboxes(allOptions, searchQuery)
 
   let filterCheckboxes = []
-  for (let i = 0; i < filteredCheckboxes.length && i < 5; i++) {
+  for (
+    let i = 0;
+    i < filteredCheckboxes.length && i < max_options_displayed;
+    i++
+  ) {
     filterCheckboxes.push(
       <tr>
         <td>
@@ -85,7 +92,7 @@ const Filter = ({ name, optionsState, showDivider, updateAllFilters }) => {
     )
   }
 
-  const displayModalOption = allOptions.length > 5
+  const displayModalOption = allOptions.length > max_options_displayed
 
   return (
     <div className="filter-filter">

@@ -26,8 +26,9 @@
 .sidebar-content-clear-filters {
   text-align: center;
   justify-content: center;
+  padding-top: 30px;
   margin-bottom: auto;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .sidebar-content-filters {
@@ -47,14 +48,9 @@
 }
 
 .sidebar-description {
-  padding: 10px;
   font-family: "Galano Grotesque Alt Medium";
   font-size: 16px;
-  color: #db6400;
-}
-
-.sidebar-description a {
-  color: #16697a;
+  color: #ffa62b;
 }
 
 .sidebar-footer {

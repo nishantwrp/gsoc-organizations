@@ -163,14 +163,7 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
             </Link>
           </div>
           <div className="sidebar-description">
-            <Container>
-              {" "}
-              open-source organizations participating in{" "}
-              <a href="https://summerofcode.withgoogle.com/">
-                Google Summer of Code
-              </a>{" "}
-              since 2016{" "}
-            </Container>
+            <Container>GSoC Organizations</Container>
           </div>
         </div>
         <div className="sidebar-content" style={filterStyle()}>
