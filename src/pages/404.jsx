@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 
 const NotFoundPage = () => (
   <div className="page-404-container">
-    <SEO title="404: Not found" />
+    <SEO title="404 - Not found" />
     <table className="page-404-table">
       <tr>
         <td className="page-404-content">

@@ -2,7 +2,7 @@
 
 api:
 	yarn install && \
-	npx redoc-cli bundle api/openapi.yml && \
+	npx redoc-cli bundle api/openapi.yml -t api/template.hbs && \
 	rm -rf api-dist && \
 	mkdir api-dist && \
 	cp redoc-static.html api-dist/index.html && \

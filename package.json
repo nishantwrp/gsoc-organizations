@@ -18,6 +18,8 @@
     "gatsby-plugin-nprogress": "^2.7.0",
     "gatsby-plugin-offline": "^3.4.0",
     "gatsby-plugin-react-helmet": "^3.4.0",
+    "gatsby-plugin-robots-txt": "^1.5.5",
+    "gatsby-plugin-sitemap": "^2.9.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-chartjs-2": "^2.11.1",

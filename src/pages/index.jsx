@@ -6,6 +6,7 @@ import "./index.css"
 
 import Layout from "../layouts/layout"
 import OrgCard from "../components/org-card"
+import SEO from "../components/seo"
 import { Grid } from "semantic-ui-react"
 
 const getOrganizations = data => {
@@ -127,12 +128,67 @@ const IndexPage = ({ data }) => {
     )
   }
 
+  const metaDescription =
+    "View and analyse the info of the organizations participating in Google Summer of Code and filter them by various parameters."
+  const meta = [
+    {
+      name: "description",
+      content: metaDescription,
+    },
+    {
+      name: "keywords",
+      content:
+        "gsoc, analysis, organizations, statistics, filter, years, google summer of code, technologies, topics, categories, projects",
+    },
+    {
+      property: "og:type",
+      content: "website",
+    },
+    {
+      property: "og:title",
+      content: data.site.siteMetadata.title,
+    },
+    {
+      property: "og:description",
+      content: metaDescription,
+    },
+    {
+      property: "og:image",
+      content: `${data.site.siteMetadata.siteUrl}/images/logo.png`,
+    },
+    {
+      property: "og:site_name",
+      content: data.site.siteMetadata.title,
+    },
+    {
+      property: "og:url",
+      content: data.site.siteMetadata.siteUrl,
+    },
+    {
+      name: "twitter:card",
+      content: "summary_large_image",
+    },
+    {
+      name: "twitter:title",
+      content: data.site.siteMetadata.title,
+    },
+    {
+      name: "twitter:description",
+      content: metaDescription,
+    },
+    {
+      name: "twitter:image",
+      content: `${data.site.siteMetadata.siteUrl}/images/logo.png`,
+    },
+  ]
+
   return (
     <Layout
       searchState={{ searchQuery: searchQuery, setSearchQuery: setSearchQuery }}
       filtersState={{ filters: filters, setFilters: setFilters }}
       homePage={true}
     >
+      <SEO title={"Home"} meta={meta} />
       <Grid className="index-org-cards-grid" stackable columns={4}>
         {cards}
       </Grid>
@@ -142,6 +198,12 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   query {
+    site {
+      siteMetadata {
+        title
+        siteUrl
+      }
+    }
     allOrganization {
       edges {
         node {
