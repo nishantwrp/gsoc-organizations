@@ -216,6 +216,7 @@ export const query = graphql`
           name
           technologies
           image_url
+          image_background_color
           topics
           url
           years {

@@ -5,6 +5,7 @@
     {
       "name": "52\u00b0 North GmbH",
       "image_url": "https://lh3.googleusercontent.com/b3Eq2hMuwWVThPV-5EqL3UB8qWSOnMabjXaYn_UaYg6UUvDc1aiSyTGrxEddbCVZZLYeoCyjgtsvkUvCuQ8trdbFR6-YLA",
+      "image_background_color": "#ffffff",
       "description": "52\u00b0North works on innovative ideas and technologies in geoinformatics",
       "url": "https://52north.org",
       "num_projects": 3,
@@ -21,6 +22,7 @@
     {
       "name": "AboutCode.org",
       "image_url": "https://lh3.googleusercontent.com/zi-x6I3d2TgzLlANMK-T2BeAKnkuhgSwr509ACo8k-5JaZo0U-uRAPlr9Auj4iPIFWxOGuM9iwKZZKgS1EbLisn0uVcoEg",
+      "image_background_color": "#ffffff",
       "description": "Find the origin, license and vulnerabilities of your code and deps.",
       "url": "https://www.aboutcode.org",
       "num_projects": 5,
@@ -38,6 +40,7 @@
     {
       "name": "Academy Software Foundation (ASWF)",
       "image_url": "https://lh3.googleusercontent.com/T7JaQ8vj8rdaA0uINP3xA08l4ZHteg4ndcSC9uTqdf6_p8KGLjujNmfrGCiZtZMeifvh-AaGl23B15p1CteybzO1exfp72M",
+      "image_background_color": "#ffffff",
       "description": "Open source foundation for film industry projects.",
       "url": "http://aswf.io",
       "num_projects": 3,
@@ -55,6 +58,7 @@
     {
       "name": "Accord Project",
       "image_url": "https://lh3.googleusercontent.com/PFHZP4vVcofwCK_ORD-AiRrKowT_oRe2qGviJOEBt20-gTxO3wRxc3EBYuj-qltRowI_4vDv1fwSbfuK8ek0LMxx8XRupPE",
+      "image_background_color": "#ffffff",
       "description": "Linux Foundation\u2019s open source project for smart legal contracts.",
       "url": "https://www.accordproject.org/",
       "num_projects": 2,
@@ -66,6 +70,7 @@
     {
       "name": "AerospaceResearch.net",
       "image_url": "https://lh3.googleusercontent.com/6xPpay-TLTCHdKkboR2aOcLXMbYQqMOkPJvO3PDSiBa6TfW5M6pdA0zkIu9oOd99XauZmdfjVPkXzQlSdBeQ9Rs6z1j7ag",
+      "image_background_color": "#ffffff",
       "description": "making space together",
       "url": "http://www.aerospaceresearch.net",
       "num_projects": 5,
@@ -83,6 +88,7 @@
     {
       "name": "afl++",
       "image_url": "https://lh3.googleusercontent.com/xAw4x5EvY1_A2nF-opyf7sdMBeXfXsB7WUVb1TicCyTqGVxM2w-R8C0_RkkZK-AiVX1cs3JIB5D0hgiHvY16JVOWiBbn-ldd",
+      "image_background_color": "#ffffff",
       "description": "Making fuzzing more effective every day",
       "url": "https://aflplus.plus/",
       "num_projects": 2,
@@ -94,6 +100,7 @@
     {
       "name": "Amahi",
       "image_url": "https://lh3.googleusercontent.com/UNZ8p6TVEVGoF1EhV0K6FnaGMBhcyQoyQep_9syeXSqWDXC4kcZT6IaWvMTJDbzXfQVs7Ykc5V8zsoGzqiXP81P2e86qbg",
+      "image_background_color": "#ffffff",
       "description": "Making Home Networking and Storage Simple",
       "url": "https://www.amahi.org",
       "num_projects": 3,
@@ -117,6 +124,7 @@
     {
       "name": "Android Graphics Tools Team",
       "image_url": "https://lh3.googleusercontent.com/3cOw2f4y3MU8Ff6lVT8FPPlWHg3bKBw9pbxVYoe4S6-fzTE7aufcjnSF4SZL7wKH13eruYPvJKr3ThX1p0c3Nvm2dCLqu2E",
+      "image_background_color": "#ffffff",
       "description": "Providing excellent tools for graphics developers and driver makers",
       "url": "https://github.com/google/graphicsfuzz/blob/master/docs/summer-of-code-ideas/2020.md",
       "num_projects": 3,
@@ -134,6 +142,7 @@
     {
       "name": "AnitaB.org Open Source",
       "image_url": "https://lh3.googleusercontent.com/j4RwTOlO5-LhK8npgy0HElPub3IjLrPADeBNhWVxbcXlQGGKYcLPyhwq0hUU_JRtqHVVgXBMruM7TxO0zEmN3KpOGR_yJuI",
+      "image_background_color": "#ffffff",
       "description": "Women transform technology. Technology transforms the world.",
       "url": "http://anitab.org",
       "num_projects": 4,
@@ -145,6 +154,7 @@
     {
       "name": "AOSSIE",
       "image_url": "https://lh3.googleusercontent.com/87Kab9O_6iDrF_hVUPa9qOTjiiIh9aoqJAKkyG-31gomCoQoU85TPtx7fd7PlyGnMjRStm9IELvhsWrdbijhOYNGJgPa3bM",
+      "image_background_color": "#ffffff",
       "description": "Australian Umbrella Org for Open-Source Projects",
       "url": "https://aossie.gitlab.io/",
       "num_projects": 9,
@@ -162,6 +172,7 @@
     {
       "name": "Apertium",
       "image_url": "https://lh3.googleusercontent.com/NTCWgXOEXrwMlVKyvuYL7D9iSZUg4HxpVB4DcCEBWccWgr92z4Pg60asWCtLDD1xNUYMgJAD46CzIrI2Gm0ydDVgezO1QfM",
+      "image_background_color": "#ffffff",
       "description": "A free/open-source machine translation platform",
       "url": "https://apertium.org",
       "num_projects": 7,
@@ -177,6 +188,7 @@
     {
       "name": "apertus\u00b0 Association",
       "image_url": "https://lh3.googleusercontent.com/1qRBsZPNh1sty6DImJvqCtnuZvfRqJj1VCH34LXIjFyYuZe7xegoHCNqNZa2cOVj-oV0KmW7YIAcckyIU3ACBIXYCEABhg",
+      "image_background_color": "#ffffff",
       "description": "Open Technology for Professional Film Production",
       "url": "https://www.apertus.org",
       "num_projects": 4,
@@ -194,6 +206,7 @@
     {
       "name": "appleseed",
       "image_url": "https://lh3.googleusercontent.com/fsKtYgvjsvcdf4l6Uscn9CACN6kGKEyuWCWZwl_GqZF3ZhS10gsfHpEMhwqBJEa0FOF-eJD8JWFALd1hi8LNSLAmHKHQe8Y",
+      "image_background_color": "#ffffff",
       "description": "A modern open source rendering engine for animation and visual effects",
       "url": "https://appleseedhq.net/",
       "num_projects": 3,
@@ -211,6 +224,7 @@
     {
       "name": "Arduino",
       "image_url": "https://lh3.googleusercontent.com/2Xt9LJ2SMdLr1UqznmcpMfH_7u5F14XBU02NOdNKe0HyxUmQquo3WYBHW6UQoYCxBIaxTYc3v7_4nlL4QMrvxVKRFyJEUg",
+      "image_background_color": "#ffffff",
       "description": "Open source electronic prototyping platform",
       "url": "https://arduino.cc",
       "num_projects": 2,
@@ -222,6 +236,7 @@
     {
       "name": "ArduPilot",
       "image_url": "https://lh3.googleusercontent.com/XOG-kTrJgM69HWZejLiMvZWI76Ls2jzc2HI2CGXv2qANmcyl8pCLKAEJ31n4lMDS8CuRuGVLMCGn3g4b_KXNQa0XJOhR2iI",
+      "image_background_color": "#000000",
       "description": "The world's most versatile, trusted and open autopilot",
       "url": "https://ardupilot.org",
       "num_projects": 5,
@@ -239,6 +254,7 @@
     {
       "name": "BeagleBoard.org",
       "image_url": "https://lh3.googleusercontent.com/3WViKubcHTe32BTsWtsRbb9YmLyCfYD65BKpNmpK7x-_lfTux-55y24jQkxdYzBWoAmHEDsALlx5eD0qNoixyXvzmoeBxyI",
+      "image_background_color": "#ffffff",
       "description": "Open hardware community driven single board computers - Linux at the edge",
       "url": "https://beagleboard.org",
       "num_projects": 4,
@@ -250,6 +266,7 @@
     {
       "name": "BioGears",
       "image_url": "https://lh3.googleusercontent.com/hQcH8RXDHGNt9yIvx1BnCI7Gi_cxgOngcq-6zwKRzwwhLmLypv-qb6w997bYmx485y0a46FheMwaEE8RYGMq9A5Tc2E-VA",
+      "image_background_color": "#000000",
       "description": "ARA is an employee-owned scientific research and engineering company.",
       "url": "https://www.biogearsengine.com/",
       "num_projects": 2,
@@ -266,6 +283,7 @@
     {
       "name": "Blender Foundation",
       "image_url": "https://lh3.googleusercontent.com/adjKWIjxCB0L7XRGACtTU4ommKgUDJTOCNg9m4by7NDEbusH2nB0chLO--dcaDxdRypVf-ejlsd8hZGciDut4NQa3-dxkXOh",
+      "image_background_color": "#ffffff",
       "description": "We build a free and open source 3D creation suite.",
       "url": "https://www.blender.org",
       "num_projects": 9,
@@ -283,6 +301,7 @@
     {
       "name": "Boost C++",
       "image_url": "https://lh3.googleusercontent.com/ZBZHmVsK3to7omlS5MLWFJu38cODTPbFwWxxcWk4Rw_pguQlWfdGa58oqqfZbPUcnrtWp9wVThL23WkVrmtAYITqbCvyFc4",
+      "image_background_color": "#ffffff",
       "description": "Boost provides free peer-reviewed portable C++ source libraries",
       "url": "http://www.boost.org",
       "num_projects": 9,
@@ -299,6 +318,7 @@
     {
       "name": "BRL-CAD",
       "image_url": "https://lh3.googleusercontent.com/dMBj8Gqwsb7ZkZsZ387RB-nROa3KLkXtSIx2qzo_JBxoSsrVEtEeKxOPBic4wlj54ABR7PW3SA12oaHiefAvuiORsrPWnrE",
+      "image_background_color": "#ffffff",
       "description": "We make solid modeling, 3D printing, & other computer-aided technologies (CAx)",
       "url": "https://brlcad.org",
       "num_projects": 8,
@@ -316,6 +336,7 @@
     {
       "name": "caMicroscope",
       "image_url": "https://lh3.googleusercontent.com/mXH3O1GOXCanQbi210h90ZPxUgqZtN2tcxGrntxOY0KP9x_Rsmnr8XLV0rvj-6YrRDhBda3d6Tchr5pMBBSo1uBxnlJmyg",
+      "image_background_color": "#ffffff",
       "description": "Toolkit for cancer imaging research",
       "url": "http://camicroscope.github.io",
       "num_projects": 2,
@@ -339,6 +360,7 @@
     {
       "name": "Canadian Centre for Computational Genomics",
       "image_url": "https://lh3.googleusercontent.com/hXX62uOn8pUlexFTn2Er3l4zM9wSRNIQlIBIzMVDUKcvzO1q_3nxncfItwGxYsKSVOVzR1n0zoZ4JpDGPGlHJQi00q8YVsU",
+      "image_background_color": "#ffffff",
       "description": "Analytical solutions for Next-Generation Sequencing data",
       "url": "http://computationalgenomics.ca/",
       "num_projects": 5,
@@ -356,6 +378,7 @@
     {
       "name": "Casbin",
       "image_url": "https://lh3.googleusercontent.com/fHt2YywGwM07zfW7f0-6gEDTKDNgBDd_rxoitrPIQ91XINB5rjaTci6hjfk6DHK8DS5yJrsjF6ri5bjQMQ77Wz-2zloEW57i",
+      "image_background_color": "#ffffff",
       "description": "Authorization library that supports access control models like ACL, RBAC, ABAC",
       "url": "https://casbin.org/",
       "num_projects": 3,
@@ -367,6 +390,7 @@
     {
       "name": "Catrobat",
       "image_url": "https://lh3.googleusercontent.com/xKC8Fh82IBdGe8t3BKOe_z1PVpXEr8GBCbXAfcX2liGFnT8d4ikScYpZWfkxOrDSqI02Rz1gx2v_L3XOnEK4juqEXfEM_w",
+      "image_background_color": "#ffffff",
       "description": "Computational thinking for all with free visual coding apps",
       "url": "http://www.catrobat.org",
       "num_projects": 12,
@@ -384,6 +408,7 @@
     {
       "name": "CCExtractor Development",
       "image_url": "https://lh3.googleusercontent.com/rFLgPs-kBgERxlzSWRrGEkwIrjxf32dooMzAPESAOJYRD2-UgEZiNtxaEufnhrw71Y9DMDccfIKP0Ba2DMEWwFQp2VBqAmw",
+      "image_background_color": "#ffffff",
       "description": "Tools to make the world more accessible. ML/AI, Rust, Flutter, peer-to-peer...",
       "url": "https://ccextractor.org/",
       "num_projects": 8,
@@ -395,6 +420,7 @@
     {
       "name": "Ceph Foundation",
       "image_url": "https://lh3.googleusercontent.com/uhwXjRZ6nLrhSFfq4bJGNF7dlt_0a5KrXXWo_M0vrAHYgy-1QjeuFPaUU1YLvY3_zNxNUrya6KQtWOLqDrfHlJWQLFIeZCiK",
+      "image_background_color": "#ffffff",
       "description": "The Future of Storage",
       "url": "https://ceph.io",
       "num_projects": 4,
@@ -412,6 +438,7 @@
     {
       "name": "CERN-HSF",
       "image_url": "https://lh3.googleusercontent.com/Giq3AV0VnGTAK_K1mADDNmfB-5XxV0XFBbf7wIhDRy_XeMkNlW5AU4poRzfWhlphg2xXVGUb-xdpSIf3o_0crhq7XBb_zcw",
+      "image_background_color": "#ffffff",
       "description": "The umbrella organization for Particle (High-Energy) Physics-related projects",
       "url": "http://hepsoftwarefoundation.org/activities/gsoc.html",
       "num_projects": 34,
@@ -435,6 +462,7 @@
     {
       "name": "CGAL Project",
       "image_url": "https://lh3.googleusercontent.com/H_BmVTDvgi_2gBOHwwf21Yx9PzrbhOzbRBtAjlSynHg9bQ3UyulFQHUuIjMp4RtgKIlLd9ouXFMdNAUIziVQPJWkwb_qi14",
+      "image_background_color": "#ffffff",
       "description": "C++ library of computational geometry and geometry processing",
       "url": "https://www.cgal.org",
       "num_projects": 7,
@@ -452,6 +480,7 @@
     {
       "name": "CHAOSS",
       "image_url": "https://lh3.googleusercontent.com/rh4jW7xVAozwIVm9DyiclTW26ppwIjgeY5M5JR3WjWkiuoggDbXRxImFbNkmJLAgGHKxLuBzSY91nfCrlWtCcE3sFOL1tus",
+      "image_background_color": "#ffffff",
       "description": "CHAOSS creates software and metrics to better understand community health",
       "url": "https://chaoss.community/",
       "num_projects": 9,
@@ -469,6 +498,7 @@
     {
       "name": "Chapel",
       "image_url": "https://lh3.googleusercontent.com/g01xFI-Kpoe1YxfZ3Cxe9K0mFRzsWzqWb8SIySF1pouX8VHppr5GedgHU8pnqSUUDKWIO8NkybNv2MEsw7NmFn3g0CBjdgkF",
+      "image_background_color": "#ffffff",
       "description": "A Productive Parallel Programming Language",
       "url": "https://chapel-lang.org/",
       "num_projects": 4,
@@ -492,6 +522,7 @@
     {
       "name": "Checker Framework",
       "image_url": "https://lh3.googleusercontent.com/kkjwUDxFAB-mqjcsfk28bk6DiI475sLsQjmhiPCl03L2sPF0QzJD4_WzUDMlGz5xwNhiRJ7gcX2e9RzQNBxdEMrvcW71uA",
+      "image_background_color": "#ffffff",
       "description": "Prevent programming errors before they happen, via easy-to-use verification",
       "url": "https://checkerframework.org/",
       "num_projects": 2,
@@ -509,6 +540,7 @@
     {
       "name": "Checkstyle",
       "image_url": "https://lh3.googleusercontent.com/djZ7vZ1ocX2m3lz4HRUbdIuXAA74-MT1yfX58zq2KsZ_7UlWbU1AhbEnEveuDfo2zWpb22vbQf3JJx_x6JP20QjjbdPKnFeW",
+      "image_background_color": "#ffffff",
       "description": "Tool to help programmers write Java code that adheres to a coding standard.",
       "url": "https://checkstyle.org",
       "num_projects": 3,
@@ -525,6 +557,7 @@
     {
       "name": "CircuitVerse.org",
       "image_url": "https://lh3.googleusercontent.com/7os16xfMqehEEIGhJNDCVn7rZc1K_x2pWlZLpaF2z2okbgo5lhXbDP8f8rTCLwbzFx4M3xA6JbGrWrE9WotHwDBGjMfQ1ZHl",
+      "image_background_color": "#ffffff",
       "description": "Have fun exploring logic circuits right from your browser!",
       "url": "http://circuitverse.org/",
       "num_projects": 4,
@@ -542,6 +575,7 @@
     {
       "name": "CiviCRM",
       "image_url": "https://lh3.googleusercontent.com/yN162PZ0jvDYnZrOu56IsCwwRQaegvkAwQEVdmbZlOzt5RcA2IPFJL7PMFUpNHfvAIJk6_lBQHEoRnpEPh3B5Wy7Wx7lQw7O",
+      "image_background_color": "#ffffff",
       "description": "Open source CRM for nonprofits and civic sector organizations.",
       "url": "https://civicrm.org",
       "num_projects": 4,
@@ -553,6 +587,7 @@
     {
       "name": "Cloud Native Computing Foundation (CNCF)",
       "image_url": "https://lh3.googleusercontent.com/J2Z8I8Zhlyow2cMm1XtweL9ZHU3cHazQ4IRWmrOuxqLH1bNa1XdlfvgNJuUhgvdJUuJ2Yix3vybhhlxAAiHlc3wyMHBxJQ",
+      "image_background_color": "#ffffff",
       "description": "Building Sustainable Ecosystems for Cloud Native",
       "url": "https://www.cncf.io",
       "num_projects": 17,
@@ -564,6 +599,7 @@
     {
       "name": "CloudCV",
       "image_url": "https://lh3.googleusercontent.com/stl8rBTJfWTYiZ6wnstOoR7XXKavg2az_pG79UbxRtEu--mcsz7geZvo3zUFa740J6pNEkUsIBHEXzPtwPHy0kKz4d2hCAU",
+      "image_background_color": "#ffffff",
       "description": "Building platforms for reproducible AI research",
       "url": "https://cloudcv.org",
       "num_projects": 3,
@@ -580,6 +616,7 @@
     {
       "name": "Continuous Delivery Foundation",
       "image_url": "https://lh3.googleusercontent.com/GaujU92KfAneJ3COQb8a0Kiz7lpIDEVF5RnPZhuaevlJfZY_YhpPTdOnTU7j8yEhLkLehBeZ5WZbGMvl4HG8URA6jp5-7oc",
+      "image_background_color": "#ffffff",
       "description": "A Neutral Home for the Next Generation of Continuous Delivery Collaboration",
       "url": "https://cd.foundation",
       "num_projects": 3,
@@ -596,6 +633,7 @@
     {
       "name": "coreboot",
       "image_url": "https://lh3.googleusercontent.com/qLEEtQqpMm4rsuJVHERQcIBfRwOgpU7_Ymcsrf92cYokSITidDqBSnLHWMG_iPOCqLCxcR9SQ09PIOnNcHdfW0D49rjyh6Q",
+      "image_background_color": "#ffffff",
       "description": "Fast, secure and flexible OpenSource firmware",
       "url": "https://www.coreboot.org/",
       "num_projects": 2,
@@ -607,6 +645,7 @@
     {
       "name": "Creative Commons",
       "image_url": "https://lh3.googleusercontent.com/CSgdrkJnyXwRi91yVNfjZ3buekJZsElxTcJV7NoKLYyncCZwxrIVS9XHDld6h3ppi02s9nwDQz9EQa2cUjo0JdHvvf2J77g",
+      "image_background_color": "#ffffff",
       "description": "Nonprofit building a vibrant, collaborative, and global digital commons.",
       "url": "https://opensource.creativecommons.org",
       "num_projects": 5,
@@ -618,6 +657,7 @@
     {
       "name": "CRIU",
       "image_url": "https://lh3.googleusercontent.com/qzKVJcVPqR8tfSojXm1UnIexA9ujF1LGjViiMcW8OWNrQupWqfKE24y2mSgbrYrbXNnkIVG1UboxVE0GLbibC_-MNUgASA",
+      "image_background_color": "#ffffff",
       "description": "Checkpoint/Restore in User-space",
       "url": "https://criu.org",
       "num_projects": 3,
@@ -629,6 +669,7 @@
     {
       "name": "Cuneiform Digital Library Initiative (CDLI)",
       "image_url": "https://lh3.googleusercontent.com/UrAkm4jiVk38kjWqXvIxA4GP4grkXqzfS4lV-f5fKjiMSSl4KKXYYFworzv443VZPsyOirfvh12oOTo5nlEKg2ivDPkGcwCE",
+      "image_background_color": "#000000",
       "description": "International digital library of artifacts inscribed with cuneiform writing",
       "url": "https://cdli.ucla.edu",
       "num_projects": 9,
@@ -646,6 +687,7 @@
     {
       "name": "Dart",
       "image_url": "https://lh3.googleusercontent.com/BpjOZ2JJeNlrcGqFPatKd7CHati2lIbKl1qIIPPJdzdq_tOKq8qYR8cNbnyEQ8O4wCDk7lHCxrnBlyTGWGJkB6UtHMpo-p26",
+      "image_background_color": "#0d1520",
       "description": "Dart is a client-optimized language for fast apps on any platform.",
       "url": "https://dart.dev/",
       "num_projects": 5,
@@ -657,6 +699,7 @@
     {
       "name": "DBpedia",
       "image_url": "https://lh3.googleusercontent.com/uxn8PlyXqjTOQrfaoAGCSsxpCHB2zln0lxp6OunOeqFOEam9M2K9B3b3u3fpoC4p4m9aKwMtY5zz1aHtV3IAu-5ktqOAHcU",
+      "image_background_color": "#ffffff",
       "description": "Global and Unified Access to Knowledge.",
       "url": "https://wiki.dbpedia.org/gsoc-2020",
       "num_projects": 7,
@@ -674,6 +717,7 @@
     {
       "name": "Debian",
       "image_url": "https://lh3.googleusercontent.com/Q4pKJzQ3_SbdCi_MBeH8wXxvOmQ0jjaadMb7SOsp9mY7wC11NnvuRIasRfjVatNuLtq130FhPGgzzwNdC70LFf1-zw-bbCs",
+      "image_background_color": "#ffffff",
       "description": "The Universal Operating System",
       "url": "https://www.debian.org",
       "num_projects": 8,
@@ -690,6 +734,7 @@
     {
       "name": "Digital Impact Alliance (DIAL) at UN Foundation",
       "image_url": "https://lh3.googleusercontent.com/0r2O8DL6JVcBDlNBss0qBUIJsPdSL-G4tL7LZs5uBLPKyGkDkdK1kVy_cBeai6y_YNK9pEwMiBuhuxoKa3odPu9if0ToagU",
+      "image_background_color": "#ffffff",
       "description": "Open source projects for humanitarian work, international development, and peace",
       "url": "https://www.digitalimpactalliance.org",
       "num_projects": 14,
@@ -707,6 +752,7 @@
     {
       "name": "Django Software Foundation",
       "image_url": "https://lh3.googleusercontent.com/pwolh34rTnKQ_hNWyd-TwU-SRz54sz38ueZtgGzWEWzuJmSbVVZwFXSzIXLlEtTHtkJnqxp-FAGzui30WGMSK47Ixjhqyuc",
+      "image_background_color": "#092e20",
       "description": "The web framework for perfectionists with deadlines.",
       "url": "https://www.djangoproject.com",
       "num_projects": 2,
@@ -718,6 +764,7 @@
     {
       "name": "Drupal",
       "image_url": "https://lh3.googleusercontent.com/6zHJFNlLTojw4_HRZ3-oh4oVGgTylwNf2uANig3xlvmkuReKw03X8KDaetybuiL6xicNVgYPhzKh1NebGx3N7MRhcb0x0cyG",
+      "image_background_color": "#ffffff",
       "description": "Drupal is a Framework/CMS. It's built many of the sites and apps you use daily.",
       "url": "https://www.drupal.org/",
       "num_projects": 1,
@@ -735,6 +782,7 @@
     {
       "name": "Eclipse Foundation",
       "image_url": "https://lh3.googleusercontent.com/QskQoW92Xmhly9S9eG5B2emJROXbUKV14oMOGwxKi44iNJ_P-axRwllsav5lLgW_nmWmzvaL1cGfgFgGt9oXRIq8XBhTFIGg",
+      "image_background_color": "#ffffff",
       "description": "Non-profit, member-driven organization, a community of developers & OSS projects",
       "url": "https://www.eclipse.org/org/foundation/",
       "num_projects": 7,
@@ -758,6 +806,7 @@
     {
       "name": "Elastic",
       "image_url": "https://lh3.googleusercontent.com/eOXs7ZiMFZkKc1E0CvvS9iN5PO7yCd_Nd70vL2ZoDy8PNNh2Mn897XxFd_TF9iTywyd2M-RCLS17rpDRJ_vfEFJ-XzopHLY",
+      "image_background_color": "#ffffff",
       "description": "We are the creators of Elasticsearch, Kibana, Beats, and Logstash.",
       "url": "https://elastic.co",
       "num_projects": 2,
@@ -769,6 +818,7 @@
     {
       "name": "Embox",
       "image_url": "https://lh3.googleusercontent.com/Wxquhb2hHtXZLzWiMeBePgSdNUrJECbNTYlDvJER1sF-uS2EEK52vTgwaWaQpnS6AhYcOLQcjbjqy2TOi3mBttC5KHCUwA",
+      "image_background_color": "#ffffff",
       "description": "Modular and configurable OS for embedded applications",
       "url": "http://embox.github.io",
       "num_projects": 2,
@@ -780,6 +830,7 @@
     {
       "name": "Erlang Ecosystem Foundation",
       "image_url": "https://lh3.googleusercontent.com/5uycoUg-xQ6_2bY9fHvMj8N74iBghWqwmDXcCMIrfEc0pe7RB_RIqNuuFH0dtzJfowjQgNdB93DObYni4yDDOICJ7J2LiQ",
+      "image_background_color": "#ffffff",
       "description": "Supporting the Beam community",
       "url": "http://erlef.org",
       "num_projects": 3,
@@ -797,6 +848,7 @@
     {
       "name": "Fedora Project",
       "image_url": "https://lh3.googleusercontent.com/emDR-Vri1FQ-diWVnskdOA6G14yfv-5f9EI7vorE7-wfXkQrp7Yi6faWPR86vulPc64fcsUOKu-pMYuV85PZZAIv1njHnw",
+      "image_background_color": "#ffffff",
       "description": "Fedora Linux is built on the foundations of Freedom, Friends, Features, & First",
       "url": "https://getfedora.org/",
       "num_projects": 4,
@@ -820,6 +872,7 @@
     {
       "name": "FFmpeg",
       "image_url": "https://lh3.googleusercontent.com/JnIOCcGFczHCa9J7UpFMXviMi9d7CCB4kc8vxQvqFgMrVmmiSUDu4nkv68w7OgCadP7zbGUnNmaXLURs2mx6C_V36XzcAPw",
+      "image_background_color": "#ffffff",
       "description": "A complete, cross-platform solution to record, convert and stream audio & video",
       "url": "https://ffmpeg.org/",
       "num_projects": 5,
@@ -831,6 +884,7 @@
     {
       "name": "FOSSology",
       "image_url": "https://lh3.googleusercontent.com/32W8wYGaKDajKTOEwMv2FXHIhfFirCqDSdHe5_VtfKH941AIUGB4ebkVAl0_l3ZlEeZsn_tl7V4q1EzPv9CB0yP1oAFz3IM",
+      "image_background_color": "#ffffff",
       "description": "Open Source Compliance with Open Source Software",
       "url": "https://www.fossology.org/",
       "num_projects": 3,
@@ -848,6 +902,7 @@
     {
       "name": "FrameNet Brasil (UFJF)",
       "image_url": "https://lh3.googleusercontent.com/3JhKSFXuc0iXs1ASQ8UGgndSK8XIJhtOi_KJ7IB8aJ3cu4zMOCLEHYw6pFnti45vJIJONY5i9b4jtOiDPruA0HIjaNwuEzE",
+      "image_background_color": "#ffffff",
       "description": "Natural Language Understanding with structured computational semantics",
       "url": "http://www.ufjf.br/framenetbr-eng/",
       "num_projects": 2,
@@ -865,6 +920,7 @@
     {
       "name": "Free and Open Source Silicon Foundation",
       "image_url": "https://lh3.googleusercontent.com/vU4C_HppHo-iNmbdURwUwoe6rkWPEhkpgDEB3ao2iDdsAFfqZS90y5tjCu26In-OjWJIiV8mhW2X59KyznSPg0kafsOSjg4",
+      "image_background_color": "#ffffff",
       "description": "Free the last nanometer! Open source silicon and EDA tools",
       "url": "https://fossi-foundation.org/",
       "num_projects": 4,
@@ -876,6 +932,7 @@
     {
       "name": "FreeBSD Project",
       "image_url": "https://lh3.googleusercontent.com/jOjIFbPUVThwS4Uf_MinYXkMf4BwyqK4o_zD5kLgvDFaLWVJezB46Cb5-8iskkKE-IgG-b9s_xissUsP9jTiA4rqhMlLxNw",
+      "image_background_color": "#ffffff",
       "description": "FreeBSD: The Foundation of the Internet",
       "url": "https://www.freebsd.org/",
       "num_projects": 6,
@@ -893,6 +950,7 @@
     {
       "name": "FreeType",
       "image_url": "https://lh3.googleusercontent.com/Qk_AuszyFcl7BEoeKMigFDVTi9pfHZ2orAHHAMnbTFGms6RZnOsX8TyKf63hpC1fyOMSaY6P2p1l88uocez0Smot0MUKKrQ",
+      "image_background_color": "#ffffff",
       "description": "FreeType is a freely available software library to render fonts.",
       "url": "https://freetype.org",
       "num_projects": 3,
@@ -904,6 +962,7 @@
     {
       "name": "FRRouting",
       "image_url": "https://lh3.googleusercontent.com/UVvB0mxrF3YRSBqCYr8XlcN8H4DQ1YPe9kMKuv5mPka9K4-rBweahG_dtWXuxUp1q96bcCXci9z2LKzwvV5ZImMmM5QzFfc",
+      "image_background_color": "#ffffff",
       "description": "Routing suite for *nix platforms including BGP, IS-IS, LDP, OSPF, PIM, and RIP.",
       "url": "https://frrouting.org/",
       "num_projects": 1,
@@ -921,6 +980,7 @@
     {
       "name": "GDevelop",
       "image_url": "https://lh3.googleusercontent.com/f4WpusIovGhvkq0URnquenWBfSMC62lLjEC3s8wsXI4b2sK-mVRT9JlP7AdIjSWuZV54HCcUX-sU2LWIubZPURUmrU6cfA",
+      "image_background_color": "#ffffff",
       "description": "The cross-platform game engine designed for everyone.",
       "url": "https://gdevelop-app.com",
       "num_projects": 2,
@@ -938,6 +998,7 @@
     {
       "name": "Gentoo Foundation",
       "image_url": "https://lh3.googleusercontent.com/oSCAD7SRsxUXDYGbx0_wI3C9a9_rWbq_899WIt6a2QnSCCj_H4UwloRaZPjDk5MPRlvoffchdyfFiDtWKkNl4vSRg24ujf8",
+      "image_background_color": "#ffffff",
       "description": "A highly flexible, source-based Linux distribution",
       "url": "https://gentoo.org",
       "num_projects": 4,
@@ -955,6 +1016,7 @@
     {
       "name": "GeomScale",
       "image_url": "https://lh3.googleusercontent.com/TZvmnxIF4l5f-jAV3nUBRveXYVZh7eCQpXjWfbvV_Efb2FAL7FyqzvRC63-9wXc3tlZsKQgbIJ_HxmSMN0XjIfwB-65RTq4",
+      "image_background_color": "#ffffff",
       "description": "Scalable algorithms for geometric statistics",
       "url": "https://geomscale.github.io/",
       "num_projects": 3,
@@ -972,6 +1034,7 @@
     {
       "name": "Git",
       "image_url": "https://lh3.googleusercontent.com/_EdR6Su0NOAwLChS5mL5SvhPhMyUrQaBWqYslaD6enV7GKnQfULQrTK3B-KlkWjhTpfe7l_xPGWterin1LKOrXySke_eBBs",
+      "image_background_color": "#ffffff",
       "description": "fast, scalable, distributed revision control system",
       "url": "http://git-scm.com",
       "num_projects": 3,
@@ -983,6 +1046,7 @@
     {
       "name": "Global Alliance for Genomics and Health",
       "image_url": "https://lh3.googleusercontent.com/VERyD_mkHqNyEa2JUXO_bFMxq3_cyUYuOw7kfj6gfkE7jfuKsIGk___d2uSdLJ652y7REpxiUdPERd_8DK_q47Tu2dSyAw",
+      "image_background_color": "#ffffff",
       "description": "We develop open standards and tools for genomics to benefit human health",
       "url": "https://www.ga4gh.org/",
       "num_projects": 4,
@@ -994,6 +1058,7 @@
     {
       "name": "GNOME",
       "image_url": "https://lh3.googleusercontent.com/tODguN7DAqJCO_MM7u4AaB6rVTDZ_US3F7iT9vYGuxlF0Aoex1HkMaoxS2mSYTX5F19qUtvjfDiKI_FpxS_IT9DYBgeSM1Sh",
+      "image_background_color": "#ffffff",
       "description": "The elegant and ethical desktop experience",
       "url": "https://www.gnome.org/",
       "num_projects": 14,
@@ -1005,6 +1070,7 @@
     {
       "name": "GNSS-SDR",
       "image_url": "https://lh3.googleusercontent.com/p-sdX9QEM9l2r7Xvs-M67cJ6op8fiC6Z5WC_ozLHHxvIzzoGo9juPdsHwk0R-Md78nQjapKa2MJFaZMxuucW2F6UokuBS2M",
+      "image_background_color": "#ffffff",
       "description": "An open source Global Navigation Satellite Systems software-defined receiver.",
       "url": "https://gnss-sdr.org",
       "num_projects": 2,
@@ -1021,6 +1087,7 @@
     {
       "name": "GNU Compiler Collection (GCC)",
       "image_url": "https://lh3.googleusercontent.com/0cazKc-GAW6zNG4BNkqO6I6lR6CYH-ApmSdGS4eYygJlpdGZ9SAwLj103a5Yu9R_-Z6UFvRfFQhMQYzhf-kETI8OIvLn4aY",
+      "image_background_color": "#ffffff",
       "description": "GCC",
       "url": "https://gcc.gnu.org/",
       "num_projects": 2,
@@ -1032,6 +1099,7 @@
     {
       "name": "GNU Octave",
       "image_url": "https://lh3.googleusercontent.com/g8B_Co58g3Irjhhdve83-oEqeDA_tCopmMKgVVsV8wqzm1tkMXFgUvzqFuJSTjAw158ZmmPIeE_so6raEhmFhbnEPBs21Js",
+      "image_background_color": "#ffffff",
       "description": "Free Your Numbers",
       "url": "https://www.octave.org",
       "num_projects": 1,
@@ -1049,6 +1117,7 @@
     {
       "name": "GNU Radio",
       "image_url": "https://lh3.googleusercontent.com/teArmiN6lnG4H8gyS7qA3OStXgyKT0TKLGZPFJqKTUriujPJZnqHlf3G2KvZD4EW46xrftUp9NJnpUFwGCQ2bIDO5rTN3x4",
+      "image_background_color": "#ffffff",
       "description": "The Free & Open Software Radio Ecosystem",
       "url": "https://www.gnuradio.org/",
       "num_projects": 1,
@@ -1064,6 +1133,7 @@
     {
       "name": "Godot Engine",
       "image_url": "https://lh3.googleusercontent.com/aaYAz7z-pGH-6ZEdJUxpFm5m3ot9ToZNeDy-YJUKKlA5cgrl8iC7KTPqAV1M5twPcslNva5TshiBOB9McZK7LuYkJ-El6Q",
+      "image_background_color": "#ffffff",
       "description": "Godot is a multi-platform 2D and 3D game engine with a feature-rich editor",
       "url": "https://godotengine.org",
       "num_projects": 6,
@@ -1075,6 +1145,7 @@
     {
       "name": "GPAC",
       "image_url": "https://lh3.googleusercontent.com/d3oNDfuyytm6SKBXs4Hg1T9_c1-9H5gyMKsvJYT9Uk4KczL3IQvT7eomOu-XMqyNZeGfyqTic6tAsHT_yQCaoo3-p2V3dWWH",
+      "image_background_color": "#ffffff",
       "description": "C multimedia framework",
       "url": "http://gpac.io",
       "num_projects": 0,
@@ -1092,6 +1163,7 @@
     {
       "name": "GraphQL Foundation",
       "image_url": "https://lh3.googleusercontent.com/bz8lK4PHeuxEVW7wfn9vGjOsHJ5DMdOAVeafZ1yo0kro-tTYJgKPriLO6DtgybXnNQ6uUjaKBBVHZXH7rg6cvsrnJU4nnlw",
+      "image_background_color": "#ffffff",
       "description": "GraphQL is a fast and efficient query language for APIs.",
       "url": "https://graphql.org",
       "num_projects": 2,
@@ -1103,6 +1175,7 @@
     {
       "name": "Haiku",
       "image_url": "https://lh3.googleusercontent.com/-Xc9dJHfjFE8tZDOXGprOwZHCHsZOsGLdB0bNHfmJcdENhZZ7o-w8bGAlDKf4kAeWcrzBxLga-GvMwHXKK3iJwU1fk4IXQ",
+      "image_background_color": "#336699",
       "description": "A desktop operating system written in C++",
       "url": "http://www.haiku-os.org",
       "num_projects": 4,
@@ -1120,6 +1193,7 @@
     {
       "name": "Haskell.org",
       "image_url": "https://lh3.googleusercontent.com/dcyVncFeZxFWuyTj3S0TNtTVaMAA_3oxLuo0pmtOt5iOqrvz8_aHwWV1dXMt3glAc-c3cKDl0q6ahhNyGeQvGaGkYufKWuI",
+      "image_background_color": "#ffffff",
       "description": "Standardized, statically typed, lazy functional programming language",
       "url": "http://haskell.org",
       "num_projects": 12,
@@ -1137,6 +1211,7 @@
     {
       "name": "Hazelcast",
       "image_url": "https://lh3.googleusercontent.com/r7ugemZ2fI22B5_6ngzQdhgYlXyv3B8xcTHwE9vTcnxWoIAvOei-dxIoS6R6ksClFX0O1jHknEbyEK89hpVFAhbT6mddZ-0",
+      "image_background_color": "#ffffff",
       "description": "In-Memory Computing Platform",
       "url": "https://www.hazelcast.org/",
       "num_projects": 2,
@@ -1148,6 +1223,7 @@
     {
       "name": "Homebrew",
       "image_url": "https://lh3.googleusercontent.com/CB98IZhzWWjevutevGFy7veUqofofeWOM5WhRh2X5_AaAL4u4LGWEUKnjCnmjAcoIPL9SNLr-GxEpJ0cFQ7YevcqBX_yeuU",
+      "image_background_color": "#ffffff",
       "description": "The Missing Package Manager for macOS (or Linux)",
       "url": "https://brew.sh",
       "num_projects": 3,
@@ -1159,6 +1235,7 @@
     {
       "name": "Hydra Ecosystem",
       "image_url": "https://lh3.googleusercontent.com/-RLc8chMXXv2wOj9lvZBOGNzcCVUW3CMlI3GE9TYfOoeWvyLN36xSfcCWnlflCxLCc0_f7T_CCu05mx1TZMK35SdC9PSjv8",
+      "image_background_color": "#ffffff",
       "description": "Automate REST APIs. Build next generation API clients.",
       "url": "https://www.hydraecosystem.org/",
       "num_projects": 2,
@@ -1170,6 +1247,7 @@
     {
       "name": "INCF",
       "image_url": "https://lh3.googleusercontent.com/5ZjfKSbkdVj2_7vk9VaOuOs6l_VkT43SymTyUq_DWg3Rb-XzpIZqM7wpYcI7tT2FtNjEK1s_su4G--4CCYm93ETREeZUqWo",
+      "image_background_color": "#ffffff",
       "description": "Enabling open and FAIR neuroscience",
       "url": "https://www.incf.org",
       "num_projects": 21,
@@ -1187,6 +1265,7 @@
     {
       "name": "Inclusive Design Institute",
       "image_url": "https://lh3.googleusercontent.com/XTprn0SsGg4WcXZU0UXeJZ_qSqBCnQ0rZ-TayCndjJoRMVdpddcOTsTeR3SDr0od8Qxo4xzCmqCe4qA-h1HAi_3deWfhzRiN",
+      "image_background_color": "#ffffff",
       "description": "The IDI addresses the challenge of designing ICT to work for all potential users",
       "url": "https://inclusivedesign.ca",
       "num_projects": 2,
@@ -1204,6 +1283,7 @@
     {
       "name": "Inkscape",
       "image_url": "https://lh3.googleusercontent.com/t7eGdN4y3QMmFMQuzAvYAW1pWN_qonudourWzNeP8w6jKbBD6qVhlRm0PLfy612Na-5IMj4OYsH2YUX0XCGNJbjkme-hiIE",
+      "image_background_color": "#ffffff",
       "description": "Vector graphics editor",
       "url": "https://inkscape.org",
       "num_projects": 3,
@@ -1215,6 +1295,7 @@
     {
       "name": "Intel Media And Audio For Linux",
       "image_url": "https://lh3.googleusercontent.com/aYIBcFhI_GHGWW0W_ZouVV5RVkodl2ksJT2jVqUYmoTOuCO6aXKPCRTJQ2AwSfq-qc91Q9KKcK1AtRL4G7B24kRqTmYDbTF_",
+      "image_background_color": "#ffffff",
       "description": "We work on Linux opensource video and audio software for Intel.",
       "url": "https://01.org/linuxmedia",
       "num_projects": 2,
@@ -1236,6 +1317,7 @@
     {
       "name": "Internet Archive",
       "image_url": "https://lh3.googleusercontent.com/nkRr82eclf8zzdKaNfMyrK40ELhAw1GQoFYkju2kuF8QZPyc12ksuZodn99YTB-H_PY62MvWOFkTAmfYqhEcd7Yqu_g02w",
+      "image_background_color": "#ffffff",
       "description": "Universal Access to All Knowledge",
       "url": "http://archive.org",
       "num_projects": 3,
@@ -1247,6 +1329,7 @@
     {
       "name": "JBoss Community",
       "image_url": "https://lh3.googleusercontent.com/4ob_ugC8Py3G7SRBl87xUtmSRQJcs2ofR1GPmNaNOPyAHRWSU9GLZbsV89_ocPmRyyblaYjo3b-QOsrZweTzsNUCINGWZ9E",
+      "image_background_color": "#ffffff",
       "description": "Community of Java projects around JBoss Middleware",
       "url": "http://www.jboss.org/",
       "num_projects": 10,
@@ -1264,6 +1347,7 @@
     {
       "name": "JdeRobot - Universidad Rey Juan Carlos",
       "image_url": "https://lh3.googleusercontent.com/li5R1Mp1XDCgdNzcI3U-r10-HMmVp5WuLx5JR12c3bzlANPPaQ_sRxhUWKB0fVi8YWK5_QHogKeOiFW30o97R-59xu693hk",
+      "image_background_color": "#ffffff",
       "description": "A software toolkit for developing applications in Robotics and Computer Vision",
       "url": "http://jderobot.github.io",
       "num_projects": 5,
@@ -1275,6 +1359,7 @@
     {
       "name": "Jenkins project",
       "image_url": "https://lh3.googleusercontent.com/OOllweMXWTJqctmFZ9AcmAI_NQDyw-grzR0q-BNBLs1HVT80x5wsNF9iNdVRufhz_N7rjJ_ixpDNmH57WOysDEK-R1Apyg",
+      "image_background_color": "#ffffff",
       "description": "Open-source automation server for building great things at any scale",
       "url": "http://jenkins.io",
       "num_projects": 7,
@@ -1292,6 +1377,7 @@
     {
       "name": "Joplin",
       "image_url": "https://lh3.googleusercontent.com/RzV5F0HWFOXzBAxQi5B1zkXucddyL3QAYQrnLbZJbn8YLG7eRurABqYrYkxWo4_yx8of-FBfLUv9ovxnM3n6KOxKzFF2ndY",
+      "image_background_color": "#ffffff",
       "description": "A note taking and to-do application with synchronisation capabilities",
       "url": "https://joplinapp.org/",
       "num_projects": 2,
@@ -1315,6 +1401,7 @@
     {
       "name": "Kapitan",
       "image_url": "https://lh3.googleusercontent.com/zircNwClG3cGy7dWVs4jsWn1-wjodnztl3mBi-n6jPXGmME1cz6uFSQFmPrdthHI97lbraFMOeE9K8p6S-tooPbFcyauDpaX",
+      "image_background_color": "#ffffff",
       "description": "Templated configuration management for Kubernetes, Terraform and other things",
       "url": "https://kapitan.dev/",
       "num_projects": 1,
@@ -1337,6 +1424,7 @@
     {
       "name": "KDE Community",
       "image_url": "https://lh3.googleusercontent.com/U0zw-sBeUlJF3Y_qdf0la9Stj6mv_zpm-l7vj6srfk9348A5VfZg5i0wdGFa17pohsvf3quEkK0BUwSMfEDED5LrRmi9ZRk",
+      "image_background_color": "#ffffff",
       "description": "International community creating Free Software together",
       "url": "https://www.kde.org",
       "num_projects": 19,
@@ -1348,6 +1436,7 @@
     {
       "name": "Kiwix",
       "image_url": "https://lh3.googleusercontent.com/_G-3k1qquR7KKqc7U79b0OX4ES8y8fMguzGncBxng7I57SRRiFU0WLdvjvd7E0C-XwdV08rNayKKyR8o6UL70Cxi546Uz-2Q",
+      "image_background_color": "#ffffff",
       "description": "Internet content for people without internet access",
       "url": "https://www.kiwix.org",
       "num_projects": 3,
@@ -1359,6 +1448,7 @@
     {
       "name": "Kodi Foundation",
       "image_url": "https://lh3.googleusercontent.com/ZH3xmXhcXkOiFgo4zObSsvWvrbKGsozvnQkSIUT96reNJFsd3uq901rYEOddPKDSqN5fXR91sxAtj36Lm3Psaus5_Tvyt-E8",
+      "image_background_color": "#000000",
       "description": "The ultimate entertainment center",
       "url": "http://www.kodi.tv",
       "num_projects": 3,
@@ -1370,6 +1460,7 @@
     {
       "name": "Kubeflow",
       "image_url": "https://lh3.googleusercontent.com/LxE_Vb5yNx7t7JUEgMqVhRT4GW2R7say6tkq4y7aB83qYOtFFSGoc7L2szYzSSeecK72Tu6WL0gNeanfRQpRCOLqV_n934o",
+      "image_background_color": "#ffffff",
       "description": "The machine learning toolkit for Kubernetes.",
       "url": "http://kubeflow.org",
       "num_projects": 2,
@@ -1387,6 +1478,7 @@
     {
       "name": "LabLua",
       "image_url": "https://lh3.googleusercontent.com/k_lvJgTyYlTkDUK37sLRP2s8hqsYL1K6W2YQUybT0j7YvGo7IR3HO77bqEr64thDdHjUn4dOURMQZfJ1drsKj3poDeVsx5VX",
+      "image_background_color": "#ffffff",
       "description": "Programming Languages Research with emphasis on the Lua language",
       "url": "http://www.lua.inf.puc-rio.br",
       "num_projects": 6,
@@ -1403,6 +1495,7 @@
     {
       "name": "Libre Space Foundation",
       "image_url": "https://lh3.googleusercontent.com/d2-IgRV3dghSIIhN7Zp6HJvUEdmC52rnV7PO9Azcwq7-TTZk8zY6zSsIax7uHPMNuvkbmUeEWNOVKEqQjQPxaHE9D1yXRnA",
+      "image_background_color": "#ffffff",
       "description": "Open-source software and hardware technologies for space",
       "url": "https://libre.space",
       "num_projects": 2,
@@ -1425,6 +1518,7 @@
     {
       "name": "LibreHealth",
       "image_url": "https://lh3.googleusercontent.com/tJ84FUbihX8NiSuqrtUJzJHcl5akx0LrfroWIdg-Wc4ZotTsyH2-zTTLoUAefmTiapr0jFubAx49WsuXw_Ur6-b1-15L9Q",
+      "image_background_color": "#ffffff",
       "description": "Healthcare for Humanity",
       "url": "https://librehealth.io",
       "num_projects": 4,
@@ -1442,6 +1536,7 @@
     {
       "name": "LibreOffice",
       "image_url": "https://lh3.googleusercontent.com/JrGSYuhCZAIMN4oZuxX8nKSp7NwAy7PpCjJEz_ISy20pCdL5rm2tDuRyJGpJ8ARN08-gZfFJ8Qy-aF-IhNLcSHSZY021bQ",
+      "image_background_color": "#ffffff",
       "description": "LibreOffice is a free and open source office suite.",
       "url": "https://www.libreoffice.org",
       "num_projects": 6,
@@ -1458,6 +1553,7 @@
     {
       "name": "libvirt",
       "image_url": "https://lh3.googleusercontent.com/PFp5XEHwB-IRw7DfEXDgO5dHW-NOCGcAwiuApei0WAJfnAw0HN3TbwX52JwmHk4oPJZexztbiXm2Jkw3ni8FV5SoacaeWQ",
+      "image_background_color": "#ffffff",
       "description": "virtualization abstraction library",
       "url": "http://libvirt.org/",
       "num_projects": 4,
@@ -1469,6 +1565,7 @@
     {
       "name": "Linkerd",
       "image_url": "https://lh3.googleusercontent.com/OC5OtAHv88jewoffOwBhWygdW4jb-33_nrW_BGZSol_KnQGNLwuQg51nvG89fjCqXNl5Ry82c6txYdW3xzBknr41sJ4PHio",
+      "image_background_color": "#ffffff",
       "description": "Linkerd is the ultralight service mesh for Kubernetes and beyond",
       "url": "https://linkerd.io/",
       "num_projects": 2,
@@ -1486,6 +1583,7 @@
     {
       "name": "Liquid Galaxy project",
       "image_url": "https://lh3.googleusercontent.com/fW2e-lb1fmn3mMWslRFeDp7WVkXFtWMfiEv8jIY4tXmR7MiEYcoq5_8DbqqiFY-tNuVFUFzodQXcKJnbpXUn4tgM5_q04D8-",
+      "image_background_color": "#ffffff",
       "description": "Liquid Galaxy is a remarkable panoramic system that is tremendously compelling.",
       "url": "https://www.liquidgalaxy.eu/",
       "num_projects": 8,
@@ -1503,6 +1601,7 @@
     {
       "name": "lowRISC",
       "image_url": "https://lh3.googleusercontent.com/nXwbNqY-sFoaSOqayF8cQozzvByH5OO1523rq2G1g1LY99QjrwnBOSxRTBdpzljlgde9flGHfs-usWVQp6MYOWkF3xjMpRI",
+      "image_background_color": "#ffffff",
       "description": "Open to the core - collaborative engineering for open source silicon and tools",
       "url": "https://www.lowrisc.org",
       "num_projects": 2,
@@ -1514,6 +1613,7 @@
     {
       "name": "MacPorts",
       "image_url": "https://lh3.googleusercontent.com/Lymw2myNawPMZb74F5Pv2S5aN6nJq_tN5Dbvp6ygfnSPh336b1dmI7KyILWdxfihweAV6kn60bCZo0SkqILOIHSVuyZ_xJw",
+      "image_background_color": "#ffffff",
       "description": "Open Source package manager for macOS.",
       "url": "https://www.macports.org/",
       "num_projects": 1,
@@ -1525,6 +1625,7 @@
     {
       "name": "MariaDB Foundation",
       "image_url": "https://lh3.googleusercontent.com/_-98eExw0QCor47iDHvZlu6q9DpjM8w7-OJEN2RfV6YjpZbPok_bxYPPBI-Jf5RlSh5w5vgCj_EEFZC615w6txgBCr3_Gw",
+      "image_background_color": "#ffffff",
       "description": "One of the most popular databases on the web with many notable users",
       "url": "https://mariadb.org",
       "num_projects": 2,
@@ -1536,6 +1637,7 @@
     {
       "name": "Matrix",
       "image_url": "https://lh3.googleusercontent.com/X68chGth6Lv9JBXqFnEPcYaXP-0WzczfZncjkhkUEvXMsTjXtOQ8HNQboyj26IRzKZkDET4LzqbJmIczZiyhI3xKh5_roL52",
+      "image_background_color": "#ffffff",
       "description": "An open network for secure, decentralized communication",
       "url": "https://matrix.org",
       "num_projects": 6,
@@ -1553,6 +1655,7 @@
     {
       "name": "MBDyn",
       "image_url": "https://lh3.googleusercontent.com/bEiT7jhiptTiVVsAE9JVjviLHZfZ06dSWvQasRcrJ7MfPUCKPPjX5eIcCo0Wr6wTlnZU9PfwUnkw-ZeCG7vmJmdzKiDq9hk",
+      "image_background_color": "#FFFFFF",
       "description": "Free general purpose Multibody Dynamics analysis",
       "url": "https://www.mbdyn.org/",
       "num_projects": 1,
@@ -1570,6 +1673,7 @@
     {
       "name": "MDAnalysis",
       "image_url": "https://lh3.googleusercontent.com/3YPVTH-14-O1J6R3Do0qZ3ypUapFW8oPWiK0Glg6HM4PHESJjV888mK_6vHxsaZjNL7HWXER91ougP-1uyesZOH2pMcRkGk",
+      "image_background_color": "#ffffff",
       "description": "A Python toolkit for analysing molecular dynamics simulations.",
       "url": "https://www.mdanalysis.org",
       "num_projects": 3,
@@ -1587,6 +1691,7 @@
     {
       "name": "MetaBrainz Foundation Inc.",
       "image_url": "https://lh3.googleusercontent.com/3DJ7a0hI72GbmI-3NJa_7MPMSCxvpiq4zxA3Snj7JntKdiweFwN952VhfVkyZH6iwPpKZLodvPotcXqQkSNaOJS5SNFgl5g",
+      "image_background_color": "#ffffff",
       "description": "We curate and publish community maintained data sets, focused on music and books",
       "url": "https://metabrainz.org",
       "num_projects": 7,
@@ -1598,6 +1703,7 @@
     {
       "name": "Metasploit",
       "image_url": "https://lh3.googleusercontent.com/qzdZq8P3uw5sgV2zecnc-zTSJdU45-aGewdGO6CU2wGBiU1Ll-3uAuuM_8654N5RAwv6CPW8ycfs_3LSUtClh2Mqj2DsPw",
+      "image_background_color": "#000000",
       "description": "The world\u2019s most used penetration testing framework",
       "url": "https://metasploit.com",
       "num_projects": 2,
@@ -1614,6 +1720,7 @@
     {
       "name": "MGGG Redistricting Lab",
       "image_url": "https://lh3.googleusercontent.com/1Tu62no8I26Ao2VElgx72gNBn8wbQS03syOkpuSQTDFd05XivWg_s0PDg_pJEtd2lwzUz1o21a8322Fi67DPNKuVppKmZh0",
+      "image_background_color": "#ffffff",
       "description": "MGGG researches applications in math and computer science for US redistricting",
       "url": "http://mggg.org",
       "num_projects": 2,
@@ -1631,6 +1738,7 @@
     {
       "name": "MIT App Inventor",
       "image_url": "https://lh3.googleusercontent.com/NkokLxjbaVN4zLO36sU9jf2eBXmTledbmF0eJCeZ0a2uDMiW0gFpohlTiAVK1zU2hS6unT_DNOfVrl10FO884aKp1aYp6chJ",
+      "image_background_color": "#ffffff",
       "description": "Anyone Can Build Apps That Impact the World",
       "url": "http://appinventor.mit.edu",
       "num_projects": 6,
@@ -1648,6 +1756,7 @@
     {
       "name": "Mixxx",
       "image_url": "https://lh3.googleusercontent.com/w28VGZTJuV6-x4BhRn9ec3kg4jE9GihpXpUK1JdBwU9ildfumuUhrw9iCfYWGY-yWNSswHMM7Bm7xXElLQc_cAsBSaAjTFuA",
+      "image_background_color": "#000000",
       "description": "DJ Mixing App With Powerful Features For All DJs",
       "url": "https://www.mixxx.org",
       "num_projects": 3,
@@ -1659,6 +1768,7 @@
     {
       "name": "mlpack",
       "image_url": "https://lh3.googleusercontent.com/MEBO2Ke0IN5mlMxEbP_xyTCrgszgjl0LHVBYg6ltvkN-lSDlQkrvkiqPQ2D_wGINl-RR_QDBYOZmjbMSMLPGRxHKmROu8g",
+      "image_background_color": "#000000",
       "description": "mlpack is a fast, flexible machine learning library written in C++.",
       "url": "http://mlpack.org/",
       "num_projects": 8,
@@ -1682,6 +1792,7 @@
     {
       "name": "Moira",
       "image_url": "https://lh3.googleusercontent.com/St549uV6D0eslwOwI2SyLFzn7fMDknX0P5p8EBkxVXwsKe_mDDLaWr7BYvo731-Zb6LrCDwPblOxbEKBpm8VxUAVyFRQN6t-",
+      "image_background_color": "#00bfa5",
       "description": "Moira is a realtime alerting system based on Graphite data",
       "url": "https://moira.readthedocs.io/",
       "num_projects": 2,
@@ -1699,6 +1810,7 @@
     {
       "name": "MoveIt",
       "image_url": "https://lh3.googleusercontent.com/4Mh6mY9Au0DlaW-oYvJDli9QYdNPY3Map3JHWNjXr8go-KuR-5-IY9c-c-Q1CCAb_UVaGtPPwzbtPcsaX-oTvyNAaPOpgNQ",
+      "image_background_color": "#ffffff",
       "description": "Moving robots into the future",
       "url": "https://moveit.ros.org",
       "num_projects": 2,
@@ -1710,6 +1822,7 @@
     {
       "name": "Mozilla",
       "image_url": "https://lh3.googleusercontent.com/v2ra_3qtUJJNbGmGrsnqw2xVpfWQLL2Xr6KUHr3ah4_aP8F37Ylm-1nuPDl33bwHKruUD5OEJ_Doa6VGmYWT_paWKA40g6k3",
+      "image_background_color": "#ffffff",
       "description": "Keeping the Internet open and accessible to all.",
       "url": "https://mozilla.org",
       "num_projects": 11,
@@ -1732,6 +1845,7 @@
     {
       "name": "MuseScore",
       "image_url": "https://lh3.googleusercontent.com/_Uf1WB0iBVkB1-7CdRgjHiXHRLsxdBPotKcGR9-wgJIG5UHYN-t7rmQKkiNFjtaMTJusrMW_YnmP2ikjuMN5BvNIr32jouM",
+      "image_background_color": "#ffffff",
       "description": "MuseScore is music notation software used by millions of musicians worldwide",
       "url": "https://musescore.org/en",
       "num_projects": 3,
@@ -1743,6 +1857,7 @@
     {
       "name": "mypy",
       "image_url": "https://lh3.googleusercontent.com/rImL8YB71RgFEk_S7quW0rFObRYfEGmuVlqM8L7I8rQDDHh5LtbKJBnoXpwBrBbUR-EfnIkjQHfcJKCbU-DT_zGq9zlg9AY",
+      "image_background_color": "#ffffff",
       "description": "Mypy is an optional static type checker for Python.",
       "url": "http://mypy-lang.org/",
       "num_projects": 1,
@@ -1754,6 +1869,7 @@
     {
       "name": "MZmine",
       "image_url": "https://lh3.googleusercontent.com/DdrD6bk8HU3L-ei_6-g3ORbeCMgEnpchIo5IFL72RJNRV6EBKymzf8xApHN17Ffhlp87uzStQIH_zUjYgAgn59-vKXY36A",
+      "image_background_color": "#ffffff",
       "description": "MZmine is an open-source software for mass-spectrometry data processing.",
       "url": "http://www.mzmine.org",
       "num_projects": 2,
@@ -1771,6 +1887,7 @@
     {
       "name": "National Resource for Network Biology (NRNB)",
       "image_url": "https://lh3.googleusercontent.com/UZ4HHpbPmReCXdIC9AZns96lwEHtjsbm_tQL8SO56wjWiitSJcBZ4YeLjAJS8kBctSkR2aSGP-qzGfU5RSLjtbgV7DYi2vfT",
+      "image_background_color": "#ffffff",
       "description": "Developing open source software to enable network-based biomedical discovery",
       "url": "https://nrnb.org/gsoc.html",
       "num_projects": 15,
@@ -1788,6 +1905,7 @@
     {
       "name": "Neovim",
       "image_url": "https://lh3.googleusercontent.com/wCWLbTFbPXx_IO13Ma68G_NsdCTiv1Zcg_5A1rzjRDMXjXA1_HiU5miOfwuhrlWTRa-z4n6B3PRPZPSyiKdWVEnoErJ-r5BR",
+      "image_background_color": "#ffffff",
       "description": "hyperextensible Vim-based text editor",
       "url": "http://www.neovim.io",
       "num_projects": 1,
@@ -1799,6 +1917,7 @@
     {
       "name": "Netty",
       "image_url": "https://lh3.googleusercontent.com/27iH7LkW_01hQarGnCxs2vY36zcIObRcog6ek5PXIV1Bd-wO5RaYf_aeavWUgHebuhJzyTjPQbxl69QseV6XjEgc8DDiYHU",
+      "image_background_color": "#ffffff",
       "description": "Netty is an asynchronous event-driven network framework",
       "url": "https://netty.io",
       "num_projects": 1,
@@ -1810,6 +1929,7 @@
     {
       "name": "NumFOCUS",
       "image_url": "https://lh3.googleusercontent.com/R88NXH-ursCFfVH6m4sDLM96GbYcEbr_zGE4cFsIObsuYWdIBO9dcsbrHS-HKqqPHU0eWBc1mVVUWwz0YBSrdh8qMJLFE9Y",
+      "image_background_color": "#ffffff",
       "description": "NumFOCUS promotes open source scientific software.",
       "url": "http://numfocus.org/",
       "num_projects": 28,
@@ -1826,6 +1946,7 @@
     {
       "name": "NV Access",
       "image_url": "https://lh3.googleusercontent.com/R8PoVA1d2FhpRtRzpiQsmbxJbkxFcnTZFRCBCP7QJGPcRPzX7XukICQvGHoGrHBHcmJ8f_bIO__XIXGZBW6Bxux-hiXDBuM",
+      "image_background_color": "#ffffff",
       "description": "Empowering lives through non-visual access to technology",
       "url": "https://www.nvaccess.org/",
       "num_projects": 1,
@@ -1849,6 +1970,7 @@
     {
       "name": "Open Bioinformatics Foundation (OBF)",
       "image_url": "https://lh3.googleusercontent.com/nNc3HSuxLJg1SMjSelr3ziVyGq9R6D5ofH2y8OwLwLo-M76GNDSELdqZCroyrHFs2nLL99CAAhK_FZjPRbbESw4FcRQQvQ",
+      "image_background_color": "#ffffff",
       "description": "Promoting practice & philosophy of OSS & Open Science in biological research.",
       "url": "https://www.open-bio.org",
       "num_projects": 8,
@@ -1860,6 +1982,7 @@
     {
       "name": "Open Chemistry",
       "image_url": "https://lh3.googleusercontent.com/FdAhWq5w8ZikwBWE2Satk6B_EX2NwJNwsrv_3PAB8HZ9fjJ29mOUARRgn9XkI-kn9bPBjCuK5T4TmdTap3m0xQLUbD7paf8",
+      "image_background_color": "#ffffff",
       "description": "Advancing Open Source and Open Science for Chemistry",
       "url": "https://openchemistry.org/",
       "num_projects": 5,
@@ -1877,6 +2000,7 @@
     {
       "name": "Open Genome Informatics",
       "image_url": "https://lh3.googleusercontent.com/pELx2IZrRry8RxjDKSgRkNbqgi8wakxg2i4utmncpIfRXd1SGQx8W2LwZyR_chMWJcZoEqEYL0gctAZtrATGFt_wD8XpKA",
+      "image_background_color": "#ffffff",
       "description": "Association of open access genomics and bioinformatics projects.",
       "url": "http://gmod.org/wiki/GSoC",
       "num_projects": 5,
@@ -1894,6 +2018,7 @@
     {
       "name": "Open Roberta",
       "image_url": "https://lh3.googleusercontent.com/ej3jx7F4RVYF80Pp2dtlQVUFw3NXC2G4ZN-BJFip0H4RjYfX15Zomxe0NLtP_om_oceJ0w6Jbg_i6tFycjlYSO_CpwaQ5i0",
+      "image_background_color": "#ffffff",
       "description": "Open Roberta\u00ae Lab is an online IDE introducing kids to program robots with NEPO\u00ae",
       "url": "https://lab.open-roberta.org/",
       "num_projects": 3,
@@ -1905,6 +2030,7 @@
     {
       "name": "Open Source Robotics Foundation",
       "image_url": "https://lh3.googleusercontent.com/WhJAORBpZLnLL_n0gTzg3_Qk_LPEKMLzmoNPgrKNYfR4VJpHUifxdpMQ2gJDWcWM7jLBKNBjHcLApS6fep6w9B3i85TIwdQ",
+      "image_background_color": "#ffffff",
       "description": "Open source software for use in robotics research, education and industry",
       "url": "https://www.openrobotics.org/",
       "num_projects": 7,
@@ -1916,6 +2042,7 @@
     {
       "name": "OpenAstronomy",
       "image_url": "https://lh3.googleusercontent.com/Y_k5xG6zv0px3JTNX50OFEjRiRBurOYGvgYFgsiiGKzFhIF_cFAulY7X2kzYs7ifocuWOoZDGM9tQmpi-QZ584cVbnIbGA",
+      "image_background_color": "#ffffff",
       "description": "Opening the eyes of research astronomy software to the whole world.",
       "url": "http://www.OpenAstronomy.org",
       "num_projects": 10,
@@ -1933,6 +2060,7 @@
     {
       "name": "OpenCV",
       "image_url": "https://lh3.googleusercontent.com/XYpNTzPH02mEMw3E2dz4nns1hwNIrzVU2FVzr9heYczwaVNSx5wUsbRxSL4oZ-VZTJOiCWWthDaNpkUjMoCVQ7hvOkG5iGg",
+      "image_background_color": "#ffffff",
       "description": "https://opencv.org",
       "url": "https://opencv.org/",
       "num_projects": 14,
@@ -1950,6 +2078,7 @@
     {
       "name": "OpenEMR",
       "image_url": "https://lh3.googleusercontent.com/yEvQbaxEYLmlIJzXJUNtDCZkX5sYoYeJ2vmdAFAbz3t1kkVdIQloDfA8U36hLndz5Nim2OHUws54LDps7YkSaI-lqW8Cbt8",
+      "image_background_color": "#ffffff",
       "description": "OpenEMR is a leader in healthcare open-source software",
       "url": "https://www.open-emr.org/",
       "num_projects": 3,
@@ -1967,6 +2096,7 @@
     {
       "name": "OpenHMD",
       "image_url": "https://lh3.googleusercontent.com/UgdTxILUY9QohgqoAY9CKmPSBtFjmdtBM-9WIFY1vgeZ40lOFoN_XQhSlpG6IdgjKlHXpht3Jkp_uyvxrsZQKKGZ8w5BWn9E",
+      "image_background_color": "#ffffff",
       "description": "Multi-Platform Open Source driver for AR/VR/XR devices with stable ABI.",
       "url": "http://openhmd.net",
       "num_projects": 0,
@@ -1984,6 +2114,7 @@
     {
       "name": "OpenMined",
       "image_url": "https://lh3.googleusercontent.com/vTTQLTcEtI9RtIfI10oQ1OzN7AYdHYXcZpXJO9Fbqone4OkAu-YEx3STIZujfHqwe6mragAO0UfGcNBMzpSYcPJHZWQc8uk",
+      "image_background_color": "#ffffff",
       "description": "Answer questions using data you cannot see.",
       "url": "http://www.openmined.org",
       "num_projects": 4,
@@ -2001,6 +2132,7 @@
     {
       "name": "OpenMRS",
       "image_url": "https://lh3.googleusercontent.com/Z8_OSP2wZa2arIpwsBIitHhl6NcL-NSWBs-gTEGRDSA5_VP93IfBhJwi_cdkRJOlXTcN_eDSyEaEQCQbskMcNaSGP-w-6g",
+      "image_background_color": "#ffffff",
       "description": "Write code. Save lives.",
       "url": "https://openmrs.org/",
       "num_projects": 9,
@@ -2016,6 +2148,7 @@
     {
       "name": "OpenRefine",
       "image_url": "https://lh3.googleusercontent.com/ojSRXeYM1F9vWbWHWEDtKovfmbJdZ3pFZUw8FaUFQey6qkAzQOwbK7p8RMRq3Wef9ZeFvh0rZUdeMa8X62qZEslH7FI1bY0q",
+      "image_background_color": "#ffffff",
       "description": "a free, open source power tool for working with messy data and improving it",
       "url": "http://openrefine.org/",
       "num_projects": 2,
@@ -2032,6 +2165,7 @@
     {
       "name": "OpenStreetMap",
       "image_url": "https://lh3.googleusercontent.com/k-zx-Ml6Df4t4yAECBuXzIRyRY41c6AJ1LNxWR1US3qSnjqxrS86tmG6ShgqEowVur8Z7lBcgR1rbjFaqrJYa6A8bbuX3Q",
+      "image_background_color": "#ffffff",
       "description": "Creating and distributing free geographic data for the world.",
       "url": "http://www.openstreetmap.org/",
       "num_projects": 4,
@@ -2043,6 +2177,7 @@
     {
       "name": "openSUSE Project",
       "image_url": "https://lh3.googleusercontent.com/1VrJssFAFsYI8mq6prfMHSdcLqOSS5LvMPAZh48HbASU6iyLsY3RmSo7Exlm9SiIS8_hj1jiz9FnqaBj2zStacStguK9mw",
+      "image_background_color": "#ffffff",
       "description": "openSUSE is a worldwide Free and Open Source Software community and project.",
       "url": "https://www.opensuse.org/",
       "num_projects": 3,
@@ -2060,6 +2195,7 @@
     {
       "name": "OpenWISP",
       "image_url": "https://lh3.googleusercontent.com/_k9N8BJdvvOjmfOw-jeQjT0_JbBqOuxUCgguZ1grJa_kuXvPHyHdiTcsndVjPpYC_eUBiYkVAxTBygWyAMkE2NvDlepXpPI",
+      "image_background_color": "#ffffff",
       "description": "A Hackable Network Management System for the 21st Century",
       "url": "http://openwisp.org",
       "num_projects": 3,
@@ -2077,6 +2213,7 @@
     {
       "name": "Oppia Foundation",
       "image_url": "https://lh3.googleusercontent.com/NvpgPOuF4pPiEws_EHjL4pvx2wkIFbKOX1SxQDBWAWTzrL6odnKZTD8mcsRxqc1xXBcLXnlmSd_dSt_Db3vgIoYZpyxu5g4",
+      "image_background_color": "#ffffff",
       "description": "Oppia is used for collaboratively building interactive and intelligent tutors.",
       "url": "https://github.com/oppia/oppia",
       "num_projects": 12,
@@ -2088,6 +2225,7 @@
     {
       "name": "Orcasound",
       "image_url": "https://lh3.googleusercontent.com/EKM9GoFHwj7yjXu0Srk6SGDXNnJtUZxDLV-psN1_IbIRLcyBdpZt-StOywKqeqJLSxSo6-gzQnDa8IcW5eaP2h0G9-RY70M",
+      "image_background_color": "#379EF0",
       "description": "Humans & machines listening together to save the whales.",
       "url": "http://orcasound.net",
       "num_projects": 2,
@@ -2111,6 +2249,7 @@
     {
       "name": "OSGeo",
       "image_url": "https://lh3.googleusercontent.com/a4JGmOXZ5lhDcdfWRsh9vOY84F2fdrI2kPDMLBLeVXkHxsNKRFocEHstqD3Jf5Y4zHsKJeFxiZcKce5e9rewALNLm-wGzw",
+      "image_background_color": "#ffffff",
       "description": "The Open Source Geospatial Foundation",
       "url": "https://www.osgeo.org/",
       "num_projects": 10,
@@ -2134,6 +2273,7 @@
     {
       "name": "OWASP Foundation",
       "image_url": "https://lh3.googleusercontent.com/IKGVi_62nzhHVQhEgV3OXtElQ90D0dXhCLicE3vMCoKVPUgUPyBpvKBOGbS4R-HoUOLAIdq8KZqRRzrbN7vnNCqd7dilP8hk",
+      "image_background_color": "#ffffff",
       "description": "OWASP, The Open Web Application Security Project",
       "url": "https://owasp.org/",
       "num_projects": 12,
@@ -2150,6 +2290,7 @@
     {
       "name": "PEcAn Project",
       "image_url": "https://lh3.googleusercontent.com/cJx7irRDZOckWJCw7o2hhX7sM3wH_vgtei_IwnEWm-v-ZwzbZ1il_RNN0yBrNceWBl2LJ84awLvIvRo55KqsyOylWF9s9A",
+      "image_background_color": "#ffffff",
       "description": "Ecosystem science, policy, and management informed by the best data and models",
       "url": "http://pecanproject.org",
       "num_projects": 3,
@@ -2167,6 +2308,7 @@
     {
       "name": "Percona",
       "image_url": "https://lh3.googleusercontent.com/b6GVDxPfANhAVQI8RB85qninvaaCHTpzoXsOkRHGq2xXmpcVYXAASewxkMNVJ5HrKh5r7igQN3bKbb6etu2hKp8In925EsOk",
+      "image_background_color": "#ffffff",
       "description": "Unbiased open source database experts.",
       "url": "https://www.percona.com/",
       "num_projects": 1,
@@ -2190,6 +2332,7 @@
     {
       "name": "Performance Co-Pilot",
       "image_url": "https://lh3.googleusercontent.com/GTUz8ixpqXSSYo24TKaC_8quekHn-WB6CHiJQzeIYR73mcAfF66QHj8MKU3-Bx6GgcAHmUm2uH2977GXtcQlkvKaBi30HIg",
+      "image_background_color": "#ffffff",
       "description": "System-level performance analysis toolkit",
       "url": "https://pcp.io/",
       "num_projects": 3,
@@ -2207,6 +2350,7 @@
     {
       "name": "Pitivi",
       "image_url": "https://lh3.googleusercontent.com/ZvAQ1LUsl8VLqZitlX356ZwjkhagVo70Vmh3pSG0IUqyogJhKWPor2mTi__25r3MibaHuRR9Buls7ok7CqJg7LyuAw_XlVI",
+      "image_background_color": "#ffffff",
       "description": "Allowing everyone on the planet to express themselves through filmmaking",
       "url": "http://pitivi.org/",
       "num_projects": 3,
@@ -2218,6 +2362,7 @@
     {
       "name": "Point Cloud Library",
       "image_url": "https://lh3.googleusercontent.com/5XOpHW0KHPR0hhedpvE0nHsiaJzmS2HJJnWNdBZxL6fdQwxtweaQb8AlKnQNpVFCOP7E9G_0mH9nbWSNWsQzuZ3__3SLlNAi",
+      "image_background_color": "#ffffff",
       "description": "An open project for 2D/3D image and point cloud processing.",
       "url": "https://pointcloudlibrary.github.io/",
       "num_projects": 2,
@@ -2229,6 +2374,7 @@
     {
       "name": "PostgreSQL",
       "image_url": "https://lh3.googleusercontent.com/yLaRa2p-JGRqJ8rY9a2_Z3RN5HlQWkZN34ldYxQreeksAtguAGT-An7pxNjKfpogCGdKMS0qmD9vboA4SMUiW3dP4uPMiQ",
+      "image_background_color": "#ffffff",
       "description": "PostgreSQL is the world's most advanced Open Source database!",
       "url": "https://www.postgresql.org",
       "num_projects": 3,
@@ -2240,6 +2386,7 @@
     {
       "name": "Postman",
       "image_url": "https://lh3.googleusercontent.com/uwiBc1gVxjbR3-24uN49YrJb65P5UEScBqmDU2jhb2jJQIMJM7PxZy1mNdwxRhk156u1FyiVjtY28HtEbCQ2Q5ojDC8nQB0",
+      "image_background_color": "#ffffff",
       "description": "The Collaboration Platform for API Development",
       "url": "https://www.postman.com/open-philosophy/",
       "num_projects": 2,
@@ -2256,6 +2403,7 @@
     {
       "name": "Processing Foundation",
       "image_url": "https://lh3.googleusercontent.com/9Lppk588wu63EZPLe53j8C-PQzlAgRCv4TSnxlqtX0CKLOzOyqHPqOCzlQgtMUWWHalCXiHjFFJVjZOrRJZeXiJEW8Bo6XI",
+      "image_background_color": "#ffffff",
       "description": "Our goal is to empower people of all backgrounds to learn how to program.",
       "url": "http://processingfoundation.org",
       "num_projects": 11,
@@ -2267,6 +2415,7 @@
     {
       "name": "Purr Data",
       "image_url": "https://lh3.googleusercontent.com/lIedlysfPPMu24muHeCnPQ6Zo1hnCzkzwl3T_UhDnJAMeQD5KmHOX4n6DoLOrjDvWidfdVTUs_IWAKYgApLLCvH_75v0Bw",
+      "image_background_color": "#ffffff",
       "description": "realtime audio/video visual programming language",
       "url": "https://www.purrdata.net/",
       "num_projects": 3,
@@ -2284,6 +2433,7 @@
     {
       "name": "Python Software Foundation",
       "image_url": "https://lh3.googleusercontent.com/JUrPkKhOmvnjCKZK3MM6y9eWx3E2FVSRff8rDDryIcaHvU90927EJ9V6ytRWIYmFONkZJ3nsNl10hwN6evxIQnwOHSvPqDg",
+      "image_background_color": "#ffffff",
       "description": "Python is a programming language used by software developers and scientists.",
       "url": "https://www.python.org/",
       "num_projects": 24,
@@ -2295,6 +2445,7 @@
     {
       "name": "QEMU",
       "image_url": "https://lh3.googleusercontent.com/zX23vNp2IozTIGmBogyGkTdQNdp__tpj7GTpTJnOy8Ag-KZc7AIvMIylL6vtc91bkzlXx2GJXvMup0kaujTSZCAnozyjRA",
+      "image_background_color": "#ffffff",
       "description": "Open source machine emulator and virtualizer",
       "url": "https://qemu.org/",
       "num_projects": 3,
@@ -2312,6 +2463,7 @@
     {
       "name": "Qubes OS",
       "image_url": "https://lh3.googleusercontent.com/cGQDr-W17BaOL1j9x4MYZGdijiyeSAFCcVd657Mf-KiwYWdZDwjsrVtL68u65RvdrnaJGlWJ2_-EUzOLk1X42WGgB205eyY",
+      "image_background_color": "#E6E6FA",
       "description": "A reasonably security operating system",
       "url": "https://www.qubes-os.org/",
       "num_projects": 1,
@@ -2323,6 +2475,7 @@
     {
       "name": "R Project for Statistical Computing",
       "image_url": "https://lh3.googleusercontent.com/_uOAv1_vVG12hqMvm3NChJuIhZQWZ3GbImuNAw9x4yB4E88ANmLgBopyS0bv9gB7_lwDWytd7uECt-vbuIXWEQxtvzCJ8ZtQ",
+      "image_background_color": "#ffffff",
       "description": "R is a free software environment for statistical computing and graphics",
       "url": "https://www.r-project.org/",
       "num_projects": 20,
@@ -2340,6 +2493,7 @@
     {
       "name": "Radare",
       "image_url": "https://lh3.googleusercontent.com/iBdoZlcklDmuxCFcARj3BSFRQFjmbw5pIU02q_Hc4-LX0EqzdaISuhcMBpOEag91gedcbsG9uAXx01JsxQcaovRm0GZ1iwU",
+      "image_background_color": "#ffffff",
       "description": "Radare2 - Reverse Engineering Framework and Toolset",
       "url": "https://radare.org/",
       "num_projects": 4,
@@ -2356,6 +2510,7 @@
     {
       "name": "ReactOS",
       "image_url": "https://lh3.googleusercontent.com/4DoKPaVVxHY62TsETCSn5yZRGuDaKTCIpp0Pkad2ndJqTbuqUfQlieVRu2yjiKCqtG_715W4t-duLLt7SxzmwtdLhmdknVY",
+      "image_background_color": "#ffffff",
       "description": "Open your windows to freedom!",
       "url": "https://reactos.org",
       "num_projects": 3,
@@ -2373,6 +2528,7 @@
     {
       "name": "Red Hen Lab",
       "image_url": "https://lh3.googleusercontent.com/LU1QfgAsUi3JqUySRadHY-TUE7Ci1EFSS579mbADay56h1nv3j1ZL5UWyaSnRrflUYeuOgJHdbgYVQGGz9aQWj1ixXCJdWY7",
+      "image_background_color": "#ffffff",
       "description": "Research on Multimodal Communication",
       "url": "http://redhenlab.org",
       "num_projects": 8,
@@ -2396,6 +2552,7 @@
     {
       "name": "RoboComp",
       "image_url": "https://lh3.googleusercontent.com/CN2tzfrMjWh1orVzFjMN235kM9tzctuwWIQendNZEcTP9v9WRYhI8K-R8jr2PTY8nRGJxDmf8uiN-8oQJ9bIJ_QHyEFizEo_",
+      "image_background_color": "#ffffff",
       "description": "An open-source framework to develop and manage robot components",
       "url": "https://robocomp.org",
       "num_projects": 10,
@@ -2418,6 +2575,7 @@
     {
       "name": "Rocket.Chat",
       "image_url": "https://lh3.googleusercontent.com/kXyu1Vv7xXJY-XZL73fHvGTuXqKxeGWXUqUd1b4kyMI6jHijLGBH-05GtmuBqHCFz5cWHNl2jKK1sU671Ra4pB0nKmD_NUv7",
+      "image_background_color": "#ffffff",
       "description": "Open source team chat and federated collaboration platform",
       "url": "https://rocket.chat",
       "num_projects": 7,
@@ -2435,6 +2593,7 @@
     {
       "name": "RTEMS Project",
       "image_url": "https://lh3.googleusercontent.com/4PnOMBHZguu66M15FekfScR9NX9-FFLpNOxQJLOV5QSJR-iaUuicbG5EDjXxb6EB9LcCBJPuhx1eHPQ-N2qiVNf2w17P2QU",
+      "image_background_color": "#ffffff",
       "description": "RTEMS is a real-time operating system kernel used around the world and in space.",
       "url": "https://www.rtems.org/",
       "num_projects": 5,
@@ -2452,6 +2611,7 @@
     {
       "name": "Ruby",
       "image_url": "https://lh3.googleusercontent.com/3FrxrZJ9MsDqqValum-rm5scUm-_49qAjnDIgFgpEsTs8ZRJgHjWL6CE7CwtpPAQGWnUqSrgn3lZswjtY7ejxqoAmPa-O7k",
+      "image_background_color": "#ffffff",
       "description": "The Ruby programming language, libraries, and Ruby projects",
       "url": "https://ruby-lang.org",
       "num_projects": 4,
@@ -2468,6 +2628,7 @@
     {
       "name": "SageMath",
       "image_url": "https://lh3.googleusercontent.com/LK_QbKiDeXMOv53TPNUJ-soJmUIYRr-dxeA3FKBwrPWAqS7C-k8SvCTSE0qGoa1sI1VFo8-bab73bvIYtiJxjo1ey3b6edUb",
+      "image_background_color": "#ffffff",
       "description": "open-source mathematics software system",
       "url": "https://www.sagemath.org/",
       "num_projects": 5,
@@ -2479,6 +2640,7 @@
     {
       "name": "Samba",
       "image_url": "https://lh3.googleusercontent.com/fOkydmCORAQCjmT3piVsfFzpjKajVkkY8DyHmWewPz4eGSxxCgw2xV7XKNS8Re37OvCkv07Pybf3FgSra06V57iZ3gg5StA",
+      "image_background_color": "#ffffff",
       "description": "Opening windows to a wider world",
       "url": "https://samba.org/",
       "num_projects": 1,
@@ -2490,6 +2652,7 @@
     {
       "name": "SCoRe Lab",
       "image_url": "https://lh3.googleusercontent.com/ZhB4ZRtwvvxKh4eDMSIr-7rYOXqKCrVa0c-5hylSn2kLxyxZAxAV6Soh0hhqbaEJFiqAX5vrdMsdVHo11f1qQySWKJsRU-qV",
+      "image_background_color": "#ffffff",
       "description": "SCoRe has conducted research covering various aspects of Security, Mobile & IOT.",
       "url": "https://www.scorelab.org/",
       "num_projects": 25,
@@ -2513,6 +2676,7 @@
     {
       "name": "ScummVM",
       "image_url": "https://lh3.googleusercontent.com/MqqNIJY3NlluGZJNBS6O327gUd_WX3F6vOPGIKxuZwD7XRVeBGwqZ6Q6AhrIFe7Ers3_C3emvRsYx_A3h4GK_aqMkF1NOQ",
+      "image_background_color": "#ffffff",
       "description": "ScummVM is a GSoC umbrella for game preservation projects",
       "url": "https://www.scummvm.org/",
       "num_projects": 4,
@@ -2529,6 +2693,7 @@
     {
       "name": "Shogun",
       "image_url": "https://lh3.googleusercontent.com/cCl4GfzsLBvpTPnFeYL8lxv3DraX0vbkCIhaN8Se_xEjTcWXqMdLTM_DJvJBeThODx3Gms3sjsiFlAFtznT5dKYPw7djIvE",
+      "image_background_color": "#ffffff",
       "description": "Unified and efficient Machine Learning",
       "url": "https://www.shogun.ml/",
       "num_projects": 2,
@@ -2552,6 +2717,7 @@
     {
       "name": "SPDX",
       "image_url": "https://lh3.googleusercontent.com/Bw7cWxrLYZrXy4SJaFC_Gp39S5rOU-YxGR9dAy-K1PgS-8cv13eOJmjiM5BGh6Vo2-Awj0XDkMjxI2AKjRUfRUUQ7GAtBA",
+      "image_background_color": "#ffffff",
       "description": "An open standard for communicating Software Bill of Materials",
       "url": "https://spdx.org/",
       "num_projects": 4,
@@ -2563,6 +2729,7 @@
     {
       "name": "Ste||ar group",
       "image_url": "https://lh3.googleusercontent.com/GUHj9mg-jkQ8beStfsY2Bb5mLJF2er6FZD81hqcyDryinqawGL8bsqUXYZaIhGhYEOhdFHqtdo7oluFjMOqAdyd3VbOgRg",
+      "image_background_color": "#ffffff",
       "description": "Shaping a Scalable Future",
       "url": "http://stellar-group.org/",
       "num_projects": 5,
@@ -2579,6 +2746,7 @@
     {
       "name": "strace",
       "image_url": "https://lh3.googleusercontent.com/ECxbCKdpRA6ZF131dKNKGx4P0tDxikTSPPKi7gJHv2RRffQEYAvfVdX77Vuv3IRqrtXV4rrx-k6oEIg034rn2x7Rdzs_H_Y",
+      "image_background_color": "#ffffff",
       "description": "linux syscall tracer",
       "url": "https://strace.io",
       "num_projects": 1,
@@ -2590,6 +2758,7 @@
     {
       "name": "Submitty",
       "image_url": "https://lh3.googleusercontent.com/xkbuyu465tCAHLWgcvJvyIb_JYUAxa5u0dSV6E2a3fcESIbY5-9WF2jqizF3W9GjohHLfOsWcSwLyie5H5EYKtAV8KvowM8",
+      "image_background_color": "#ffffff",
       "description": "Programming assignment submission with automated grading and manual TA grading",
       "url": "https://submitty.org/",
       "num_projects": 3,
@@ -2607,6 +2776,7 @@
     {
       "name": "Sugar Labs",
       "image_url": "https://lh3.googleusercontent.com/A8KUE6l2Fl6ANTLsLN1wZlQNpKySWheaDtwIylOH_DK-pc5uydMNXHW8fnqySzER37x409xhh1dL0pp5U1oanUxfGkmnsGKZ",
+      "image_background_color": "#ffffff",
       "description": "We make tools that learners use to explore, discover, create, and reflect.",
       "url": "http://sugarlabs.org",
       "num_projects": 9,
@@ -2618,6 +2788,7 @@
     {
       "name": "Swift",
       "image_url": "https://lh3.googleusercontent.com/kgq6hRnXijsSb_sxRxdHptyj-36d4zQRpFiHm5UApzA2TG1GpLPeWIxbQqJep3EK_jzDQHF_-TuM608oMLzCKFk6bFHvfg",
+      "image_background_color": "#ffffff",
       "description": "Swift is a modern, type-safe, and fun general purpose programming language",
       "url": "https://swift.org",
       "num_projects": 4,
@@ -2629,6 +2800,7 @@
     {
       "name": "SymbiFlow",
       "image_url": "https://lh3.googleusercontent.com/DPpXpu6U9UCjGcn9sHAV6dMkbj4GrAoe2xDC1TQbZ2FOk957AmUpTD-uIbuk1becWGwg-HqN8x_VWMr4_AfBhBb7CjvD_aiq",
+      "image_background_color": "#ffffff",
       "description": "A completely FOSS toolchain for FPGAs.",
       "url": "https://symbiflow.github.io",
       "num_projects": 3,
@@ -2640,6 +2812,7 @@
     {
       "name": "SymPy",
       "image_url": "https://lh3.googleusercontent.com/HER-dQLfDJ_12RhuHakV-SNNxtDAJm-Y5kYRq0RYuyOn-sU9u72WDIoQuHyXKYg915prV089IO7lbnrfDnMqZGYGmn8hLps",
+      "image_background_color": "#eee",
       "description": "Symbolic mathematics in Python",
       "url": "https://www.sympy.org/",
       "num_projects": 6,
@@ -2651,6 +2824,7 @@
     {
       "name": "Synfig",
       "image_url": "https://lh3.googleusercontent.com/qjm5JRBSCl4kKuD5Fr9A7GPXRoqB9xMsWDBhym5pIS5KMpx9IKxByxwGMlgWhr2gZq9acUcDAVB3QAUp1c8OxwIvXxz0d6rF",
+      "image_background_color": "#ffffff",
       "description": "Open-source 2D animation software",
       "url": "https://synfig.org",
       "num_projects": 2,
@@ -2662,6 +2836,7 @@
     {
       "name": "syslog-ng",
       "image_url": "https://lh3.googleusercontent.com/hxNPzzzO_F4wpvk5k563jXaNCGnbAPvWyWBk51jWBitmgD3KRRuMbb6vpsBpI30FNu_-L-v9BDcDWcOy8vuMm1-ks9oG7HM",
+      "image_background_color": "#ffffff",
       "description": "syslog-ng is an enhanced log daemon, supporting a wide range of I/O methods",
       "url": "https://www.syslog-ng.com/",
       "num_projects": 1,
@@ -2679,6 +2854,7 @@
     {
       "name": "TARDIS-SN",
       "image_url": "https://lh3.googleusercontent.com/iuret93-AKdB6_vyjWlR4ZMCGsNBiBxEP3pqqAFJvbzZRqVmvYnWq6mXouCBsqeeYNdy0K_gzVs3wg6u2EDVjH5hlis6bw",
+      "image_background_color": "#ffffff",
       "description": "Exploring supernovae made easy",
       "url": "https://tardis-sn.github.io/tardis/",
       "num_projects": 3,
@@ -2690,6 +2866,7 @@
     {
       "name": "TensorFlow",
       "image_url": "https://lh3.googleusercontent.com/MNpZrrIdW_gBYDCfy38jnJ8ftztzrJTTcenQO3TpamZiruZ70Aa8GdORnmVaJ6oeCQNAiC7D_QhLMNsQ_Zo5MBEfNoITCao",
+      "image_background_color": "#ffffff",
       "description": "An open-source machine learning framework for everyone.",
       "url": "https://www.tensorflow.org",
       "num_projects": 17,
@@ -2713,6 +2890,7 @@
     {
       "name": "The Apache Software Foundation",
       "image_url": "https://lh3.googleusercontent.com/Tcvm_AsIBUqQ7vDBmTJi-KKj6lZobS_6u77vtiUZzxHhoOXJAhKog9gRasoUQkI-HPr5ujUFXOiZtLNfzdWbHgaLiT-_wrwy",
+      "image_background_color": "#ffffff",
       "description": "Providing open source software to the public free of charge",
       "url": "https://www.apache.org",
       "num_projects": 17,
@@ -2724,6 +2902,7 @@
     {
       "name": "The GNU Project",
       "image_url": "https://lh3.googleusercontent.com/fQo5ejNVHYVshQKGhYx8cRHCJbxYxrw4xIAtvt7doSL4uuOHtzjHqHtk9aCW-5i5hgTzDsTF_u0Lt8i5AYekZunQhGqVIg",
+      "image_background_color": "#ffffff",
       "description": "GNU is a free software Operating System and a collection of other utilities",
       "url": "http://gnu.org",
       "num_projects": 7,
@@ -2741,6 +2920,7 @@
     {
       "name": "The Honeynet Project",
       "image_url": "https://lh3.googleusercontent.com/2H5j99vFKXtDrEdFVx-p3PJDXSkdxeHsoYFaNPF00QpHaJGCeNWu4cYN4wDRbu9n__kgi_fUz7Gc7TP2dyEMaU42T0OPrew",
+      "image_background_color": "#000000",
       "description": "The Honeynet Project - R&D for Honeypot/Honeynet Technology and InfoSec Research",
       "url": "https://honeynet.org/",
       "num_projects": 11,
@@ -2758,6 +2938,7 @@
     {
       "name": "The Java Pathfinder Team",
       "image_url": "https://lh3.googleusercontent.com/xMrHZi0el4ARpbJjPiKEP4bBx7TVbHg_CW_Lmx9ubHHy3_sCJboTPghf_mBQPBNw0443dVhaOtpMquiiTvQTzsfSRV2q0A",
+      "image_background_color": "#ffffff",
       "description": "JPF is a highly extensible Java virtual machine built for software verification",
       "url": "https://github.com/javapathfinder/jpf-core/",
       "num_projects": 6,
@@ -2775,6 +2956,7 @@
     {
       "name": "The Julia Language",
       "image_url": "https://lh3.googleusercontent.com/GG3O_jRbdq6iEL7pGok9cKG13LjcCi1Uzn33bl84gxFeW18ZIVepzNHd0z87odpPOoPO8wo2AwRn_pviugMPNUObZNeW6g",
+      "image_background_color": "#ffffff",
       "description": "A fresh approach to Technical Computing",
       "url": "https://julialang.org",
       "num_projects": 15,
@@ -2792,6 +2974,7 @@
     {
       "name": "The Libreswan Project",
       "image_url": "https://lh3.googleusercontent.com/gvezw86k4KDWIn_YNdPzbAsQokzJzE_JeQ_s5qc_8X2IYAnGaH1IH3WnrwF7-zdob-K-_0BDIHjxba97t11VbcYc_ASbHg",
+      "image_background_color": "#ffffff",
       "description": "Encrypting the Internet with IKE and IPsec",
       "url": "https://libreswan.org",
       "num_projects": 3,
@@ -2803,6 +2986,7 @@
     {
       "name": "The Linux Foundation",
       "image_url": "https://lh3.googleusercontent.com/BsGAgFT8BJcN_oWi85UwtcS5828WCKig9gvd49ZVqq1K3RtnnToVtMOgqjQMh77tZ1vrdIkpydMWQVGozBjl5Z_51c0IRw",
+      "image_background_color": "#ffffff",
       "description": "A non-profit consortium dedicated to fostering the growth of Linux",
       "url": "http://www.linuxfoundation.org/",
       "num_projects": 13,
@@ -2814,6 +2998,7 @@
     {
       "name": "The LLVM Compiler Infrastructure",
       "image_url": "https://lh3.googleusercontent.com/AFkfAdazZch6yIQAPMxwqzgBG5Np0Q2NbNFyf37KKx-mWsmboZ-saelyVwg4a5ENtZ9NugFqNk09SVt5-8umoYzCKnbcog",
+      "image_background_color": "#ffffff",
       "description": "LLVM Compiler Infrastructure",
       "url": "http://llvm.org",
       "num_projects": 15,
@@ -2830,6 +3015,7 @@
     {
       "name": "The Mifos Initiative",
       "image_url": "https://lh3.googleusercontent.com/eP5WiebX-ad2726OzAGNyvmOUL9IDfzLA7A_3QBZORS_4Dk6qCQ7BoxR7O_SXvIccISIQBDQ8UpqOSJTaLuhJngRl7wTaNY",
+      "image_background_color": "#ffffff",
       "description": "End Poverty One Line of Code at a Time",
       "url": "https://mifos.org",
       "num_projects": 17,
@@ -2841,6 +3027,7 @@
     {
       "name": "The NetBSD Foundation",
       "image_url": "https://lh3.googleusercontent.com/DH9PjGrLVKcYCMem8hm_nNmrb0ILRgc1Z1UC0hh9e21RNu8OqbVYWnRQJYbGLYl0gBTWH5nsKBxg5d4Y8mKh4zhnU3P1Xcc",
+      "image_background_color": "#ffffff",
       "description": "Of course it runs NetBSD",
       "url": "https://www.NetBSD.org/",
       "num_projects": 6,
@@ -2852,6 +3039,7 @@
     {
       "name": "The ns-3 Network Simulator Project",
       "image_url": "https://lh3.googleusercontent.com/2dOO8-CEOU-stUpBV1EsXfffoX8XJ0zBUgLbQS1gcqt3icvaAqQwA0978dkeGd5WKbp8ZXgFcT-hyFekTq5kfPMlBM1tG1M",
+      "image_background_color": "#ffffff",
       "description": "ns-3 is a packet-level network simulator for research and education.",
       "url": "https://www.nsnam.org",
       "num_projects": 4,
@@ -2863,6 +3051,7 @@
     {
       "name": "The Terasology Foundation",
       "image_url": "https://lh3.googleusercontent.com/kTm-MCHbQh8YYU9499beDCyja73zEQb6sAmPKNAQ2TYyyAC3ZloboHdeJywEq59x5BEE96smLCWCeDgAV3skvJkSqJYCS3Ix",
+      "image_background_color": "#ffffff",
       "description": "Voxel world game/engine with a large focus on extensibility and developer tools",
       "url": "https://terasology.org/",
       "num_projects": 8,
@@ -2874,6 +3063,7 @@
     {
       "name": "The Wine Project",
       "image_url": "https://lh3.googleusercontent.com/7tIOiveWazWsdJRPKX6R-vqBrN058T695JfanWME8t1aZKBz9g69ZABf6YbAgkuWH40WyGoeikalEErOmqN8DbkS24mIQ10",
+      "image_background_color": "#420000",
       "description": "Wine runs Windows applications on Linux, BSD, Solaris, macOS and Android.",
       "url": "https://www.winehq.org/",
       "num_projects": 0,
@@ -2885,6 +3075,7 @@
     {
       "name": "VideoLAN",
       "image_url": "https://lh3.googleusercontent.com/leulvAYHpvuZV0_7fPsz1uDIUpBj4TCljZtYudC_UKz9NUecEd6kGMvjhW73grzBXz6YLAGGrpD7LAdUTbr-htfmEhglDg",
+      "image_background_color": "#ffffff",
       "description": "Open Source Multimedia for everyone",
       "url": "https://www.videolan.org/",
       "num_projects": 8,
@@ -2896,6 +3087,7 @@
     {
       "name": "webpack",
       "image_url": "https://lh3.googleusercontent.com/uRIxBV93b1yw-UlMFSNmt3thwR_M-9Nhx_DcCSGBKL_pXOQJtcd1PtpYN5mEFpr3NDXMC9586LeFPjIVOQWFkiVEGy5bs4o",
+      "image_background_color": "#ffffff",
       "description": "webpack is a module bundler.",
       "url": "https://webpack.js.org/",
       "num_projects": 1,
@@ -2907,6 +3099,7 @@
     {
       "name": "Wikimedia Foundation",
       "image_url": "https://lh3.googleusercontent.com/S85NyC2fAHIGrAvPqVGHeq2w-FvVayFGylr_FZNPZrQwD1TKEbClAzrMkJfk7LhBk8hYBojtbnfUO38PBHLhdoyZUsgcdA",
+      "image_background_color": "#ffffff",
       "description": "Global movement whose mission is to bring free educational content to the world",
       "url": "http://wikimediafoundation.org/",
       "num_projects": 14,
@@ -2918,6 +3111,7 @@
     {
       "name": "Wireshark",
       "image_url": "https://lh3.googleusercontent.com/sCPLlgtH6t-mZ-ysPbk5olslH9gy2nexx6mJAP0iKV3qjO4jFiw0-HSiXEu-JD2Apw2gK3o5vcQms5CC55ulYtxGVw_760B6",
+      "image_background_color": "#ffffff",
       "description": "Wireshark is the world's foremost network protocol analyzer.",
       "url": "https://www.wireshark.org/",
       "num_projects": 1,
@@ -2933,6 +3127,7 @@
     {
       "name": "X.Org Foundation",
       "image_url": "https://lh3.googleusercontent.com/Qeo9IA2VwC0kR0bNfRAqD8aPdOLQFa4nmwrkT3SYr8rlwy5OB76Rbvb1bDpAHjIisQ3pNZY45XUnL3ITMzzbFcGYi47e5P6w",
+      "image_background_color": "#ffffff",
       "description": "X Window System and related projects (Mesa, DRI, Wayland, etc.)",
       "url": "http://www.x.org",
       "num_projects": 1,
@@ -2950,6 +3145,7 @@
     {
       "name": "Xapian Search Engine Library",
       "image_url": "https://lh3.googleusercontent.com/QXpt9FkvyIQdMujj953yvmn3QVDdc1AHiD_zEQ149IzojkxNszscsJyF_oEa664SMOY0xjPWYX2CI4EKqIRvATdOAgwZTw",
+      "image_background_color": "#ffffff",
       "description": "Fast, scalable and flexible search",
       "url": "https://xapian.org/",
       "num_projects": 2,
@@ -2967,6 +3163,7 @@
     {
       "name": "XMPP Standards Foundation",
       "image_url": "https://lh3.googleusercontent.com/NTFT7ZSKWz1AXTaNxboHmS2puPlxNIxkyLiF3_A2ha2PI1mz06ry0gSCHJYEuVTjIn9ZPa2h8CUMpnxzsqLma0yDkg1tFg",
+      "image_background_color": "#ffffff",
       "description": "Secure and federated communication with open standards",
       "url": "https://xmpp.org",
       "num_projects": 2,
@@ -2978,6 +3175,7 @@
     {
       "name": "XWiki",
       "image_url": "https://lh3.googleusercontent.com/EegK-n_5LpVEG4GCvO2zqCG3pJElJMeypnm4r3XWXywQatNjnJBzj2MBBSCMCYHaMF8AQlMayN6cf5-7Z10S6ImNB77oxcU",
+      "image_background_color": "#ffffff",
       "description": "The Advanced Open Source Enterprise Wiki",
       "url": "https://www.xwiki.org/",
       "num_projects": 1,
@@ -2995,6 +3193,7 @@
     {
       "name": "Zulip",
       "image_url": "https://lh3.googleusercontent.com/_tgUVA1VBLoVXr4A4q51p9b4HuaSgYzFDbFKYvXwoAO0wxQArg19ZHPoc44bR_hSG_HYXG11qnmatJbc7_z25Ah1KMnuO-Yj",
+      "image_background_color": "#ffffff",
       "description": "Powerful, modern, open source team chat, complete with apps for every platform.",
       "url": "https://zulipchat.com",
       "num_projects": 18,

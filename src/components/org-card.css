@@ -13,7 +13,6 @@
 .org-card-logo-container {
   height: 128px;
   padding: 5% 10%;
-  background-color: #ffffff;
 }
 
 .org-card-logo {
@@ -27,7 +26,9 @@
 .org-card-name-container {
   justify-content: center;
   text-align: center;
-  padding: 0% 10%;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
   font-size: 16px;
   font-family: "Galano Grotesque Alt Medium";
 }

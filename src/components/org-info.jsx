@@ -23,10 +23,15 @@ const OrgInfo = ({ data }) => {
   let topics = data.topics.map(topic => {
     return <span className="org-info-topic">{topic}</span>
   })
-
+  console.log(data)
   return (
     <div className="org-info-container">
-      <div className="org-info-logo-container">
+      <div
+        className="org-info-logo-container"
+        style={{
+          backgroundColor: data.image_background_color,
+        }}
+      >
         <div
           className="org-info-logo"
           style={{
