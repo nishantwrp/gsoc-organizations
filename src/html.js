@@ -40,7 +40,7 @@ export default function HTML(props) {
             src="/images/loading.gif"
             alt="Loading"
             width="150"
-            height="auto"
+            height="150"
           />
         </div>
         <div

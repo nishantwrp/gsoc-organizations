@@ -22,6 +22,7 @@ components:
       required:
         - name
         - image_url
+        - image_background_color
         - description
         - url
         - category
@@ -32,6 +33,8 @@ components:
         name:
           type: string
         image_url:
+          type: string
+        image_background_color:
           type: string
         description:
           type: string
@@ -105,6 +108,7 @@ components:
       required:
         - name
         - image_url
+        - image_background_color
         - description
         - url
         - num_projects
@@ -116,6 +120,8 @@ components:
         name:
           type: string
         image_url:
+          type: string
+        image_background_color:
           type: string
         description:
           type: string

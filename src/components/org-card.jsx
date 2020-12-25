@@ -30,7 +30,12 @@ const OrgCard = ({ data }) => {
 
   const card = (
     <div className="org-card-container">
-      <div className="org-card-logo-container">
+      <div
+        className="org-card-logo-container"
+        style={{
+          backgroundColor: data.image_background_color,
+        }}
+      >
         <div
           className="org-card-logo"
           style={{

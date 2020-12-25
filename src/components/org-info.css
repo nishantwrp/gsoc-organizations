@@ -7,7 +7,6 @@
 .org-info-logo-container {
   height: 128px;
   padding: 5% 10%;
-  background-color: #ffffff;
 }
 
 .org-info-logo {
@@ -19,6 +18,7 @@
 }
 
 .org-info-site-container {
+  padding-top: 2%;
   text-align: center;
 }
 

@@ -3,6 +3,7 @@ const {
   technologyFilters,
   topicFilters,
   categoryFilters,
+  nameFilters,
 } = require("./filters")
 
 const YEARS = [2016, 2017, 2018, 2019, 2020]
@@ -34,6 +35,7 @@ const getOrCreateOrganization = orgJson => {
     name: "",
     url: "",
     image_url: "",
+    image_background_color: "",
     description: "",
     category: "",
     topics: [],
@@ -58,6 +60,7 @@ const updateBasicOrgInfo = (
   year,
   name,
   imageUrl,
+  imageBackgroundColor,
   description,
   url,
   category
@@ -65,9 +68,10 @@ const updateBasicOrgInfo = (
   if (getLatestGsocYear(index) < year) {
     gsocOrganizations[index].name = name
     gsocOrganizations[index].image_url = imageUrl
+    gsocOrganizations[index].image_background_color = imageBackgroundColor
     gsocOrganizations[index].description = description
     gsocOrganizations[index].url = url
-    gsocOrganizations[index].category = categoryFilters.filter(category)
+    gsocOrganizations[index].category = category
   }
 }
 
@@ -80,22 +84,16 @@ const updateYears = (index, year, projects_url, num_projects) => {
 
 const updateTopics = (index, year, topics) => {
   for (const topic of topics) {
-    const filteredTopics = topicFilters.filter(topic)
-    for (const filteredTopic of filteredTopics) {
-      if (!gsocOrganizations[index].topics.includes(filteredTopic)) {
-        gsocOrganizations[index].topics.push(filteredTopic)
-      }
+    if (!gsocOrganizations[index].topics.includes(topic)) {
+      gsocOrganizations[index].topics.push(topic)
     }
   }
 }
 
 const updateTechnologies = (index, year, technologies) => {
   for (const technology of technologies) {
-    const filteredTechnologies = technologyFilters.filter(technology)
-    for (const filteredTechnology of filteredTechnologies) {
-      if (!gsocOrganizations[index].technologies.includes(filteredTechnology)) {
-        gsocOrganizations[index].technologies.push(filteredTechnology)
-      }
+    if (!gsocOrganizations[index].technologies.includes(technology)) {
+      gsocOrganizations[index].technologies.push(technology)
     }
   }
 }
@@ -104,6 +102,7 @@ const updateOrg = (index, year, orgJson) => {
   const {
     name,
     image_url,
+    image_background_color,
     description,
     url,
     category,
@@ -112,14 +111,51 @@ const updateOrg = (index, year, orgJson) => {
     technologies,
     num_projects,
   } = orgJson
-  updateBasicOrgInfo(index, year, name, image_url, description, url, category)
+  updateBasicOrgInfo(
+    index,
+    year,
+    name,
+    image_url,
+    image_background_color,
+    description,
+    url,
+    category
+  )
   updateYears(index, year, projects_url, num_projects)
   updateTopics(index, year, topics)
   updateTechnologies(index, year, technologies)
 }
 
+const applyFilters = orgJson => {
+  orgJson.name = nameFilters.filter(orgJson.name)
+  orgJson.category = categoryFilters.filter(orgJson.category)
+
+  const topics = []
+  for (const topic of orgJson.topics) {
+    const filteredTopics = topicFilters.filter(topic)
+    for (const filteredTopic of filteredTopics) {
+      if (!topics.includes(filteredTopic)) {
+        topics.push(filteredTopic)
+      }
+    }
+  }
+  orgJson.topics = topics
+
+  const technologies = []
+  for (const technology of orgJson.technologies) {
+    const filteredTechnologies = technologyFilters.filter(technology)
+    for (const filteredTechnology of filteredTechnologies) {
+      if (!technologies.includes(filteredTechnologies)) {
+        technologies.push(filteredTechnology)
+      }
+    }
+  }
+  orgJson.technologies = technologies
+}
+
 const processData = data => {
   for (const orgJson of data.organizations) {
+    applyFilters(orgJson)
     const index = getOrCreateOrganization(orgJson)
     updateOrg(index, Number.parseInt(data.year), orgJson)
   }
