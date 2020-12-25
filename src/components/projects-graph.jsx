@@ -2,6 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import "./projects-graph.css"
+
 import { Line } from "react-chartjs-2"
 
 const ProjectsGraph = ({ data }) => {
@@ -40,43 +42,45 @@ const ProjectsGraph = ({ data }) => {
   }
 
   return (
-    <Line
-      data={state}
-      scaleFontColor="red"
-      options={{
-        title: {
-          display: true,
-          text: "Number of completed projects year-wise",
-          fontSize: 14,
-        },
-        legend: {
-          display: false,
-        },
-        tooltips: {
-          enabled: true,
-        },
-        scales: {
-          xAxes: [
-            {
-              gridLines: {
-                drawOnChartArea: false,
+    <div className="projects-graph-container">
+      <Line
+        data={state}
+        scaleFontColor="red"
+        options={{
+          title: {
+            display: true,
+            text: "Number of completed projects year-wise",
+            fontSize: 14,
+          },
+          legend: {
+            display: false,
+          },
+          tooltips: {
+            enabled: true,
+          },
+          scales: {
+            xAxes: [
+              {
+                gridLines: {
+                  drawOnChartArea: false,
+                },
               },
-            },
-          ],
-          yAxes: [
-            {
-              gridLines: {
-                drawOnChartArea: false,
+            ],
+            yAxes: [
+              {
+                gridLines: {
+                  drawOnChartArea: false,
+                },
+                ticks: {
+                  beginAtZero: true,
+                  stepSize: 1,
+                },
               },
-              ticks: {
-                beginAtZero: true,
-                stepSize: 1,
-              },
-            },
-          ],
-        },
-      }}
-    />
+            ],
+          },
+        }}
+      />
+    </div>
   )
 }
 

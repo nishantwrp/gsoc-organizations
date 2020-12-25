@@ -9,30 +9,28 @@ const breakPoints = {
 module.exports = {
   siteMetadata: {
     title: `GSoC Organizations`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@nishantwrp`,
+    siteUrl: `https://www.gsocorganizations.dev`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-plugin-robots-txt",
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        policy: [{ userAgent: "*", allow: "/" }],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `GSoC Organizations`,
+        short_name: `GSoC Organizations`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#db6400`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `static/images/logo.png`,
       },
     },
     {
