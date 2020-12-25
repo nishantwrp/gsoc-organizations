@@ -207,7 +207,7 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
                   <td>
                     <GitHubButton
                       data-size="large"
-                      href="https://github.com/nishantwrp/gsoc-organizations-site"
+                      href="https://github.com/nishantwrp/gsoc-organizations"
                       data-icon="octicon-star"
                       data-show-count="true"
                       aria-label="Star nishantwrp/gsoc-organizations-site on GitHub"

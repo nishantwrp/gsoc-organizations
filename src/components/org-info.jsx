@@ -23,7 +23,7 @@ const OrgInfo = ({ data }) => {
   let topics = data.topics.map(topic => {
     return <span className="org-info-topic">{topic}</span>
   })
-  console.log(data)
+
   return (
     <div className="org-info-container">
       <div
