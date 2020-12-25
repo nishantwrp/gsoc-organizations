@@ -12,6 +12,13 @@ module.exports = {
     siteUrl: `https://www.gsocorganizations.dev`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-114654874-3",
+        head: true,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
