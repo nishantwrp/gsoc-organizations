@@ -1,6 +1,7 @@
 import React from "react"
 import Fuse from "fuse.js"
 import { graphql } from "gatsby"
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 import "./index.css"
 
@@ -182,6 +183,9 @@ const IndexPage = ({ data }) => {
     },
   ]
 
+  const breakpoints = useBreakpoint()
+  const cardColumns = breakpoints.l ? 3 : 4
+
   return (
     <Layout
       searchState={{ searchQuery: searchQuery, setSearchQuery: setSearchQuery }}
@@ -189,7 +193,7 @@ const IndexPage = ({ data }) => {
       homePage={true}
     >
       <SEO title={"Home"} meta={meta} />
-      <Grid className="index-org-cards-grid" stackable columns={4}>
+      <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
         {cards}
       </Grid>
     </Layout>
