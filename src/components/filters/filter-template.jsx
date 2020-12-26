@@ -47,8 +47,8 @@ class FilterTemplate extends React.Component {
 
   getOptionIndexes(selected) {
     const indexes = []
-    this.getAllOptions().map((value, index) => {
-      if (value.selected == selected) {
+    this.getAllOptions().forEach((value, index) => {
+      if (value.selected === selected) {
         indexes.push(index)
       }
     })

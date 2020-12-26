@@ -47,7 +47,7 @@ const updateFiltersState = (
 ) => {
   const getSelectedValues = options => {
     const selectedValues = []
-    options.map(option => {
+    options.forEach(option => {
       if (option.selected) {
         selectedValues.push(option.name)
       }
@@ -232,15 +232,15 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
                     </OutboundLink>
                   </td>
                   <td>
-                    <a href="mailto:contact@gsocorganizations.dev">
-                      <OutboundLink
+                    <OutboundLink href="mailto:contact@gsocorganizations.dev">
+                      <Button
                         className="sidebar-footer-icon-link"
                         icon
                         compact={true}
                       >
                         <Icon name="mail"></Icon>
-                      </OutboundLink>
-                    </a>
+                      </Button>
+                    </OutboundLink>
                   </td>
                 </tr>
               </table>

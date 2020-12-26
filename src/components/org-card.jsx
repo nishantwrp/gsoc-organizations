@@ -61,6 +61,7 @@ const OrgCard = ({ data }) => {
     <a
       href={`/organization/${slugify(data.name, { lower: true })}`}
       target="_blank"
+      rel="noreferrer"
     >
       {card}
     </a>

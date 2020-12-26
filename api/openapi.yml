@@ -7,10 +7,6 @@ info:
   contact:
     name: GSoC Organizations
     email: contact@gsocorganizations.dev
-  x-logo:
-    url: /logo.png
-    backgroundColor: ""
-    altText: "GSoC Organizations logo"
   version: '1.0'
 servers:
   - url: https://api.gsocorganizations.dev/
