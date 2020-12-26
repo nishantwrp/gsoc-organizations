@@ -12,8 +12,7 @@
   <img src="https://github.com/nishantwrp/gsoc-organizations/workflows/Lint%20checks/badge.svg">
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
   <img src="https://david-dm.org/nishantwrp/gsoc-organizations.svg">
-  <img src="https://badgen.net/github/license/nishantwrp/gsoc-organizations">
-  <img src="https://hits.dwyl.com/nishantwrp/gsoc-organizations.svg">
+  <img src="https://img.shields.io/github/license/nishantwrp/gsoc-organizations">
   </center>
 </h1>
 
