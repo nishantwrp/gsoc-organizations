@@ -3,15 +3,20 @@ import PropTypes from "prop-types"
 
 import "./org-info.css"
 
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import { Divider, Button, Header, Icon } from "semantic-ui-react"
 
 const OrgInfo = ({ data }) => {
   const years = Object.keys(data.years)
     .map(year => {
       return (
-        <a href={data.years[year].projects_url} target="_blank">
+        <OutboundLink
+          href={data.years[year].projects_url}
+          rel="noreferrer"
+          target="_blank"
+        >
           <span className="org-info-year">{year}</span>
-        </a>
+        </OutboundLink>
       )
     })
     .reverse()
@@ -40,12 +45,12 @@ const OrgInfo = ({ data }) => {
         ></div>
       </div>
       <div className="org-info-site-container">
-        <a href={data.url} target="_blank">
+        <OutboundLink href={data.url} rel="noreferrer" target="_blank">
           <Button icon labelPosition="left" color="orange">
             <Icon name="world" />
             Visit Site
           </Button>
-        </a>
+        </OutboundLink>
       </div>
       <div className="org-info-description-container">{data.description}</div>
       <center>

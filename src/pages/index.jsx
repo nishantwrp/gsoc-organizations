@@ -183,8 +183,7 @@ const IndexPage = ({ data }) => {
     },
   ]
 
-  const breakpoints = useBreakpoint()
-  const cardColumns = breakpoints.l ? 3 : 4
+  const cardColumns = useBreakpoint().l ? 3 : 4
 
   return (
     <Layout

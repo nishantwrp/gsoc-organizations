@@ -3,10 +3,11 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import "./sidebar.css"
-import Filter from "./filter"
+import Filter from "./filters/filter"
 
 import Logo from "./logo"
 import GitHubButton from "react-github-btn"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import { Link } from "gatsby"
 import { Container, Divider, Button, Icon } from "semantic-ui-react"
 
@@ -46,7 +47,7 @@ const updateFiltersState = (
 ) => {
   const getSelectedValues = options => {
     const selectedValues = []
-    options.map(option => {
+    options.forEach(option => {
       if (option.selected) {
         selectedValues.push(option.name)
       }
@@ -216,7 +217,7 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
                     </GitHubButton>
                   </td>
                   <td>
-                    <a
+                    <OutboundLink
                       href="https://api.gsocorganizations.dev/"
                       target="_blank"
                       rel="noreferrer"
@@ -228,10 +229,10 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
                       >
                         <Icon name="database"></Icon>
                       </Button>
-                    </a>
+                    </OutboundLink>
                   </td>
                   <td>
-                    <a href="mailto:contact@gsocorganizations.dev">
+                    <OutboundLink href="mailto:contact@gsocorganizations.dev">
                       <Button
                         className="sidebar-footer-icon-link"
                         icon
@@ -239,7 +240,7 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
                       >
                         <Icon name="mail"></Icon>
                       </Button>
-                    </a>
+                    </OutboundLink>
                   </td>
                 </tr>
               </table>
