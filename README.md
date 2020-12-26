@@ -21,7 +21,7 @@ A site for viewing and analysing the info of the organizations participating in 
 
 ## Tech Stack
 
-- [Gatsby](https://www.gatsbyjs.com/) - Gatsby is the frontend framework for developing this site.
+- [Gatsby](https://www.gatsbyjs.com/) - Gatsby is the frontend framework used for developing this site.
 - [Redoc](https://redocly.github.io/redoc/) - Redoc is used for generating api docs.
 
 ## 💫 Deployment Status
