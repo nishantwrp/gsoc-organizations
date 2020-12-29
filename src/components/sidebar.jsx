@@ -69,10 +69,22 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
   } = useStaticQuery(graphql`
     {
       filter {
-        topics
-        technologies
-        years
-        categories
+        topics {
+          name
+          frequency
+        }
+        technologies {
+          name
+          frequency
+        }
+        years {
+          name
+          frequency
+        }
+        categories {
+          name
+          frequency
+        }
       }
     }
   `)
@@ -80,7 +92,8 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
   const topicsState = React.useState(
     topics.map(topic => {
       return {
-        name: topic,
+        name: topic.name,
+        frequency: topic.frequency,
         selected: false,
       }
     })
@@ -88,7 +101,8 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
   const technologiesState = React.useState(
     technologies.map(technology => {
       return {
-        name: technology,
+        name: technology.name,
+        frequency: technology.frequency,
         selected: false,
       }
     })
@@ -96,7 +110,8 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
   const yearsState = React.useState(
     years.map(year => {
       return {
-        name: year,
+        name: year.name,
+        frequency: year.frequency,
         selected: false,
       }
     })
@@ -104,7 +119,8 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
   const categoriesState = React.useState(
     categories.map(category => {
       return {
-        name: category,
+        name: category.name,
+        frequency: category.frequency,
         selected: false,
       }
     })
@@ -126,6 +142,7 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
       const unselectedOptions = filter.map(option => {
         return {
           name: option.name,
+          frequency: option.frequency,
           selected: false,
         }
       })
@@ -178,22 +195,26 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
               name="Years"
               updateAllFilters={updateAllFilters}
               optionsState={yearsState}
+              sortBy="name"
             />
             <Filter
               name="Categories"
               updateAllFilters={updateAllFilters}
               optionsState={categoriesState}
+              sortBy="name"
             />
             <Filter
               name="Technologies"
               updateAllFilters={updateAllFilters}
               optionsState={technologiesState}
+              sortBy="frequency"
             />
             <Filter
               name="Topics"
               updateAllFilters={updateAllFilters}
               optionsState={topicsState}
               showDivider={false}
+              sortBy="frequency"
             />
           </div>
         </div>

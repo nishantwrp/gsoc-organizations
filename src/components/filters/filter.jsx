@@ -21,7 +21,7 @@ class Filter extends FilterTemplate {
           <td>
             <Checkbox
               checked={this.getAllOptions()[index].selected}
-              label={this.getAllOptions()[index].name}
+              label={this.getCheckboxLabel(index)}
               value={this.getAllOptions()[index].selected}
               onChange={this.toggleChecked(index)}
             />
@@ -68,6 +68,7 @@ class Filter extends FilterTemplate {
             name={this.props.name}
             optionsState={this.props.optionsState}
             updateAllFilters={this.props.updateAllFilters}
+            sortBy={this.props.sortBy}
             trigger={<div className="filter-view-more">View all</div>}
           />
         </div>

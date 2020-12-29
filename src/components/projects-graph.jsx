@@ -10,12 +10,14 @@ const ProjectsGraph = ({ data }) => {
   const queryData = useStaticQuery(graphql`
     query {
       filter {
-        years
+        years {
+          name
+        }
       }
     }
   `)
 
-  const years = queryData.filter.years
+  const years = queryData.filter.years.map(item => item.name).sort()
   const numProjects = []
 
   for (const year of years) {
