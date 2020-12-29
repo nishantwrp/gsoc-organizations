@@ -55,10 +55,41 @@ class FilterTemplate extends React.Component {
     return indexes
   }
 
+  getSortedOptionIndexes() {
+    const sortedOptions = this.getAllOptions().sort((a, b) => {
+      if (a.selected ^ b.selected) {
+        return a.selected ? -1 : 1
+      }
+
+      if (this.props.sortBy === "name") {
+        return a.name > b.name ? 1 : -1
+      }
+
+      if (this.props.sortBy === "frequency") {
+        return a.frequency === b.frequency
+          ? a.name > b.name
+            ? 1
+            : -1
+          : a.frequency > b.frequency
+          ? -1
+          : 1
+      }
+    })
+    return sortedOptions.map(item => this.getAllOptions().indexOf(item))
+  }
+
+  getCheckboxLabel(index) {
+    if (this.props.sortBy === "frequency") {
+      return `${this.getAllOptions()[index].name} (${
+        this.getAllOptions()[index].frequency
+      })`
+    }
+
+    return this.getAllOptions()[index].name
+  }
+
   getFilteredOptionsIndexes() {
-    let filteredOptionIndexes = this.getOptionIndexes(true).concat(
-      this.getOptionIndexes(false)
-    )
+    let filteredOptionIndexes = this.getSortedOptionIndexes()
 
     if (this.state.searchQuery !== "") {
       const fuse = this.getFuseSearch()
@@ -78,6 +109,7 @@ class FilterTemplate extends React.Component {
 FilterTemplate.propTypes = {
   optionsState: PropTypes.array.isRequired,
   updateAllFilters: PropTypes.func.isRequired,
+  sortBy: PropTypes.oneOf(["name", "frequency"]).isRequired,
 }
 
 export default FilterTemplate

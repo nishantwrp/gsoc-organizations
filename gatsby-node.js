@@ -2,6 +2,13 @@ const slugify = require("slugify")
 const { compileData } = require("./api/compile-data")
 
 const getAllNodesData = organizations => {
+  const filtersIndexes = {
+    years: {},
+    technologies: {},
+    topics: {},
+    categories: {},
+  }
+
   const allYears = []
   const allTechnologies = []
   const allTopics = []
@@ -13,33 +20,52 @@ const getAllNodesData = organizations => {
     const topics = organization.topics
     const category = organization.category
 
-    if (!allCategories.includes(category)) {
-      allCategories.push(category)
+    if (!(category in filtersIndexes.categories)) {
+      allCategories.push({
+        name: category,
+        frequency: 1,
+      })
+      filtersIndexes.categories[category] = allCategories.length - 1
+    } else {
+      allCategories[filtersIndexes.categories[category]].frequency++
     }
 
     for (const topic of topics) {
-      if (!allTopics.includes(topic)) {
-        allTopics.push(topic)
+      if (!(topic in filtersIndexes.topics)) {
+        allTopics.push({
+          name: topic,
+          frequency: 1,
+        })
+        filtersIndexes.topics[topic] = allTopics.length - 1
+      } else {
+        allTopics[filtersIndexes.topics[topic]].frequency++
       }
     }
 
     for (const technology of technologies) {
-      if (!allTechnologies.includes(technology)) {
-        allTechnologies.push(technology)
+      if (!(technology in filtersIndexes.technologies)) {
+        allTechnologies.push({
+          name: technology,
+          frequency: 1,
+        })
+        filtersIndexes.technologies[technology] = allTechnologies.length - 1
+      } else {
+        allTechnologies[filtersIndexes.technologies[technology]].frequency++
       }
     }
 
     for (const year of years) {
-      if (!allYears.includes(year)) {
-        allYears.push(year)
+      if (!(year in filtersIndexes.years)) {
+        allYears.push({
+          name: year,
+          frequency: 1,
+        })
+        filtersIndexes.years[year] = allYears.length - 1
+      } else {
+        allYears[filtersIndexes.years[year]].frequency++
       }
     }
   }
-
-  allYears.sort()
-  allTechnologies.sort()
-  allTopics.sort()
-  allCategories.sort()
 
   return {
     Filter: {

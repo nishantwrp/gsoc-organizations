@@ -28,7 +28,7 @@ class FilterModal extends FilterTemplate {
         <Grid.Column>
           <Checkbox
             checked={this.getAllOptions()[index].selected}
-            label={this.getAllOptions()[index].name}
+            label={this.getCheckboxLabel(index)}
             value={this.getAllOptions()[index].selected}
             onChange={this.toggleChecked(index)}
           />
