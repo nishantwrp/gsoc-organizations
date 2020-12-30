@@ -118,7 +118,7 @@ exports.createPages = ({ actions: { createPage } }) => {
   const organizations = compileData()
   for (const organization of organizations) {
     createPage({
-      path: `organization/${slugify(organization.name, { lower: true })}`,
+      path: `organization/${slugify(organization.name, { lower: true })}/`,
       component: require.resolve("./src/templates/organization.jsx"),
       context: { organization: organization },
     })
