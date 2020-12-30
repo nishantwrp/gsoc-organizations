@@ -54,12 +54,12 @@ const OrgCard = ({ data }) => {
   )
 
   return isMobile ? (
-    <Link to={`/organization/${slugify(data.name, { lower: true })}`}>
+    <Link to={`/organization/${slugify(data.name, { lower: true })}/`}>
       {card}
     </Link>
   ) : (
     <a
-      href={`/organization/${slugify(data.name, { lower: true })}`}
+      href={`/organization/${slugify(data.name, { lower: true })}/`}
       target="_blank"
       rel="noreferrer"
     >

@@ -47,7 +47,7 @@ const OrganizationPage = ({ pageContext: { organization }, data }) => {
       property: "og:url",
       content: `${
         data.site.siteMetadata.siteUrl
-      }/organization/${slugify(organization.name, { lower: true })}`,
+      }/organization/${slugify(organization.name, { lower: true })}/`,
     },
     {
       name: "twitter:card",
