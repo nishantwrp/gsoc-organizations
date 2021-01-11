@@ -8,6 +8,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.13",
+    "@isamrish/gatsby-plugin-google-adsense": "^1.2.0",
     "chart.js": "^2.9.4",
     "fuse.js": "^6.4.3",
     "gatsby": "^2.26.1",
