@@ -24,7 +24,10 @@
         "java",
         "javascript",
         "web"
-      ]
+      ],
+      "irc_channel": "",
+      "contact_email": "mailto:gsocadmins@52north.org",
+      "mailing_list": "http://list.52north.org/mailman/listinfo/gsoc"
     },
     {
       "name": "AboutCode",
@@ -48,7 +51,10 @@
         "javascript",
         "shell script",
         "static analysis"
-      ]
+      ],
+      "irc_channel": "https://webchat.freenode.net/?channels=#aboutcode",
+      "contact_email": "mailto:info@scancode.io",
+      "mailing_list": "https://lists.sourceforge.net/lists/listinfo/aboutcode-discuss"
     },
     {
       "name": "AerospaceResearch.net",
@@ -66,7 +72,10 @@
         "distributed computing",
         "simulations"
       ],
-      "technologies": ["python", "c/c++", "vhdl", "boinc"]
+      "technologies": ["python", "c/c++", "vhdl", "boinc"],
+      "irc_channel": "",
+      "contact_email": "mailto:contact@aerospaceresearch.net",
+      "mailing_list": "https://lists.shackspace.de/mailman/listinfo/constellation"
     },
     {
       "name": "aimacode",
@@ -84,7 +93,10 @@
         "machine learning",
         "artificial intelligence",
         "java"
-      ]
+      ],
+      "irc_channel": "https://gitter.im/aimacode/",
+      "contact_email": "mailto:peter.norvig+aimacode@gmail.com",
+      "mailing_list": ""
     },
     {
       "name": "Amahi",
@@ -108,7 +120,10 @@
         "restful api",
         "streaming",
         "ruby on rails"
-      ]
+      ],
+      "irc_channel": "http://talk.amahi.org",
+      "contact_email": "mailto:gsoc@amahi.org",
+      "mailing_list": ""
     },
     {
       "name": "AOSSIE - Australian Open Source Software Innovation and Education",
@@ -132,7 +147,10 @@
         "automated reasoning",
         "android/ios",
         "xcode"
-      ]
+      ],
+      "irc_channel": "",
+      "contact_email": "",
+      "mailing_list": "https://groups.google.com/forum/#!forum/aossie-gsoc-2017"
     },
     {
       "name": "Apache Software Foundation",
@@ -144,7 +162,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4633151007621120/",
       "topics": ["cloud", "libraries", "big data"],
-      "technologies": ["java", "c", "erlang"]
+      "technologies": ["java", "c", "erlang"],
+      "irc_channel": "https://wiki.apache.org/general/IRC",
+      "contact_email": "mailto:dev@community.apache.org",
+      "mailing_list": "http://apache.org/foundation/mailinglists.html"
     },
     {
       "name": "Apertium",
@@ -160,7 +181,10 @@
         "machine translation",
         "lesser-resourced languages"
       ],
-      "technologies": ["c++", "xml", "python", "nlp"]
+      "technologies": ["c++", "xml", "python", "nlp"],
+      "irc_channel": "http://wiki.apertium.org/wiki/IRC",
+      "contact_email": "mailto:apertium-contact@lists.sourceforge.net",
+      "mailing_list": "http://wiki.apertium.org/wiki/Contact"
     },
     {
       "name": "Apertus Association",
@@ -172,7 +196,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6354847569805312/",
       "topics": ["video", "camera", "vision", "real time", "photography"],
-      "technologies": ["fpga", "vhdl", "c", "linux", "c++"]
+      "technologies": ["fpga", "vhdl", "c", "linux", "c++"],
+      "irc_channel": "https://www.apertus.org/irc-chat",
+      "contact_email": "mailto:team@apertus.org",
+      "mailing_list": "https://www.apertus.org/mailinglists"
     },
     {
       "name": "appleseedhq",
@@ -184,7 +211,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6110372931043328/",
       "topics": ["computer graphics", "3d", "rendering", "animation", "vfx"],
-      "technologies": ["c++", "python", "qt"]
+      "technologies": ["c++", "python", "qt"],
+      "irc_channel": "",
+      "contact_email": "mailto:hello@appleseedhq.net",
+      "mailing_list": "https://groups.google.com/forum/#!forum/appleseed-dev"
     },
     {
       "name": "ArduPilot",
@@ -196,7 +226,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5801067908431872/",
       "topics": ["autopilot", "robotics", "uav", "drones", "rovers"],
-      "technologies": ["c++", "python", "embedded", "rtos", "ros"]
+      "technologies": ["c++", "python", "embedded", "rtos", "ros"],
+      "irc_channel": "https://gitter.im/ArduPilot/GSoC",
+      "contact_email": "mailto:ardupilot-gsoc@googlegroups.com",
+      "mailing_list": "http://ardupilot.org/dev/index.html"
     },
     {
       "name": "Babel",
@@ -208,7 +241,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5933754749026304/",
       "topics": ["compilers", "ast", "minifier", "tc39"],
-      "technologies": ["javascript", "babel", "nodejs"]
+      "technologies": ["javascript", "babel", "nodejs"],
+      "irc_channel": "https://slack.babeljs.io",
+      "contact_email": "mailto:hi@henryzoo.com",
+      "mailing_list": ""
     },
     {
       "name": "Bazel",
@@ -220,7 +256,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5765787168014336/",
       "topics": ["development tools", "build systems"],
-      "technologies": ["java", "linux", "go"]
+      "technologies": ["java", "linux", "go"],
+      "irc_channel": "",
+      "contact_email": "mailto:bazel-core@googlegroups.com",
+      "mailing_list": ""
     },
     {
       "name": "BeagleBoard.org Foundation",
@@ -238,7 +277,10 @@
         "physical computing",
         "coprocessing"
       ],
-      "technologies": ["javascript", "linux", "beaglebone", "python", "c"]
+      "technologies": ["javascript", "linux", "beaglebone", "python", "c"],
+      "irc_channel": "http://bbb.io/gsocchat",
+      "contact_email": "mailto:gsoc@beagleboard.org",
+      "mailing_list": "http://bbb.io/gsocml"
     },
     {
       "name": "Beam Community",
@@ -250,7 +292,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5344914732744704/",
       "topics": ["realtime", "communication system", "database", "clustering"],
-      "technologies": ["erlang", "elixir", "lisp", "xmpp"]
+      "technologies": ["erlang", "elixir", "lisp", "xmpp"],
+      "irc_channel": "https://beamcommunity.github.io/",
+      "contact_email": "mailto:contact@process-one.net",
+      "mailing_list": "https://groups.google.com/forum/#!forum/beam-community"
     },
     {
       "name": "BeeWare Project",
@@ -262,7 +307,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5213454373748736/",
       "topics": ["ui", "ide", "cross-platform"],
-      "technologies": ["python", "mobile", "ios", "android"]
+      "technologies": ["python", "mobile", "ios", "android"],
+      "irc_channel": "https://gitter.im/pybee",
+      "contact_email": "mailto:contact@pybee.org",
+      "mailing_list": ""
     },
     {
       "name": "Berkman Klein Center for Internet and Society at Harvard University",
@@ -286,7 +334,10 @@
         "d3",
         "elasticsearch",
         "javascript"
-      ]
+      ],
+      "irc_channel": "https://cyber.harvard.edu/gsoc/Main_Page#Contact_Us",
+      "contact_email": "mailto:gsoc@cyber.harvard.edu",
+      "mailing_list": ""
     },
     {
       "name": "Blender Foundation",
@@ -298,7 +349,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6461479528169472/",
       "topics": ["3d", "animation", "graphics", "modeling", "vfx"],
-      "technologies": ["opengl", "opencl", "python", "c", "c++"]
+      "technologies": ["opengl", "opencl", "python", "c", "c++"],
+      "irc_channel": "http://wiki.blender.org/index.php/Community:Chat",
+      "contact_email": "mailto:ton@blender.org",
+      "mailing_list": "http://lists.blender.org/mailman/listinfo/bf-committers/"
     },
     {
       "name": "Boost C++ Libraries",
@@ -310,7 +364,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5196100961042432/",
       "topics": ["library"],
-      "technologies": ["c++", "c++11", "c++14", "boost"]
+      "technologies": ["c++", "c++11", "c++14", "boost"],
+      "irc_channel": "http://www.boost.org/community/irc.html",
+      "contact_email": "mailto:gsoc-admin@boost.org",
+      "mailing_list": "http://lists.boost.org/mailman/listinfo.cgi/boost"
     },
     {
       "name": "Boston University / XIA",
@@ -326,7 +383,10 @@
         "future internet architecture",
         "research"
       ],
-      "technologies": ["xia", "linux kernel", "c", "advanced data structures"]
+      "technologies": ["xia", "linux kernel", "c", "advanced data structures"],
+      "irc_channel": "",
+      "contact_email": "",
+      "mailing_list": "http://groups.google.com/group/linux-xia"
     },
     {
       "name": "BRL-CAD",
@@ -338,7 +398,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5302987798872064/",
       "topics": ["cad", "geometry", "3d", "ray tracing", "visualization"],
-      "technologies": ["c/c++", "opencl", "python", "javascript", "qt"]
+      "technologies": ["c/c++", "opencl", "python", "javascript", "qt"],
+      "irc_channel": "http://brlcad.org/wiki/IRC",
+      "contact_email": "mailto:devs@brlcad.org",
+      "mailing_list": "http://brlcad.org/wiki/Mailing_Lists"
     },
     {
       "name": "Cadasta",
@@ -350,7 +413,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6571413242642432/",
       "topics": ["web", "land rights", "mapping", "geo", "geospatial"],
-      "technologies": ["python", "django", "javasc", "javascipt"]
+      "technologies": ["python", "django", "javasc", "javascipt"],
+      "irc_channel": "https://gitter.im/Cadasta/cadasta",
+      "contact_email": "mailto:info@cadasta.org",
+      "mailing_list": "https://groups.google.com/a/cadasta.org/forum/#!forum/outreachy"
     },
     {
       "name": "Catrobat",
@@ -368,7 +434,10 @@
         "web applications",
         "scratch"
       ],
-      "technologies": ["android", "java", "html5", "ios", "web"]
+      "technologies": ["android", "java", "html5", "ios", "web"],
+      "irc_channel": "https://github.com/Catrobat/Catroid/wiki/Setup-working-environment",
+      "contact_email": "mailto:contact@catrobat.org",
+      "mailing_list": "https://groups.google.com/forum/?fromgroups#!forum/catrobat"
     },
     {
       "name": "cBioPortal for Cancer Genomics",
@@ -380,7 +449,10 @@
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4741825894023168/",
       "topics": ["cancer", "bioinformatics", "big data", "genomics", "biology"],
-      "technologies": ["javascript", "java", "web", "reactjs", "web services"]
+      "technologies": ["javascript", "java", "web", "reactjs", "web services"],
+      "irc_channel": "",
+      "contact_email": "",
+      "mailing_list": "https://groups.google.com/forum/#!forum/cbioportal-gsoc"
     },
     {
       "name": "CCExtractor Development",
@@ -392,7 +464,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5267426006532096/",
       "topics": ["subtitles", "television", "movies", "media"],
-      "technologies": ["c", "python", "raspberry pi", "linux", "visual studio"]
+      "technologies": ["c", "python", "raspberry pi", "linux", "visual studio"],
+      "irc_channel": "http://www.ccextractor.org/doku.php?id=public:general:support",
+      "contact_email": "mailto:gsoc@ccextractor.org",
+      "mailing_list": ""
     },
     {
       "name": "Ceph",
@@ -404,7 +479,10 @@
       "category": "Data and Databases",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6399849700261888/",
       "topics": ["cloud storage", "storage"],
-      "technologies": ["c++", "python", "object-storage"]
+      "technologies": ["c++", "python", "object-storage"],
+      "irc_channel": "http://ceph.com/irc",
+      "contact_email": "mailto:pmcgarry@redhat.com",
+      "mailing_list": "http://ceph.com/irc#lists"
     },
     {
       "name": "CERN-HSF",
@@ -428,7 +506,10 @@
         "machine learning",
         "data analysis",
         "parallel algorithms"
-      ]
+      ],
+      "irc_channel": "",
+      "contact_email": "mailto:hep-software-foundation-google-summer-of-code@googlegroups.com",
+      "mailing_list": "http://hepsoftwarefoundation.org/activities/gsoc.html"
     },
     {
       "name": "Chapel",
@@ -452,7 +533,10 @@
         "high performance computing",
         "c",
         "c++"
-      ]
+      ],
+      "irc_channel": "http://chapel.cray.com/developers.html",
+      "contact_email": "mailto:chapel_info@cray.com",
+      "mailing_list": "http://chapel.cray.com/developers.html"
     },
     {
       "name": "Checker Framework",
@@ -468,7 +552,10 @@
         "software engineering",
         "verification"
       ],
-      "technologies": ["java"]
+      "technologies": ["java"],
+      "irc_channel": "",
+      "contact_email": "mailto:checker-framework-dev@cs.washington.edu",
+      "mailing_list": "https://groups.google.com/forum/#!forum/checker-framework-gsoc"
     },
     {
       "name": "Checkstyle",
@@ -485,7 +572,10 @@
         "coding standards",
         "coding conventions"
       ],
-      "technologies": ["java", "antlr"]
+      "technologies": ["java", "antlr"],
+      "irc_channel": "https://gitter.im/checkstyle/checkstyle",
+      "contact_email": "mailto:checkstyle@googlegroups.com",
+      "mailing_list": "https://groups.google.com/forum/#!forum/checkstyle-devel"
     },
     {
       "name": "Classical Language Toolkit",
@@ -497,7 +587,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4904328934457344/",
       "topics": ["nlp", "ai", "machine", "machine learning", "machine trans"],
-      "technologies": ["python", "javascript"]
+      "technologies": ["python", "javascript"],
+      "irc_channel": "https://gitter.im/cltk/cltk",
+      "contact_email": "mailto:kyle@kyle-p-johnson.com",
+      "mailing_list": "https://groups.google.com/forum/#!forum/classical-language-toolkit"
     },
     {
       "name": "CLiPS, University of Antwerp",
@@ -515,7 +608,10 @@
         "artificial intelligence",
         "data mining"
       ],
-      "technologies": ["python", "machine learning", "mongodb", "javascript"]
+      "technologies": ["python", "machine learning", "mongodb", "javascript"],
+      "irc_channel": "http://www.clips.uantwerpen.be:3001",
+      "contact_email": "mailto:tom@organisms.be",
+      "mailing_list": ""
     },
     {
       "name": "Clojure",
@@ -539,7 +635,10 @@
         "jvm",
         "javascript",
         "functional programming"
-      ]
+      ],
+      "irc_channel": "http://clojurians.net/",
+      "contact_email": "",
+      "mailing_list": "http://groups.google.com/group/clojure"
     },
     {
       "name": "Cloud Native Computing Foundation (CNCF)",
@@ -551,7 +650,10 @@
       "category": "Cloud",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6018829461225472/",
       "topics": ["cloud", "cloud native", "monitoring", "logging", "tracing"],
-      "technologies": ["kubernetes", "go", "prometheus", "fluentd", "grpc"]
+      "technologies": ["kubernetes", "go", "prometheus", "fluentd", "grpc"],
+      "irc_channel": "http://slack.cncf.io/",
+      "contact_email": "mailto:info@cncf.io",
+      "mailing_list": "https://www.cncf.io/community"
     },
     {
       "name": "CloudCV",
@@ -575,7 +677,10 @@
         "angularjs",
         "reactjs",
         "deep learning"
-      ]
+      ],
+      "irc_channel": "https://gitter.im/Cloud-CV",
+      "contact_email": "mailto:gsoc@cloudcv.org",
+      "mailing_list": "https://groups.google.com/forum/#!forum/cloudcv"
     },
     {
       "name": "CMU Sphinx",
@@ -599,7 +704,10 @@
         "hidden markov models",
         "javascript",
         "python"
-      ]
+      ],
+      "irc_channel": "http://cmusphinx.sourceforge.net/wiki/communicate",
+      "contact_email": "mailto:cmusphinx-gsoc@lists.sourceforge.net",
+      "mailing_list": "https://sourceforge.net/p/cmusphinx/mailman/"
     },
     {
       "name": "coala",
@@ -611,7 +719,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5817061024464896/",
       "topics": ["code analysis"],
-      "technologies": ["python"]
+      "technologies": ["python"],
+      "irc_channel": "http://coala.io/chat",
+      "contact_email": "",
+      "mailing_list": "https://github.com/coala/coala/wiki/Mailing-Lists"
     },
     {
       "name": "Computational Biology @ University of Nebraska-Lincoln",
@@ -629,7 +740,10 @@
         "systems biology",
         "image analysis"
       ],
-      "technologies": ["javascript", "react", "java", "webgl", "mysql"]
+      "technologies": ["javascript", "react", "java", "webgl", "mysql"],
+      "irc_channel": "",
+      "contact_email": "mailto:helikarlab-gsoc@googlegroups.com",
+      "mailing_list": ""
     },
     {
       "name": "Conversations.im",
@@ -641,7 +755,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5967780016816128/",
       "topics": ["instant messaging", "real time", "usabilty", "ui", "ux"],
-      "technologies": ["xmpp", "java", "android", "javafx", "python"]
+      "technologies": ["xmpp", "java", "android", "javafx", "python"],
+      "irc_channel": "https://conversations.im/j/gsoc@conference.conversations.im",
+      "contact_email": "mailto:daniel@siacs.eu",
+      "mailing_list": ""
     },
     {
       "name": "Copyleft Games",
@@ -653,7 +770,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6180004551458816/",
       "topics": ["graphics", "networking", "web", "education"],
-      "technologies": ["python", "opengl", "javascript", "c", "xmpp"]
+      "technologies": ["python", "opengl", "javascript", "c", "xmpp"],
+      "irc_channel": "https://gsoc.copyleftgames.org/",
+      "contact_email": "",
+      "mailing_list": ""
     },
     {
       "name": "DBpedia",
@@ -671,7 +791,10 @@
         "data science",
         "knowledge extraction"
       ],
-      "technologies": ["java", "scala", "graph", "nosql", "rdf"]
+      "technologies": ["java", "scala", "graph", "nosql", "rdf"],
+      "irc_channel": "http://wiki.dbpedia.org/gsoc2017",
+      "contact_email": "mailto:dbpedia-developers@lists.sourceforge.net",
+      "mailing_list": "http://wiki.dbpedia.org/get-involved"
     },
     {
       "name": "Discourse",
@@ -695,7 +818,10 @@
         "ruby",
         "javascipt",
         "html/css"
-      ]
+      ],
+      "irc_channel": "https://github.com/discourse/discourse/wiki/Contact",
+      "contact_email": "mailto:team@discourse.org",
+      "mailing_list": "https://github.com/discourse/discourse/wiki/Contact"
     },
     {
       "name": "Django Software Foundation",
@@ -707,7 +833,10 @@
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4608650232463360/",
       "topics": ["web", "web development"],
-      "technologies": ["python", "django"]
+      "technologies": ["python", "django"],
+      "irc_channel": "https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/",
+      "contact_email": "",
+      "mailing_list": "https://docs.djangoproject.com/en/dev/internals/mailing-lists/#django-developers"
     },
     {
       "name": "Drupal",
@@ -725,7 +854,10 @@
         "object-oriented",
         "cms"
       ],
-      "technologies": ["php", "symfony", "sql", "javascript", "drupal 8"]
+      "technologies": ["php", "symfony", "sql", "javascript", "drupal 8"],
+      "irc_channel": "http://drupal.org/irc#drupal-google",
+      "contact_email": "mailto:lechleider.matthew@gmail.com",
+      "mailing_list": "https://groups.drupal.org/google-summer-code"
     },
     {
       "name": "Eclipse Vert.x",
@@ -749,7 +881,10 @@
         "kotlin",
         "microservices",
         "event-loop"
-      ]
+      ],
+      "irc_channel": "http://vertx.io/community/",
+      "contact_email": "mailto:vertx-enquiries@googlegroups.com",
+      "mailing_list": "http://vertx.io/community/"
     },
     {
       "name": "Elm Software Foundation",
@@ -767,7 +902,10 @@
         "programming languages",
         "user interface"
       ],
-      "technologies": ["elm", "javascript", "haskell"]
+      "technologies": ["elm", "javascript", "haskell"],
+      "irc_channel": "http://elmlang.herokuapp.com/",
+      "contact_email": "mailto:info@elm-lang.org",
+      "mailing_list": "https://groups.google.com/forum/#!forum/elm-discuss"
     },
     {
       "name": "Environmental Data And Governance Initiative",
@@ -791,7 +929,10 @@
         "ruby on rails",
         "google cloud",
         "go"
-      ]
+      ],
+      "irc_channel": "https://archivers-slack.herokuapp.com/",
+      "contact_email": "mailto:EnviroDGI@protonmail.com",
+      "mailing_list": ""
     },
     {
       "name": "Fedora Project",
@@ -809,7 +950,10 @@
         "web development",
         "realtime messaging"
       ],
-      "technologies": ["python", "linux", "git", "postgres", "ansible"]
+      "technologies": ["python", "linux", "git", "postgres", "ansible"],
+      "irc_channel": "https://webchat.freenode.net/?channels=#fedora-summer-coding",
+      "contact_email": "mailto:summer-coding@lists.fedoraproject.org",
+      "mailing_list": "https://lists.fedoraproject.org/admin/lists/summer-coding@lists.fedoraproject.org"
     },
     {
       "name": "FFmpeg",
@@ -821,7 +965,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4641979178680320/",
       "topics": ["multimedia", "video", "audio", "filter", "compressio"],
-      "technologies": ["c", "assembly", "git"]
+      "technologies": ["c", "assembly", "git"],
+      "irc_channel": "https://ffmpeg.org/contact.html#IRCChannels",
+      "contact_email": "mailto:ffmpeg-devel@ffmpeg.org",
+      "mailing_list": "https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-devel/"
     },
     {
       "name": "FOSDEM",
@@ -839,7 +986,10 @@
         "ruby",
         "rails"
       ],
-      "technologies": ["git", "ruby on rails", "postgresql", "html/css"]
+      "technologies": ["git", "ruby on rails", "postgresql", "html/css"],
+      "irc_channel": "http://webchat.freenode.net/?channels=fosdem-gsoc",
+      "contact_email": "mailto:info@fosdem.org",
+      "mailing_list": ""
     },
     {
       "name": "FOSSASIA",
@@ -856,7 +1006,10 @@
         "artificial intelligence",
         "cloud"
       ],
-      "technologies": ["python", "java", "javascript", "android", "php"]
+      "technologies": ["python", "java", "javascript", "android", "php"],
+      "irc_channel": "http://blog.fossasia.org/contact/",
+      "contact_email": "mailto:fossasia@googlegroups.com",
+      "mailing_list": "http://groups.google.com/group/fossasia"
     },
     {
       "name": "Free and Open Source Silicon Foundation",
@@ -868,7 +1021,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5021512822161408/",
       "topics": ["hardware", "eda tools", "web"],
-      "technologies": ["verilog", "c", "vhdl", "python"]
+      "technologies": ["verilog", "c", "vhdl", "python"],
+      "irc_channel": "http://fossi-foundation.org/getinvolved.html",
+      "contact_email": "mailto:info@fossi-foundation.org",
+      "mailing_list": "https://lists.librecores.org/listinfo/discussion"
     },
     {
       "name": "FreeBSD",
@@ -880,7 +1036,10 @@
       "category": "Operating Systems",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5058101916991488/",
       "topics": ["virtualization", "kernel", "cloud", "embedded", "security"],
-      "technologies": ["c/c++", "llvm", "shell", "make", "assembly"]
+      "technologies": ["c/c++", "llvm", "shell", "make", "assembly"],
+      "irc_channel": "https://wiki.FreeBSD.org/SummerOfCodeIRC",
+      "contact_email": "mailto:soc-admins@FreeBSD.org",
+      "mailing_list": "https://lists.FreeBSD.org/mailman/listinfo/freebsd-hackers"
     },
     {
       "name": "Freifunk",
@@ -904,7 +1063,10 @@
         "html/css",
         "shell script",
         "javascript"
-      ]
+      ],
+      "irc_channel": "https://wiki.freifunk.net/Freifunk-Chat",
+      "contact_email": "mailto:mail@foerderverein.freie-netzwerke.de",
+      "mailing_list": "https://lists.freifunk.net/mailman/listinfo/wlanware-freifunk.net"
     },
     {
       "name": "Frescobaldi",
@@ -916,7 +1078,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4597892144693248/",
       "topics": ["music engraving"],
-      "technologies": ["python", "pyqt"]
+      "technologies": ["python", "pyqt"],
+      "irc_channel": "",
+      "contact_email": "mailto:info@frescobaldi.org",
+      "mailing_list": "https://groups.google.com/forum/#!forum/frescobaldi"
     },
     {
       "name": "Genes, Genomes and Variation",
@@ -928,7 +1093,10 @@
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5455879507804160/",
       "topics": ["genomics", "web"],
-      "technologies": ["mysql", "perl", "javascript"]
+      "technologies": ["mysql", "perl", "javascript"],
+      "irc_channel": "",
+      "contact_email": "mailto:helpdesk@ensembl.org",
+      "mailing_list": "http://lists.ensembl.org/mailman/listinfo/dev"
     },
     {
       "name": "GENIVI Development Platform",
@@ -946,7 +1114,10 @@
         "embedded",
         "automobile"
       ],
-      "technologies": ["linux", "c", "yocto", "c++", "qt"]
+      "technologies": ["linux", "c", "yocto", "c++", "qt"],
+      "irc_channel": "https://at.projects.genivi.org/wiki/pages/viewpage.action?pageId=11567210#GENIVIDevelopmentPlatform(GDP)-HowdoIcontributetotheGENIVIDevelopmentPlatform?",
+      "contact_email": "mailto:zeeshan.ali@pelagicore.com",
+      "mailing_list": "http://lists.genivi.org/cgi-bin/mailman/listinfo/genivi-projects"
     },
     {
       "name": "Gentoo Foundation",
@@ -964,7 +1135,10 @@
         "embedded",
         "security"
       ],
-      "technologies": ["shell", "c/c++", "python", "linux"]
+      "technologies": ["shell", "c/c++", "python", "linux"],
+      "irc_channel": "https://wiki.gentoo.org/wiki/Google_Summer_of_Code/2017/Application_Guidelines",
+      "contact_email": "mailto:gentoo-soc@lists.gentoo.org",
+      "mailing_list": "https://wiki.gentoo.org/wiki/Google_Summer_of_Code/2017/Application_Guidelines"
     },
     {
       "name": "Git",
@@ -976,7 +1150,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5061577619275776/",
       "topics": ["version control", "dvcs"],
-      "technologies": ["c", "shell script", "git"]
+      "technologies": ["c", "shell script", "git"],
+      "irc_channel": "http://git-scm.com/community",
+      "contact_email": "",
+      "mailing_list": "http://vger.kernel.org/vger-lists.html#git"
     },
     {
       "name": "Global Alliance for Genomics and Health",
@@ -994,7 +1171,10 @@
         "bioinformatics",
         "web"
       ],
-      "technologies": ["python", "java", "sql", "c++", "mongodb"]
+      "technologies": ["python", "java", "sql", "c++", "mongodb"],
+      "irc_channel": "",
+      "contact_email": "",
+      "mailing_list": "https://docs.google.com/document/d/1cdrWkFMqwZ38revM3G-ROJSTeNnh-Zt2XE_DcXVxo1I/edit?usp=sharing"
     },
     {
       "name": "GNOME",
@@ -1006,7 +1186,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6040004186865664/",
       "topics": ["desktop", "applications", "operating system"],
-      "technologies": ["c", "python", "gtk+", "javascript", "gobject"]
+      "technologies": ["c", "python", "gtk+", "javascript", "gobject"],
+      "irc_channel": "https://wiki.gnome.org/Community/GettingInTouch/IRC",
+      "contact_email": "",
+      "mailing_list": "https://mail.gnome.org/"
     },
     {
       "name": "GNSS-SDR",
@@ -1024,7 +1207,10 @@
         "software defined radio",
         "communications"
       ],
-      "technologies": ["c/c++", "c++", "c++11", "c++14", "gnss"]
+      "technologies": ["c/c++", "c++", "c++11", "c++14", "gnss"],
+      "irc_channel": "",
+      "contact_email": "",
+      "mailing_list": "http://lists.sourceforge.net/lists/listinfo/gnss-sdr-developers"
     },
     {
       "name": "GNU Octave",
@@ -1042,7 +1228,10 @@
         "scientific computing",
         "numerical methods"
       ],
-      "technologies": ["c++", "hg"]
+      "technologies": ["c++", "hg"],
+      "irc_channel": "https://webchat.freenode.net/?channels=#octave",
+      "contact_email": "mailto:octave-maintainers@gnu.org",
+      "mailing_list": "https://lists.gnu.org/mailman/listinfo/octave-maintainers"
     },
     {
       "name": "GNU Radio",
@@ -1054,7 +1243,10 @@
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5467278887878656/",
       "topics": ["wireless communication", "signal processing", "radar", "gui"],
-      "technologies": ["software defined radio", "c++", "python", "dsp"]
+      "technologies": ["software defined radio", "c++", "python", "dsp"],
+      "irc_channel": "http://gnuradio.org/redmine/projects/gnuradio/wiki/IRC",
+      "contact_email": "mailto:info@gnuradio.org",
+      "mailing_list": "http://gnuradio.org/redmine/projects/gnuradio/wiki/MailingLists"
     },
     {
       "name": "Green Navigation",
@@ -1072,7 +1264,10 @@
         "react",
         "apache spark",
         "tensorflow"
-      ]
+      ],
+      "irc_channel": "http://grennavigation.slack.com",
+      "contact_email": "mailto:greennav@googlegroups.com",
+      "mailing_list": "https://groups.google.com/d/forum/greennav"
     },
     {
       "name": "Haiku",
@@ -1090,7 +1285,10 @@
         "user interface",
         "frameworks"
       ],
-      "technologies": ["c++", "posix"]
+      "technologies": ["c++", "posix"],
+      "irc_channel": "https://www.haiku-os.org/community/irc",
+      "contact_email": "",
+      "mailing_list": "https://www.haiku-os.org/community/ml"
     },
     {
       "name": "Homebrew",
@@ -1102,7 +1300,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6752289616297984/",
       "topics": ["package management", "distribution", "development tools"],
-      "technologies": ["ruby", "git", "github", "bash", "macos"]
+      "technologies": ["ruby", "git", "github", "bash", "macos"],
+      "irc_channel": "https://github.com/Homebrew/brew#community",
+      "contact_email": "",
+      "mailing_list": "https://github.com/Homebrew/brew#community"
     },
     {
       "name": "illumos.org",
@@ -1120,7 +1321,10 @@
         "networking",
         "kernel"
       ],
-      "technologies": ["dtrace", "illumos", "unix", "openzfs", "zfs"]
+      "technologies": ["dtrace", "illumos", "unix", "openzfs", "zfs"],
+      "irc_channel": "https://wiki.illumos.org/display/illumos/Google+Summer+of+Code",
+      "contact_email": "mailto:discuss@lists.illumos.org",
+      "mailing_list": "https://wiki.illumos.org/display/illumos/illumos+Mailing+Lists"
     },
     {
       "name": "INCF",
@@ -1138,7 +1342,10 @@
         "science",
         "bio/neuro image processing"
       ],
-      "technologies": ["c++", "python", "java", "xml", "gpu"]
+      "technologies": ["c++", "python", "java", "xml", "gpu"],
+      "irc_channel": "",
+      "contact_email": "mailto:gsoc@incf.org",
+      "mailing_list": ""
     },
     {
       "name": "Inkscape",
@@ -1150,7 +1357,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5404830063394816/",
       "topics": ["graphics", "web", "standards", "geometry"],
-      "technologies": ["svg", "css", "c++", "c++11", "python"]
+      "technologies": ["svg", "css", "c++", "c++11", "python"],
+      "irc_channel": "https://inkscape.org/en/community/discussion/",
+      "contact_email": "",
+      "mailing_list": "https://lists.sourceforge.net/lists/listinfo/inkscape-devel"
     },
     {
       "name": "Institute for Artificial Intelligence",
@@ -1168,7 +1378,10 @@
         "machine learning",
         "robot perception"
       ],
-      "technologies": ["lisp", "prolog", "c++", "python", "ros"]
+      "technologies": ["lisp", "prolog", "c++", "python", "ros"],
+      "irc_channel": "https://gitter.im/iai_gsoc17/general",
+      "contact_email": "mailto:gsoc2017iai@uni-bremen.de",
+      "mailing_list": "http://gsoc2017-at-iai@uni-bremen.de"
     },
     {
       "name": "Intel Media and Audio for Linux",
@@ -1186,7 +1399,10 @@
         "encoding",
         "camera"
       ],
-      "technologies": ["video", "decode", "encode", "vpp", "multimedia"]
+      "technologies": ["video", "decode", "encode", "vpp", "multimedia"],
+      "irc_channel": "https://01.org/linuxmedia/vaapi",
+      "contact_email": "mailto:sreerenj.balachandran@intel.com",
+      "mailing_list": "https://01.org/linuxmedia/vaapi"
     },
     {
       "name": "Internet Archive",
@@ -1198,7 +1414,10 @@
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5373878247358464/",
       "topics": ["web archiving", "non-profit"],
-      "technologies": ["python", "javascript"]
+      "technologies": ["python", "javascript"],
+      "irc_channel": "",
+      "contact_email": "mailto:info@archive.org",
+      "mailing_list": ""
     },
     {
       "name": "JBoss Community",
@@ -1216,7 +1435,10 @@
         "eclipse",
         "openshift"
       ],
-      "technologies": ["java", "android", "asciidoctor", "mobil", "kubernetes"]
+      "technologies": ["java", "android", "asciidoctor", "mobil", "kubernetes"],
+      "irc_channel": "https://developer.jboss.org/wiki/JBossGSoCContactInformation",
+      "contact_email": "mailto:mwessendorf@gmail.com",
+      "mailing_list": "https://developer.jboss.org/wiki/JBossGSoCContactInformation"
     },
     {
       "name": "JdeRobot - Universidad Rey Juan Carlos",
@@ -1228,7 +1450,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4923454155390976/",
       "topics": ["robotics", "computer vision", "robot simulator", "teaching"],
-      "technologies": ["python", "c/c++", "ros", "gazebo"]
+      "technologies": ["python", "c/c++", "ros", "gazebo"],
+      "irc_channel": "",
+      "contact_email": "mailto:josemaria.plaza@gmail.com",
+      "mailing_list": "http://jderobot.org/Collaborate#Mailing_List"
     },
     {
       "name": "Jitsi",
@@ -1240,7 +1465,10 @@
       "category": "Social / Communications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5461033468559360/",
       "topics": ["multimedia", "real time"],
-      "technologies": ["webrtc", "java", "javascript", "sip", "xmpp"]
+      "technologies": ["webrtc", "java", "javascript", "sip", "xmpp"],
+      "irc_channel": "https://jitsi.org/Development/MailingLists",
+      "contact_email": "mailto:gsoc@jitsi.org",
+      "mailing_list": "https://jitsi.org/Development/MailingLists"
     },
     {
       "name": "Joomla",
@@ -1252,7 +1480,10 @@
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5861923971137536/",
       "topics": ["web", "web application", "cms", "object-oriented"],
-      "technologies": ["php", "html", "html/css", "javascript", "jquery"]
+      "technologies": ["php", "html", "html/css", "javascript", "jquery"],
+      "irc_channel": "http://irc.lc/freenode/joomla/",
+      "contact_email": "mailto:gsoc@opensourcematters.org",
+      "mailing_list": "https://www.joomla.org/mailing-lists.html"
     },
     {
       "name": "JSK Robotics Laboratory",
@@ -1264,7 +1495,10 @@
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6380010977886208/",
       "topics": ["robotics", "artificial intelligence"],
-      "technologies": ["ros", "lisp", "prolog", "openhrp", "openrtm"]
+      "technologies": ["ros", "lisp", "prolog", "openhrp", "openrtm"],
+      "irc_channel": "https://gitter.im/euslisp/jskeus",
+      "contact_email": "mailto:k-okada+gsoc@jsk.imi.i.u-tokyo.ac.jp",
+      "mailing_list": ""
     },
     {
       "name": "K-9 Mail",
@@ -1276,7 +1510,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6184001823834112/",
       "topics": ["email", "communication"],
-      "technologies": ["android", "java"]
+      "technologies": ["android", "java"],
+      "irc_channel": "https://riot.im/app/#/room/#freenode_#k-9",
+      "contact_email": "mailto:k9mail.project@gmail.com",
+      "mailing_list": "https://groups.google.com/forum/#!forum/k-9-dev"
     },
     {
       "name": "KDE",
@@ -1294,7 +1531,10 @@
         "science",
         "communication"
       ],
-      "technologies": ["c++", "qt", "qt5"]
+      "technologies": ["c++", "qt", "qt5"],
+      "irc_channel": "https://userbase.kde.org/IRC_Channels",
+      "contact_email": "mailto:kde-community@kde.org",
+      "mailing_list": "https://mail.kde.org/mailman/listinfo/kde-devel"
     },
     {
       "name": "LabLua",
@@ -1306,7 +1546,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5842237585883136/",
       "topics": ["scripting languages", "reactive programming"],
-      "technologies": ["lua", "c\u00e9u"]
+      "technologies": ["lua", "c\u00e9u"],
+      "irc_channel": "",
+      "contact_email": "",
+      "mailing_list": "http://groups.google.com/group/labluagsoc"
     },
     {
       "name": "LibreHealth",
@@ -1318,7 +1561,10 @@
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5574687430017024/",
       "topics": ["web"],
-      "technologies": ["java", "php", "javascript", "mysql"]
+      "technologies": ["java", "php", "javascript", "mysql"],
+      "irc_channel": "https://chat.librehealth.io",
+      "contact_email": "mailto:community@librehealth.io",
+      "mailing_list": "https://forums.librehealth.io"
     },
     {
       "name": "LibreOffice",
@@ -1330,7 +1576,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5507893709242368/",
       "topics": ["office suite", "desktop application"],
-      "technologies": ["c++", "python", "java"]
+      "technologies": ["c++", "python", "java"],
+      "irc_channel": "https://wiki.documentfoundation.org/Website/IRC",
+      "contact_email": "mailto:libreoffice@lists.freedesktop.org",
+      "mailing_list": "https://wiki.documentfoundation.org/Development/Mailing_List"
     },
     {
       "name": "libvirt",
@@ -1342,7 +1591,10 @@
       "category": "Cloud",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6082542885142528/",
       "topics": ["virtualization", "library"],
-      "technologies": ["kvm", "xen", "hypervisor"]
+      "technologies": ["kvm", "xen", "hypervisor"],
+      "irc_channel": "http://libvirt.org/contact.html#irc",
+      "contact_email": "",
+      "mailing_list": "http://libvirt.org/contact.html#email"
     },
     {
       "name": "Liquid Galaxy Project",
@@ -1360,7 +1612,10 @@
         "graphics",
         "webvr"
       ],
-      "technologies": ["javascript", "ros", "gis", "cesiumjs"]
+      "technologies": ["javascript", "ros", "gis", "cesiumjs"],
+      "irc_channel": "",
+      "contact_email": "mailto:lg-gsoc@endpoint.com",
+      "mailing_list": ""
     },
     {
       "name": "LLVM Compiler Infrastructure",
@@ -1372,7 +1627,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6215410651234304/",
       "topics": ["compiler", "compilers"],
-      "technologies": ["llvm", "clang"]
+      "technologies": ["llvm", "clang"],
+      "irc_channel": "http://llvm.org/docs/#irc",
+      "contact_email": "mailto:llvm-dev@lists.llvm.org",
+      "mailing_list": "http://lists.llvm.org/cgi-bin/mailman/listinfo/llvm-dev"
     },
     {
       "name": "lowRISC",
@@ -1384,7 +1642,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5688479367299072/",
       "topics": ["fpga", "hardware", "soc", "security"],
-      "technologies": ["verilog", "chisel", "risc-v", "linux"]
+      "technologies": ["verilog", "chisel", "risc-v", "linux"],
+      "irc_channel": "",
+      "contact_email": "mailto:asb@lowrisc.org",
+      "mailing_list": "https://listmaster.pepperfish.net/cgi-bin/mailman/listinfo/lowrisc-dev-lists.lowrisc.org"
     },
     {
       "name": "LuaRocks",
@@ -1400,7 +1661,10 @@
         "programming language",
         "package management"
       ],
-      "technologies": ["lua", "lua", "luarocks"]
+      "technologies": ["lua", "lua", "luarocks"],
+      "irc_channel": "http://gitter.im/luarocks/luarocks",
+      "contact_email": "",
+      "mailing_list": "https://lists.sourceforge.net/lists/listinfo/luarocks-developers"
     },
     {
       "name": "MariaDB",
@@ -1412,7 +1676,10 @@
       "category": "Data and Databases",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4752192066027520/",
       "topics": ["database"],
-      "technologies": ["mariadb", "mysql", "c", "c++", "java"]
+      "technologies": ["mariadb", "mysql", "c", "c++", "java"],
+      "irc_channel": "https://mariadb.com/kb/en/meta/irc/",
+      "contact_email": "mailto:maria-discuss@lists.launchpad.net",
+      "mailing_list": "https://mariadb.com/kb/en/mariadb/resources/"
     },
     {
       "name": "Matrix.org",
@@ -1430,7 +1697,10 @@
         "decentralisation",
         "interoperability"
       ],
-      "technologies": ["react", "android", "ios", "golang", "nodejs"]
+      "technologies": ["react", "android", "ios", "golang", "nodejs"],
+      "irc_channel": "https://github.com/matrix-org/GSoC/blob/master/README.md",
+      "contact_email": "mailto:support@matrix.org",
+      "mailing_list": ""
     },
     {
       "name": "MBDyn",
@@ -1448,7 +1718,10 @@
         "aerospace",
         "mechanics"
       ],
-      "technologies": ["c++", "python"]
+      "technologies": ["c++", "python"],
+      "irc_channel": "",
+      "contact_email": "mailto:mbdyn@aero.polimi.it",
+      "mailing_list": "http://lists.mbdyn.org/mailman/listinfo/mbdyn-users"
     },
     {
       "name": "MetaBrainz Foundation Inc.",
@@ -1460,7 +1733,10 @@
       "category": "Data and Databases",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5723792051535872/",
       "topics": ["music", "data", "big data", "open data", "community"],
-      "technologies": ["postgres", "perl", "python", "javascript", "bigquery"]
+      "technologies": ["postgres", "perl", "python", "javascript", "bigquery"],
+      "irc_channel": "https://metabrainz.org/contact",
+      "contact_email": "mailto:support@metabrainz.org",
+      "mailing_list": "https://metabrainz.org/contact"
     },
     {
       "name": "Metasploit",
@@ -1472,7 +1748,10 @@
       "category": "Security",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5632986779222016/",
       "topics": ["security", "exploitation"],
-      "technologies": ["ruby", "c", "asm"]
+      "technologies": ["ruby", "c", "asm"],
+      "irc_channel": "https://github.com/rapid7/metasploit-framework/wiki/Contact",
+      "contact_email": "mailto:msfdev@metasploit.com",
+      "mailing_list": "https://github.com/rapid7/metasploit-framework/wiki/Contact"
     },
     {
       "name": "Microkernel devroom",
@@ -1490,7 +1769,10 @@
         "desktop",
         "virtualization"
       ],
-      "technologies": ["c", "c++", "rust", "arm", "x86"]
+      "technologies": ["c", "c++", "rust", "arm", "x86"],
+      "irc_channel": "",
+      "contact_email": "mailto:gsoc@microkernel.info",
+      "mailing_list": ""
     },
     {
       "name": "Mifos Initiative",
@@ -1508,7 +1790,10 @@
         "microfinance",
         "financial inclusion"
       ],
-      "technologies": ["java", "android", "angularjs", "spring", "mysql"]
+      "technologies": ["java", "android", "angularjs", "spring", "mysql"],
+      "irc_channel": "https://gitter.im/openMF/mifos",
+      "contact_email": "mailto:info@mifos.org",
+      "mailing_list": "https://lists.sourceforge.net/lists/listinfo/mifos-developer"
     },
     {
       "name": "MIT App Inventor",
@@ -1520,7 +1805,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6712150730997760/",
       "topics": ["mobile apps", "api", "blockchain", "education", "iot"],
-      "technologies": ["java", "javascipt", "app", "google app engine", "gwt"]
+      "technologies": ["java", "javascipt", "app", "google app engine", "gwt"],
+      "irc_channel": "https://groups.google.com/forum/#!forum/app-inventor-open-source-dev",
+      "contact_email": "mailto:appinventor@mit.edu",
+      "mailing_list": "https://groups.google.com/forum/#!forum/app-inventor-open-source-dev"
     },
     {
       "name": "Mixxx DJ Software",
@@ -1532,7 +1820,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5298974017716224/",
       "topics": ["audio", "dsp", "music", "dj", "art"],
-      "technologies": ["qt", "c++", "c++11", "midi", "hid"]
+      "technologies": ["qt", "c++", "c++11", "midi", "hid"],
+      "irc_channel": "http://mixxx.org/irc",
+      "contact_email": "mailto:gsoc2017-mentors@mixxx.org",
+      "mailing_list": "https://lists.sourceforge.net/lists/listinfo/mixxx-devel"
     },
     {
       "name": "mlpack",
@@ -1544,7 +1835,10 @@
       "category": "Data and Databases",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5584462775582720/",
       "topics": ["machine learning"],
-      "technologies": ["c++"]
+      "technologies": ["c++"],
+      "irc_channel": "http://webchat.freenode.net/?channels=mlpack",
+      "contact_email": "mailto:mlpack@lists.mlpack.org",
+      "mailing_list": "http://lists.mlpack.org/mailman/listinfo/mlpack"
     },
     {
       "name": "Mobile Robot Programming Toolkit (MRPT)",
@@ -1562,7 +1856,10 @@
         "webapps",
         "algorithms"
       ],
-      "technologies": ["qt", "c++", "opengl", "wxwidgets", "ros"]
+      "technologies": ["qt", "c++", "opengl", "wxwidgets", "ros"],
+      "irc_channel": "",
+      "contact_email": "",
+      "mailing_list": "https://groups.google.com/forum/#!forum/mrpt-users"
     },
     {
       "name": "Mono Project",
@@ -1580,7 +1877,10 @@
         "web development",
         "programming tools"
       ],
-      "technologies": ["c#", ".net", "f#", "c"]
+      "technologies": ["c#", ".net", "f#", "c"],
+      "irc_channel": "http://www.mono-project.com/community/help/irc/",
+      "contact_email": "mailto:soc@xamarin.com",
+      "mailing_list": "https://lists.dot.net/mailman/listinfo/mono-list"
     },
     {
       "name": "Moodle",
@@ -1598,7 +1898,10 @@
         "school system",
         "learning management"
       ],
-      "technologies": ["php", "jquery", "mysql", "postgresql", "javascript"]
+      "technologies": ["php", "jquery", "mysql", "postgresql", "javascript"],
+      "irc_channel": "https://telegram.me/moodledev",
+      "contact_email": "mailto:support@moodle.org",
+      "mailing_list": "https://docs.moodle.org/dev/Moodle_dev_mailing_list"
     },
     {
       "name": "MovingBlocks",
@@ -1610,7 +1913,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4985951029821440/",
       "topics": ["games", "voxel", "minecraft", "sandbox", "modding"],
-      "technologies": ["java", "opengl", "blender", "json", "gradle"]
+      "technologies": ["java", "opengl", "blender", "json", "gradle"],
+      "irc_channel": "https://github.com/MovingBlocks/Terasology/wiki/Using-IRC",
+      "contact_email": "mailto:terasology@gmail.com",
+      "mailing_list": ""
     },
     {
       "name": "Mozilla",
@@ -1627,7 +1933,10 @@
         "education",
         "web browser"
       ],
-      "technologies": ["js", "rust", "html/css", "c++", "python"]
+      "technologies": ["js", "rust", "html/css", "c++", "python"],
+      "irc_channel": "https://wiki.mozilla.org/IRC",
+      "contact_email": "mailto:gsoc-mentors@mozilla.com",
+      "mailing_list": ""
     },
     {
       "name": "MuseScore",
@@ -1639,7 +1948,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4738118800375808/",
       "topics": ["music engraving", "music", "midi", "sheet music"],
-      "technologies": ["c++11", "qt5", "qt", "breakpad"]
+      "technologies": ["c++11", "qt5", "qt", "breakpad"],
+      "irc_channel": "https://musescore.org/en/development#Get-help-from-other-developers",
+      "contact_email": "mailto:info@musescore.org",
+      "mailing_list": "http://dev-list.musescore.org"
     },
     {
       "name": "National Resource for Network Biology (NRNB)",
@@ -1651,7 +1963,10 @@
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6499778154201088/",
       "topics": ["network biology", "graphics", "web", "ui/ux", "database"],
-      "technologies": ["java", "javascript", "python", "php", "c++"]
+      "technologies": ["java", "javascript", "python", "php", "c++"],
+      "irc_channel": "",
+      "contact_email": "mailto:alex.pico@gladstone.ucsf.edu",
+      "mailing_list": "https://groups.google.com/forum/#!forum/cytoscape-helpdesk"
     },
     {
       "name": "Netfilter project",
@@ -1663,7 +1978,10 @@
       "category": "Operating Systems",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6602954140286976/",
       "topics": ["firewall", "networking"],
-      "technologies": ["linux", "kernel", "c"]
+      "technologies": ["linux", "kernel", "c"],
+      "irc_channel": "",
+      "contact_email": "mailto:pablo@netfilter.org",
+      "mailing_list": ""
     },
     {
       "name": "Nmap Security Scanner",
@@ -1675,7 +1993,10 @@
       "category": "Security",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5603880054292480/",
       "topics": ["security", "networking", "ipv6", "linux", "network mapping"],
-      "technologies": ["c/c++", "lua", "python", "c", "c++"]
+      "technologies": ["c/c++", "lua", "python", "c", "c++"],
+      "irc_channel": "http://webchat.freenode.net/?channels=nmap",
+      "contact_email": "mailto:fyodor@nmap.org",
+      "mailing_list": "http://seclists.org/nmap-dev/"
     },
     {
       "name": "NumFOCUS",
@@ -1692,7 +2013,10 @@
         "graphics",
         "data science"
       ],
-      "technologies": ["python", "javascript", "r", "c/c++"]
+      "technologies": ["python", "javascript", "r", "c/c++"],
+      "irc_channel": "",
+      "contact_email": "mailto:gsoc@numfocus.org",
+      "mailing_list": "https://groups.google.com/a/numfocus.org/forum/#!forum/gsoc"
     },
     {
       "name": "Open Bioinformatics Foundation",
@@ -1704,7 +2028,10 @@
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6098536001175552/",
       "topics": ["bioinformatics"],
-      "technologies": ["python", "perl", "java", "c++", "c/c++"]
+      "technologies": ["python", "perl", "java", "c++", "c/c++"],
+      "irc_channel": "http://obf.github.io/GSoC/contact/",
+      "contact_email": "mailto:gsoc@mailman.open-bio.org",
+      "mailing_list": "http://obf.github.io/GSoC/contact/"
     },
     {
       "name": "Open Chemistry",
@@ -1721,7 +2048,10 @@
         "chemistry",
         "data science"
       ],
-      "technologies": ["python", "c++", "opengl", "javascript", "java"]
+      "technologies": ["python", "c++", "opengl", "javascript", "java"],
+      "irc_channel": "",
+      "contact_email": "mailto:openchemistry-developers@openchemistry.org",
+      "mailing_list": "http://public.kitware.com/mailman/listinfo/openchemistry-developers"
     },
     {
       "name": "Open Data Kit",
@@ -1739,7 +2069,10 @@
         "global health",
         "social good"
       ],
-      "technologies": ["android", "java", "python", "javascript", "ruby"]
+      "technologies": ["android", "java", "python", "javascript", "ruby"],
+      "irc_channel": "http://slack.opendatakit.org",
+      "contact_email": "mailto:opendatakit.org@gmail.com",
+      "mailing_list": ""
     },
     {
       "name": "Open Detection",
@@ -1751,7 +2084,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6015282623545344/",
       "topics": ["computer vision", "ai"],
-      "technologies": ["c++", "caffe", "pcl", "opencv"]
+      "technologies": ["c++", "caffe", "pcl", "opencv"],
+      "irc_channel": "",
+      "contact_email": "mailto:kripasindhu.sarkar@dfki.de",
+      "mailing_list": "https://groups.google.com/forum/#!forum/opendetection/"
     },
     {
       "name": "Open Genome Informatics",
@@ -1769,7 +2105,10 @@
         "databases",
         "computational biology"
       ],
-      "technologies": ["python", "java", "javascript", "nodejs", "gwt"]
+      "technologies": ["python", "java", "javascript", "nodejs", "gwt"],
+      "irc_channel": "http://irc.lc/freenode/genomeinformatics/",
+      "contact_email": "mailto:robin.haw@oicr.on.ca",
+      "mailing_list": "https://groups.google.com/forum/#!forum/genome-informatics"
     },
     {
       "name": "Open States",
@@ -1781,7 +2120,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5076494711783424/",
       "topics": ["government", "web", "journalism", "civic"],
-      "technologies": ["python", "django", "javascript", "postgresql"]
+      "technologies": ["python", "django", "javascript", "postgresql"],
+      "irc_channel": "https://openstates-slack.herokuapp.com/",
+      "contact_email": "mailto:contact@openstates.org",
+      "mailing_list": "https://groups.google.com/forum/#!forum/fifty-state-project"
     },
     {
       "name": "Open Technologies Alliance - GFOSS",
@@ -1793,7 +2135,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6266968780832768/",
       "topics": ["data", "cloud", "hardware"],
-      "technologies": ["php", "java", "mysql", "virtuoso", "python"]
+      "technologies": ["php", "java", "mysql", "virtuoso", "python"],
+      "irc_channel": "",
+      "contact_email": "mailto:info@eellak.gr",
+      "mailing_list": "https://lists.ellak.gr/opensource-devs/listinfo.html"
     },
     {
       "name": "OpenAstronomy",
@@ -1810,7 +2155,10 @@
         "astrophysics",
         "solar physics"
       ],
-      "technologies": ["python", "julia", "qt"]
+      "technologies": ["python", "julia", "qt"],
+      "irc_channel": "http://openastronomy.org",
+      "contact_email": "mailto:openastronomy.organization@gmail.com",
+      "mailing_list": "https://groups.google.com/forum/#!forum/openastronomy"
     },
     {
       "name": "OpenCV",
@@ -1828,7 +2176,10 @@
         "virtual reality",
         "real time"
       ],
-      "technologies": ["vision", "deep learning", "c++", "python"]
+      "technologies": ["vision", "deep learning", "c++", "python"],
+      "irc_channel": "http://opencv.org",
+      "contact_email": "mailto:opencv-gsoc-2017@googlegroups.com",
+      "mailing_list": "https://github.com/opencv/opencv/wiki/GSoC_2017"
     },
     {
       "name": "OpenMRS",
@@ -1840,7 +2191,10 @@
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6111850936664064/",
       "topics": ["clinical", "developing world", "medical records"],
-      "technologies": ["java", "javascript", "html/css", "hibernate", "mysql"]
+      "technologies": ["java", "javascript", "html/css", "hibernate", "mysql"],
+      "irc_channel": "http://irc.openmrs.org/",
+      "contact_email": "mailto:community@openmrs.org",
+      "mailing_list": "https://talk.openmrs.org/"
     },
     {
       "name": "OpenStreetMap",
@@ -1852,7 +2206,10 @@
       "category": "Data and Databases",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6746951777255424/",
       "topics": ["gis", "maps", "crowdsourcing", "geoinformatics"],
-      "technologies": ["postgis", "java", "ruby", "javascript"]
+      "technologies": ["postgis", "java", "ruby", "javascript"],
+      "irc_channel": "http://wiki.openstreetmap.org/wiki/IRC",
+      "contact_email": "",
+      "mailing_list": "https://wiki.openstreetmap.org/wiki/Mailing_lists"
     },
     {
       "name": "openSUSE",
@@ -1876,7 +2233,10 @@
         "docker",
         "linux",
         "angular.js"
-      ]
+      ],
+      "irc_channel": "https://en.opensuse.org/openSUSE:IRC_list",
+      "contact_email": "mailto:opensuse-project@opensuse.org",
+      "mailing_list": "https://en.opensuse.org/openSUSE:Mailing_lists"
     },
     {
       "name": "OpenWISP",
@@ -1900,7 +2260,10 @@
         "javascript",
         "openwrt",
         "raspberry pi"
-      ]
+      ],
+      "irc_channel": "http://openwisp.org/support.html",
+      "contact_email": "",
+      "mailing_list": "http://openwisp.org/support.html"
     },
     {
       "name": "Oppia Foundation",
@@ -1918,7 +2281,10 @@
         "angularjs",
         "javascript",
         "css"
-      ]
+      ],
+      "irc_channel": "https://gitter.im/oppia/oppia-chat",
+      "contact_email": "mailto:oppia-gsoc-mentors-17@googlegroups.com",
+      "mailing_list": ""
     },
     {
       "name": "OSGeo",
@@ -1930,7 +2296,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4554340639440896/",
       "topics": ["gis", "cartography", "maps", "science", "geospatial"],
-      "technologies": ["c++", "python", "c", "sql", "java"]
+      "technologies": ["c++", "python", "c", "sql", "java"],
+      "irc_channel": "https://wiki.osgeo.org/wiki/IRC",
+      "contact_email": "mailto:soc@lists.osgeo.org",
+      "mailing_list": "http://www.osgeo.org/content/faq/mailing_lists.html#discuss"
     },
     {
       "name": "oVirt",
@@ -1942,7 +2311,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5718999941775360/",
       "topics": ["virtualization", "enterprise application"],
-      "technologies": ["java", "python", "kvm"]
+      "technologies": ["java", "python", "kvm"],
+      "irc_channel": "https://www.ovirt.org/community/",
+      "contact_email": "mailto:users@ovirt.org",
+      "mailing_list": "http://lists.ovirt.org/mailman/listinfo/users"
     },
     {
       "name": "ownCloud",
@@ -1954,7 +2326,10 @@
       "category": "Cloud",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5721528872206336/",
       "topics": ["cloud", "sync", "file share"],
-      "technologies": ["php", "qt", "android", "ios", "javascript"]
+      "technologies": ["php", "qt", "android", "ios", "javascript"],
+      "irc_channel": "https://webchat.freenode.net/?channels=owncloud",
+      "contact_email": "mailto:ownclouders@owncloud.com",
+      "mailing_list": "https://mailman.owncloud.org/mailman/listinfo/"
     },
     {
       "name": "P2PSP.org",
@@ -1966,7 +2341,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6195936732643328/",
       "topics": ["p2p", "multimedia", "streaming", "security", "video"],
-      "technologies": ["c++", "python", "qt", "sockets", "webrtc"]
+      "technologies": ["c++", "python", "qt", "sockets", "webrtc"],
+      "irc_channel": "https://gitter.im/P2PSP/core",
+      "contact_email": "mailto:info@p2psp.org",
+      "mailing_list": ""
     },
     {
       "name": "PEcAn Project",
@@ -1984,7 +2362,10 @@
         "data science",
         "climate science"
       ],
-      "technologies": ["r", "php", "postgresql", "javascript", "c"]
+      "technologies": ["r", "php", "postgresql", "javascript", "c"],
+      "irc_channel": "http://pecanproject.github.io/contact.html",
+      "contact_email": "mailto:pecanproj@gmail.com",
+      "mailing_list": ""
     },
     {
       "name": "Performance Co-Pilot",
@@ -2002,7 +2383,10 @@
         "kernel",
         "performance"
       ],
-      "technologies": ["python", "javascript", "c", "linux", "windows"]
+      "technologies": ["python", "javascript", "c", "linux", "windows"],
+      "irc_channel": "http://pcp.io/community.html",
+      "contact_email": "mailto:pcp@groups.io",
+      "mailing_list": "https://groups.io/g/pcp"
     },
     {
       "name": "Pharo Consortium",
@@ -2020,7 +2404,10 @@
         "user interface",
         "ide"
       ],
-      "technologies": ["smalltalk", "roassal", "polymath", "pharo"]
+      "technologies": ["smalltalk", "roassal", "polymath", "pharo"],
+      "irc_channel": "https://pharoproject.slack.com",
+      "contact_email": "",
+      "mailing_list": "http://pharo-users@lists.pharo.org"
     },
     {
       "name": "phpBB Forum Software",
@@ -2038,7 +2425,10 @@
         "forum",
         "community"
       ],
-      "technologies": ["php", "mysql", "javascript", "symfony", "css"]
+      "technologies": ["php", "mysql", "javascript", "symfony", "css"],
+      "irc_channel": "https://www.phpbb.com/support/irc",
+      "contact_email": "mailto:operations@phpbb.com",
+      "mailing_list": ""
     },
     {
       "name": "phpMyAdmin",
@@ -2056,7 +2446,10 @@
         "administrator",
         "web application"
       ],
-      "technologies": ["php", "mysql", "jquery", "javascript", "cakephp"]
+      "technologies": ["php", "mysql", "jquery", "javascript", "cakephp"],
+      "irc_channel": "https://github.com/phpmyadmin/phpmyadmin/wiki/IRC",
+      "contact_email": "mailto:developers@phpmyadmin.net",
+      "mailing_list": "https://lists.phpmyadmin.net/mailman/listinfo/developers"
     },
     {
       "name": "Physical Web Project",
@@ -2068,7 +2461,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6491731667189760/",
       "topics": ["internet of things", "beacons"],
-      "technologies": ["beacon", "web bluetooth", "physical web", "bluetooth"]
+      "technologies": ["beacon", "web bluetooth", "physical web", "bluetooth"],
+      "irc_channel": "",
+      "contact_email": "mailto:physicalwebproject@gmail.com",
+      "mailing_list": ""
     },
     {
       "name": "Plone Foundation",
@@ -2080,7 +2476,10 @@
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4530756705583104/",
       "topics": ["content management", "cms"],
-      "technologies": ["python", "javascript", "html/css"]
+      "technologies": ["python", "javascript", "html/css"],
+      "irc_channel": "",
+      "contact_email": "mailto:gsoc@plone.org",
+      "mailing_list": "https://community.plone.org"
     },
     {
       "name": "PMD",
@@ -2097,7 +2496,10 @@
         "code analysis",
         "linter"
       ],
-      "technologies": ["java", "javacc", "xml", "antlr", "xpath"]
+      "technologies": ["java", "javacc", "xml", "antlr", "xpath"],
+      "irc_channel": "",
+      "contact_email": "mailto:adangel@users.sourceforge.net",
+      "mailing_list": "https://lists.sourceforge.net/lists/listinfo/pmd-devel"
     },
     {
       "name": "Polly Labs",
@@ -2115,7 +2517,16 @@
         "optimization",
         "fpga"
       ],
-      "technologies": ["llvm", "integer set library", "ppcg", "pencil", "polly"]
+      "technologies": [
+        "llvm",
+        "integer set library",
+        "ppcg",
+        "pencil",
+        "polly"
+      ],
+      "irc_channel": "",
+      "contact_email": "mailto:info@pollylabs.org",
+      "mailing_list": "https://groups.google.com/forum/#!forum/isl-development"
     },
     {
       "name": "Portland State University",
@@ -2127,7 +2538,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5827042528460800/",
       "topics": ["new projects", "academic projects", "individual projects"],
-      "technologies": ["open hardware", "language-agnostic"]
+      "technologies": ["open hardware", "language-agnostic"],
+      "irc_channel": "",
+      "contact_email": "mailto:psu-gsoc-2017@googlegroups.com",
+      "mailing_list": ""
     },
     {
       "name": "PostgreSQL",
@@ -2139,7 +2553,10 @@
       "category": "Data and Databases",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5443503559540736/",
       "topics": ["database", "rdbms"],
-      "technologies": ["postgresql", "c", "perl", "sql"]
+      "technologies": ["postgresql", "c", "perl", "sql"],
+      "irc_channel": "https://www.postgresql.org/community/irc/",
+      "contact_email": "mailto:pgsql-hackers@postgresql.org",
+      "mailing_list": "https://www.postgresql.org/list/"
     },
     {
       "name": "Public Lab",
@@ -2157,7 +2574,10 @@
         "science",
         "community"
       ],
-      "technologies": ["javascript", "ruby", "ruby on rails"]
+      "technologies": ["javascript", "ruby", "ruby on rails"],
+      "irc_channel": "http://gitter.im/publiclab/publiclab",
+      "contact_email": "mailto:web@publiclab.org",
+      "mailing_list": "http://groups.google.com/forum/#!forum/plots-dev"
     },
     {
       "name": "Python Software Foundation",
@@ -2169,7 +2589,10 @@
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5370985721102336/",
       "topics": ["hardware", "programming languages", "science"],
-      "technologies": ["python"]
+      "technologies": ["python"],
+      "irc_channel": "http://python-gsoc.org/#contact",
+      "contact_email": "mailto:gsoc-general@python.org",
+      "mailing_list": "https://mail.python.org/mailman/listinfo/gsoc-general"
     },
     {
       "name": "QEMU",
@@ -2181,7 +2604,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4782716667035648/",
       "topics": ["compiler", "virtualization", "emulation", "hypervisor"],
-      "technologies": ["c", "python"]
+      "technologies": ["c", "python"],
+      "irc_channel": "http://www.qemu-project.org/contribute/",
+      "contact_email": "mailto:qemu-devel@nongnu.org",
+      "mailing_list": "http://wiki.qemu-project.org/MailingLists"
     },
     {
       "name": "Qubes OS",
@@ -2193,7 +2619,10 @@
       "category": "Operating Systems",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5074771758809088/",
       "topics": ["security", "privacy", "virtualization", "operating system"],
-      "technologies": ["c", "python", "shell", "xen", "linux"]
+      "technologies": ["c", "python", "shell", "xen", "linux"],
+      "irc_channel": "",
+      "contact_email": "",
+      "mailing_list": "https://www.qubes-os.org/mailing-lists/"
     },
     {
       "name": "R project for statistical computing",
@@ -2211,7 +2640,10 @@
         "statistics",
         "graphics"
       ],
-      "technologies": ["r-project", "c", "c++", "fortran", "javascript"]
+      "technologies": ["r-project", "c", "c++", "fortran", "javascript"],
+      "irc_channel": "",
+      "contact_email": "mailto:gsoc-r@googlegroups.com",
+      "mailing_list": "https://github.com/rstats-gsoc/gsoc2017/wiki"
     },
     {
       "name": "radare2",
@@ -2223,7 +2655,10 @@
       "category": "Security",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4795019735072768/",
       "topics": ["reverse engineering"],
-      "technologies": ["c", "rust", "python", "nodejs"]
+      "technologies": ["c", "rust", "python", "nodejs"],
+      "irc_channel": "http://radare.org/r/me.html",
+      "contact_email": "mailto:gsoc@radare.org",
+      "mailing_list": ""
     },
     {
       "name": "ReactOS",
@@ -2241,7 +2676,10 @@
         "kernel",
         "windows"
       ],
-      "technologies": ["c", "c++"]
+      "technologies": ["c", "c++"],
+      "irc_channel": "https://reactos.org/irc",
+      "contact_email": "mailto:ros-dev@reactos.org",
+      "mailing_list": "https://reactos.org/community/mailing-lists"
     },
     {
       "name": "Red Hen Lab",
@@ -2265,7 +2703,10 @@
         "opencv",
         "audio processing",
         "multimodal analysis"
-      ]
+      ],
+      "irc_channel": "",
+      "contact_email": "mailto:redhenlab@gmail.com",
+      "mailing_list": ""
     },
     {
       "name": "RoboComp",
@@ -2277,7 +2718,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5477575937753088/",
       "topics": ["computer vision", "robotics", "robotics simulation"],
-      "technologies": ["c++", "cmake", "python", "openscenegraph", "qt"]
+      "technologies": ["c++", "cmake", "python", "openscenegraph", "qt"],
+      "irc_channel": "https://gitter.im/robocomp/home",
+      "contact_email": "mailto:marcog@unex.es",
+      "mailing_list": "https://groups.google.com/forum/?hl=es#!forum/robocomp-dev"
     },
     {
       "name": "Rocket.Chat",
@@ -2295,7 +2739,10 @@
         "collaboration",
         "instant messaging"
       ],
-      "technologies": ["javascript", "meteor.js", "mongo", "webrtc"]
+      "technologies": ["javascript", "meteor.js", "mongo", "webrtc"],
+      "irc_channel": "https://demo.rocket.chat/channel/gsoc17",
+      "contact_email": "mailto:contact+gsoc17@rocket.chat",
+      "mailing_list": ""
     },
     {
       "name": "Rspamd",
@@ -2307,7 +2754,10 @@
       "category": "Social / Communications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5230067307249664/",
       "topics": ["machine learning", "email", "spam filtering"],
-      "technologies": ["c", "lua", "cmake"]
+      "technologies": ["c", "lua", "cmake"],
+      "irc_channel": "https://rspamd.com/support.html",
+      "contact_email": "mailto:support@rspamd.com",
+      "mailing_list": "https://groups.google.com/forum/#!forum/rspamd"
     },
     {
       "name": "RTEMS Project",
@@ -2325,7 +2775,10 @@
         "embedded systems",
         "multicore"
       ],
-      "technologies": ["c", "python", "posix"]
+      "technologies": ["c", "python", "posix"],
+      "irc_channel": "https://devel.rtems.org/wiki/Developer/IRC",
+      "contact_email": "mailto:gsoc@rtems.org",
+      "mailing_list": "https://devel.rtems.org/wiki/TBR/Website/RTEMSMailingLists"
     },
     {
       "name": "Ruby on Rails",
@@ -2337,7 +2790,10 @@
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5017499041005568/",
       "topics": ["web", "full stack"],
-      "technologies": ["html", "ruby on rails", "ruby"]
+      "technologies": ["html", "ruby on rails", "ruby"],
+      "irc_channel": "http://rubyonrails.org/community/",
+      "contact_email": "",
+      "mailing_list": "https://groups.google.com/forum/#!forum/rubyonrails-gsoc"
     },
     {
       "name": "Ruby Science Foundation",
@@ -2349,7 +2805,10 @@
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6710362682425344/",
       "topics": ["science", "data", "web", "package management", "hpc"],
-      "technologies": ["ruby", "science", "web", "data", "gpu"]
+      "technologies": ["ruby", "science", "web", "data", "gpu"],
+      "irc_channel": "http://sciruby.com/#irc",
+      "contact_email": "mailto:sciruby-dev@googlegroups.com",
+      "mailing_list": "https://groups.google.com/forum/#!forum/sciruby-dev"
     },
     {
       "name": "Sage Mathematical Software System",
@@ -2361,7 +2820,10 @@
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5071296056524800/",
       "topics": ["mathematics", "algorithms"],
-      "technologies": ["python", "cython", "c++", "c"]
+      "technologies": ["python", "cython", "c++", "c"],
+      "irc_channel": "",
+      "contact_email": "mailto:harald.schilly+gsoc@gmail.com",
+      "mailing_list": "https://groups.google.com/group/sage-gsoc/"
     },
     {
       "name": "Samba",
@@ -2373,7 +2835,10 @@
       "category": "Cloud",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5093706659004416/",
       "topics": ["samba", "networks", "interoperability"],
-      "technologies": ["c", "python"]
+      "technologies": ["c", "python"],
+      "irc_channel": "https://wiki.samba.org/index.php/SoC/Ideas",
+      "contact_email": "mailto:samba-technical@lists.samba.org",
+      "mailing_list": "https://lists.samba.org/mailman/listinfo/samba-technical"
     },
     {
       "name": "Scala",
@@ -2390,7 +2855,10 @@
         "functional programming",
         "programming languages"
       ],
-      "technologies": ["scala", "jvm"]
+      "technologies": ["scala", "jvm"],
+      "irc_channel": "https://gitter.im/scala/scala",
+      "contact_email": "mailto:julien.richard-foy@epfl.ch",
+      "mailing_list": "https://users.scala-lang.org/"
     },
     {
       "name": "Scilab",
@@ -2407,7 +2875,10 @@
         "programming language",
         "scientific visualization"
       ],
-      "technologies": ["c++", "java", "python", "c", "opengl"]
+      "technologies": ["c++", "java", "python", "c", "opengl"],
+      "irc_channel": "https://www.scilab.org/resources/user_community/irc",
+      "contact_email": "mailto:contact@scilab-enterprises.com",
+      "mailing_list": "https://www.scilab.org/development/ml"
     },
     {
       "name": "ScummVM",
@@ -2419,7 +2890,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6165044375060480/",
       "topics": ["game", "engines", "software preservation"],
-      "technologies": ["c++", "sdl", "opengl", "assembly"]
+      "technologies": ["c++", "sdl", "opengl", "assembly"],
+      "irc_channel": "http://wiki.scummvm.org/index.php/Summer_of_Code/GSoC_Contact",
+      "contact_email": "mailto:admin@scummvm.org",
+      "mailing_list": "http://wiki.scummvm.org/index.php/Summer_of_Code/GSoC_Contact"
     },
     {
       "name": "Shogun Machine Learning Toolbox",
@@ -2437,7 +2911,10 @@
         "bioinformatics",
         "software engineering"
       ],
-      "technologies": ["c/c++", "python", "swig", "machine learning", "cmake"]
+      "technologies": ["c/c++", "python", "swig", "machine learning", "cmake"],
+      "irc_channel": "http://shogun-toolbox.org/",
+      "contact_email": "mailto:heiko.strathmann@gmail.com",
+      "mailing_list": "http://shogun-toolbox.org/"
     },
     {
       "name": "Sigmah",
@@ -2449,7 +2926,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5019976297611264/",
       "topics": ["humanitarian", "project-management"],
-      "technologies": ["gwt", "java", "postgresql"]
+      "technologies": ["gwt", "java", "postgresql"],
+      "irc_channel": "http://wiki.sigmah.org/doku.php?id=contributorguide:projectcommunitycommunication#sigmah_irc_channelwhere_we_can_chat_live",
+      "contact_email": "mailto:contact@sigmah.org",
+      "mailing_list": "http://wiki.sigmah.org/doku.php?id=contributorguide:projectcommunitycommunication#sigmah-devthe_fundamental_developer_s_mailing_list"
     },
     {
       "name": "Software Product Data Exchange (SPDX)",
@@ -2461,7 +2941,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6300304437936128/",
       "topics": ["compliance", "opensource", "licensing"],
-      "technologies": ["rdf", "python", "java", "github", "c"]
+      "technologies": ["rdf", "python", "java", "github", "c"],
+      "irc_channel": "",
+      "contact_email": "mailto:spdx-tech@lists.spdx.org",
+      "mailing_list": "https://lists.spdx.org/mailman/listinfo/spdx-tech"
     },
     {
       "name": "STE||AR Group",
@@ -2485,7 +2968,10 @@
         "hpx",
         "c++17 parallel stl",
         "parallel algorithms"
-      ]
+      ],
+      "irc_channel": "https://github.com/STEllAR-GROUP/hpx/wiki/HPX-Resource-Guide",
+      "contact_email": "mailto:hpx-users@stellar.cct.lsu.edu",
+      "mailing_list": "https://mail.cct.lsu.edu/mailman/listinfo/hpx-users"
     },
     {
       "name": "Stony Brook University, Biomedical Informatics",
@@ -2503,7 +2989,10 @@
         "big data",
         "database"
       ],
-      "technologies": ["big data", "apache spark", "matlab", "c++", "hadoop"]
+      "technologies": ["big data", "apache spark", "matlab", "c++", "hadoop"],
+      "irc_channel": "",
+      "contact_email": "mailto:stonybrookbmigsoc@gmail.com",
+      "mailing_list": "https://groups.google.com/d/forum/stonybrookbmigsoc"
     },
     {
       "name": "strace",
@@ -2515,7 +3004,10 @@
       "category": "Operating Systems",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6249254993526784/",
       "topics": ["linux", "syscall", "tracing", "c", "git"],
-      "technologies": ["linux", "c", "git", "shell script", "make"]
+      "technologies": ["linux", "c", "git", "shell script", "make"],
+      "irc_channel": "https://strace.io",
+      "contact_email": "",
+      "mailing_list": "https://lists.sourceforge.net/lists/listinfo/strace-devel"
     },
     {
       "name": "Sugar Labs",
@@ -2527,7 +3019,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4675168001589248/",
       "topics": ["learning", "education"],
-      "technologies": ["python", "javascript", "gtk", "android"]
+      "technologies": ["python", "javascript", "gtk", "android"],
+      "irc_channel": "https://webchat.freenode.net/",
+      "contact_email": "mailto:walter@sugarlabs.org",
+      "mailing_list": "http://lists.sugarlabs.org/listinfo/sugar-devel"
     },
     {
       "name": "Sustainable Computing Research Group ( SCoRe )",
@@ -2539,7 +3034,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4984473024200704/",
       "topics": ["iot", "security", "mobile applications", "embedded systems"],
-      "technologies": ["python", "java", "gcp", "android", "golan"]
+      "technologies": ["python", "java", "gcp", "android", "golan"],
+      "irc_channel": "https://gitter.im/scorelab/scorelab",
+      "contact_email": "mailto:info@scorelab.org",
+      "mailing_list": "https://groups.google.com/forum/#!forum/score-community"
     },
     {
       "name": "SymPy",
@@ -2551,7 +3049,10 @@
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5228947662962688/",
       "topics": ["mathematics", "science", "computer algebra"],
-      "technologies": ["python", "c++"]
+      "technologies": ["python", "c++"],
+      "irc_channel": "https://gitter.im/sympy/sympy",
+      "contact_email": "",
+      "mailing_list": "http://groups.google.com/group/sympy"
     },
     {
       "name": "Systers, an Anita Borg Institute community",
@@ -2563,7 +3064,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5429781541683200/",
       "topics": ["women in tech", "games", "peace corps", "web", "mobile"],
-      "technologies": ["android", "ios", "python", "java", "javascript"]
+      "technologies": ["android", "ios", "python", "java", "javascript"],
+      "irc_channel": "http://systers.io/slack-systers-opensource/",
+      "contact_email": "mailto:gsoc-admins@anitaborg.org",
+      "mailing_list": "http://systers.org/mailman/listinfo/systers-dev"
     },
     {
       "name": "TEAMMATES @ National University of Singapore",
@@ -2581,7 +3085,10 @@
         "google app engine",
         "css",
         "java ee"
-      ]
+      ],
+      "irc_channel": "https://github.com/teammates/teammates#contacting-us",
+      "contact_email": "mailto:teammates@comp.nus.edu.sg",
+      "mailing_list": "https://github.com/teammates/teammates#contacting-us"
     },
     {
       "name": "The Center for Connected Learning and Computer-Based Modeling",
@@ -2599,7 +3106,10 @@
         "science",
         "research"
       ],
-      "technologies": ["javascript", "scala", "html5"]
+      "technologies": ["javascript", "scala", "html5"],
+      "irc_channel": "https://gitter.im/NetLogo/GSoC2017",
+      "contact_email": "mailto:feedback@ccl.northwestern.edu",
+      "mailing_list": "https://groups.google.com/forum/#!forum/netlogo-devel"
     },
     {
       "name": "The CGAL Project",
@@ -2617,7 +3127,10 @@
         "triangulaton",
         "arrangement"
       ],
-      "technologies": ["c++", "git", "github"]
+      "technologies": ["c++", "git", "github"],
+      "irc_channel": "",
+      "contact_email": "mailto:gsoc-cgal@inria.fr",
+      "mailing_list": "http://www.cgal.org/mailing_list.html"
     },
     {
       "name": "The Eclipse Foundation",
@@ -2629,7 +3142,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5043263878725632/",
       "topics": ["locationtech", "developer tools", "runtimes", "frameworks"],
-      "technologies": ["java", "geo", "iot", "che", "ide"]
+      "technologies": ["java", "geo", "iot", "che", "ide"],
+      "irc_channel": "",
+      "contact_email": "",
+      "mailing_list": "https://dev.eclipse.org/mailman/listinfo/soc-dev"
     },
     {
       "name": "The FreeType Project",
@@ -2641,7 +3157,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4699374705704960/",
       "topics": ["fonts", "opentype", "rendering", "graphics", "truetype"],
-      "technologies": ["fonts", "opentype", "c", "library"]
+      "technologies": ["fonts", "opentype", "c", "library"],
+      "irc_channel": "",
+      "contact_email": "",
+      "mailing_list": "https://lists.nongnu.org/mailman/listinfo/freetype-devel"
     },
     {
       "name": "The GNU Project",
@@ -2653,7 +3172,10 @@
       "category": "Operating Systems",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5556772852989952/",
       "topics": ["operating system"],
-      "technologies": ["c", "guile", "python"]
+      "technologies": ["c", "guile", "python"],
+      "irc_channel": "",
+      "contact_email": "",
+      "mailing_list": "https://lists.gnu.org/mailman/listinfo/summer-of-code"
     },
     {
       "name": "The Honeynet Project",
@@ -2671,7 +3193,10 @@
         "golang",
         "android",
         "network stack"
-      ]
+      ],
+      "irc_channel": "https://gsoc-slack.honeynet.org/",
+      "contact_email": "mailto:project@honeynet.org",
+      "mailing_list": ""
     },
     {
       "name": "The Java Pathfinder Team",
@@ -2689,7 +3214,10 @@
         "model checking",
         "environment generation"
       ],
-      "technologies": ["java", "jvm", "android", "distributed systems"]
+      "technologies": ["java", "jvm", "android", "distributed systems"],
+      "irc_channel": "https://webchat.freenode.net",
+      "contact_email": "mailto:jpf.gsoc@gmail.com",
+      "mailing_list": "https://groups.google.com/forum/#!forum/java-pathfinder"
     },
     {
       "name": "The Julia Language",
@@ -2707,7 +3235,10 @@
         "high performance computing",
         "linear algebra"
       ],
-      "technologies": ["julia", "javascript", "gpu", "c/c++", "llvm"]
+      "technologies": ["julia", "javascript", "gpu", "c/c++", "llvm"],
+      "irc_channel": "",
+      "contact_email": "mailto:mike@juliacomputing.com",
+      "mailing_list": "https://discourse.julialang.org/"
     },
     {
       "name": "The Libreswan Project",
@@ -2719,7 +3250,10 @@
       "category": "Security",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6311703818010624/",
       "topics": ["vpn", "ipsec", "ike"],
-      "technologies": ["c", "python", "shell script"]
+      "technologies": ["c", "python", "shell script"],
+      "irc_channel": "https://libreswan.org/wiki/Main_Page#Developer_documentation",
+      "contact_email": "mailto:gsoc@libreswan.org",
+      "mailing_list": "https://lists.libreswan.org/mailman/listinfo/swan-dev"
     },
     {
       "name": "The Linux Foundation",
@@ -2731,7 +3265,10 @@
       "category": "Operating Systems",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5902526847123456/",
       "topics": ["kernel", "printing", "lsb", "wireless", "wireguard"],
-      "technologies": ["c", "c++", "cups", "mysql", "gtk"]
+      "technologies": ["c", "c++", "cups", "mysql", "gtk"],
+      "irc_channel": "https://wiki.linuxfoundation.org/gsoc/google-summer-code-2017#if-you-have-questions",
+      "contact_email": "mailto:till@linux.com",
+      "mailing_list": "https://wiki.linuxfoundation.org/gsoc/google-summer-code-2017#if-you-have-questions"
     },
     {
       "name": "The MacPorts Project",
@@ -2743,7 +3280,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5223416953044992/",
       "topics": ["package manager", "mac os x", "macos"],
-      "technologies": ["tcl", "make", "git"]
+      "technologies": ["tcl", "make", "git"],
+      "irc_channel": "http://webchat.freenode.net/?channels=%23macports",
+      "contact_email": "mailto:macports-dev@lists.macports.org",
+      "mailing_list": "https://trac.macports.org/wiki/MailingLists"
     },
     {
       "name": "The NetBSD Foundation",
@@ -2766,7 +3306,10 @@
         "network stack",
         "arm",
         "mips"
-      ]
+      ],
+      "irc_channel": "https://wiki.netbsd.org/netbsd-code-chat",
+      "contact_email": "",
+      "mailing_list": "https://www.netbsd.org/mailinglists/"
     },
     {
       "name": "The ns-3 Network Simulator Project",
@@ -2783,7 +3326,10 @@
         "simulation",
         "research and development"
       ],
-      "technologies": ["c++", "python"]
+      "technologies": ["c++", "python"],
+      "irc_channel": "https://www.nsnam.org/developers/tools/irc/",
+      "contact_email": "mailto:consortium@nsnam.org",
+      "mailing_list": "https://www.nsnam.org/support/mailing-list/"
     },
     {
       "name": "The Processing Foundation",
@@ -2795,7 +3341,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5256745899261952/",
       "topics": ["creative coding", "graphics", "web", "education", "design"],
-      "technologies": ["java", "javascript", "python", "android", "opengl"]
+      "technologies": ["java", "javascript", "python", "android", "opengl"],
+      "irc_channel": "https://forum.processing.org/two/categories/summer-of-code-2017",
+      "contact_email": "mailto:foundation@processing.org",
+      "mailing_list": ""
     },
     {
       "name": "The Wine Project",
@@ -2807,7 +3356,10 @@
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5417956825628672/",
       "topics": ["compatibility", "desktop integration"],
-      "technologies": ["c", "opengl", "directx", "x11", "win32"]
+      "technologies": ["c", "opengl", "directx", "x11", "win32"],
+      "irc_channel": "http://www.winehq.org/irc",
+      "contact_email": "",
+      "mailing_list": "http://www.winehq.org/mailman/listinfo/wine-devel"
     },
     {
       "name": "Tiled",
@@ -2819,7 +3371,10 @@
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6470814639587328/",
       "topics": ["edit", "editing", "level", "game", "game development"],
-      "technologies": ["qt", "c++", "git", "github"]
+      "technologies": ["qt", "c++", "git", "github"],
+      "irc_channel": "https://gitter.im/bjorn/tiled",
+      "contact_email": "mailto:bjorn@lindeijer.nl",
+      "mailing_list": ""
     },
     {
       "name": "TimVideos",
@@ -2831,7 +3386,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6543856732471296/",
       "topics": ["hardware", "embedded", "video", "fpga"],
-      "technologies": ["python", "verilog", "fpga", "vhdl", "c"]
+      "technologies": ["python", "verilog", "fpga", "vhdl", "c"],
+      "irc_channel": "https://webchat.freenode.net/?channels=#timvideos",
+      "contact_email": "mailto:contact@timvideos.us",
+      "mailing_list": "https://groups.google.com/forum/#!forum/timvideos/join"
     },
     {
       "name": "Tor",
@@ -2843,7 +3401,10 @@
       "category": "Security",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5273949793419264/",
       "topics": ["privacy", "anonymity", "counter-censorship", "free-speech"],
-      "technologies": ["c", "python", "javascript", "c++"]
+      "technologies": ["c", "python", "javascript", "c++"],
+      "irc_channel": "https://www.torproject.org/about/contact#irc",
+      "contact_email": "",
+      "mailing_list": "https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev"
     },
     {
       "name": "UCSC Xena",
@@ -2861,7 +3422,10 @@
         "bioinformatics",
         "web application"
       ],
-      "technologies": ["javascript", "react", "clojure", "d3", "python"]
+      "technologies": ["javascript", "react", "clojure", "d3", "python"],
+      "irc_channel": "",
+      "contact_email": "mailto:genome-cancer@soe.ucsc.edu",
+      "mailing_list": "http://xena.ucsc.edu/#subscribe"
     },
     {
       "name": "Urban Energy Systems Laboratory, Empa",
@@ -2877,7 +3441,10 @@
         "modeling & optimization",
         "data portal"
       ],
-      "technologies": ["python", "gis", "fast fluid dynamics"]
+      "technologies": ["python", "gis", "fast fluid dynamics"],
+      "irc_channel": "",
+      "contact_email": "mailto:andrew.bollinger@empa.ch",
+      "mailing_list": ""
     },
     {
       "name": "VideoLAN",
@@ -2889,7 +3456,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4898083515138048/",
       "topics": ["video", "audio", "multimedia"],
-      "technologies": ["c++", "c", "opengl", "qt", "assembly"]
+      "technologies": ["c++", "c", "opengl", "qt", "assembly"],
+      "irc_channel": "",
+      "contact_email": "mailto:videolan@videolan.org",
+      "mailing_list": "https://mailman.videolan.org/listinfo/vlc-devel"
     },
     {
       "name": "ViSP",
@@ -2901,7 +3471,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/4892929554382848/",
       "topics": ["robotics", "vision"],
-      "technologies": ["vision", "c++"]
+      "technologies": ["vision", "c++"],
+      "irc_channel": "https://visp.inria.fr",
+      "contact_email": "mailto:visp-gsoc-2017@inria.fr",
+      "mailing_list": "https://groups.google.com/forum/#!forum/visp-gsoc-2017"
     },
     {
       "name": "Wikimedia Foundation",
@@ -2913,7 +3486,10 @@
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6468952502829056/",
       "topics": ["web", "wiki", "encyclopedia"],
-      "technologies": ["php", "javascript", "html", "css", "jquery"]
+      "technologies": ["php", "javascript", "html", "css", "jquery"],
+      "irc_channel": "https://www.mediawiki.org/wiki/Google_Summer_of_Code_2017#Contact",
+      "contact_email": "",
+      "mailing_list": ""
     },
     {
       "name": "WorldBrain - Verifying the Internet with Science",
@@ -2925,7 +3501,10 @@
       "category": "Social / Communications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6393325913374720/",
       "topics": ["fake-news", "misinformation", "search", "digital knowledge"],
-      "technologies": ["reactjs", "javascript"]
+      "technologies": ["reactjs", "javascript"],
+      "irc_channel": "http://join-worldbrain.herokuapp.com",
+      "contact_email": "mailto:info@worldbrain.io",
+      "mailing_list": ""
     },
     {
       "name": "WSO2",
@@ -2949,7 +3528,10 @@
         "java",
         "distributed computing",
         "web services"
-      ]
+      ],
+      "irc_channel": "https://freenode.net/",
+      "contact_email": "mailto:discuss-oss@wso2.org",
+      "mailing_list": "http://wso2.com/mail/"
     },
     {
       "name": "wxWidgets",
@@ -2961,7 +3543,10 @@
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5262324659126272/",
       "topics": ["cross-platform", "desktop", "gui"],
-      "technologies": ["c++", "gtk+", "win32", "cocoa"]
+      "technologies": ["c++", "gtk+", "win32", "cocoa"],
+      "irc_channel": "http://www.wxwidgets.org/support/irc/",
+      "contact_email": "mailto:wx-dev@googlegroups.com",
+      "mailing_list": "http://www.wxwidgets.org/support/mailing-lists/"
     },
     {
       "name": "X.Org Foundation",
@@ -2979,7 +3564,10 @@
         "3d",
         "video"
       ],
-      "technologies": ["opengl", "vulkan", "x11", "wayland", "opencl"]
+      "technologies": ["opengl", "vulkan", "x11", "wayland", "opencl"],
+      "irc_channel": "https://www.x.org/wiki/SummerOfCodeIdeas/",
+      "contact_email": "mailto:dri-devel@lists.freedesktop.org",
+      "mailing_list": "https://www.x.org/wiki/SummerOfCodeIdeas/"
     },
     {
       "name": "Xapian Search Engine Library",
@@ -2997,7 +3585,10 @@
         "linguistics",
         "indexing"
       ],
-      "technologies": ["c++", "unicode", "swig", "linux", "golang"]
+      "technologies": ["c++", "unicode", "swig", "linux", "golang"],
+      "irc_channel": "https://trac.xapian.org/wiki/GSoC_IRC",
+      "contact_email": "",
+      "mailing_list": "https://trac.xapian.org/wiki/GSoC_Mailing_List"
     },
     {
       "name": "XBMC Foundation",
@@ -3009,7 +3600,10 @@
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5704018827411456/",
       "topics": ["media center", "video player", "audio", "media management"],
-      "technologies": ["python", "c++11", "xml", "git", "drupal"]
+      "technologies": ["python", "c++11", "xml", "git", "drupal"],
+      "irc_channel": "",
+      "contact_email": "mailto:contact@kodi.tv",
+      "mailing_list": ""
     },
     {
       "name": "Xen Project",
@@ -3027,7 +3621,10 @@
         "unikernels",
         "embedded/automotive"
       ],
-      "technologies": ["linux", "free/netbsd", "asm/c/c++", "qemu", "ocaml"]
+      "technologies": ["linux", "free/netbsd", "asm/c/c++", "qemu", "ocaml"],
+      "irc_channel": "https://xenproject.org/help/irc.html",
+      "contact_email": "mailto:community.manager@xenproject.org",
+      "mailing_list": "https://xenproject.org/help/mailing-list.html"
     },
     {
       "name": "XMPP Standards Foundation",
@@ -3045,7 +3642,10 @@
         "social",
         "communications"
       ],
-      "technologies": ["xmpp", "c++", "java", "erlang", "javascript"]
+      "technologies": ["xmpp", "c++", "java", "erlang", "javascript"],
+      "irc_channel": "",
+      "contact_email": "",
+      "mailing_list": "https://mail.jabber.org/mailman/listinfo/gsoc"
     },
     {
       "name": "XWiki",
@@ -3057,7 +3657,10 @@
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2017/organizations/6636322546515968/",
       "topics": ["web development", "web platform and services", "wiki"],
-      "technologies": ["java", "javascript", "html5", "css3", "velocity"]
+      "technologies": ["java", "javascript", "html5", "css3", "velocity"],
+      "irc_channel": "http://dev.xwiki.org/xwiki/bin/view/Community/IRC",
+      "contact_email": "mailto:devs@xwiki.org",
+      "mailing_list": "http://dev.xwiki.org/xwiki/bin/Community/MailingLists"
     },
     {
       "name": "Zenodo",
@@ -3081,7 +3684,10 @@
         "flask",
         "angularjs",
         "elasticsearch"
-      ]
+      ],
+      "irc_channel": "https://gitter.im/zenodo/zenodo",
+      "contact_email": "mailto:info@zenodo.org",
+      "mailing_list": ""
     },
     {
       "name": "Zulip",
@@ -3105,7 +3711,10 @@
         "javascript",
         "react native",
         "electron"
-      ]
+      ],
+      "irc_channel": "https://chat.zulip.org/",
+      "contact_email": "",
+      "mailing_list": "https://groups.google.com/forum/#!forum/zulip-gsoc"
     }
   ]
 }
