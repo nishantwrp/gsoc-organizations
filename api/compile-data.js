@@ -63,6 +63,9 @@ const updateBasicOrgInfo = (
   imageBackgroundColor,
   description,
   url,
+  irc_channel,
+  contact_email,
+  mailing_list,
   category
 ) => {
   if (getLatestGsocYear(index) < year) {
@@ -71,6 +74,9 @@ const updateBasicOrgInfo = (
     gsocOrganizations[index].image_background_color = imageBackgroundColor
     gsocOrganizations[index].description = description
     gsocOrganizations[index].url = url
+    gsocOrganizations[index].irc_channel = irc_channel
+    gsocOrganizations[index].contact_email = contact_email
+    gsocOrganizations[index].mailing_list = mailing_list
     gsocOrganizations[index].category = category
   }
 }
@@ -105,6 +111,9 @@ const updateOrg = (index, year, orgJson) => {
     image_background_color,
     description,
     url,
+    irc_channel,
+    contact_email,
+    mailing_list,
     category,
     projects_url,
     topics,
@@ -119,6 +128,9 @@ const updateOrg = (index, year, orgJson) => {
     image_background_color,
     description,
     url,
+    irc_channel,
+    contact_email,
+    mailing_list,
     category
   )
   updateYears(index, year, projects_url, num_projects)
