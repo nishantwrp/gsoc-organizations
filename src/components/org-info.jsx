@@ -55,14 +55,14 @@ const OrgInfo = ({ data }) => {
       <div className="org-info-site-container">
         {data.irc_channel ? (
           <Popup
-            content="IRC CHANNEL"
+            content="IRC Channel"
             trigger={
               <OutboundLink
                 href={data.irc_channel}
                 rel="noreferrer"
                 target="_blank"
               >
-                <Button icon color="#16697a">
+                <Button icon>
                   <Icon name="comment" />
                 </Button>
               </OutboundLink>
@@ -71,14 +71,14 @@ const OrgInfo = ({ data }) => {
         ) : null}
         {data.mailing_list ? (
           <Popup
-            content="MAILING LIST"
+            content="Mailing List"
             trigger={
               <OutboundLink
                 href={data.mailing_list}
                 rel="noreferrer"
                 target="_blank"
               >
-                <Button icon color="#16697a">
+                <Button icon color>
                   <Icon name="envelope outline" />
                 </Button>
               </OutboundLink>
@@ -87,14 +87,14 @@ const OrgInfo = ({ data }) => {
         ) : null}
         {data.contact_email ? (
           <Popup
-            content="CONTACT EMAIL"
+            content="Contact Email"
             trigger={
               <OutboundLink
                 href={data.contact_email}
                 rel="noreferrer"
                 target="_blank"
               >
-                <Button icon color="#16697a">
+                <Button icon>
                   <Icon name="mail" />
                 </Button>
               </OutboundLink>

@@ -22,6 +22,9 @@ components:
         - description
         - url
         - category
+        - irc_channel
+        - contact_email
+        - mailing_list
         - topics
         - technologies
         - years
@@ -37,6 +40,12 @@ components:
         url:
           type: string
         category:
+          type: string
+        irc_channel:
+          type: string
+        contact_email:
+          type: string
+        mailing_list:
           type: string
         topics:
           type: array
@@ -112,6 +121,9 @@ components:
         - projects_url
         - topics
         - technologies
+        - irc_channel
+        - contact_email
+        - mailing_list
       properties:
         name:
           type: string
@@ -128,6 +140,12 @@ components:
         category:
           type: string
         projects_url:
+          type: string
+        irc_channel:
+          type: string
+        contact_email:
+          type: string
+        mailing_list:
           type: string
         topics:
           type: array
