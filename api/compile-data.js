@@ -76,7 +76,7 @@ const updateBasicOrgInfo = (
     gsocOrganizations[index].url = url
     gsocOrganizations[index].irc_channel = irc_channel
     gsocOrganizations[index].contact_email = contact_email
-    gsocOrganizations[index].contact_email = contact_email
+    gsocOrganizations[index].mailing_list = mailing_list
     gsocOrganizations[index].category = category
   }
 }

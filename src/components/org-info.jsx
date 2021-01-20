@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import "./org-info.css"
 
 import { OutboundLink } from "gatsby-plugin-google-analytics"
-import { Divider, Button, Header, Icon } from "semantic-ui-react"
+import { Divider, Button, Header, Icon, Popup } from "semantic-ui-react"
 
 const OrgInfo = ({ data }) => {
   const years = Object.keys(data.years)
@@ -51,6 +51,56 @@ const OrgInfo = ({ data }) => {
             Visit Site
           </Button>
         </OutboundLink>
+      </div>
+      <div className="org-info-site-container">
+        {data.irc_channel ? (
+          <Popup
+            content="IRC CHANNEL"
+            trigger={
+              <OutboundLink
+                href={data.irc_channel}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <Button icon color="#16697a">
+                  <Icon name="comment" />
+                </Button>
+              </OutboundLink>
+            }
+          />
+        ) : null}
+        {data.mailing_list ? (
+          <Popup
+            content="MAILING LIST"
+            trigger={
+              <OutboundLink
+                href={data.mailing_list}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <Button icon color="#16697a">
+                  <Icon name="envelope outline" />
+                </Button>
+              </OutboundLink>
+            }
+          />
+        ) : null}
+        {data.contact_email ? (
+          <Popup
+            content="CONTACT EMAIL"
+            trigger={
+              <OutboundLink
+                href={data.contact_email}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <Button icon color="#16697a">
+                  <Icon name="mail" />
+                </Button>
+              </OutboundLink>
+            }
+          />
+        ) : null}
       </div>
       <div className="org-info-description-container">{data.description}</div>
       <center>
