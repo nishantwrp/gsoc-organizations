@@ -15,6 +15,8 @@ const filters = {
   "c/c++": ["c", "c++"],
   "css/html": ["css", "html"],
   "web/html/css": ["web", "html", "css"],
+  node: ["node.js"],
+  nodejs: ["node.js"],
 }
 
 const filter = tech => {
