@@ -90,7 +90,7 @@ const OrganizationPage = ({ pageContext: { organization }, data }) => {
               data-ad-client="ca-pub-9769516184087442"
               data-ad-slot="9135360049"
               data-ad-format="auto"
-              data-full-width-responsive="true"
+              data-full-width-responsive="false"
             ></ins>
           </div>
         </Grid.Column>
