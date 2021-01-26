@@ -50,17 +50,6 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-
-        <script
-          async
-          src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html:
-              "window.onload = function() { (adsbygoogle = window.adsbygoogle || []).push({}); }",
-          }}
-        ></script>
       </body>
     </html>
   )
