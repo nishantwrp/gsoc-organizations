@@ -57,7 +57,8 @@ export default function HTML(props) {
         ></script>
         <script
           dangerouslySetInnerHTML={{
-            __html: "(window.adsbygoogle = window.adsbygoogle || []).push({});",
+            __html:
+              "window.onload = function() { (adsbygoogle = window.adsbygoogle || []).push({}); }",
           }}
         ></script>
       </body>
