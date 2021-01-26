@@ -155,7 +155,7 @@ const IndexPage = ({ data }) => {
     },
     {
       property: "og:image",
-      content: `${data.site.siteMetadata.siteUrl}/images/logo.png`,
+      content: `${data.site.siteMetadata.siteUrl}/images/screenshot.png`,
     },
     {
       property: "og:site_name",
@@ -179,7 +179,7 @@ const IndexPage = ({ data }) => {
     },
     {
       name: "twitter:image",
-      content: `${data.site.siteMetadata.siteUrl}/images/logo.png`,
+      content: `${data.site.siteMetadata.siteUrl}/images/screenshot.png`,
     },
   ]
 
