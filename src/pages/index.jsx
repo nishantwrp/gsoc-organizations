@@ -185,6 +185,12 @@ const IndexPage = ({ data }) => {
 
   const cardColumns = useBreakpoint().l ? 3 : 4
 
+  React.useEffect(() => {
+    setTimeout(() => {
+      ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+    }, 2000)
+  })
+
   return (
     <Layout
       searchState={{ searchQuery: searchQuery, setSearchQuery: setSearchQuery }}
@@ -195,6 +201,16 @@ const IndexPage = ({ data }) => {
       <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
         {cards}
       </Grid>
+      <div style={{ padding: "1rem" }}>
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-9769516184087442"
+          data-ad-slot="5525920548"
+          data-ad-format="auto"
+          data-full-width-responsive="false"
+        ></ins>
+      </div>
     </Layout>
   )
 }
