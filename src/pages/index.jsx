@@ -189,7 +189,7 @@ const IndexPage = ({ data }) => {
     setTimeout(() => {
       ;(window.adsbygoogle = window.adsbygoogle || []).push({})
     }, 2000)
-  })
+  }, [])
 
   return (
     <Layout
