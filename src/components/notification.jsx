@@ -1,7 +1,7 @@
 import React from "react"
 import { Message } from "semantic-ui-react"
 
-const MessageExampleInfo = () => {
+const Notification = () => {
   const style = {
     width: "100%",
     margin: "1rem",
@@ -20,4 +20,4 @@ const MessageExampleInfo = () => {
   )
 }
 
-export default MessageExampleInfo
+export default Notification
