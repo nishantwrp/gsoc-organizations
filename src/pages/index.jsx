@@ -8,6 +8,7 @@ import "./index.css"
 import Layout from "../layouts/layout"
 import OrgCard from "../components/org-card"
 import SEO from "../components/seo"
+import Notification from "../components/notification"
 import { Grid } from "semantic-ui-react"
 
 const getOrganizations = data => {
@@ -198,6 +199,9 @@ const IndexPage = ({ data }) => {
       homePage={true}
     >
       <SEO title={"Home"} meta={meta} />
+      <Grid className="index-org-cards-grid">
+        <Notification />
+      </Grid>
       <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
         {cards}
       </Grid>
