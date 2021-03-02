@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
   <img src="https://david-dm.org/nishantwrp/gsoc-organizations.svg">
   <img src="https://img.shields.io/github/license/nishantwrp/gsoc-organizations">
+  <a title="MadeWithReactJs.com Shield" href="https://madewithreactjs.com/p/gsoc-organizations/shield-link"> <img src="https://madewithreactjs.com/storage/repo-shields/2858-shield.svg"/></a>
   </center>
 </h1>
 
