@@ -11,7 +11,10 @@ const Notification = () => {
       <Message.Header>
         Official ogranizations for GSoC 2021 have been announced. You can check
         them{" "}
-        <a href="https://www.nishantwrp.com" target="_blank">
+        <a
+          href="https://summerofcode.withgoogle.com/organizations/"
+          target="_blank"
+        >
           <u>here</u>
         </a>
         .
