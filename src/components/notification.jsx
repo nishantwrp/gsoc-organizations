@@ -9,14 +9,15 @@ const Notification = () => {
   return (
     <Message positive style={style}>
       <Message.Header>
-        Official ogranizations for GSoC 2021 have been announced. You can check
-        them{" "}
-        <a
-          href="https://summerofcode.withgoogle.com/organizations/"
-          target="_blank"
-        >
-          <u>here</u>
-        </a>
+        Data for the organizations which participated in 2021{" "}
+        <u>
+          <a
+            href="https://twitter.com/nishantwrp/status/1433895794596143105"
+            target="_blank"
+          >
+            will be added soon
+          </a>
+        </u>
         .
       </Message.Header>
     </Message>
