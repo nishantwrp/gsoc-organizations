@@ -108,6 +108,16 @@ components:
                   type: string
                 num_projects:
                   type: number
+            2021:
+              type: object
+              required:
+                - projects_url
+                - num_projects
+              properties:
+                projects_url:
+                  type: string
+                num_projects:
+                  type: number
     OrganizationSingleYear:
       type: object
       required:
@@ -162,7 +172,7 @@ paths:
       operationId: orgsAll
       summary: All Organizations
       description: |
-        Get the data of all the organizations that participated in Google Summer of Code from 2016 to 2020.
+        Get the data of all the organizations that participated in Google Summer of Code from 2016 to 2021.
       responses:
         '200':
           description: OK
@@ -172,6 +182,28 @@ paths:
                 type: array
                 items:
                   $ref: "#/components/schemas/Organizations"
+  /2021.json:
+    get:
+      operationId: orgs2021
+      summary: 2021 Organizations
+      description: |
+        Get the data of all the organizations that participated in Google Summer of Code 2021.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  year:
+                    type: number
+                  archive_url:
+                    type: string
+                  organizations:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/OrganizationSingleYear"
   /2020.json:
     get:
       operationId: orgs2020

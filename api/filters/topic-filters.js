@@ -5,7 +5,7 @@ const filter = topic => {
     return filters[topic]
   }
 
-  return [topic]
+  return [topic.trim()]
 }
 
 module.exports = {

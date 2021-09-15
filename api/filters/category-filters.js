@@ -7,7 +7,7 @@ const filter = category => {
     return filters[category]
   }
 
-  return category
+  return category.trim()
 }
 
 module.exports = {

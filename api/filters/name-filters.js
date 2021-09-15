@@ -36,7 +36,7 @@ const filter = name => {
     return filters[name]
   }
 
-  return name
+  return name.trim()
 }
 
 module.exports = {

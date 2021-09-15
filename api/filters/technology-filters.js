@@ -24,7 +24,7 @@ const filter = tech => {
     return filters[tech]
   }
 
-  return [tech]
+  return [tech.trim()]
 }
 
 module.exports = {

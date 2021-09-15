@@ -8,7 +8,7 @@ import FilterModal from "./filter-modal"
 import { Checkbox, Input, Divider } from "semantic-ui-react"
 
 class Filter extends FilterTemplate {
-  DEFAULT_OPTIONS_DISPLAYED = 5
+  DEFAULT_OPTIONS_DISPLAYED = 6
 
   constructor(props) {
     super(props, {})
