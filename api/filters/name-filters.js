@@ -29,6 +29,10 @@ const filters = {
   "Shogun Machine Learning Toolbox": "Shogun",
   Robocomp: "RoboComp",
   "Apache Software Foundation": "The Apache Software Foundation",
+  "Cloud Native Computing Foundation (CNCF)": "CNCF",
+  GNOME: "GNOME Foundation",
+  "GNU Mailman": "GNU Mailman Project",
+  "Kodi Foundation": "Kodi",
 }
 
 const filter = name => {
