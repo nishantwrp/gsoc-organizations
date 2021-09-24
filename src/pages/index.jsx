@@ -2,6 +2,7 @@ import React from "react"
 import Fuse from "fuse.js"
 import { graphql } from "gatsby"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
+import { navigate } from "@reach/router"
 
 import "./index.css"
 
@@ -105,14 +106,37 @@ const getFilteredOrganizations = (data, searchQuery, filters) => {
   return filteredOrganizations
 }
 
-const IndexPage = ({ data }) => {
-  const [searchQuery, setSearchQuery] = React.useState("")
-  const [filters, setFilters] = React.useState({
-    years: [],
-    categories: [],
-    technologies: [],
-    topics: [],
-  })
+const IndexPage = ({ data, location }) => {
+  // Any url would work here.
+  const currentURL = new URL("https://www.gsocorganizations.dev/")
+
+  try {
+    currentURL.search = location.search
+  } catch (err) {}
+
+  const [searchQuery, setSearchQuery] = React.useState(
+    currentURL.searchParams.get("search") || ""
+  )
+  const [filters, setFilters] = React.useState(
+    JSON.parse(currentURL.searchParams.get("filters")) || {
+      years: [],
+      categories: [],
+      technologies: [],
+      topics: [],
+    }
+  )
+
+  const setSearchQueryAndUpdateURL = newQuery => {
+    setSearchQuery(newQuery)
+    currentURL.searchParams.set("search", newQuery)
+    navigate(currentURL.search)
+  }
+
+  const setFiltersAndUpdateURL = newFilters => {
+    setFilters(newFilters)
+    currentURL.searchParams.set("filters", JSON.stringify(newFilters))
+    navigate(currentURL.search)
+  }
 
   let filteredOrganizations = getFilteredOrganizations(
     data,
@@ -193,8 +217,11 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout
-      searchState={{ searchQuery: searchQuery, setSearchQuery: setSearchQuery }}
-      filtersState={{ filters: filters, setFilters: setFilters }}
+      searchState={{
+        searchQuery: searchQuery,
+        setSearchQuery: setSearchQueryAndUpdateURL,
+      }}
+      filtersState={{ filters: filters, setFilters: setFiltersAndUpdateURL }}
       homePage={true}
     >
       <SEO title={"Home"} meta={meta} />

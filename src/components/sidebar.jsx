@@ -94,7 +94,7 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
       return {
         name: topic.name,
         frequency: topic.frequency,
-        selected: false,
+        selected: !!filtersState?.filters.topics.includes(topic.name),
       }
     })
   )
@@ -103,7 +103,9 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
       return {
         name: technology.name,
         frequency: technology.frequency,
-        selected: false,
+        selected: !!filtersState?.filters.technologies.includes(
+          technology.name
+        ),
       }
     })
   )
@@ -112,7 +114,7 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
       return {
         name: year.name,
         frequency: year.frequency,
-        selected: false,
+        selected: !!filtersState?.filters.years.includes(year.name),
       }
     })
   )
@@ -121,7 +123,7 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
       return {
         name: category.name,
         frequency: category.frequency,
-        selected: false,
+        selected: !!filtersState?.filters.categories.includes(category.name),
       }
     })
   )
