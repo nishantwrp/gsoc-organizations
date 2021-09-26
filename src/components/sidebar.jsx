@@ -227,45 +227,47 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
           <div>
             <center>
               <table>
-                <tr>
-                  <td>
-                    <GitHubButton
-                      data-size="large"
-                      href="https://github.com/nishantwrp/gsoc-organizations"
-                      data-icon="octicon-star"
-                      data-show-count="true"
-                      aria-label="Star nishantwrp/gsoc-organizations-site on GitHub"
-                    >
-                      Star
-                    </GitHubButton>
-                  </td>
-                  <td>
-                    <OutboundLink
-                      href="https://api.gsocorganizations.dev/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Button
-                        className="sidebar-footer-icon-link"
-                        icon
-                        compact={true}
+                <tbody>
+                  <tr>
+                    <td>
+                      <GitHubButton
+                        data-size="large"
+                        href="https://github.com/nishantwrp/gsoc-organizations"
+                        data-icon="octicon-star"
+                        data-show-count="true"
+                        aria-label="Star nishantwrp/gsoc-organizations-site on GitHub"
                       >
-                        <Icon name="database"></Icon>
-                      </Button>
-                    </OutboundLink>
-                  </td>
-                  <td>
-                    <OutboundLink href="mailto:contact@gsocorganizations.dev">
-                      <Button
-                        className="sidebar-footer-icon-link"
-                        icon
-                        compact={true}
+                        Star
+                      </GitHubButton>
+                    </td>
+                    <td>
+                      <OutboundLink
+                        href="https://api.gsocorganizations.dev/"
+                        target="_blank"
+                        rel="noreferrer"
                       >
-                        <Icon name="mail"></Icon>
-                      </Button>
-                    </OutboundLink>
-                  </td>
-                </tr>
+                        <Button
+                          className="sidebar-footer-icon-link"
+                          icon
+                          compact={true}
+                        >
+                          <Icon name="database"></Icon>
+                        </Button>
+                      </OutboundLink>
+                    </td>
+                    <td>
+                      <OutboundLink href="mailto:contact@gsocorganizations.dev">
+                        <Button
+                          className="sidebar-footer-icon-link"
+                          icon
+                          compact={true}
+                        >
+                          <Icon name="mail"></Icon>
+                        </Button>
+                      </OutboundLink>
+                    </td>
+                  </tr>
+                </tbody>
               </table>
               <div className="sidebar-footer-text-container">
                 <span className="sidebar-footer-text">

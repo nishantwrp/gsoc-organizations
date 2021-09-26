@@ -59,7 +59,9 @@ class Filter extends FilterTemplate {
         <div className="filter-boxes">
           <center>
             <div className="filter-boxes-container">
-              <table>{filteredCheckboxes}</table>
+              <table>
+                <tbody>{filteredCheckboxes}</tbody>
+              </table>
             </div>
           </center>
         </div>
