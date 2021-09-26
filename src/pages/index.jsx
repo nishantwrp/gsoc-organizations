@@ -230,6 +230,9 @@ const IndexPage = ({ data, location }) => {
       homePage={true}
     >
       <SEO title={"Home"} meta={meta} />
+      <div style={{ marginTop: "1rem", textAlign: "center" }}>
+        <a className="ui orange label">{orgCards.length} results</a>
+      </div>
       <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
         {orgCards}
       </Grid>
