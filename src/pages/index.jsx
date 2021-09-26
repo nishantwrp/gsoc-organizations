@@ -125,6 +125,7 @@ const IndexPage = ({ data, location }) => {
       topics: [],
     }
   )
+  const [orgCards, setOrgCards] = React.useState([])
 
   const setSearchQueryAndUpdateURL = newQuery => {
     setSearchQuery(newQuery)
@@ -138,20 +139,24 @@ const IndexPage = ({ data, location }) => {
     navigate(currentURL.search)
   }
 
-  let filteredOrganizations = getFilteredOrganizations(
-    data,
-    searchQuery,
-    filters
-  )
-
-  const cards = []
-  for (const organization of filteredOrganizations) {
-    cards.push(
-      <Grid.Column>
-        <OrgCard data={organization} />
-      </Grid.Column>
+  React.useEffect(() => {
+    let filteredOrganizations = getFilteredOrganizations(
+      data,
+      searchQuery,
+      filters
     )
-  }
+
+    const cards = []
+    for (const organization of filteredOrganizations) {
+      cards.push(
+        <Grid.Column>
+          <OrgCard data={organization} />
+        </Grid.Column>
+      )
+    }
+
+    setOrgCards(cards)
+  }, [searchQuery, filters])
 
   const metaDescription =
     "View and analyse the info of the organizations participating in Google Summer of Code and filter them by various parameters."
@@ -226,7 +231,7 @@ const IndexPage = ({ data, location }) => {
     >
       <SEO title={"Home"} meta={meta} />
       <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
-        {cards}
+        {orgCards}
       </Grid>
       <div style={{ padding: "1rem" }}>
         <ins
