@@ -174,10 +174,13 @@ const processData = data => {
 }
 
 const compileData = () => {
+  gsocOrganizations = []
+
   for (const year of YEARS) {
     const rawData = fs.readFileSync(getDataPath(year))
     processData(JSON.parse(rawData))
   }
+
   const sortedOrganizations = gsocOrganizations.sort((a, b) => {
     if (a.name === b.name) {
       return 0
@@ -185,6 +188,7 @@ const compileData = () => {
 
     return a.name > b.name ? 1 : -1
   })
+
   return sortedOrganizations
 }
 
