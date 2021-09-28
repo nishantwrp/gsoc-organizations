@@ -5,7 +5,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import "./sidebar.css"
 import Filter from "./filters/filter"
 
-import Logo from "./logo"
 import GitHubButton from "react-github-btn"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 import { Link } from "gatsby"
@@ -173,13 +172,21 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
     return {}
   }
 
+  const getSidebarHeading = () => {
+    return showFilters ? (
+      <Container>GSoC Organizations</Container>
+    ) : (
+      <Link to="/">
+        <Container>GSoC Organizations</Container>
+      </Link>
+    )
+  }
+
   return (
     <div className="sidebar-sidebar" style={getSidebarStyles(config)}>
       <div className="sidebar-div">
         <div className="sidebar-logo-description">
-          <div className="sidebar-description">
-            <Container>GSoC Organizations</Container>
-          </div>
+          <div className="sidebar-description">{getSidebarHeading()}</div>
         </div>
         <div className="sidebar-content" style={filterStyle()}>
           <div className="sidebar-content-clear-filters">

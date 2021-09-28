@@ -27,14 +27,20 @@ const Toolbar = ({ showSearch, searchState, filtersState }) => {
     return {}
   }
 
+  const getLogo = () => {
+    return showSearch ? (
+      <Logo />
+    ) : (
+      <Link to="/">
+        <Logo />
+      </Link>
+    )
+  }
+
   return (
     <div className="mobile-toolbar">
       <div className="mobile-toolbar-logo noselect">
-        <center>
-          <Link to="/">
-            <Logo />
-          </Link>
-        </center>
+        <center>{getLogo()}</center>
       </div>
       <div className="mobile-toolbar-search" style={searchStyle()}>
         <center>
