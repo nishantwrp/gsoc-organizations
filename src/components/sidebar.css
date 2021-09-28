@@ -28,7 +28,6 @@
   justify-content: center;
   padding-top: 10px;
   margin-bottom: auto;
-  padding-bottom: 10px;
 }
 
 .sidebar-content-filters {
@@ -42,14 +41,9 @@
   text-align: center;
 }
 
-.sidebar-logo {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
 .sidebar-description {
   font-family: "Galano Grotesque Alt Medium";
-  font-size: 16px;
+  font-size: 18px;
   color: #ffa62b;
 }
 
@@ -59,8 +53,9 @@
   padding-bottom: 15px;
 }
 
-.sidebar-footer-divider {
-  width: 80%;
+.sidebar-divider {
+  width: 100%;
+  color: rgb(228, 228, 231);
 }
 
 .sidebar-footer-icon {

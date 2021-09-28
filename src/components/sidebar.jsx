@@ -177,11 +177,6 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
     <div className="sidebar-sidebar" style={getSidebarStyles(config)}>
       <div className="sidebar-div">
         <div className="sidebar-logo-description">
-          <div className="sidebar-logo">
-            <Link to="/">
-              <Logo size={60}></Logo>
-            </Link>
-          </div>
           <div className="sidebar-description">
             <Container>GSoC Organizations</Container>
           </div>
@@ -192,6 +187,7 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
               Clear all filters
             </Button>
           </div>
+          <Divider className="sidebar-divider" />
           <div className="sidebar-content-filters">
             <Filter
               name="Years"
@@ -221,9 +217,7 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
           </div>
         </div>
         <div className="sidebar-footer">
-          <center>
-            <Divider className="sidebar-footer-divider" />
-          </center>
+          <Divider className="sidebar-divider" />
           <div>
             <center>
               <table>
@@ -256,13 +250,17 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
                       </OutboundLink>
                     </td>
                     <td>
-                      <OutboundLink href="mailto:contact@gsocorganizations.dev">
+                      <OutboundLink
+                        href="https://www.twitter.com/nishantwrp"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <Button
                           className="sidebar-footer-icon-link"
                           icon
                           compact={true}
                         >
-                          <Icon name="mail"></Icon>
+                          <Icon name="twitter"></Icon>
                         </Button>
                       </OutboundLink>
                     </td>
@@ -275,15 +273,15 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
                   <span className="sidebar-footer-icon">
                     <Icon name="heart"></Icon>
                   </span>{" "}
-                  and{" "}
-                  <a
-                    href="https://www.gatsbyjs.org/"
+                  by{" "}
+                  <OutboundLink
+                    href="https://www.github.com/nishantwrp"
                     className="sidebar-footer-text"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <u>Gatsby</u>
-                  </a>
+                    <u>nishantwrp</u>
+                  </OutboundLink>
                 </span>
               </div>
             </center>

@@ -7,9 +7,8 @@
   GSoC Organizations
   <br>
   <center>
-  <img src="https://img.shields.io/badge/Built%20using-Gatsby-purple">
-  <img src="https://madewithlove.now.sh/in" alt="Made with love in India">
   <img src="https://github.com/nishantwrp/gsoc-organizations/workflows/Lint%20checks/badge.svg">
+  <img src="https://madewithlove.now.sh/in" alt="Made with love in India">
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
   <img src="https://img.shields.io/github/license/nishantwrp/gsoc-organizations">
   <a title="MadeWithReactJs.com Shield" href="https://madewithreactjs.com/p/gsoc-organizations/shield-link"> <img src="https://madewithreactjs.com/storage/repo-shields/2858-shield.svg"/></a>
