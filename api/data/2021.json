@@ -45,12 +45,7 @@
         "software packages",
         "scanning"
       ],
-      "technologies": [
-        "python",
-        "django",
-        "javascript",
-        "postgres"
-      ]
+      "technologies": ["python", "django", "javascript", "postgres"]
     },
     {
       "name": "Accord Project",
@@ -64,20 +59,8 @@
       "num_projects": 3,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4826533859950592/",
-      "topics": [
-        "smart contracts",
-        "legal",
-        "blockchain",
-        "compilers",
-        "ai"
-      ],
-      "technologies": [
-        "javascript",
-        "react",
-        "coq",
-        "ocaml",
-        "compiler"
-      ]
+      "topics": ["smart contracts", "legal", "blockchain", "compilers", "ai"],
+      "technologies": ["javascript", "react", "coq", "ocaml", "compiler"]
     },
     {
       "name": "AerospaceResearch.net",
@@ -118,18 +101,8 @@
       "num_projects": 2,
       "category": "Security",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5090910303420416/",
-      "topics": [
-        "fuzzing",
-        "secure development",
-        "instrumentation"
-      ],
-      "technologies": [
-        "fuzzing",
-        "instrumentation",
-        "c/c++",
-        "rust",
-        "llvm"
-      ]
+      "topics": ["fuzzing", "secure development", "instrumentation"],
+      "technologies": ["fuzzing", "instrumentation", "c/c++", "rust", "llvm"]
     },
     {
       "name": "Android Graphics Tools Team",
@@ -143,19 +116,8 @@
       "num_projects": 3,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5995132419047424/",
-      "topics": [
-        "fuzzing",
-        "developer tools",
-        "bug finding",
-        "graphics"
-      ],
-      "technologies": [
-        "c++",
-        "spir-v",
-        "webgpu",
-        "opengl",
-        "java"
-      ]
+      "topics": ["fuzzing", "developer tools", "bug finding", "graphics"],
+      "technologies": ["c++", "spir-v", "webgpu", "opengl", "java"]
     },
     {
       "name": "AnkiDroid",
@@ -169,18 +131,8 @@
       "num_projects": 2,
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5687189203058688/",
-      "topics": [
-        "android",
-        "user generated content",
-        "flashcard",
-        "education"
-      ],
-      "technologies": [
-        "java",
-        "javascript",
-        "gradle",
-        "android"
-      ]
+      "topics": ["android", "user generated content", "flashcard", "education"],
+      "technologies": ["java", "javascript", "gradle", "android"]
     },
     {
       "name": "AOSSIE",
@@ -225,13 +177,7 @@
         "natural language processing",
         "less-resourced languages"
       ],
-      "technologies": [
-        "c++",
-        "python",
-        "bash",
-        "xml",
-        "javascript"
-      ]
+      "technologies": ["c++", "python", "bash", "xml", "javascript"]
     },
     {
       "name": "apertus\u00b0 Association",
@@ -252,13 +198,7 @@
         "image processing",
         "digital imaging"
       ],
-      "technologies": [
-        "fpga",
-        "linux",
-        "embedded",
-        "vhdl",
-        "c/c++"
-      ]
+      "technologies": ["fpga", "linux", "embedded", "vhdl", "c/c++"]
     },
     {
       "name": "ArduPilot",
@@ -279,13 +219,7 @@
         "real-time",
         "drones"
       ],
-      "technologies": [
-        "drones",
-        "robotics",
-        "c/c++",
-        "linux",
-        "python"
-      ]
+      "technologies": ["drones", "robotics", "c/c++", "linux", "python"]
     },
     {
       "name": "Audacity",
@@ -299,15 +233,8 @@
       "num_projects": 2,
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5631107231383552/",
-      "topics": [
-        "audio editor",
-        "audio",
-        "audio analysis",
-        "audio processing"
-      ],
-      "technologies": [
-        "c++"
-      ]
+      "topics": ["audio editor", "audio", "audio analysis", "audio processing"],
+      "technologies": ["c++"]
     },
     {
       "name": "BeagleBoard.org Foundation",
@@ -328,13 +255,7 @@
         "robotics",
         "process automation"
       ],
-      "technologies": [
-        "risc-v",
-        "linux",
-        "arm",
-        "dsp",
-        "fpga"
-      ]
+      "technologies": ["risc-v", "linux", "arm", "dsp", "fpga"]
     },
     {
       "name": "Bench-Routes",
@@ -348,17 +269,8 @@
       "num_projects": 2,
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5764622900002816/",
-      "topics": [
-        "time-series",
-        "monitoring",
-        "web",
-        "devops"
-      ],
-      "technologies": [
-        "golang",
-        "docker",
-        "react"
-      ]
+      "topics": ["time-series", "monitoring", "web", "devops"],
+      "technologies": ["golang", "docker", "react"]
     },
     {
       "name": "Blender Foundation",
@@ -379,13 +291,7 @@
         "3d animation",
         "virtual reality"
       ],
-      "technologies": [
-        "c",
-        "c++",
-        "python",
-        "opengl",
-        "vulkan"
-      ]
+      "technologies": ["c", "c++", "python", "opengl", "vulkan"]
     },
     {
       "name": "Boost C++ Libraries",
@@ -399,19 +305,8 @@
       "num_projects": 8,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5123901926932480/",
-      "topics": [
-        "c++",
-        "algorithms",
-        "data structures",
-        "image processing"
-      ],
-      "technologies": [
-        "c++",
-        "c++11",
-        "c++14",
-        "c++17",
-        "c++20"
-      ]
+      "topics": ["c++", "algorithms", "data structures", "image processing"],
+      "technologies": ["c++", "c++11", "c++14", "c++17", "c++20"]
     },
     {
       "name": "BRL-CAD",
@@ -432,13 +327,7 @@
         "2d/3d graphics",
         "high performance computing"
       ],
-      "technologies": [
-        "opencl",
-        "opengl",
-        "c/c++",
-        "python",
-        "scripting"
-      ]
+      "technologies": ["opencl", "opengl", "c/c++", "python", "scripting"]
     },
     {
       "name": "caMicroscope",
@@ -478,18 +367,8 @@
       "num_projects": 9,
       "category": "Security",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6199282348064768/",
-      "topics": [
-        "security",
-        "cloud",
-        "web"
-      ],
-      "technologies": [
-        "golang",
-        "java",
-        "javascript",
-        "python",
-        "nodejs"
-      ]
+      "topics": ["security", "cloud", "web"],
+      "technologies": ["golang", "java", "javascript", "python", "nodejs"]
     },
     {
       "name": "CASTOR",
@@ -510,11 +389,7 @@
         "automated program repair",
         "software analysis"
       ],
-      "technologies": [
-        "java",
-        "scala",
-        "bytecode"
-      ]
+      "technologies": ["java", "scala", "bytecode"]
     },
     {
       "name": "CCExtractor Development",
@@ -528,18 +403,8 @@
       "num_projects": 9,
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5102272740065280/",
-      "topics": [
-        "video",
-        "subtitles",
-        "media",
-        "bittorrent"
-      ],
-      "technologies": [
-        "rust",
-        "c",
-        "python",
-        "flutter"
-      ]
+      "topics": ["video", "subtitles", "media", "bittorrent"],
+      "technologies": ["rust", "c", "python", "flutter"]
     },
     {
       "name": "Center for Research in Open Source Software, UC Santa Cruz",
@@ -553,20 +418,8 @@
       "num_projects": 5,
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6311773715562496/",
-      "topics": [
-        "hardware",
-        "storage",
-        "databases",
-        "sensors",
-        "callibration"
-      ],
-      "technologies": [
-        "c/c++",
-        "c++17",
-        "arrow",
-        "ceph",
-        "robotics"
-      ]
+      "topics": ["hardware", "storage", "databases", "sensors", "callibration"],
+      "technologies": ["c/c++", "c++17", "arrow", "ceph", "robotics"]
     },
     {
       "name": "Ceph",
@@ -580,17 +433,8 @@
       "num_projects": 7,
       "category": "Data and Databases",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6259684285087744/",
-      "topics": [
-        "distributed systems",
-        "storage"
-      ],
-      "technologies": [
-        "c++",
-        "python",
-        "angular",
-        "javascript",
-        "typescript"
-      ]
+      "topics": ["distributed systems", "storage"],
+      "technologies": ["c++", "python", "angular", "javascript", "typescript"]
     },
     {
       "name": "CERN-HSF",
@@ -637,10 +481,7 @@
         "mesh processing",
         "geometry"
       ],
-      "technologies": [
-        "c/c++",
-        "qt"
-      ]
+      "technologies": ["c/c++", "qt"]
     },
     {
       "name": "CHAOSS Project",
@@ -661,13 +502,7 @@
         "dependencies",
         "diversity and inclusion"
       ],
-      "technologies": [
-        "python",
-        "vue",
-        "elk",
-        "nltk",
-        "fossology"
-      ]
+      "technologies": ["python", "vue", "elk", "nltk", "fossology"]
     },
     {
       "name": "Chapel",
@@ -714,10 +549,7 @@
         "coding standards",
         "coding conventions"
       ],
-      "technologies": [
-        "java",
-        "antlr"
-      ]
+      "technologies": ["java", "antlr"]
     },
     {
       "name": "Chromium",
@@ -731,18 +563,8 @@
       "num_projects": 9,
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4857406487527424/",
-      "topics": [
-        "web",
-        "browser",
-        "operating-system"
-      ],
-      "technologies": [
-        "c++",
-        "java",
-        "git",
-        "javascript",
-        "python"
-      ]
+      "topics": ["web", "browser", "operating-system"],
+      "technologies": ["c++", "java", "git", "javascript", "python"]
     },
     {
       "name": "Cilium",
@@ -756,18 +578,8 @@
       "num_projects": 3,
       "category": "Cloud",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6055505163714560/",
-      "topics": [
-        "cloud-native",
-        "networking",
-        "kernel"
-      ],
-      "technologies": [
-        "ebpf",
-        "kubernetes",
-        "c",
-        "go",
-        "linux"
-      ]
+      "topics": ["cloud-native", "networking", "kernel"],
+      "technologies": ["ebpf", "kubernetes", "c", "go", "linux"]
     },
     {
       "name": "CircuitVerse.org",
@@ -808,15 +620,8 @@
       "num_projects": 4,
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5667013157978112/",
-      "topics": [
-        "crm",
-        "nonprofit"
-      ],
-      "technologies": [
-        "mysql",
-        "php",
-        "angular"
-      ]
+      "topics": ["crm", "nonprofit"],
+      "technologies": ["mysql", "php", "angular"]
     },
     {
       "name": "CloudCV",
@@ -837,13 +642,7 @@
         "computer vision",
         "reinforcement learning"
       ],
-      "technologies": [
-        "python",
-        "django",
-        "aws",
-        "docker",
-        "angular"
-      ]
+      "technologies": ["python", "django", "aws", "docker", "angular"]
     },
     {
       "name": "CNCF",
@@ -857,14 +656,8 @@
       "num_projects": 16,
       "category": "Cloud",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5144170817126400/",
-      "topics": [
-        "cloud computing"
-      ],
-      "technologies": [
-        "kubernetes",
-        "go",
-        "rust"
-      ]
+      "topics": ["cloud computing"],
+      "technologies": ["kubernetes", "go", "rust"]
     },
     {
       "name": "coala",
@@ -878,18 +671,8 @@
       "num_projects": 4,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4904398832009216/",
-      "topics": [
-        "static code analysis",
-        "chat",
-        "devops"
-      ],
-      "technologies": [
-        "python 3",
-        "django",
-        "antlr",
-        "haskell",
-        "docker"
-      ]
+      "topics": ["static code analysis", "chat", "devops"],
+      "technologies": ["python 3", "django", "antlr", "haskell", "docker"]
     },
     {
       "name": "Continuous Delivery Foundation",
@@ -934,11 +717,7 @@
         "live migration",
         "checkpoint-restore"
       ],
-      "technologies": [
-        "linux kernel",
-        "c",
-        "python"
-      ]
+      "technologies": ["linux kernel", "c", "python"]
     },
     {
       "name": "Cuneiform Digital Library Initiative (CDLI)",
@@ -952,18 +731,8 @@
       "num_projects": 7,
       "category": "Data and Databases",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5679162177617920/",
-      "topics": [
-        "digitization",
-        "cultural heritage",
-        "nlp"
-      ],
-      "technologies": [
-        "php",
-        "mysql",
-        "python",
-        "javascript",
-        "java"
-      ]
+      "topics": ["digitization", "cultural heritage", "nlp"],
+      "technologies": ["php", "mysql", "python", "javascript", "java"]
     },
     {
       "name": "Dart",
@@ -977,14 +746,8 @@
       "num_projects": 3,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6522063568764928/",
-      "topics": [
-        "mobile apps"
-      ],
-      "technologies": [
-        "dart",
-        "flutter",
-        "programming-language"
-      ]
+      "topics": ["mobile apps"],
+      "technologies": ["dart", "flutter", "programming-language"]
     },
     {
       "name": "DBpedia",
@@ -1005,13 +768,7 @@
         "natural language processing",
         "data science"
       ],
-      "technologies": [
-        "rdf",
-        "scala",
-        "sparql",
-        "python",
-        "javascript"
-      ]
+      "technologies": ["rdf", "scala", "sparql", "python", "javascript"]
     },
     {
       "name": "Debian",
@@ -1032,13 +789,7 @@
         "clojure",
         "debian-ci"
       ],
-      "technologies": [
-        "git",
-        "python",
-        "javascript",
-        "c/c++",
-        "irc"
-      ]
+      "technologies": ["git", "python", "javascript", "c/c++", "irc"]
     },
     {
       "name": "DeepPavlov",
@@ -1052,11 +803,7 @@
       "num_projects": 3,
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6618455117135872/",
-      "topics": [
-        "nlp",
-        "conversational",
-        "agent"
-      ],
+      "topics": ["nlp", "conversational", "agent"],
       "technologies": [
         "python",
         "docker",
@@ -1111,13 +858,7 @@
         "international",
         "global"
       ],
-      "technologies": [
-        "javascript",
-        "android",
-        "python",
-        "linux",
-        "many more"
-      ]
+      "technologies": ["javascript", "android", "python", "linux", "many more"]
     },
     {
       "name": "Django Software Foundation",
@@ -1131,13 +872,8 @@
       "num_projects": 4,
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6030298738851840/",
-      "topics": [
-        "web development"
-      ],
-      "technologies": [
-        "python",
-        "django"
-      ]
+      "topics": ["web development"],
+      "technologies": ["python", "django"]
     },
     {
       "name": "Elm Tooling",
@@ -1151,17 +887,8 @@
       "num_projects": 2,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5833213695492096/",
-      "topics": [
-        "tooling",
-        "linter",
-        "parser",
-        "web"
-      ],
-      "technologies": [
-        "elm",
-        "functional programming",
-        "typescript"
-      ]
+      "topics": ["tooling", "linter", "parser", "web"],
+      "technologies": ["elm", "functional programming", "typescript"]
     },
     {
       "name": "FFmpeg",
@@ -1175,17 +902,8 @@
       "num_projects": 5,
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6245462977282048/",
-      "topics": [
-        "video",
-        "audio",
-        "subtitles",
-        "images",
-        "multimedia"
-      ],
-      "technologies": [
-        "c",
-        "assembler"
-      ]
+      "topics": ["video", "audio", "subtitles", "images", "multimedia"],
+      "technologies": ["c", "assembler"]
     },
     {
       "name": "Fortran-lang",
@@ -1206,13 +924,7 @@
         "libraries",
         "numerical computing"
       ],
-      "technologies": [
-        "fortran",
-        "python",
-        "c/c++",
-        "compiler",
-        "llvm"
-      ]
+      "technologies": ["fortran", "python", "c/c++", "compiler", "llvm"]
     },
     {
       "name": "FOSSology",
@@ -1226,18 +938,8 @@
       "num_projects": 7,
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5641437164601344/",
-      "topics": [
-        "compliance",
-        "license management",
-        "licensing"
-      ],
-      "technologies": [
-        "php",
-        "c/c++",
-        "javascript",
-        "postgresql",
-        "python"
-      ]
+      "topics": ["compliance", "license management", "licensing"],
+      "technologies": ["php", "c/c++", "javascript", "postgresql", "python"]
     },
     {
       "name": "FrameNet Brasil (UFJF)",
@@ -1257,12 +959,7 @@
         "multimodal communication",
         "multilinguality"
       ],
-      "technologies": [
-        "php",
-        "mysql",
-        "javascript",
-        "python"
-      ]
+      "technologies": ["php", "mysql", "javascript", "python"]
     },
     {
       "name": "Free and Open Source Silicon Foundation",
@@ -1310,13 +1007,7 @@
         "cloud",
         "kernel"
       ],
-      "technologies": [
-        "c/c+",
-        "llvm",
-        "shell script",
-        "assembly",
-        "make"
-      ]
+      "technologies": ["c/c+", "llvm", "shell script", "assembly", "make"]
     },
     {
       "name": "FreeType",
@@ -1330,16 +1021,8 @@
       "num_projects": 1,
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5483147923292160/",
-      "topics": [
-        "truetype",
-        "opentype",
-        "fonts",
-        "graphics",
-        "rendering"
-      ],
-      "technologies": [
-        "c"
-      ]
+      "topics": ["truetype", "opentype", "fonts", "graphics", "rendering"],
+      "technologies": ["c"]
     },
     {
       "name": "freifunk",
@@ -1360,13 +1043,7 @@
         "decentralized",
         "federation"
       ],
-      "technologies": [
-        "rust",
-        "c/c++",
-        "json",
-        "python",
-        "shell"
-      ]
+      "technologies": ["rust", "c/c++", "json", "python", "shell"]
     },
     {
       "name": "FRRouting",
@@ -1387,13 +1064,7 @@
         "systems programming",
         "linux"
       ],
-      "technologies": [
-        "c",
-        "linux",
-        "linux kernel",
-        "networking",
-        "routing"
-      ]
+      "technologies": ["c", "linux", "linux kernel", "networking", "routing"]
     },
     {
       "name": "Genome Assembly and Annotation",
@@ -1414,13 +1085,7 @@
         "data science",
         "workflows"
       ],
-      "technologies": [
-        "python",
-        "rust",
-        "pytorch",
-        "javascript",
-        "mysql"
-      ]
+      "technologies": ["python", "rust", "pytorch", "javascript", "mysql"]
     },
     {
       "name": "Gentoo Foundation",
@@ -1441,13 +1106,7 @@
         "security",
         "automation"
       ],
-      "technologies": [
-        "shell",
-        "bash",
-        "c/c++",
-        "python",
-        "linux"
-      ]
+      "technologies": ["shell", "bash", "c/c++", "python", "linux"]
     },
     {
       "name": "GeomScale",
@@ -1468,13 +1127,7 @@
         "mathematics",
         "data science"
       ],
-      "technologies": [
-        "c++",
-        "python",
-        "r",
-        "jupyter",
-        "github-actions"
-      ]
+      "technologies": ["c++", "python", "r", "jupyter", "github-actions"]
     },
     {
       "name": "GFOSS - Open Technology Alliance",
@@ -1488,13 +1141,7 @@
       "num_projects": 9,
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5185060013080576/",
-      "topics": [
-        "python",
-        "java",
-        "javascript",
-        "open hardware",
-        "perl"
-      ],
+      "topics": ["python", "java", "javascript", "open hardware", "perl"],
       "technologies": [
         "python",
         "javascript",
@@ -1515,15 +1162,8 @@
       "num_projects": 2,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6398200235163648/",
-      "topics": [
-        "version control",
-        "dvcs"
-      ],
-      "technologies": [
-        "c language",
-        "shell script",
-        "git"
-      ]
+      "topics": ["version control", "dvcs"],
+      "technologies": ["c language", "shell script", "git"]
     },
     {
       "name": "GitLab",
@@ -1537,16 +1177,8 @@
       "num_projects": 4,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5396515480141824/",
-      "topics": [
-        "devops"
-      ],
-      "technologies": [
-        "ruby",
-        "git",
-        "ci",
-        "devops",
-        "golang"
-      ]
+      "topics": ["devops"],
+      "technologies": ["ruby", "git", "ci", "devops", "golang"]
     },
     {
       "name": "Global Alliance for Genomics and Health",
@@ -1567,13 +1199,7 @@
         "cloud",
         "data discovery"
       ],
-      "technologies": [
-        "java",
-        "python",
-        "spring",
-        "sql",
-        "hl7 fhir"
-      ]
+      "technologies": ["java", "python", "spring", "sql", "hl7 fhir"]
     },
     {
       "name": "GNOME Foundation",
@@ -1594,13 +1220,7 @@
         "end user application",
         "application"
       ],
-      "technologies": [
-        "gtk",
-        "python",
-        "c",
-        "javascript",
-        "rust"
-      ]
+      "technologies": ["gtk", "python", "c", "javascript", "rust"]
     },
     {
       "name": "GNSS-SDR",
@@ -1621,13 +1241,7 @@
         "signal processing",
         "software defined radio"
       ],
-      "technologies": [
-        "c++11",
-        "c++14",
-        "c++17",
-        "c++20",
-        "gnss"
-      ]
+      "technologies": ["c++11", "c++14", "c++17", "c++20", "gnss"]
     },
     {
       "name": "GNU Compiler Collection (GCC)",
@@ -1641,18 +1255,8 @@
       "num_projects": 3,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5653860256841728/",
-      "topics": [
-        "compilers",
-        "developer tools",
-        "toolchain",
-        "openmp",
-        "rust"
-      ],
-      "technologies": [
-        "c/c++",
-        "gnu autotools",
-        "gnu make"
-      ]
+      "topics": ["compilers", "developer tools", "toolchain", "openmp", "rust"],
+      "technologies": ["c/c++", "gnu autotools", "gnu make"]
     },
     {
       "name": "GNU Mailman Project",
@@ -1666,16 +1270,8 @@
       "num_projects": 0,
       "category": "Social / Communications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5211080233582592/",
-      "topics": [
-        "mail",
-        "web"
-      ],
-      "technologies": [
-        "python",
-        "django",
-        "restful api",
-        "sqlalchemy"
-      ]
+      "topics": ["mail", "web"],
+      "technologies": ["python", "django", "restful api", "sqlalchemy"]
     },
     {
       "name": "GNU Octave",
@@ -1696,10 +1292,7 @@
         "matlab",
         "scientific computing"
       ],
-      "technologies": [
-        "c++",
-        "hg"
-      ]
+      "technologies": ["c++", "hg"]
     },
     {
       "name": "GNU Radio",
@@ -1718,11 +1311,7 @@
         "signal processing",
         "communication"
       ],
-      "technologies": [
-        "c++",
-        "python",
-        "qt"
-      ]
+      "technologies": ["c++", "python", "qt"]
     },
     {
       "name": "Godot Engine",
@@ -1742,12 +1331,7 @@
         "graphics",
         "virtual reality"
       ],
-      "technologies": [
-        "c/c+",
-        "opengl",
-        "vulkan",
-        "gdscript"
-      ]
+      "technologies": ["c/c+", "opengl", "vulkan", "gdscript"]
     },
     {
       "name": "Google FHIR SDK",
@@ -1768,13 +1352,7 @@
         "gis",
         "enteprise analytics"
       ],
-      "technologies": [
-        "fhir",
-        "android",
-        "kotlin",
-        "sqlite",
-        "materialui"
-      ]
+      "technologies": ["fhir", "android", "kotlin", "sqlite", "materialui"]
     },
     {
       "name": "gprMax",
@@ -1795,13 +1373,7 @@
         "electromagnetics",
         "optimisation"
       ],
-      "technologies": [
-        "python",
-        "cuda",
-        "openmp",
-        "cython",
-        "mpi"
-      ]
+      "technologies": ["python", "cuda", "openmp", "cython", "mpi"]
     },
     {
       "name": "GRR Rapid Response",
@@ -1815,10 +1387,7 @@
       "num_projects": 0,
       "category": "Security",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5763186065670144/",
-      "topics": [
-        "computer security",
-        "digital forensics"
-      ],
+      "topics": ["computer security", "digital forensics"],
       "technologies": [
         "python 3",
         "angular",
@@ -1839,18 +1408,8 @@
       "num_projects": 1,
       "category": "Operating Systems",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5119642997096448/",
-      "topics": [
-        "containers",
-        "sandbox",
-        "virtualization",
-        "kernel"
-      ],
-      "technologies": [
-        "golang",
-        "linux",
-        "posix",
-        "c/c++"
-      ]
+      "topics": ["containers", "sandbox", "virtualization", "kernel"],
+      "technologies": ["golang", "linux", "posix", "c/c++"]
     },
     {
       "name": "Haiku",
@@ -1864,19 +1423,8 @@
       "num_projects": 3,
       "category": "Operating Systems",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5748009966501888/",
-      "topics": [
-        "desktop",
-        "network",
-        "media",
-        "graphics",
-        "web"
-      ],
-      "technologies": [
-        "c++",
-        "bsd unix",
-        "posix",
-        "virtualization"
-      ]
+      "topics": ["desktop", "network", "media", "graphics", "web"],
+      "technologies": ["c++", "bsd unix", "posix", "virtualization"]
     },
     {
       "name": "Halide",
@@ -1896,10 +1444,7 @@
         "high-performance computing",
         "computer vision"
       ],
-      "technologies": [
-        "llvm",
-        "c++"
-      ]
+      "technologies": ["llvm", "c++"]
     },
     {
       "name": "Haskell.org",
@@ -1920,11 +1465,7 @@
         "#programming-languages",
         "#programming-tools"
       ],
-      "technologies": [
-        "haskell",
-        "ghc",
-        "compiler"
-      ]
+      "technologies": ["haskell", "ghc", "compiler"]
     },
     {
       "name": "Hydra Ecosystem",
@@ -1945,13 +1486,7 @@
         "knowledge graphs",
         "rest apis"
       ],
-      "technologies": [
-        "postgresql",
-        "docker",
-        "javascript",
-        "redis",
-        "python"
-      ]
+      "technologies": ["postgresql", "docker", "javascript", "redis", "python"]
     },
     {
       "name": "INCF",
@@ -1972,13 +1507,7 @@
         "data visualization",
         "big data"
       ],
-      "technologies": [
-        "python",
-        "c/c++",
-        "tensorflow",
-        "java",
-        "javascript"
-      ]
+      "technologies": ["python", "c/c++", "tensorflow", "java", "javascript"]
     },
     {
       "name": "Inkscape",
@@ -1992,15 +1521,8 @@
       "num_projects": 6,
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5656327346454528/",
-      "topics": [
-        "vector graphics",
-        "design",
-        "web"
-      ],
-      "technologies": [
-        "c/c++",
-        "python 3"
-      ]
+      "topics": ["vector graphics", "design", "web"],
+      "technologies": ["c/c++", "python 3"]
     },
     {
       "name": "Integrated Ocean Observing System (IOOS)",
@@ -2020,11 +1542,7 @@
         "open data",
         "data discovery"
       ],
-      "technologies": [
-        "python",
-        "big data science",
-        "ocean technology"
-      ]
+      "technologies": ["python", "big data science", "ocean technology"]
     },
     {
       "name": "Intel Video and Audio for Linux",
@@ -2043,12 +1561,7 @@
         "360 stereo video",
         "ffmpeg neuronetwork"
       ],
-      "technologies": [
-        "ffmpeg",
-        "gstreamer",
-        "libxcam",
-        "vaapi"
-      ]
+      "technologies": ["ffmpeg", "gstreamer", "libxcam", "vaapi"]
     },
     {
       "name": "International Catrobat Association",
@@ -2069,13 +1582,7 @@
         "creativity tools",
         "education"
       ],
-      "technologies": [
-        "android",
-        "swift",
-        "php",
-        "javascript",
-        "kotlin"
-      ]
+      "technologies": ["android", "swift", "php", "javascript", "kotlin"]
     },
     {
       "name": "Internet Archive",
@@ -2089,9 +1596,7 @@
       "num_projects": 2,
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6193723385315328/",
-      "topics": [
-        "archiving"
-      ],
+      "topics": ["archiving"],
       "technologies": [
         "python",
         "javascript",
@@ -2112,18 +1617,8 @@
       "num_projects": 2,
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5760795715043328/",
-      "topics": [
-        "science",
-        "literature",
-        "library"
-      ],
-      "technologies": [
-        "java",
-        "javafx",
-        "bibtex",
-        "latex",
-        "typescript"
-      ]
+      "topics": ["science", "literature", "library"],
+      "technologies": ["java", "javafx", "bibtex", "latex", "typescript"]
     },
     {
       "name": "Java PathFinder",
@@ -2144,12 +1639,7 @@
         "program analysis",
         "jvm"
       ],
-      "technologies": [
-        "android",
-        "distributed systems",
-        "java",
-        "jvm"
-      ]
+      "technologies": ["android", "distributed systems", "java", "jvm"]
     },
     {
       "name": "JBoss Community",
@@ -2163,20 +1653,8 @@
       "num_projects": 10,
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5722851356704768/",
-      "topics": [
-        "iot",
-        "cloud",
-        "machine learning",
-        "messaging",
-        "cfc"
-      ],
-      "technologies": [
-        "java",
-        "golang",
-        "rust",
-        "kubernetes",
-        "node.js"
-      ]
+      "topics": ["iot", "cloud", "machine learning", "messaging", "cfc"],
+      "technologies": ["java", "golang", "rust", "kubernetes", "node.js"]
     },
     {
       "name": "JdeRobot - Universidad Rey Juan Carlos",
@@ -2197,13 +1675,7 @@
         "developer tools",
         "artificial intelligence"
       ],
-      "technologies": [
-        "ros",
-        "gazebo",
-        "tensorflow",
-        "opencv",
-        "python"
-      ]
+      "technologies": ["ros", "gazebo", "tensorflow", "opencv", "python"]
     },
     {
       "name": "Joomla!",
@@ -2224,13 +1696,7 @@
         "programming languages",
         "cms"
       ],
-      "technologies": [
-        "php",
-        "javascript",
-        "mysql",
-        "html",
-        "css"
-      ]
+      "technologies": ["php", "javascript", "mysql", "html", "css"]
     },
     {
       "name": "Joplin",
@@ -2271,18 +1737,8 @@
       "num_projects": 15,
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4834047200591872/",
-      "topics": [
-        "education",
-        "science",
-        "art"
-      ],
-      "technologies": [
-        "c++",
-        "qt",
-        "qml",
-        "data structures",
-        "opengl"
-      ]
+      "topics": ["education", "science", "art"],
+      "technologies": ["c++", "qt", "qml", "data structures", "opengl"]
     },
     {
       "name": "Kiwix",
@@ -2296,16 +1752,8 @@
       "num_projects": 3,
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6595970359361536/",
-      "topics": [
-        "offline access"
-      ],
-      "technologies": [
-        "python",
-        "c/c++",
-        "typescript",
-        "kotlin",
-        "nodejs"
-      ]
+      "topics": ["offline access"],
+      "technologies": ["python", "c/c++", "typescript", "kotlin", "nodejs"]
     },
     {
       "name": "Kodi",
@@ -2319,19 +1767,8 @@
       "num_projects": 2,
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5186500538400768/",
-      "topics": [
-        "media",
-        "video",
-        "audio",
-        "games"
-      ],
-      "technologies": [
-        "c++",
-        "ffmpeg",
-        "sqlite",
-        "python",
-        "opengl"
-      ]
+      "topics": ["media", "video", "audio", "games"],
+      "technologies": ["c++", "ffmpeg", "sqlite", "python", "opengl"]
     },
     {
       "name": "LabLua",
@@ -2345,15 +1782,8 @@
       "num_projects": 4,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5651367128989696/",
-      "topics": [
-        "scripting languages",
-        "reactive languages"
-      ],
-      "technologies": [
-        "lua",
-        "c\u00e9u",
-        "kernel"
-      ]
+      "topics": ["scripting languages", "reactive languages"],
+      "technologies": ["lua", "c\u00e9u", "kernel"]
     },
     {
       "name": "Learning Equality",
@@ -2367,18 +1797,8 @@
       "num_projects": 1,
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5523941925322752/",
-      "topics": [
-        "offline",
-        "distributed databases",
-        "education",
-        "learning"
-      ],
-      "technologies": [
-        "django",
-        "vue.js",
-        "python",
-        "javascript"
-      ]
+      "topics": ["offline", "distributed databases", "education", "learning"],
+      "technologies": ["django", "vue.js", "python", "javascript"]
     },
     {
       "name": "libcamera",
@@ -2392,17 +1812,8 @@
       "num_projects": 2,
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5084072715485184/",
-      "topics": [
-        "camera",
-        "image processing"
-      ],
-      "technologies": [
-        "c/c++",
-        "qt5",
-        "gstreamer",
-        "v4l2",
-        "linux kernel"
-      ]
+      "topics": ["camera", "image processing"],
+      "technologies": ["c/c++", "qt5", "gstreamer", "v4l2", "linux kernel"]
     },
     {
       "name": "Libre Space Foundation",
@@ -2442,17 +1853,8 @@
       "num_projects": 2,
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5642529495580672/",
-      "topics": [
-        "space",
-        "cubesat",
-        "mission control"
-      ],
-      "technologies": [
-        "python",
-        "micropython",
-        "zmq",
-        "mbed"
-      ]
+      "topics": ["space", "cubesat", "mission control"],
+      "technologies": ["python", "micropython", "zmq", "mbed"]
     },
     {
       "name": "LibreHealth",
@@ -2466,19 +1868,8 @@
       "num_projects": 5,
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6009541631672320/",
-      "topics": [
-        "web",
-        "radiology",
-        "deep learning",
-        "mobile apps"
-      ],
-      "technologies": [
-        "android",
-        "java",
-        "javascript",
-        "python",
-        "php"
-      ]
+      "topics": ["web", "radiology", "deep learning", "mobile apps"],
+      "technologies": ["android", "java", "javascript", "python", "php"]
     },
     {
       "name": "LibreOffice",
@@ -2492,16 +1883,8 @@
       "num_projects": 7,
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4920197969870848/",
-      "topics": [
-        "office suite",
-        "end user application",
-        "desktop application"
-      ],
-      "technologies": [
-        "c++",
-        "python",
-        "java"
-      ]
+      "topics": ["office suite", "end user application", "desktop application"],
+      "technologies": ["c++", "python", "java"]
     },
     {
       "name": "libvirt",
@@ -2515,15 +1898,8 @@
       "num_projects": 1,
       "category": "Cloud",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4791907464511488/",
-      "topics": [
-        "virtualization",
-        "library"
-      ],
-      "technologies": [
-        "kvm",
-        "hypervisor",
-        "xen"
-      ]
+      "topics": ["virtualization", "library"],
+      "technologies": ["kvm", "hypervisor", "xen"]
     },
     {
       "name": "Liquid Galaxy project",
@@ -2537,13 +1913,7 @@
       "num_projects": 11,
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5964067927228416/",
-      "topics": [
-        "maps",
-        "visualization",
-        "cluster",
-        "linux",
-        "google earth"
-      ],
+      "topics": ["maps", "visualization", "cluster", "linux", "google earth"],
       "technologies": [
         "python",
         "java",
@@ -2625,13 +1995,7 @@
         "distributed systems",
         "cloud"
       ],
-      "technologies": [
-        "mariadb",
-        "mysql",
-        "c",
-        "c++",
-        "python"
-      ]
+      "technologies": ["mariadb", "mysql", "c", "c++", "python"]
     },
     {
       "name": "Matrix.org",
@@ -2645,11 +2009,7 @@
       "num_projects": 7,
       "category": "Social / Communications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4920269205929984/",
-      "topics": [
-        "decentralized",
-        "decentralisation",
-        "json"
-      ],
+      "topics": ["decentralized", "decentralisation", "json"],
       "technologies": [
         "decentralisation",
         "python",
@@ -2670,16 +2030,8 @@
       "num_projects": 3,
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5504645576785920/",
-      "topics": [
-        "machine learning",
-        "civic tech",
-        "web",
-        "gis"
-      ],
-      "technologies": [
-        "python",
-        "javascript"
-      ]
+      "topics": ["machine learning", "civic tech", "web", "gis"],
+      "technologies": ["python", "javascript"]
     },
     {
       "name": "MBDyn",
@@ -2700,10 +2052,7 @@
         "aeroelasticity",
         "multiphysics"
       ],
-      "technologies": [
-        "c/c++",
-        "python"
-      ]
+      "technologies": ["c/c++", "python"]
     },
     {
       "name": "MDAnalysis",
@@ -2724,11 +2073,7 @@
         "materials",
         "biochemistry"
       ],
-      "technologies": [
-        "python",
-        "c/c++",
-        "cython"
-      ]
+      "technologies": ["python", "c/c++", "cython"]
     },
     {
       "name": "Media Cloud",
@@ -2749,13 +2094,7 @@
         "civic-tech",
         "research"
       ],
-      "technologies": [
-        "javascript",
-        "python",
-        "react",
-        "docker",
-        "postgresql"
-      ]
+      "technologies": ["javascript", "python", "react", "docker", "postgresql"]
     },
     {
       "name": "MediaPipe",
@@ -2776,13 +2115,7 @@
         "ml-inference",
         "deep learning"
       ],
-      "technologies": [
-        "android",
-        "ios",
-        "python",
-        "javascript",
-        "c++"
-      ]
+      "technologies": ["android", "ios", "python", "javascript", "c++"]
     },
     {
       "name": "MetaBrainz Foundation Inc",
@@ -2796,20 +2129,8 @@
       "num_projects": 5,
       "category": "Data and Databases",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4875887060713472/",
-      "topics": [
-        "open data",
-        "music",
-        "books",
-        "databases",
-        "hosting"
-      ],
-      "technologies": [
-        "python",
-        "postgresql",
-        "spark",
-        "react",
-        "rust"
-      ]
+      "topics": ["open data", "music", "books", "databases", "hosting"],
+      "technologies": ["python", "postgresql", "spark", "react", "rust"]
     },
     {
       "name": "MetaCall",
@@ -2830,13 +2151,7 @@
         "foreign function interface",
         "cross-platform"
       ],
-      "technologies": [
-        "c/c++",
-        "javascript",
-        "python",
-        "cmake",
-        "guix"
-      ]
+      "technologies": ["c/c++", "javascript", "python", "cmake", "guix"]
     },
     {
       "name": "Metasploit",
@@ -2856,13 +2171,7 @@
         "offensive security",
         "exploitation"
       ],
-      "technologies": [
-        "ruby",
-        "postgresql",
-        "python",
-        "c",
-        "assembly"
-      ]
+      "technologies": ["ruby", "postgresql", "python", "c", "assembly"]
     },
     {
       "name": "MGGG Redistricting Lab",
@@ -2882,13 +2191,7 @@
         "graph algorithms",
         "statistics"
       ],
-      "technologies": [
-        "python",
-        "javascript",
-        "gis",
-        "julia",
-        "statistics"
-      ]
+      "technologies": ["python", "javascript", "gis", "julia", "statistics"]
     },
     {
       "name": "MIT App Inventor",
@@ -2902,15 +2205,8 @@
       "num_projects": 5,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5354857417932800/",
-      "topics": [
-        "education",
-        "mobile"
-      ],
-      "technologies": [
-        "gwt",
-        "java",
-        "javascript"
-      ]
+      "topics": ["education", "mobile"],
+      "technologies": ["gwt", "java", "javascript"]
     },
     {
       "name": "mlpack",
@@ -2931,10 +2227,7 @@
         "linear algebra",
         "reinforcement learning"
       ],
-      "technologies": [
-        "c++",
-        "openmp"
-      ]
+      "technologies": ["c++", "openmp"]
     },
     {
       "name": "MoveIt",
@@ -2948,14 +2241,8 @@
       "num_projects": 1,
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5449155236855808/",
-      "topics": [
-        "robotics"
-      ],
-      "technologies": [
-        "c/c++",
-        "python 3",
-        "robotics"
-      ]
+      "topics": ["robotics"],
+      "technologies": ["c/c++", "python 3", "robotics"]
     },
     {
       "name": "MuseScore",
@@ -2969,17 +2256,8 @@
       "num_projects": 3,
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5844642704130048/",
-      "topics": [
-        "music",
-        "notation",
-        "audio",
-        "engraving"
-      ],
-      "technologies": [
-        "qt",
-        "qml",
-        "c++"
-      ]
+      "topics": ["music", "notation", "audio", "engraving"],
+      "technologies": ["qt", "qml", "c++"]
     },
     {
       "name": "mypy",
@@ -2993,12 +2271,8 @@
       "num_projects": 2,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4693309712236544/",
-      "topics": [
-        "compilers"
-      ],
-      "technologies": [
-        "python"
-      ]
+      "topics": ["compilers"],
+      "technologies": ["python"]
     },
     {
       "name": "National Resource for Network Biology (NRNB)",
@@ -3019,13 +2293,7 @@
         "scientific computing",
         "data science"
       ],
-      "technologies": [
-        "java",
-        "javascript",
-        "python",
-        "r",
-        "xml"
-      ]
+      "technologies": ["java", "javascript", "python", "r", "xml"]
     },
     {
       "name": "Navidrome",
@@ -3039,16 +2307,8 @@
       "num_projects": 1,
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5963988000571392/",
-      "topics": [
-        "music",
-        "web",
-        "streaming"
-      ],
-      "technologies": [
-        "react",
-        "golang",
-        "ffmpeg"
-      ]
+      "topics": ["music", "web", "streaming"],
+      "technologies": ["react", "golang", "ffmpeg"]
     },
     {
       "name": "NumFOCUS",
@@ -3068,13 +2328,7 @@
         "graphics",
         "data science"
       ],
-      "technologies": [
-        "python",
-        "c/c++",
-        "javascript",
-        "r",
-        "julia"
-      ]
+      "technologies": ["python", "c/c++", "javascript", "r", "julia"]
     },
     {
       "name": "Open Bioinformatics Foundation",
@@ -3088,18 +2342,8 @@
       "num_projects": 8,
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6326136019091456/",
-      "topics": [
-        "bioinformatics",
-        "genomics",
-        "workflows"
-      ],
-      "technologies": [
-        "python",
-        "c++",
-        "c",
-        "react",
-        "javascript"
-      ]
+      "topics": ["bioinformatics", "genomics", "workflows"],
+      "technologies": ["python", "c++", "c", "react", "javascript"]
     },
     {
       "name": "Open Chemistry",
@@ -3119,13 +2363,7 @@
         "graphics",
         "data science"
       ],
-      "technologies": [
-        "c++14",
-        "c++17",
-        "python",
-        "javascript",
-        "opengl"
-      ]
+      "technologies": ["c++14", "c++17", "python", "javascript", "opengl"]
     },
     {
       "name": "Open Genome Informatics",
@@ -3146,13 +2384,7 @@
         "bioinformatics",
         "data and databases"
       ],
-      "technologies": [
-        "neo4j",
-        "python",
-        "mysql",
-        "react",
-        "javascript"
-      ]
+      "technologies": ["neo4j", "python", "mysql", "react", "javascript"]
     },
     {
       "name": "Open Roberta",
@@ -3166,18 +2398,8 @@
       "num_projects": 0,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6381326080409600/",
-      "topics": [
-        "robotics",
-        "education",
-        "visual programming"
-      ],
-      "technologies": [
-        "java",
-        "typescript",
-        "python",
-        "c++",
-        "go"
-      ]
+      "topics": ["robotics", "education", "visual programming"],
+      "technologies": ["java", "typescript", "python", "c++", "go"]
     },
     {
       "name": "Open Robotics",
@@ -3191,16 +2413,8 @@
       "num_projects": 2,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5698036243628032/",
-      "topics": [
-        "robotics"
-      ],
-      "technologies": [
-        "ros",
-        "gazebo",
-        "ignition",
-        "c/c++",
-        "python"
-      ]
+      "topics": ["robotics"],
+      "technologies": ["ros", "gazebo", "ignition", "c/c++", "python"]
     },
     {
       "name": "openastronomy",
@@ -3220,13 +2434,7 @@
         "high energy astrophysics",
         "astrophysics"
       ],
-      "technologies": [
-        "python",
-        "julia",
-        "numba",
-        "spark",
-        "javascript"
-      ]
+      "technologies": ["python", "julia", "numba", "spark", "javascript"]
     },
     {
       "name": "OpenCV",
@@ -3240,17 +2448,8 @@
       "num_projects": 11,
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5722622045716480/",
-      "topics": [
-        "computer vision",
-        "robotics"
-      ],
-      "technologies": [
-        "c++",
-        "python 3",
-        "javascript",
-        "opengl",
-        "cuda"
-      ]
+      "topics": ["computer vision", "robotics"],
+      "technologies": ["c++", "python 3", "javascript", "opengl", "cuda"]
     },
     {
       "name": "OpenMined",
@@ -3296,13 +2495,7 @@
         "open source",
         "electronic medical records"
       ],
-      "technologies": [
-        "java",
-        "javascript",
-        "spring",
-        "mysql",
-        "android"
-      ]
+      "technologies": ["java", "javascript", "spring", "mysql", "android"]
     },
     {
       "name": "OpenStreetMap",
@@ -3316,19 +2509,8 @@
       "num_projects": 4,
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5165116701540352/",
-      "topics": [
-        "maps",
-        "open data",
-        "crowdsourcing",
-        "gis"
-      ],
-      "technologies": [
-        "java",
-        "javascript",
-        "ruby",
-        "python",
-        "postgresql"
-      ]
+      "topics": ["maps", "open data", "crowdsourcing", "gis"],
+      "technologies": ["java", "javascript", "ruby", "python", "postgresql"]
     },
     {
       "name": "openSUSE Project",
@@ -3369,20 +2551,8 @@
       "num_projects": 5,
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5206079750799360/",
-      "topics": [
-        "network management system",
-        "wifi",
-        "mesh",
-        "hotspot",
-        "iot"
-      ],
-      "technologies": [
-        "python",
-        "django",
-        "openwrt",
-        "javascript",
-        "lua"
-      ]
+      "topics": ["network management system", "wifi", "mesh", "hotspot", "iot"],
+      "technologies": ["python", "django", "openwrt", "javascript", "lua"]
     },
     {
       "name": "Oppia Foundation",
@@ -3396,20 +2566,8 @@
       "num_projects": 18,
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5223170600075264/",
-      "topics": [
-        "education",
-        "web",
-        "interactive",
-        "nonprofit",
-        "community"
-      ],
-      "technologies": [
-        "angular",
-        "python",
-        "kotlin",
-        "css",
-        "typescript"
-      ]
+      "topics": ["education", "web", "interactive", "nonprofit", "community"],
+      "technologies": ["angular", "python", "kotlin", "css", "typescript"]
     },
     {
       "name": "Orcasound",
@@ -3457,13 +2615,7 @@
         "open science",
         "citizen science"
       ],
-      "technologies": [
-        "python",
-        "c/c++",
-        "javascript",
-        "sql",
-        "java"
-      ]
+      "technologies": ["python", "c/c++", "javascript", "sql", "java"]
     },
     {
       "name": "OWASP Foundation",
@@ -3483,12 +2635,7 @@
         "top 10",
         "pentesting"
       ],
-      "technologies": [
-        "python",
-        "javascript",
-        "c/c++",
-        "golang"
-      ]
+      "technologies": ["python", "javascript", "c/c++", "golang"]
     },
     {
       "name": "PEcAn Project",
@@ -3509,13 +2656,7 @@
         "data science",
         "climate science"
       ],
-      "technologies": [
-        "r",
-        "api",
-        "docker",
-        "kubernetes",
-        "postgresql"
-      ]
+      "technologies": ["r", "api", "docker", "kubernetes", "postgresql"]
     },
     {
       "name": "Pharo Consortium",
@@ -3536,12 +2677,7 @@
         "ide",
         "visualization"
       ],
-      "technologies": [
-        "pharo",
-        "smalltalk",
-        "roassal",
-        "spec"
-      ]
+      "technologies": ["pharo", "smalltalk", "roassal", "spec"]
     },
     {
       "name": "Pidgin Instant Messenger",
@@ -3555,18 +2691,8 @@
       "num_projects": 1,
       "category": "Social / Communications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5646348627476480/",
-      "topics": [
-        "chat",
-        "web",
-        "real time",
-        "voice",
-        "video"
-      ],
-      "technologies": [
-        "c",
-        "gtk",
-        "gstreamer"
-      ]
+      "topics": ["chat", "web", "real time", "voice", "video"],
+      "technologies": ["c", "gtk", "gstreamer"]
     },
     {
       "name": "Pitivi",
@@ -3580,17 +2706,8 @@
       "num_projects": 2,
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5952433766793216/",
-      "topics": [
-        "filmmaking",
-        "video editing",
-        "video processing"
-      ],
-      "technologies": [
-        "python",
-        "gtk",
-        "gstreamer",
-        "c"
-      ]
+      "topics": ["filmmaking", "video editing", "video processing"],
+      "technologies": ["python", "gtk", "gstreamer", "c"]
     },
     {
       "name": "Plan 9 Foundation",
@@ -3609,12 +2726,7 @@
         "distributed systems",
         "network programming"
       ],
-      "technologies": [
-        "c",
-        "distributed systems",
-        "concurrency",
-        "golang"
-      ]
+      "technologies": ["c", "distributed systems", "concurrency", "golang"]
     },
     {
       "name": "Point Cloud Library",
@@ -3635,13 +2747,7 @@
         "data structures",
         "gpu computing"
       ],
-      "technologies": [
-        "computer vision",
-        "c++14",
-        "python",
-        "cuda",
-        "cmake"
-      ]
+      "technologies": ["computer vision", "c++14", "python", "cuda", "cmake"]
     },
     {
       "name": "Polypheny",
@@ -3655,19 +2761,8 @@
       "num_projects": 3,
       "category": "Data and Databases",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5697965007568896/",
-      "topics": [
-        "polystore",
-        "databases",
-        "nosql",
-        "ui",
-        "big data"
-      ],
-      "technologies": [
-        "java",
-        "javascript",
-        "angular",
-        "sql"
-      ]
+      "topics": ["polystore", "databases", "nosql", "ui", "big data"],
+      "technologies": ["java", "javascript", "angular", "sql"]
     },
     {
       "name": "PostgreSQL",
@@ -3681,20 +2776,8 @@
       "num_projects": 6,
       "category": "Data and Databases",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6316019928268800/",
-      "topics": [
-        "relational database",
-        "data",
-        "web",
-        "postgresql",
-        "sql"
-      ],
-      "technologies": [
-        "sql",
-        "c",
-        "python",
-        "julia",
-        "perl"
-      ]
+      "topics": ["relational database", "data", "web", "postgresql", "sql"],
+      "technologies": ["sql", "c", "python", "julia", "perl"]
     },
     {
       "name": "Postman",
@@ -3735,20 +2818,8 @@
       "num_projects": 11,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4923136667025408/",
-      "topics": [
-        "creative coding",
-        "graphics",
-        "web",
-        "education",
-        "design"
-      ],
-      "technologies": [
-        "java",
-        "javascr",
-        "python",
-        "android",
-        "opengl"
-      ]
+      "topics": ["creative coding", "graphics", "web", "education", "design"],
+      "technologies": ["java", "javascr", "python", "android", "opengl"]
     },
     {
       "name": "Project WikiLoop",
@@ -3767,11 +2838,7 @@
         "computer-assisted translation",
         "cultural heritage"
       ],
-      "technologies": [
-        "mediawiki",
-        "python",
-        "java"
-      ]
+      "technologies": ["mediawiki", "python", "java"]
     },
     {
       "name": "Public Lab",
@@ -3785,18 +2852,8 @@
       "num_projects": 4,
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6245542903939072/",
-      "topics": [
-        "science",
-        "environment",
-        "diversity",
-        "community",
-        "diy"
-      ],
-      "technologies": [
-        "ruby on rails",
-        "javascript",
-        "node"
-      ]
+      "topics": ["science", "environment", "diversity", "community", "diy"],
+      "technologies": ["ruby on rails", "javascript", "node"]
     },
     {
       "name": "Purr Data",
@@ -3816,13 +2873,7 @@
         "real-time",
         "visual programming"
       ],
-      "technologies": [
-        "c",
-        "c++",
-        "javascript",
-        "html",
-        "css"
-      ]
+      "technologies": ["c", "c++", "javascript", "html", "css"]
     },
     {
       "name": "Python Software Foundation",
@@ -3836,13 +2887,8 @@
       "num_projects": 34,
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5068943793848320/",
-      "topics": [
-        "programming languages",
-        "science and medicine"
-      ],
-      "technologies": [
-        "python"
-      ]
+      "topics": ["programming languages", "science and medicine"],
+      "technologies": ["python"]
     },
     {
       "name": "QEMU",
@@ -3863,12 +2909,7 @@
         "code generation",
         "lowlevel"
       ],
-      "technologies": [
-        "c",
-        "python",
-        "rust",
-        "linux"
-      ]
+      "technologies": ["c", "python", "rust", "linux"]
     },
     {
       "name": "Qubes OS",
@@ -3882,17 +2923,8 @@
       "num_projects": 1,
       "category": "Operating Systems",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5682513023860736/",
-      "topics": [
-        "security",
-        "privacy",
-        "virtualization"
-      ],
-      "technologies": [
-        "python",
-        "shell",
-        "c",
-        "ruby"
-      ]
+      "topics": ["security", "privacy", "virtualization"],
+      "technologies": ["python", "shell", "c", "ruby"]
     },
     {
       "name": "React Native Elements",
@@ -3906,15 +2938,8 @@
       "num_projects": 2,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4838168020385792/",
-      "topics": [
-        "ui toolkit",
-        "design system"
-      ],
-      "technologies": [
-        "javascript",
-        "react",
-        "react native"
-      ]
+      "topics": ["ui toolkit", "design system"],
+      "technologies": ["javascript", "react", "react native"]
     },
     {
       "name": "ReactOS",
@@ -3935,12 +2960,7 @@
         "windows",
         "applications"
       ],
-      "technologies": [
-        "c",
-        "c++",
-        "win32",
-        "nt"
-      ]
+      "technologies": ["c", "c++", "win32", "nt"]
     },
     {
       "name": "Red Hen Lab",
@@ -3981,17 +3001,8 @@
       "num_projects": 3,
       "category": "Security",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5119563070439424/",
-      "topics": [
-        "reverse engineering",
-        "computer security",
-        "debugging"
-      ],
-      "technologies": [
-        "c",
-        "c++",
-        "qt",
-        "python"
-      ]
+      "topics": ["reverse engineering", "computer security", "debugging"],
+      "technologies": ["c", "c++", "qt", "python"]
     },
     {
       "name": "RoboComp",
@@ -4011,13 +3022,7 @@
         "multi-agent system",
         "component-based development"
       ],
-      "technologies": [
-        "python",
-        "c++17",
-        "qt5",
-        "opencv",
-        "pytorch"
-      ]
+      "technologies": ["python", "c++17", "qt5", "opencv", "pytorch"]
     },
     {
       "name": "Rocket.Chat",
@@ -4065,13 +3070,7 @@
         "kernel",
         "real-time"
       ],
-      "technologies": [
-        "assembly",
-        "posix",
-        "bsd unix",
-        "c/c++",
-        "python"
-      ]
+      "technologies": ["assembly", "posix", "bsd unix", "c/c++", "python"]
     },
     {
       "name": "Ruby",
@@ -4085,14 +3084,8 @@
       "num_projects": 5,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5432182465626112/",
-      "topics": [
-        "web development",
-        "type system",
-        "performance optimization"
-      ],
-      "technologies": [
-        "ruby on rails"
-      ]
+      "topics": ["web development", "type system", "performance optimization"],
+      "technologies": ["ruby on rails"]
     },
     {
       "name": "SageMath",
@@ -4106,15 +3099,8 @@
       "num_projects": 7,
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5180088957534208/",
-      "topics": [
-        "education",
-        "mathematics",
-        "research"
-      ],
-      "technologies": [
-        "python",
-        "cython"
-      ]
+      "topics": ["education", "mathematics", "research"],
+      "technologies": ["python", "cython"]
     },
     {
       "name": "Samba",
@@ -4128,15 +3114,8 @@
       "num_projects": 0,
       "category": "Other",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5673937584783360/",
-      "topics": [
-        "networking",
-        "enterprise"
-      ],
-      "technologies": [
-        "c",
-        "smb",
-        "cifs"
-      ]
+      "topics": ["networking", "enterprise"],
+      "technologies": ["c", "smb", "cifs"]
     },
     {
       "name": "Scala Center",
@@ -4157,13 +3136,7 @@
         "#programming-languages",
         "#education"
       ],
-      "technologies": [
-        "#scala",
-        "#scala_lang",
-        "#jvm",
-        "#llvm",
-        "#js"
-      ]
+      "technologies": ["#scala", "#scala_lang", "#jvm", "#llvm", "#js"]
     },
     {
       "name": "SCoRe Lab",
@@ -4184,12 +3157,7 @@
         "web development",
         "machine learning"
       ],
-      "technologies": [
-        "python",
-        "nodejs",
-        "android",
-        "golang"
-      ]
+      "technologies": ["python", "nodejs", "android", "golang"]
     },
     {
       "name": "ScummVM",
@@ -4209,13 +3177,7 @@
         "software preservation",
         "software archeology"
       ],
-      "technologies": [
-        "c++",
-        "sdl",
-        "opengl",
-        "lua",
-        "assembly"
-      ]
+      "technologies": ["c++", "sdl", "opengl", "lua", "assembly"]
     },
     {
       "name": "Shaka Player",
@@ -4229,11 +3191,7 @@
       "num_projects": 2,
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4852309401534464/",
-      "topics": [
-        "web",
-        "video",
-        "streaming"
-      ],
+      "topics": ["web", "video", "streaming"],
       "technologies": [
         "javascript",
         "python",
@@ -4261,13 +3219,7 @@
         "big data",
         "big code"
       ],
-      "technologies": [
-        "python",
-        "postgresql",
-        "django",
-        "git",
-        "elasticsearch"
-      ]
+      "technologies": ["python", "postgresql", "django", "git", "elasticsearch"]
     },
     {
       "name": "SPDX",
@@ -4281,19 +3233,8 @@
       "num_projects": 4,
       "category": "Security",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4886205283434496/",
-      "topics": [
-        "compliance",
-        "security",
-        "licensing",
-        "standards"
-      ],
-      "technologies": [
-        "python",
-        "java",
-        "rdf",
-        "golang",
-        "json"
-      ]
+      "topics": ["compliance", "security", "licensing", "standards"],
+      "technologies": ["python", "java", "rdf", "golang", "json"]
     },
     {
       "name": "STE||AR Group",
@@ -4314,11 +3255,7 @@
         "high-performance computing",
         "machine learning"
       ],
-      "technologies": [
-        "c++",
-        "python",
-        "boost"
-      ]
+      "technologies": ["c++", "python", "boost"]
     },
     {
       "name": "strace",
@@ -4332,18 +3269,8 @@
       "num_projects": 1,
       "category": "Operating Systems",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6067595530207232/",
-      "topics": [
-        "tracing",
-        "diagnostic",
-        "debugging"
-      ],
-      "technologies": [
-        "linux",
-        "c",
-        "git",
-        "shell script",
-        "make"
-      ]
+      "topics": ["tracing", "diagnostic", "debugging"],
+      "technologies": ["linux", "c", "git", "shell script", "make"]
     },
     {
       "name": "Sugar Labs",
@@ -4391,11 +3318,7 @@
         "debugging",
         "compilers"
       ],
-      "technologies": [
-        "swift",
-        "c++",
-        "llvm"
-      ]
+      "technologies": ["swift", "c++", "llvm"]
     },
     {
       "name": "SymbiFlow",
@@ -4409,17 +3332,8 @@
       "num_projects": 1,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4577761535983616/",
-      "topics": [
-        "programming languages",
-        "development tools",
-        "open hardware"
-      ],
-      "technologies": [
-        "fpga",
-        "python",
-        "c/c++",
-        "verilog"
-      ]
+      "topics": ["programming languages", "development tools", "open hardware"],
+      "technologies": ["fpga", "python", "c/c++", "verilog"]
     },
     {
       "name": "SymPy",
@@ -4433,14 +3347,8 @@
       "num_projects": 6,
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5401117973807104/",
-      "topics": [
-        "mathematics",
-        "symbolic mathematics",
-        "physics"
-      ],
-      "technologies": [
-        "python"
-      ]
+      "topics": ["mathematics", "symbolic mathematics", "physics"],
+      "technologies": ["python"]
     },
     {
       "name": "Synfig",
@@ -4454,17 +3362,8 @@
       "num_projects": 0,
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6046097876713472/",
-      "topics": [
-        "vector graphics",
-        "animation",
-        "2d animation"
-      ],
-      "technologies": [
-        "c++11",
-        "gtk",
-        "gtkmm",
-        "python"
-      ]
+      "topics": ["vector graphics", "animation", "2d animation"],
+      "technologies": ["c++11", "gtk", "gtkmm", "python"]
     },
     {
       "name": "syslog-ng",
@@ -4485,13 +3384,7 @@
         "reliable log transfer",
         "data processing pipeline"
       ],
-      "technologies": [
-        "elasticsearch",
-        "kafka",
-        "sql",
-        "python",
-        "c"
-      ]
+      "technologies": ["elasticsearch", "kafka", "sql", "python", "c"]
     },
     {
       "name": "Tarantool",
@@ -4511,11 +3404,7 @@
         "algorithms",
         "distributed systems"
       ],
-      "technologies": [
-        "c",
-        "lua",
-        "sql"
-      ]
+      "technologies": ["c", "lua", "sql"]
     },
     {
       "name": "TARDIS SN",
@@ -4529,19 +3418,8 @@
       "num_projects": 3,
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/4742904236474368/",
-      "topics": [
-        "astrophysics",
-        "simulation",
-        "visualization",
-        "big data"
-      ],
-      "technologies": [
-        "python",
-        "jupyter",
-        "numba",
-        "pandas",
-        "numpy"
-      ]
+      "topics": ["astrophysics", "simulation", "visualization", "big data"],
+      "technologies": ["python", "jupyter", "numba", "pandas", "numpy"]
     },
     {
       "name": "TensorFlow",
@@ -4562,11 +3440,7 @@
         "natural language processing",
         "cloud computing"
       ],
-      "technologies": [
-        "python deep learning frameworks",
-        "javascript",
-        "c/c++"
-      ]
+      "technologies": ["python deep learning frameworks", "javascript", "c/c++"]
     },
     {
       "name": "The Apache Software Foundation",
@@ -4580,17 +3454,8 @@
       "num_projects": 28,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5149287498907648/",
-      "topics": [
-        "cloud",
-        "libraries",
-        "big data"
-      ],
-      "technologies": [
-        "java",
-        "c++",
-        "c",
-        "rust"
-      ]
+      "topics": ["cloud", "libraries", "big data"],
+      "technologies": ["java", "c++", "c", "rust"]
     },
     {
       "name": "The ENIGMA Team",
@@ -4611,12 +3476,7 @@
         "compiler",
         "graphics"
       ],
-      "technologies": [
-        "c++",
-        "opengl",
-        "qt5",
-        "android"
-      ]
+      "technologies": ["c++", "opengl", "qt5", "android"]
     },
     {
       "name": "The Honeynet Project",
@@ -4637,13 +3497,7 @@
         "network analysis",
         "malware analysis"
       ],
-      "technologies": [
-        "django",
-        "c",
-        "python",
-        "docker",
-        "c++"
-      ]
+      "technologies": ["django", "c", "python", "docker", "c++"]
     },
     {
       "name": "The Julia Language",
@@ -4664,10 +3518,7 @@
         "technical computing",
         "data science"
       ],
-      "technologies": [
-        "julia",
-        "julialang"
-      ]
+      "technologies": ["julia", "julialang"]
     },
     {
       "name": "The Libreswan Project",
@@ -4681,19 +3532,8 @@
       "num_projects": 1,
       "category": "Security",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6271961616875520/",
-      "topics": [
-        "vpn",
-        "encryption",
-        "ipsec",
-        "ikev2",
-        "security"
-      ],
-      "technologies": [
-        "c",
-        "python",
-        "kvm",
-        "namespaces"
-      ]
+      "topics": ["vpn", "encryption", "ipsec", "ikev2", "security"],
+      "technologies": ["c", "python", "kvm", "namespaces"]
     },
     {
       "name": "The Linux Foundation",
@@ -4707,20 +3547,8 @@
       "num_projects": 18,
       "category": "Operating Systems",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5715751809318912/",
-      "topics": [
-        "automotive",
-        "printing",
-        "kernel",
-        "lsb",
-        "iio"
-      ],
-      "technologies": [
-        "c",
-        "c++",
-        "cups",
-        "ipp",
-        "linux"
-      ]
+      "topics": ["automotive", "printing", "kernel", "lsb", "iio"],
+      "technologies": ["c", "c++", "cups", "ipp", "linux"]
     },
     {
       "name": "The LLVM Compiler Infrastructure",
@@ -4734,17 +3562,8 @@
       "num_projects": 16,
       "category": "Programming Languages and Development Tools",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5738954464165888/",
-      "topics": [
-        "compilers",
-        "debuggers",
-        "code analysis"
-      ],
-      "technologies": [
-        "llvm",
-        "c/c++",
-        "clang",
-        "mlir"
-      ]
+      "topics": ["compilers", "debuggers", "code analysis"],
+      "technologies": ["llvm", "c/c++", "clang", "mlir"]
     },
     {
       "name": "The NetBSD Foundation",
@@ -4758,19 +3577,8 @@
       "num_projects": 0,
       "category": "Operating Systems",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5674199175135232/",
-      "topics": [
-        "kernel",
-        "userland",
-        "unix",
-        "packaging",
-        "bsd"
-      ],
-      "technologies": [
-        "c",
-        "bsd unix",
-        "make",
-        "shell script"
-      ]
+      "topics": ["kernel", "userland", "unix", "packaging", "bsd"],
+      "technologies": ["c", "bsd unix", "make", "shell script"]
     },
     {
       "name": "The ns-3 Network Simulator Project",
@@ -4784,15 +3592,8 @@
       "num_projects": 3,
       "category": "Science and Medicine",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/6270070723969024/",
-      "topics": [
-        "network analysis",
-        "simulation",
-        "emulation"
-      ],
-      "technologies": [
-        "c++",
-        "python 3"
-      ]
+      "topics": ["network analysis", "simulation", "emulation"],
+      "technologies": ["c++", "python 3"]
     },
     {
       "name": "The Palisadoes Foundation",
@@ -4813,13 +3614,7 @@
         "social impact",
         "social good"
       ],
-      "technologies": [
-        "flutter",
-        "mongodb",
-        "node.js",
-        "graphql",
-        "javascript"
-      ]
+      "technologies": ["flutter", "mongodb", "node.js", "graphql", "javascript"]
     },
     {
       "name": "The R Project for Statistical Computing",
@@ -4840,12 +3635,7 @@
         "graphics",
         "machine learning"
       ],
-      "technologies": [
-        "r-project",
-        "c/c++",
-        "fortran",
-        "javascript"
-      ]
+      "technologies": ["r-project", "c/c++", "fortran", "javascript"]
     },
     {
       "name": "The Terasology Foundation",
@@ -4866,13 +3656,7 @@
         "voxel",
         "graphics / video / audio / virtual reality"
       ],
-      "technologies": [
-        "java",
-        "opengl",
-        "gradle",
-        "lwjgl",
-        "kotlin"
-      ]
+      "technologies": ["java", "opengl", "gradle", "lwjgl", "kotlin"]
     },
     {
       "name": "TianoCore",
@@ -4893,13 +3677,7 @@
         "firmware",
         "open system firmware"
       ],
-      "technologies": [
-        "uefi",
-        "c",
-        "python",
-        "rust",
-        "golang"
-      ]
+      "technologies": ["uefi", "c", "python", "rust", "golang"]
     },
     {
       "name": "VideoLAN",
@@ -4920,13 +3698,7 @@
         "video",
         "multimedia"
       ],
-      "technologies": [
-        "c",
-        "c++",
-        "machine learning",
-        "video codecs",
-        "audio"
-      ]
+      "technologies": ["c", "c++", "machine learning", "video codecs", "audio"]
     },
     {
       "name": "vitrivr",
@@ -4947,13 +3719,7 @@
         "databases",
         "web"
       ],
-      "technologies": [
-        "java",
-        "kotlin",
-        "typescript",
-        "angular",
-        "tensorflow"
-      ]
+      "technologies": ["java", "kotlin", "typescript", "angular", "tensorflow"]
     },
     {
       "name": "Wikimedia Foundation",
@@ -4967,20 +3733,8 @@
       "num_projects": 10,
       "category": "Web",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5270263742070784/",
-      "topics": [
-        "wikipedia",
-        "wikimedia",
-        "mediawiki",
-        "semantic web",
-        "i18n"
-      ],
-      "technologies": [
-        "php",
-        "javascript",
-        "html",
-        "css",
-        "python"
-      ]
+      "topics": ["wikipedia", "wikimedia", "mediawiki", "semantic web", "i18n"],
+      "technologies": ["php", "javascript", "html", "css", "python"]
     },
     {
       "name": "Xfce",
@@ -4994,17 +3748,8 @@
       "num_projects": 2,
       "category": "End User Applications",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5706869816950784/",
-      "topics": [
-        "desktop environment",
-        "gui"
-      ],
-      "technologies": [
-        "gtk",
-        "c",
-        "python",
-        "vala",
-        "javascript"
-      ]
+      "topics": ["desktop environment", "gui"],
+      "technologies": ["gtk", "c", "python", "vala", "javascript"]
     },
     {
       "name": "Xiph.Org Foundation",
@@ -5018,19 +3763,8 @@
       "num_projects": 3,
       "category": "Graphics / Video / Audio / Virtual Reality",
       "projects_url": "https://summerofcode.withgoogle.com/archive/2021/organizations/5197456597319680/",
-      "topics": [
-        "video encode",
-        "video decode",
-        "multimedia",
-        "video"
-      ],
-      "technologies": [
-        "rust",
-        "c language",
-        "assembly",
-        "x86",
-        "arm"
-      ]
+      "topics": ["video encode", "video decode", "multimedia", "video"],
+      "technologies": ["rust", "c language", "assembly", "x86", "arm"]
     },
     {
       "name": "xrdesktop",
@@ -5051,13 +3785,7 @@
         "window management",
         "real time"
       ],
-      "technologies": [
-        "glib",
-        "openxr",
-        "vulkan",
-        "c",
-        "wayland"
-      ]
+      "technologies": ["glib", "openxr", "vulkan", "c", "wayland"]
     },
     {
       "name": "XWiki",
@@ -5078,13 +3806,7 @@
         "web applications",
         "structured data"
       ],
-      "technologies": [
-        "java",
-        "javascript",
-        "html5",
-        "css3",
-        "velocity"
-      ]
+      "technologies": ["java", "javascript", "html5", "css3", "velocity"]
     },
     {
       "name": "Zulip",
