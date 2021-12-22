@@ -1,24 +1,14 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useLocation } from "@reach/router"
 
 import "./layout.css"
 
 import Toolbar from "../../components/mobile/toolbar"
 
-const Layout = ({
-  children,
-  showFiltersAndSearch,
-  searchState,
-  filtersState,
-}) => {
+const Layout = ({ children, showFiltersAndSearch, filtersState }) => {
   return (
     <div className="mobile-layout">
-      <Toolbar
-        filtersState={filtersState}
-        searchState={searchState}
-        showSearch={showFiltersAndSearch}
-      />
+      <Toolbar filtersState={filtersState} showSearch={showFiltersAndSearch} />
       <div className="mobile-layout-content">{children}</div>
     </div>
   )
@@ -27,7 +17,6 @@ const Layout = ({
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   showFiltersAndSearch: PropTypes.bool,
-  searchState: PropTypes.object,
   filtersState: PropTypes.object,
 }
 

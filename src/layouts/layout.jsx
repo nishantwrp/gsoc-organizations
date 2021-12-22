@@ -9,7 +9,7 @@ import "./layout.css"
 import DesktopLayout from "./desktop/layout"
 import MobileLayout from "./mobile/layout"
 
-const Layout = ({ children, searchState, filtersState }) => {
+const Layout = ({ children, filtersState }) => {
   const location = useLocation()
   const breakpoints = useBreakpoint()
 
@@ -20,7 +20,6 @@ const Layout = ({ children, searchState, filtersState }) => {
       <DesktopLayout
         showFiltersAndSearch={showFiltersAndSearch}
         filtersState={filtersState}
-        searchState={searchState}
       >
         {children}
       </DesktopLayout>
@@ -30,7 +29,6 @@ const Layout = ({ children, searchState, filtersState }) => {
       <MobileLayout
         showFiltersAndSearch={showFiltersAndSearch}
         filtersState={filtersState}
-        searchState={searchState}
       >
         {children}
       </MobileLayout>
@@ -40,7 +38,6 @@ const Layout = ({ children, searchState, filtersState }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  searchState: PropTypes.object,
   filtersState: PropTypes.object,
 }
 

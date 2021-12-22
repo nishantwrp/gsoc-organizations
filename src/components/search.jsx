@@ -1,33 +1,27 @@
 import React from "react"
-import PropTypes from "prop-types"
 
 import "./search.css"
 
 import { Icon, Input } from "semantic-ui-react"
+import { useAppDispatch, useAppSelector } from "../store"
+import { getSearch, setSearch } from "../store/search"
 
-const Search = ({ searchState }) => {
-  if (searchState === undefined) {
-    return <></>
-  }
-
-  const { searchQuery, setSearchQuery } = searchState
+const Search = () => {
+  const search = useAppSelector(getSearch)
+  const dispatch = useAppDispatch()
 
   const handleChange = e => {
-    setSearchQuery(e.target.value)
+    dispatch(setSearch(e.target.value))
   }
 
   return (
     <div className="search-search">
       <Input icon placeholder="Search">
-        <input value={searchQuery} onChange={handleChange.bind(this)} />
+        <input value={search} onChange={handleChange.bind(this)} />
         <Icon name="search" />
       </Input>
     </div>
   )
-}
-
-Search.propTypes = {
-  searchState: PropTypes.object,
 }
 
 export default Search

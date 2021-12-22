@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Fuse from "fuse.js"
 import { graphql } from "gatsby"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
@@ -10,6 +10,8 @@ import Layout from "../layouts/layout"
 import OrgCard from "../components/org-card"
 import SEO from "../components/seo"
 import { Grid } from "semantic-ui-react"
+import { useAppDispatch, useAppSelector } from "../store"
+import { getSearch, setSearch } from "../store/search"
 
 const getOrganizations = data => {
   return data.allOrganization.edges.map(orgNode => {
@@ -107,6 +109,9 @@ const getFilteredOrganizations = (data, searchQuery, filters) => {
 }
 
 const IndexPage = ({ data, location }) => {
+  const dispatch = useAppDispatch()
+  const searchQuery = useAppSelector(getSearch)
+
   // Any url would work here.
   const currentURL = new URL("https://www.gsocorganizations.dev/")
 
@@ -114,9 +119,19 @@ const IndexPage = ({ data, location }) => {
     currentURL.search = location.search
   } catch (err) {}
 
-  const [searchQuery, setSearchQuery] = React.useState(
-    currentURL.searchParams.get("search") || ""
-  )
+  const getSearchQueryInUrl = () => {
+    return currentURL.searchParams.get("search") || ""
+  }
+
+  useEffect(() => {
+    dispatch(setSearch(getSearchQueryInUrl()))
+  }, [])
+
+  useEffect(() => {
+    currentURL.searchParams.set("search", searchQuery)
+    navigate(currentURL.search)
+  }, [searchQuery])
+
   const [filters, setFilters] = React.useState(
     JSON.parse(currentURL.searchParams.get("filters")) || {
       years: [],
@@ -126,12 +141,6 @@ const IndexPage = ({ data, location }) => {
     }
   )
   const [orgCards, setOrgCards] = React.useState([])
-
-  const setSearchQueryAndUpdateURL = newQuery => {
-    setSearchQuery(newQuery)
-    currentURL.searchParams.set("search", newQuery)
-    navigate(currentURL.search)
-  }
 
   const setFiltersAndUpdateURL = newFilters => {
     setFilters(newFilters)
@@ -222,10 +231,6 @@ const IndexPage = ({ data, location }) => {
 
   return (
     <Layout
-      searchState={{
-        searchQuery: searchQuery,
-        setSearchQuery: setSearchQueryAndUpdateURL,
-      }}
       filtersState={{ filters: filters, setFilters: setFiltersAndUpdateURL }}
     >
       <SEO title={"Home"} meta={meta} />
