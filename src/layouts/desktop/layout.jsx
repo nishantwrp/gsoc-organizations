@@ -7,9 +7,14 @@ import Sidebar from "../../components/sidebar"
 import Search from "../../components/search"
 import { Grid } from "semantic-ui-react"
 
-const Layout = ({ children, homePage, searchState, filtersState }) => {
+const Layout = ({
+  children,
+  showFiltersAndSearch,
+  searchState,
+  filtersState,
+}) => {
   const searchStyle = () => {
-    if (!homePage) {
+    if (!showFiltersAndSearch) {
       return {
         display: "none",
       }
@@ -18,7 +23,7 @@ const Layout = ({ children, homePage, searchState, filtersState }) => {
   }
 
   const contentStyle = () => {
-    if (homePage) {
+    if (showFiltersAndSearch) {
       return {
         paddingTop: "60px",
       }
@@ -30,7 +35,10 @@ const Layout = ({ children, homePage, searchState, filtersState }) => {
     <Grid className="desktop-layout-grid">
       <Grid.Row className="desktop-layout-grid-row">
         <Grid.Column className="desktop-layout-grid-column" width={4}>
-          <Sidebar filtersState={filtersState} showFilters={homePage} />
+          <Sidebar
+            filtersState={filtersState}
+            showFilters={showFiltersAndSearch}
+          />
         </Grid.Column>
         <Grid.Column className="desktop-layout-grid-column" width={12}>
           <center>
@@ -49,7 +57,7 @@ const Layout = ({ children, homePage, searchState, filtersState }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  homePage: PropTypes.bool.isRequired,
+  showFiltersAndSearch: PropTypes.bool,
   searchState: PropTypes.object,
   filtersState: PropTypes.object,
 }

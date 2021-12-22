@@ -227,7 +227,6 @@ const IndexPage = ({ data, location }) => {
         setSearchQuery: setSearchQueryAndUpdateURL,
       }}
       filtersState={{ filters: filters, setFilters: setFiltersAndUpdateURL }}
-      homePage={true}
     >
       <SEO title={"Home"} meta={meta} />
       <div style={{ marginTop: "1rem", textAlign: "center" }}>

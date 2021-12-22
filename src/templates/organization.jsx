@@ -74,7 +74,7 @@ const OrganizationPage = ({ pageContext: { organization }, data }) => {
   }, [])
 
   return (
-    <Layout homePage={false}>
+    <Layout>
       <SEO title={organization.name} meta={meta} />
       <div className="organization-name-container">{organization.name}</div>
       <Grid className="organization-content-grid" stackable columns={2}>
