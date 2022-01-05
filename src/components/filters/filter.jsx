@@ -1,9 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { connect } from "react-redux"
 
 import "./filter.css"
 
-import FilterTemplate from "./filter-template"
+import FilterTemplate, {
+  mapDispatchWithProps,
+  mapStateWithProps,
+} from "./filter-template"
 import FilterModal from "./filter-modal"
 import { Checkbox, Input, Divider } from "semantic-ui-react"
 
@@ -20,9 +24,9 @@ class Filter extends FilterTemplate {
         <tr>
           <td>
             <Checkbox
-              checked={this.getAllOptions()[index].selected}
+              checked={this.isIndexSelected(index)}
               label={this.getCheckboxLabel(index)}
-              value={this.getAllOptions()[index].selected}
+              value={this.isIndexSelected(index)}
               onChange={this.toggleChecked(index)}
             />
           </td>
@@ -45,7 +49,7 @@ class Filter extends FilterTemplate {
     return (
       <div className="filter-filter">
         <div className="filter-topic">
-          <u>{this.props.name}</u>
+          <u>{this.getDisplayableName()}</u>
         </div>
         <div className="filter-search">
           <Input
@@ -68,8 +72,7 @@ class Filter extends FilterTemplate {
         <div style={displayModalOption ? {} : { display: "none" }}>
           <FilterModal
             name={this.props.name}
-            optionsState={this.props.optionsState}
-            updateAllFilters={this.props.updateAllFilters}
+            choices={this.props.choices}
             sortBy={this.props.sortBy}
             trigger={<div className="filter-view-more">View all</div>}
           />
@@ -86,7 +89,6 @@ class Filter extends FilterTemplate {
 
 Filter.propTypes = {
   ...FilterTemplate.propTypes,
-  name: PropTypes.string.isRequired,
   showDivider: PropTypes.bool,
 }
 
@@ -94,4 +96,4 @@ Filter.defaultProps = {
   showDivider: true,
 }
 
-export default Filter
+export default connect(mapStateWithProps, mapDispatchWithProps)(Filter)

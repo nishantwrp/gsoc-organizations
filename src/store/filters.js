@@ -3,19 +3,41 @@ import { createSlice } from "@reduxjs/toolkit"
 const filtersSlice = createSlice({
   name: "filters",
   initialState: {
-    value: 0,
+    years: [],
+    categories: [],
+    technologies: [],
+    topics: [],
   },
   reducers: {
-    incremented: state => {
-      state.value += 1
+    addFilter: (state, action) => {
+      const { name, val } = action.payload
+      state[name] = [...state[name], val]
     },
-    decremented: state => {
-      state.value -= 1
+    removeFilter: (state, action) => {
+      const { name, val } = action.payload
+      state[name] = state[name].filter(v => v !== val)
+    },
+    setFilters: (state, action) => {
+      const { years, categories, technologies, topics } = action.payload
+      state.years = years
+      state.categories = categories
+      state.technologies = technologies
+      state.topics = topics
+    },
+    clearFilters: state => {
+      state.years = []
+      state.categories = []
+      state.technologies = []
+      state.topics = []
     },
   },
 })
 
+export const getFilters = state => {
+  return state.filters
+}
+
 export const {
   reducer,
-  actions: { incremented, decremented },
+  actions: { addFilter, removeFilter, setFilters, clearFilters },
 } = filtersSlice

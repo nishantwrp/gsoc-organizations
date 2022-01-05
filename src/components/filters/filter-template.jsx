@@ -2,6 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import Fuse from "fuse.js"
 
+import { addFilter, removeFilter } from "../../store/filters"
+
 class FilterTemplate extends React.Component {
   constructor(props, initialStates) {
     super(props)
@@ -12,20 +14,32 @@ class FilterTemplate extends React.Component {
     }
   }
 
-  getAllOptions() {
-    return this.props.optionsState[0]
+  getDisplayableName() {
+    return this.props.name.charAt(0).toUpperCase() + this.props.name.slice(1)
   }
 
-  updateOptions(newOptions) {
-    return this.props.optionsState[1](newOptions)
+  getAllOptions() {
+    return this.props.choices
+  }
+
+  getOptionFromIndex(index) {
+    return this.getAllOptions()[index]
+  }
+
+  isOptionSelected(option) {
+    return this.props.filters.includes(option.name)
+  }
+
+  isIndexSelected(index) {
+    return this.isOptionSelected(this.getOptionFromIndex(index))
   }
 
   toggleChecked(index) {
     return () => {
-      const newOptions = this.getAllOptions()
-      newOptions[index].selected = !newOptions[index].selected
-      this.updateOptions(newOptions)
-      this.props.updateAllFilters()
+      const option = this.getOptionFromIndex(index).name
+      this.isIndexSelected(index)
+        ? this.props.removeFilter(option)
+        : this.props.addFilter(option)
     }
   }
 
@@ -48,7 +62,7 @@ class FilterTemplate extends React.Component {
   getOptionIndexes(selected) {
     const indexes = []
     this.getAllOptions().forEach((value, index) => {
-      if (value.selected === selected) {
+      if (this.isOptionSelected(value) === selected) {
         indexes.push(index)
       }
     })
@@ -57,8 +71,8 @@ class FilterTemplate extends React.Component {
 
   getSortedOptionIndexes() {
     const sortedOptions = this.getAllOptions().sort((a, b) => {
-      if (a.selected ^ b.selected) {
-        return a.selected ? -1 : 1
+      if (this.isOptionSelected(a) ^ this.isOptionSelected(b)) {
+        return this.isOptionSelected(a) ? -1 : 1
       }
 
       if (this.props.sortBy === "name") {
@@ -107,9 +121,19 @@ class FilterTemplate extends React.Component {
 }
 
 FilterTemplate.propTypes = {
-  optionsState: PropTypes.array.isRequired,
-  updateAllFilters: PropTypes.func.isRequired,
+  name: PropTypes.string.isRequired,
   sortBy: PropTypes.oneOf(["name", "frequency"]).isRequired,
+}
+
+export const mapStateWithProps = (state, ownProps) => {
+  return { filters: state.filters[ownProps.name] }
+}
+
+export const mapDispatchWithProps = (dispatch, ownProps) => {
+  return {
+    addFilter: val => dispatch(addFilter({ val, name: ownProps.name })),
+    removeFilter: val => dispatch(removeFilter({ val, name: ownProps.name })),
+  }
 }
 
 export default FilterTemplate

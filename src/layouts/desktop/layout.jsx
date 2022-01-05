@@ -7,7 +7,7 @@ import Sidebar from "../../components/sidebar"
 import Search from "../../components/search"
 import { Grid } from "semantic-ui-react"
 
-const Layout = ({ children, showFiltersAndSearch, filtersState }) => {
+const Layout = ({ children, showFiltersAndSearch }) => {
   const searchStyle = () => {
     if (!showFiltersAndSearch) {
       return {
@@ -30,10 +30,7 @@ const Layout = ({ children, showFiltersAndSearch, filtersState }) => {
     <Grid className="desktop-layout-grid">
       <Grid.Row className="desktop-layout-grid-row">
         <Grid.Column className="desktop-layout-grid-column" width={4}>
-          <Sidebar
-            filtersState={filtersState}
-            showFilters={showFiltersAndSearch}
-          />
+          <Sidebar showFilters={showFiltersAndSearch} />
         </Grid.Column>
         <Grid.Column className="desktop-layout-grid-column" width={12}>
           <center>
@@ -53,7 +50,6 @@ const Layout = ({ children, showFiltersAndSearch, filtersState }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   showFiltersAndSearch: PropTypes.bool,
-  filtersState: PropTypes.object,
 }
 
 export default Layout

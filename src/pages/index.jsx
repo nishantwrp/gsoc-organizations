@@ -12,6 +12,7 @@ import SEO from "../components/seo"
 import { Grid } from "semantic-ui-react"
 import { useAppDispatch, useAppSelector } from "../store"
 import { getSearch, setSearch } from "../store/search"
+import { getFilters, setFilters } from "../store/filters"
 
 const getOrganizations = data => {
   return data.allOrganization.edges.map(orgNode => {
@@ -111,6 +112,7 @@ const getFilteredOrganizations = (data, searchQuery, filters) => {
 const IndexPage = ({ data, location }) => {
   const dispatch = useAppDispatch()
   const searchQuery = useAppSelector(getSearch)
+  const filters = useAppSelector(getFilters)
 
   // Any url would work here.
   const currentURL = new URL("https://www.gsocorganizations.dev/")
@@ -123,30 +125,29 @@ const IndexPage = ({ data, location }) => {
     return currentURL.searchParams.get("search") || ""
   }
 
+  const getFiltersFromUrl = () => {
+    return (
+      JSON.parse(currentURL.searchParams.get("filters")) || {
+        years: [],
+        categories: [],
+        technologies: [],
+        topics: [],
+      }
+    )
+  }
+
   useEffect(() => {
     dispatch(setSearch(getSearchQueryInUrl()))
+    dispatch(setFilters(getFiltersFromUrl()))
   }, [])
 
   useEffect(() => {
     currentURL.searchParams.set("search", searchQuery)
+    currentURL.searchParams.set("filters", JSON.stringify(filters))
     navigate(currentURL.search)
-  }, [searchQuery])
+  }, [searchQuery, filters])
 
-  const [filters, setFilters] = React.useState(
-    JSON.parse(currentURL.searchParams.get("filters")) || {
-      years: [],
-      categories: [],
-      technologies: [],
-      topics: [],
-    }
-  )
   const [orgCards, setOrgCards] = React.useState([])
-
-  const setFiltersAndUpdateURL = newFilters => {
-    setFilters(newFilters)
-    currentURL.searchParams.set("filters", JSON.stringify(newFilters))
-    navigate(currentURL.search)
-  }
 
   React.useEffect(() => {
     let filteredOrganizations = getFilteredOrganizations(
@@ -230,9 +231,7 @@ const IndexPage = ({ data, location }) => {
   }, [])
 
   return (
-    <Layout
-      filtersState={{ filters: filters, setFilters: setFiltersAndUpdateURL }}
-    >
+    <Layout>
       <SEO title={"Home"} meta={meta} />
       <div style={{ marginTop: "1rem", textAlign: "center" }}>
         <a className="ui orange label">{orgCards.length} results</a>
