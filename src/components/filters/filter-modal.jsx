@@ -1,9 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { connect } from "react-redux"
 
 import "./filter-modal.css"
 
-import FilterTemplate from "./filter-template"
+import FilterTemplate, {
+  mapDispatchWithProps,
+  mapStateWithProps,
+} from "./filter-template"
 import { Modal, Button, Input, Grid, Checkbox } from "semantic-ui-react"
 
 class FilterModal extends FilterTemplate {
@@ -27,9 +31,9 @@ class FilterModal extends FilterTemplate {
       return (
         <Grid.Column>
           <Checkbox
-            checked={this.getAllOptions()[index].selected}
+            checked={this.isIndexSelected(index)}
             label={this.getCheckboxLabel(index)}
-            value={this.getAllOptions()[index].selected}
+            value={this.isIndexSelected(index)}
             onChange={this.toggleChecked(index)}
           />
         </Grid.Column>
@@ -44,7 +48,7 @@ class FilterModal extends FilterTemplate {
           open={this.state.open}
           trigger={this.props.trigger}
         >
-          <Modal.Header>Filter by {this.props.name}</Modal.Header>
+          <Modal.Header>Filter by {this.getDisplayableName()}</Modal.Header>
           <Modal.Content className="filter-modal-content" scrolling>
             <Input
               size="small"
@@ -78,7 +82,6 @@ class FilterModal extends FilterTemplate {
 FilterModal.propTypes = {
   ...FilterTemplate.propTypes,
   trigger: PropTypes.node.isRequired,
-  name: PropTypes.string.isRequired,
 }
 
-export default FilterModal
+export default connect(mapStateWithProps, mapDispatchWithProps)(FilterModal)

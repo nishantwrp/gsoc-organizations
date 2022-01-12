@@ -9,6 +9,8 @@ import GitHubButton from "react-github-btn"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 import { Link } from "gatsby"
 import { Container, Divider, Button, Icon } from "semantic-ui-react"
+import { useAppDispatch } from "../store"
+import { clearFilters } from "../store/filters"
 
 const getSidebarStyles = config => {
   if (config.mode === "desktop") {
@@ -37,32 +39,9 @@ const getSidebarStyles = config => {
   }
 }
 
-const updateFiltersState = (
-  setFilters,
-  topics,
-  technologies,
-  years,
-  categories
-) => {
-  const getSelectedValues = options => {
-    const selectedValues = []
-    options.forEach(option => {
-      if (option.selected) {
-        selectedValues.push(option.name)
-      }
-    })
-    return selectedValues
-  }
+const Sidebar = ({ config, showFilters }) => {
+  const dispatch = useAppDispatch()
 
-  setFilters({
-    years: getSelectedValues(years),
-    categories: getSelectedValues(categories),
-    technologies: getSelectedValues(technologies),
-    topics: getSelectedValues(topics),
-  })
-}
-
-const Sidebar = ({ config, showFilters, filtersState }) => {
   const {
     filter: { topics, technologies, years, categories },
   } = useStaticQuery(graphql`
@@ -88,79 +67,8 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
     }
   `)
 
-  const topicsState = React.useState(
-    topics.map(topic => {
-      return {
-        name: topic.name,
-        frequency: topic.frequency,
-        selected: !!filtersState?.filters.topics.includes(topic.name),
-      }
-    })
-  )
-  const technologiesState = React.useState(
-    technologies.map(technology => {
-      return {
-        name: technology.name,
-        frequency: technology.frequency,
-        selected: !!filtersState?.filters.technologies.includes(
-          technology.name
-        ),
-      }
-    })
-  )
-  const yearsState = React.useState(
-    years.map(year => {
-      return {
-        name: year.name,
-        frequency: year.frequency,
-        selected: !!filtersState?.filters.years.includes(year.name),
-      }
-    })
-  )
-  const categoriesState = React.useState(
-    categories.map(category => {
-      return {
-        name: category.name,
-        frequency: category.frequency,
-        selected: !!filtersState?.filters.categories.includes(category.name),
-      }
-    })
-  )
-
-  const updateAllFilters = () => {
-    updateFiltersState(
-      filtersState.setFilters,
-      topicsState[0],
-      technologiesState[0],
-      yearsState[0],
-      categoriesState[0]
-    )
-  }
-
   const clearAllFilters = () => {
-    const clearFilter = filterState => {
-      const [filter, setFilter] = filterState
-      const unselectedOptions = filter.map(option => {
-        return {
-          name: option.name,
-          frequency: option.frequency,
-          selected: false,
-        }
-      })
-      setFilter(unselectedOptions)
-    }
-
-    clearFilter(topicsState)
-    clearFilter(technologiesState)
-    clearFilter(yearsState)
-    clearFilter(categoriesState)
-
-    filtersState.setFilters({
-      years: [],
-      categories: [],
-      technologies: [],
-      topics: [],
-    })
+    dispatch(clearFilters())
   }
 
   const filterStyle = () => {
@@ -196,28 +104,16 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
           </div>
           <Divider className="sidebar-divider" />
           <div className="sidebar-content-filters">
+            <Filter name="years" choices={years} sortBy="name" />
+            <Filter name="categories" choices={categories} sortBy="name" />
             <Filter
-              name="Years"
-              updateAllFilters={updateAllFilters}
-              optionsState={yearsState}
-              sortBy="name"
-            />
-            <Filter
-              name="Categories"
-              updateAllFilters={updateAllFilters}
-              optionsState={categoriesState}
-              sortBy="name"
-            />
-            <Filter
-              name="Technologies"
-              updateAllFilters={updateAllFilters}
-              optionsState={technologiesState}
+              name="technologies"
+              choices={technologies}
               sortBy="frequency"
             />
             <Filter
-              name="Topics"
-              updateAllFilters={updateAllFilters}
-              optionsState={topicsState}
+              name="topics"
+              choices={topics}
               showDivider={false}
               sortBy="frequency"
             />
@@ -302,7 +198,6 @@ const Sidebar = ({ config, showFilters, filtersState }) => {
 Sidebar.propTypes = {
   config: PropTypes.object,
   showFilters: PropTypes.bool,
-  filtersState: PropTypes.object,
 }
 
 Sidebar.defaultProps = {
