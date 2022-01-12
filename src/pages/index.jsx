@@ -142,9 +142,18 @@ const IndexPage = ({ data, location }) => {
   }, [])
 
   useEffect(() => {
-    currentURL.searchParams.set("search", searchQuery)
-    currentURL.searchParams.set("filters", JSON.stringify(filters))
-    navigate(currentURL.search)
+    // Don't append search params if there is no filter or searchQurey.
+    if (searchQuery !== "") {
+      currentURL.searchParams.set("search", searchQuery)
+    } else {
+      currentURL.searchParams.delete("search")
+    }
+    if (Object.values(filters).filter(arr => arr.length !== 0).length !== 0) {
+      currentURL.searchParams.set("filters", JSON.stringify(filters))
+    } else {
+      currentURL.searchParams.delete("filters")
+    }
+    navigate(currentURL.search === "" ? "/" : currentURL.search)
   }, [searchQuery, filters])
 
   const [orgCards, setOrgCards] = React.useState([])
