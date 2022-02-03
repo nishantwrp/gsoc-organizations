@@ -105,10 +105,17 @@ const isMergePossible = (org1, org2) => {
   return false
 }
 
-const updateYears = (combinedJson, year, projects_url, num_projects) => {
+const updateYears = (
+  combinedJson,
+  year,
+  projects_url,
+  num_projects,
+  projects
+) => {
   combinedJson.years[year] = {
     projects_url: projects_url,
     num_projects: num_projects,
+    projects: projects,
   }
 }
 
@@ -129,7 +136,14 @@ const updateTechnologies = (combinedJson, technologies) => {
 }
 
 const updateOrg = (combinedJson, orgJson) => {
-  const { projects_url, topics, technologies, num_projects, year } = orgJson
+  const {
+    projects_url,
+    topics,
+    technologies,
+    num_projects,
+    projects,
+    year,
+  } = orgJson
 
   const basic_properties = [
     "name",
@@ -146,7 +160,7 @@ const updateOrg = (combinedJson, orgJson) => {
     combinedJson[prop] = orgJson[prop] || combinedJson[prop]
   }
 
-  updateYears(combinedJson, year, projects_url, num_projects)
+  updateYears(combinedJson, year, projects_url, num_projects, projects)
   updateTopics(combinedJson, topics)
   updateTechnologies(combinedJson, technologies)
 }

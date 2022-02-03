@@ -7,6 +7,7 @@ import "./organization.css"
 import Layout from "../layouts/layout"
 import OrgInfo from "../components/org-info"
 import ProjectsGraph from "../components/projects-graph"
+import ProjectsSection from "../components/projects-section"
 import SEO from "../components/seo"
 import { Grid } from "semantic-ui-react"
 
@@ -76,7 +77,7 @@ const OrganizationPage = ({ pageContext: { organization }, data }) => {
   return (
     <Layout>
       <SEO title={organization.name} meta={meta} />
-      <div className="organization-name-container">{organization.name}</div>
+      <div className="organization-heading-container">{organization.name}</div>
       <Grid className="organization-content-grid" stackable columns={2}>
         <Grid.Column>
           <OrgInfo data={organization} />
@@ -95,6 +96,8 @@ const OrganizationPage = ({ pageContext: { organization }, data }) => {
           </div>
         </Grid.Column>
       </Grid>
+      <div className="organization-heading-container">Past Projects</div>
+      <ProjectsSection data={organization.years} />
     </Layout>
   )
 }
