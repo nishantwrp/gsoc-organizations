@@ -117,6 +117,15 @@ exports.sourceNodes = async ({
 exports.createPages = ({ actions: { createPage } }) => {
   const organizations = compileData()
   for (const organization of organizations) {
+    for (const year of Object.keys(organization.years)) {
+      organization.years[year].projects = organization.years[year].projects.map(
+        project => {
+          delete project["description"]
+          return project
+        }
+      )
+    }
+
     createPage({
       path: `organization/${slugify(organization.name, { lower: true })}/`,
       component: require.resolve("./src/templates/organization.jsx"),

@@ -13,6 +13,43 @@ servers:
 
 components:
   schemas:
+    Project:
+      type: object
+      required:
+        - title
+        - short_description
+        - description
+        - student_name
+        - code_url
+        - project_url
+      properties:
+        title:
+          type: string
+        short_description:
+          type: string
+        description:
+          type: string
+        student_name:
+          type: string
+        code_url:
+          type: string
+        project_url:
+          type: string
+    OrganizationYear:
+      type: object
+      required:
+        - projects_url
+        - num_projects
+        - projects
+      properties:
+        projects_url:
+          type: string
+        num_projects:
+          type: number
+        projects:
+          type: array
+          items:
+            $ref: "#/components/schemas/Project"
     Organizations:
       type: object
       required:
@@ -59,65 +96,17 @@ components:
           type: object
           properties:
             2016:
-              type: object
-              required:
-                - projects_url
-                - num_projects
-              properties:
-                projects_url:
-                  type: string
-                num_projects:
-                  type: number
+              $ref: "#/components/schemas/OrganizationYear"
             2017:
-              type: object
-              required:
-                - projects_url
-                - num_projects
-              properties:
-                projects_url:
-                  type: string
-                num_projects:
-                  type: number
+              $ref: "#/components/schemas/OrganizationYear"
             2018:
-              type: object
-              required:
-                - projects_url
-                - num_projects
-              properties:
-                projects_url:
-                  type: string
-                num_projects:
-                  type: number
+              $ref: "#/components/schemas/OrganizationYear"
             2019:
-              type: object
-              required:
-                - projects_url
-                - num_projects
-              properties:
-                projects_url:
-                  type: string
-                num_projects:
-                  type: number
+              $ref: "#/components/schemas/OrganizationYear"
             2020:
-              type: object
-              required:
-                - projects_url
-                - num_projects
-              properties:
-                projects_url:
-                  type: string
-                num_projects:
-                  type: number
+              $ref: "#/components/schemas/OrganizationYear"
             2021:
-              type: object
-              required:
-                - projects_url
-                - num_projects
-              properties:
-                projects_url:
-                  type: string
-                num_projects:
-                  type: number
+              $ref: "#/components/schemas/OrganizationYear"
     OrganizationSingleYear:
       type: object
       required:
@@ -134,6 +123,9 @@ components:
         - irc_channel
         - contact_email
         - mailing_list
+        - twitter_url
+        - blog_url
+        - projects
       properties:
         name:
           type: string
@@ -157,6 +149,10 @@ components:
           type: string
         mailing_list:
           type: string
+        twitter_url:
+          type: string
+        blog_url:
+          type: string
         topics:
           type: array
           items:
@@ -165,6 +161,10 @@ components:
           type: array
           items:
             type: string
+        projects:
+          type: array
+          items:
+            $ref: "#/components/schemas/Project"
 
 paths:
   /organizations.json:

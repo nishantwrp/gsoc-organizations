@@ -1,0 +1,25 @@
+.projects-section-container {
+  margin-top: 1rem;
+}
+
+.project-cards-grid {
+  margin: 0px !important;
+}
+
+.projects-section-year-headings > .menu {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.project-cards-container {
+  border: 0px !important;
+  box-shadow: none !important;
+  background: none !important;
+  margin: 0px !important;
+}
+
+.projects-section-message-container {
+  text-align: center;
+  justify-content: center;
+}

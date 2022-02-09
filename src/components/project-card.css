@@ -1,0 +1,13 @@
+.project-card-main-container {
+  height: 100%;
+}
+
+.project-card-main-container > .card {
+  height: 100%;
+  margin: 0px auto;
+  width: 100%;
+}
+
+.project-card-link {
+  margin: 1%;
+}
