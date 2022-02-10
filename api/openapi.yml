@@ -62,6 +62,8 @@ components:
         - irc_channel
         - contact_email
         - mailing_list
+        - twitter_url
+        - blog_url
         - topics
         - technologies
         - years
@@ -83,6 +85,10 @@ components:
         contact_email:
           type: string
         mailing_list:
+          type: string
+        twitter_url:
+          type: string
+        blog_url:
           type: string
         topics:
           type: array

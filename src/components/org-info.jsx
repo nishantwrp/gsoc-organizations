@@ -53,23 +53,23 @@ const OrgInfo = ({ data }) => {
         </OutboundLink>
       </div>
       <div className="org-info-site-container">
-        {data.irc_channel ? (
+        {data.twitter_url && (
           <Popup
-            content="IRC Channel"
+            content="Twitter"
             trigger={
               <OutboundLink
-                href={data.irc_channel}
+                href={data.twitter_url}
                 rel="noreferrer"
                 target="_blank"
               >
                 <Button icon>
-                  <Icon name="comment" />
+                  <Icon name="twitter" />
                 </Button>
               </OutboundLink>
             }
           />
-        ) : null}
-        {data.mailing_list ? (
+        )}
+        {data.mailing_list && (
           <Popup
             content="Mailing List"
             trigger={
@@ -84,8 +84,24 @@ const OrgInfo = ({ data }) => {
               </OutboundLink>
             }
           />
-        ) : null}
-        {data.contact_email ? (
+        )}
+        {data.irc_channel && (
+          <Popup
+            content="Communication Channel"
+            trigger={
+              <OutboundLink
+                href={data.irc_channel}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <Button icon>
+                  <Icon name="comment" />
+                </Button>
+              </OutboundLink>
+            }
+          />
+        )}
+        {data.contact_email && (
           <Popup
             content="Contact Email"
             trigger={
@@ -100,7 +116,23 @@ const OrgInfo = ({ data }) => {
               </OutboundLink>
             }
           />
-        ) : null}
+        )}
+        {data.blog_url && (
+          <Popup
+            content="Blog"
+            trigger={
+              <OutboundLink
+                href={data.blog_url}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <Button icon>
+                  <Icon name="blogger" />
+                </Button>
+              </OutboundLink>
+            }
+          />
+        )}
       </div>
       <div className="org-info-description-container">{data.description}</div>
       <center>

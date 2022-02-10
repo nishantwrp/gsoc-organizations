@@ -154,6 +154,8 @@ const updateOrg = (combinedJson, orgJson) => {
     "irc_channel",
     "contact_email",
     "mailing_list",
+    "twitter_url",
+    "blog_url",
     "category",
   ]
   for (const prop of basic_properties) {
