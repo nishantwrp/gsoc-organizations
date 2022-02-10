@@ -11,6 +11,7 @@
     "@isamrish/gatsby-plugin-google-adsense": "^1.2.0",
     "@reduxjs/toolkit": "^1.7.1",
     "chart.js": "^2.9.4",
+    "debounce": "^1.2.1",
     "fuse.js": "^6.4.3",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
