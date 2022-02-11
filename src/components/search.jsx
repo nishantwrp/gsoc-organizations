@@ -21,12 +21,6 @@ const Search = () => {
     []
   )
 
-  useEffect(() => {
-    return () => {
-      debouncedDispatchSetSearch.cancel()
-    }
-  }, [])
-
   const handleChange = ({ target: { value } }) => {
     setSearchText(value)
     debouncedDispatchSetSearch(value)
