@@ -769,7 +769,7 @@
     {
       "name": "Ardupilot.org",
       "image_url": "https://lh3.googleusercontent.com/rOdX6gJyolzXqNbwLUp53kRuHi1DGo22jHcPapOU1Xr0ssyYkd8Utg4JAe5NjTsWhT_QbylsZD3pWHQQ6oIxUCd3oqaNU0A",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "The worlds most advanced open source autopilot",
       "url": "http://ardupilot.org",
       "category": "Other",
@@ -1042,7 +1042,7 @@
     {
       "name": "Blender Foundation",
       "image_url": "https://lh3.googleusercontent.com/Lt23R1hzNjJ8aIy9PwZIkJRK3CQnYOOKQbc9i6tXH26NSHFlu3yEcWBxHJmj9sRiPK-J7_9JJX9H-fq7agOuTqIlDgg0fuY",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "Free and open source 3D creation for everyone, forever.",
       "url": "http://www.blender.org",
       "category": "Media",
@@ -1224,7 +1224,7 @@
     {
       "name": "BRL-CAD",
       "image_url": "https://lh3.googleusercontent.com/2_-2LuzKuQZM1EHQyrXTwsA906UdIIlwg6E8HXjv241uga70GUVWuZ23OSN74Jwqdgecdp1MjwUndhW0xxFncsWXF-SWrsE",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "Solid geometry, computer graphics, 3D printing, modeling, CAD, CAM, & other CAx!",
       "url": "https://opencax.github.io",
       "category": "Media",
@@ -2132,7 +2132,7 @@
     {
       "name": "CHAOSS",
       "image_url": "https://lh3.googleusercontent.com/xB9WNGsOxmCeRSCjwZtbnzHt531KjirGFI6HLebML0NwCI2a8b2dDaIgWGOYPg7zMR2U49gBrGm20MPQlJT-_I2Z_uJcFeEe",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Aimed at improving our understanding of open source health and sustainability",
       "url": "https://chaoss.community",
       "category": "Social and communication",
@@ -2964,7 +2964,7 @@
     {
       "name": "Cuneiform Digital Library Initiative (CDLI)",
       "image_url": "https://lh3.googleusercontent.com/hYQ7olte-165Mu4GnFYkGiBnL6EKhkwjR21sThikTsVeeANTKU1j1dVk9I5Ot73lAYfuppJONtarpqSjRUmcz_NNfM6h_A",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "International digital library of artifacts inscribed with cuneiform writing",
       "url": "https://cdli.ucla.edu",
       "category": "Data",
@@ -3324,7 +3324,7 @@
     {
       "name": "Django Software Foundation",
       "image_url": "https://lh3.googleusercontent.com/HPyDH5ELi9kh47ZDnG6kEoh0Q2n9sfzEybtJzDrL0iuexaYaNbM0r6o-qeLIbETzGLEEUwY5PsK522KNUH_4LBBvMAqycN4",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#092e20",
       "description": "The web framework for perfectionists with deadlines.",
       "url": "https://www.djangoproject.com/",
       "category": "Web",
@@ -4601,7 +4601,7 @@
     {
       "name": "GNU Mailman",
       "image_url": "https://lh3.googleusercontent.com/W5_HfRhGy7eul5tQVI7otjo9HI3j-18nGyGjDs0gBcGjBX4KDvaM0sMLanIiv9IeIaIDKqdaVxSGWEAOcyCyuUO0BF5lmA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#fff",
       "description": "the GNU Mailing List Manager",
       "url": "http://list.org",
       "category": "End user applications",
@@ -4850,7 +4850,7 @@
     {
       "name": "Haskell.Org",
       "image_url": "https://lh3.googleusercontent.com/YF7RimCX2v6zOxdZo9DtD1AmckZGvcr-NRWfE6eQMDnMBAonsyoCuGslAiJQyjtQ-Itu5mdUK5LQtgllLrD6prYZJc9wvQ",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#eeeeee",
       "description": "Standardized, statically typed, lazy functional programming language",
       "url": "http://haskell.org",
       "category": "Programming languages",
@@ -4995,7 +4995,7 @@
     {
       "name": "Hydra Ecosystem",
       "image_url": "https://lh3.googleusercontent.com/cj55eWwBVQDSIVfgdVKjJ1jv5mqGgn-FAcGRV3T4uD0cIpr8ur6UvUS_DSYkBuMONr8QN4Fxv9L1dm9mv-ctzuV_v8aQbPCE",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#fdd20b",
       "description": "Automate REST APIs. Next generation API clients.",
       "url": "https://www.hydraecosystem.org/",
       "category": "Web",
@@ -5754,7 +5754,7 @@
     {
       "name": "Kapitan",
       "image_url": "https://lh3.googleusercontent.com/WJ__KncTy9P5VPnyC9lvjhwp6MPG1GAW5_Zt3bB6oEZ6RXg45iOhkfLPyPsYDkDvCkz4ftvLxE6wPXAKU16p3jZyYsyJOU0Z",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#1987B6",
       "description": "Generic templated configuration management for kubernetes and more",
       "url": "https://github.com/deepmind/kapitan",
       "category": "Programming languages",
@@ -6893,7 +6893,7 @@
     {
       "name": "mlpack",
       "image_url": "https://lh3.googleusercontent.com/IKV46CbackHxXISnw25cOwS8cyjH7uA-zfK9e6B7d-PzMzbuaNXqKfUtvf8EQZkYhn2Vktx3JG8fNXOHh57ER7839Z2j90s",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "fast, flexible C++ machine learning library",
       "url": "http://www.mlpack.org",
       "category": "Data",
@@ -6989,7 +6989,7 @@
     {
       "name": "Moira",
       "image_url": "https://lh3.googleusercontent.com/gA-6fTpjFw-q2qgu9uogt_tFRyUmVDJI-36ynd91skmrB9kuL1rHP7Yvbzi4SU7YT6iuSu19bYtkcuWbDV5iN1ltQ6jZ1Q",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#00BFA5",
       "description": "Moira is a realtime alerting system based on Graphite data",
       "url": "https://moira.readthedocs.io/",
       "category": "Programming languages",
@@ -9160,7 +9160,7 @@
     {
       "name": "Public Lab",
       "image_url": "https://lh3.googleusercontent.com/A6P-lfLdDq8a8agYOQsnbqZOQNgnNL35ep8wWugdCDOkyIzGQooWcl9RZISB2fQwJ6OWl-4K8zRwU1vb5jEwle_lpbF84VA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#efefef",
       "description": "Open hardware and software to help communities measure and analyze pollution",
       "url": "https://publiclab.org",
       "category": "Science and medicine",
@@ -10570,7 +10570,7 @@
     {
       "name": "Salesforce",
       "image_url": "https://lh3.googleusercontent.com/b_Zs0WDCb82zhyL83B1zm4yR4bUymA-vGn_1yNL7aJgANPNcjfmYNOx9IZZF719ewIMxm_winyYNC8ANforLd5f0RdQkcBA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#101B28",
       "description": "From the kernel to the browser, open source projects from Salesforce.",
       "url": "https://opensource.salesforce.com/",
       "category": "Infrastructure and cloud",
@@ -10885,7 +10885,7 @@
     {
       "name": "ScummVM",
       "image_url": "https://lh3.googleusercontent.com/e88g3tjSlpdMvdSaE-YA4gpkFF__HtxetmcmuxIzlEo3ojeZzZIcNtio4wohvi3oV_KSPKy_LpkB4VO7UHciPzwLyqLgUYxM",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "ScummVM is a GSoC umbrella for game preservation projects",
       "url": "http://www.scummvm.org",
       "category": "Other",
@@ -11377,7 +11377,7 @@
     {
       "name": "SymPy",
       "image_url": "https://lh3.googleusercontent.com/LgMVgXcHqxk0zJlN3rMnEWI5iARsDQfs1MnsP2yQCtC4aixoz-e35Dz7GKzIaTSW4a_Ra6jfzZ3KEv9ka1f5oevuqqHRHsc",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#81B953",
       "description": "SymPy is a Python library for symbolic mathematics.",
       "url": "https://www.sympy.org/",
       "category": "Science and medicine",
@@ -12080,7 +12080,7 @@
     {
       "name": "The Honeynet Project",
       "image_url": "https://lh3.googleusercontent.com/STp7H6MmCyOgFt9MXaLKMZWYOaVXJ798aGecSsbWmoFRhLrNiKouNAjXa1tj9cWr2XLtHeL19pfa3Wf8GNT_xF33_qV_pI8",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "The Honeynet Project - R&D for Honeypot/Honeynet Technology and InfoSec Research",
       "url": "https://honeynet.org/",
       "category": "Security",
@@ -12379,7 +12379,7 @@
     {
       "name": "The Libreswan Project",
       "image_url": "https://lh3.googleusercontent.com/a4sx0S_eXmFrCaOpTU8xooFEQiy4oceqymlrT_TvCotG44D9ISG3M2wBV4srQLh6m6g8z41fyvkihXT36gnT-uqs9B2njA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#eeeeee",
       "description": "Encrypting the Internet with IKE and IPsec.",
       "url": "https://libreswan.org/",
       "category": "Security",
@@ -13107,7 +13107,7 @@
     {
       "name": "The Wine Project",
       "image_url": "https://lh3.googleusercontent.com/9GFTq7oxLzt8HpwzA0Ayw8h1VmBa4IY376kSM_e7CBGCZvrfVC0QXyxqD4kuFlWc7eDG8LrIiClGGnr0TVxOSm2cJ60XEO8",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#420000",
       "description": "Wine runs Windows applications on Linux, BSD, Solaris, macOS and Android.",
       "url": "https://www.winehq.org/",
       "category": "Other",
@@ -13131,7 +13131,7 @@
     {
       "name": "TimVideos.us",
       "image_url": "https://lh3.googleusercontent.com/EXMCUdZcXXqwFdusWDrQjwkUxDqRcXVzLPvWsjxJdUGKny0uSSvP361cqSqBESHB0zcKHwfQFtzxt71nUqy21b2jEfykUJ0",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#efefef",
       "description": "Software & hardware for recording + streaming conferences, meetings, user groups",
       "url": "https://code.timvideos.us",
       "category": "Media",
@@ -13208,7 +13208,7 @@
     {
       "name": "UCSC Xena",
       "image_url": "https://lh3.googleusercontent.com/hlRCFceco1ZLWp8ayUER9wOB1bqQKT8k5afqeeXRS8otR1s34Gds8dRajI3_W3-DIadsncH4GmxzV6AomZZiipAiKnsM9hA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#1a535c",
       "description": "Helping biologists see the bigger picture in diverse cancer genomics data",
       "url": "http://xena.ucsc.edu",
       "category": "Science and medicine",

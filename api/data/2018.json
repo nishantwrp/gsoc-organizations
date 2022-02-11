@@ -276,7 +276,7 @@
     {
       "name": "AOSSIE - Australian Open Source Software Innovation and Education",
       "image_url": "https://lh3.googleusercontent.com/mFaEzR82V3AeoHqMOxCsR6WZNtzg24kB0pLpPK_z1LflGJTO7cSEAMkeLn9YfeDFppXFDKl8-5-13y-H2erjcIiX26OzDA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000",
       "description": "Australian Umbrella Org for Open-Source Projects",
       "url": "http://aossie.org/",
       "category": "Web",
@@ -897,7 +897,7 @@
     {
       "name": "BeagleBoard.org Foundation",
       "image_url": "https://lh3.googleusercontent.com/Nlj-FVsHX8F808QCFAdhzXkvFDEDKDc9PEWtzyvGBxE1UxCawlykLT6xRMTgIuBoCLu9KW7LgbGihQ0ooEt_cNp1MS5KaY0",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#f1f1f1",
       "description": "Open hardware and software for physical computing",
       "url": "https://beagleboard.org",
       "category": "Programming languages",
@@ -946,7 +946,7 @@
     {
       "name": "Beam Community",
       "image_url": "https://lh3.googleusercontent.com/3NTyFksUJY1s5wfOoxtTI_ky6T1sLQtQsXFwPKtQ6eCsTBu4sEaUSh6QSbeSATr20rZYKwqrEoUkgFhXEmcXznn8rvST0Os",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#3567b4",
       "description": "From distributed systems, to robust servers and language design on the Erlang VM",
       "url": "http://beamcommunity.github.io",
       "category": "Programming languages",
@@ -1101,7 +1101,7 @@
     {
       "name": "Blender Foundation",
       "image_url": "https://lh3.googleusercontent.com/cSpesFluIhoVJgfVaB4YuJqfoLuJ9bxTnoF3-N9K3Mrm57lCqmTFmoBvweiHhS0KXji2uJJirM4X5hgCJJgQb195DtmJo0s",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "We build a free and open source 3D creation suite.",
       "url": "https://www.blender.org",
       "category": "Media",
@@ -1160,7 +1160,7 @@
     {
       "name": "Boost C++ Libraries",
       "image_url": "https://lh3.googleusercontent.com/SwlqZViXOMDZP6pH1SivPI73SL7LlfUU3RqtmkpPXkCFX1fV2DFwZHMyXacWpYvMoB8yq4fqEYz7z2cPuflQKEI3L3o-_A",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#c5c5c5",
       "description": "Boost provides free peer-reviewed portable C++ source libraries",
       "url": "http://www.boost.org/",
       "category": "Programming languages",
@@ -1939,7 +1939,7 @@
     {
       "name": "CHAOSS: Community Health Analytics Open Source Software",
       "image_url": "https://lh3.googleusercontent.com/9tY7H3mdnleH1qSNUqz_oTCdV7ymX8TWLf-33R1-LwiJRWKFOeYQmtsEWrpEvyYN4qdiRVf0jwfDc61XDpZgZUUNG4M28eEq",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Advacing open source project health and sustainability",
       "url": "https://chaoss.community/",
       "category": "End user applications",
@@ -2022,7 +2022,7 @@
     {
       "name": "CiviCRM LLC",
       "image_url": "https://lh3.googleusercontent.com/FQKQWNiy81r4YakEOYQdbkw6SFe7vTlZkZ7wgca5QHMas9W0iIPr73eiQqYMr51HIArEZJWc4ELD7KhLHwaZQOjxoS-ZSA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#fff",
       "description": "Build, engage and organize your constituents",
       "url": "https://civicrm.org",
       "category": "End user applications",
@@ -2550,7 +2550,7 @@
     {
       "name": "Cuneiform Digital Library Initiative",
       "image_url": "https://lh3.googleusercontent.com/9xWQAVg3GoqmGtF-w5hjpo0SAfcu5EIVXE-jMk7vd0wXjp1Bs_JA44pH5fvBmkLV5V8BsUAhvdSqIo33cqXsAE_GfbEPEqSY",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "International digital library of artifacts inscribed with cuneiform writing",
       "url": "https://cdli.ucla.edu",
       "category": "Data",
@@ -2634,7 +2634,7 @@
     {
       "name": "Debian Project",
       "image_url": "https://lh3.googleusercontent.com/ltmY68A-1SFLVpKhcg9kSiP3OYK5SXCCDIdmmjWFkHFszreTVfeoVP_CRyGyNwyh0SqnHETbY89ieUF6vtPynkehpZhTzng",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "the universal operating system",
       "url": "https://debian.org",
       "category": "Operating systems",
@@ -2870,7 +2870,7 @@
     {
       "name": "Digital Impact Alliance",
       "image_url": "https://lh3.googleusercontent.com/7EKrN86g9xGTSFyQhKr2TumycO4O9Lc4jg5pw6mpfhsfjKAEkpxmxq-KYK9bWdlEa0eVbwMOTJ02Bne3yFGneeC3tEFVVg",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Supporting open source projects for a digital society that serves everyone.",
       "url": "https://digitalimpactalliance.org",
       "category": "End user applications",
@@ -2911,7 +2911,7 @@
     {
       "name": "Django Software Foundation",
       "image_url": "https://lh3.googleusercontent.com/p9V4-w4z2mvRzTKZAG-Je6M8z73NaqHGMW-m_chUEcmeBgUY0i7eHQH-Zqik46NvZSblDH5oSZpgAOAmUXhWT1fe2WA9gJ36",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#092e20",
       "description": "The web framework for perfectionists with deadlines.",
       "url": "https://www.djangoproject.com",
       "category": "Web",
@@ -5650,7 +5650,7 @@
     {
       "name": "Jitsi",
       "image_url": "https://lh3.googleusercontent.com/hdhKh8Txg7WL_mIBMXbgeh4MfeAwQOaPcNrJFRak-y-KdEye1vFA_ow7xHqB-tjds6F5B-7dXnJrQkbtbs9MtY4_jTNwYqs",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#50a9e2",
       "description": "The most innovative Open Source video conferencing community. Period.",
       "url": "https://jitsi.org",
       "category": "Social and communication",
@@ -6427,7 +6427,7 @@
     {
       "name": "LuaRocks",
       "image_url": "https://lh3.googleusercontent.com/t82Wpb8P1ohKl6Ko_AHCdVzTcmrshI3zxfyAvVWY-Cmv7SBYV7bCQ5qHHhxo9g0rEY3trVANXAWsR50aViqaJ6p4E7cOaYQ",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#dfefff",
       "description": "The package manager for the Lua programming language",
       "url": "http://luarocks.org",
       "category": "Programming languages",
@@ -6589,7 +6589,7 @@
     {
       "name": "Metasploit",
       "image_url": "https://lh3.googleusercontent.com/XugZqgv9BNRj1YkpYmfqRok8UAah8rqvHfsmcB_Wix-V3-IXl5P75RwlUVVF47jhCVuI9aL0BZ2XMfDOJOYtEQhweoEvbro",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "The world’s most used penetration testing framework",
       "url": "https://metasploit.com",
       "category": "Security",
@@ -6653,7 +6653,7 @@
     {
       "name": "Mixxx DJ Software",
       "image_url": "https://lh3.googleusercontent.com/zxpeP1Rd1nwd-q0dNGo-uAmzba7hFsn1VeT4OQATxfaoVw-XvDx75axzyDHkQ4pAR01_g9fcjgVNkKE7cXq5mf2K4ZfNHH4",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000020",
       "description": "DJ Your Way, For Free. Join our friendly community of hackers, DJs, and artists!",
       "url": "https://www.mixxx.org/",
       "category": "Media",
@@ -9019,7 +9019,7 @@
     {
       "name": "Polly Labs",
       "image_url": "https://lh3.googleusercontent.com/yKCUZwrL8WLvq58Lpcxl0GZ1wdQFNuhMVxp0NvQT8R_ZkRCaVvcOqhv0SP6MMdbDJCTxm1k9FPC6W4V-cbQwh9AUxi-nSHc6",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Promoting Polyhedral Compilation",
       "url": "http://pollylabs.org",
       "category": "Programming languages",
@@ -9264,7 +9264,7 @@
     {
       "name": "Python HYDRA",
       "image_url": "https://lh3.googleusercontent.com/shRvO48qOOa6WUw_lNJbM8BQlRjdlFKfD6O_GkN2RzuHuytO8aGsUm9eNX_UvptFyPgdIIo3MDhaMYksfUuPNVUKvd3svBw",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#383838",
       "description": "Build better Web APIs. Enable smart clients.",
       "url": "http://www.hydraecosystem.org",
       "category": "Web",
@@ -9487,7 +9487,7 @@
     {
       "name": "Quill.org",
       "image_url": "https://lh3.googleusercontent.com/CHPiRA9590fHfBQ02NwN2zhkYtvjaI6DpI44mOuXOOoLeE3JtIwYx_0_k3-hb-W2QndF65EjL22oVy3fAeNXvk75fa2QWfc",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#00c3a2",
       "description": "Helping millions of learners become better writers and critical thinkers",
       "url": "https://quill.org",
       "category": "Web",
@@ -10351,7 +10351,7 @@
     {
       "name": "Sage Mathematical Software System",
       "image_url": "https://lh3.googleusercontent.com/3W-iFLbqnZNexdI_lOq_2c6kETt_HO3pLLv9oLqoAqSsWguf1ZoC6R0mTsahON-qlmenyyNrAVMhWinfZ3_6rf--M6LImA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#c9c9f9",
       "description": "Creating a viable free alternative to Magma, Maple, Mathematica and Matlab.",
       "url": "https://www.sagemath.org/",
       "category": "Science and medicine",
@@ -10442,7 +10442,7 @@
     {
       "name": "Scilab",
       "image_url": "https://lh3.googleusercontent.com/lIs5ySAf3RTl47fydovwKV_c6iXAVC9iSG_tuhDg_uq7EWYQCwqKasW3EF7C4xM8SCm8Q7KNpmrkoYHb0FkCZPxfrFUXL8w",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#092F4D",
       "description": "Cross-platform numerical computational package and programming language.",
       "url": "https://www.scilab.org",
       "category": "End user applications",
@@ -10493,7 +10493,7 @@
     {
       "name": "ScummVM",
       "image_url": "https://lh3.googleusercontent.com/qAoghs185CFIqnQ_jDUwpXEBGtoR1SsKxJb9dAB1jhUot_34hQBH6aMp4S1L8n8uARM1zcngttS0Mv7RcCqCSgrjpqeZgw",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#ff7f00",
       "description": "ScummVM is a GSoC umbrella for game preservation projects",
       "url": "https://scummvm.org/",
       "category": "End user applications",
@@ -10536,7 +10536,7 @@
     {
       "name": "Seastar",
       "image_url": "https://lh3.googleusercontent.com/rBIDW74GlN99v142I_orxLgDEKEkmkkFd3qfmN0D6N1u9c9GD1LQD_2XDGY_1uU03TbaQPwsLA_jQEZXkeADHCJyO4QTJSU",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Framework for writing high-performance server applications on modern hardware",
       "url": "http://www.seastar-project.org/",
       "category": "Programming languages",
@@ -11210,7 +11210,7 @@
     {
       "name": "SymPy",
       "image_url": "https://lh3.googleusercontent.com/8bPB29LXd8V1RogWTdgtGZZvCdOexEAfFhKuteHi19KAgxM1lbKXsBFWeqDN7nuloJyn33xrp9GhvEAyqom0L6vYFPOpJ8w",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFF",
       "description": "SymPy is a Python library for symbolic mathematics.",
       "url": "http://www.sympy.org/",
       "category": "Science and medicine",
@@ -11398,7 +11398,7 @@
     {
       "name": "TEAMMATES @ National University of Singapore",
       "image_url": "https://lh3.googleusercontent.com/265HE7VM0Yah8cmmoSVdkm9wRTOJem65VxSrT_0SXfgcgtHYdkeHt0qji7xc-_9N4xYYB1TAwBC-hjKFqt3UJ7m4N7llGA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "An online feedback management system for education",
       "url": "https://github.com/teammates/teammates",
       "category": "Web",
@@ -11578,7 +11578,7 @@
     {
       "name": "The Honeynet Project",
       "image_url": "https://lh3.googleusercontent.com/GrqqeBDi31fWo_fMir-cVAmtxIyzyAjO6godi--ovJaw8ktk_CXr1I8u-Ccp87h47sNF8sRjc_kV8uPIpyIk9Ai8waVH5LA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000",
       "description": "The Honeynet Project - R&D for Honeypot/Honeynet Technology and InfoSec Research",
       "url": "https://honeynet.org/",
       "category": "Security",
@@ -12461,7 +12461,7 @@
     {
       "name": "The Wine Project",
       "image_url": "https://lh3.googleusercontent.com/IWkiNuluRaR_EDOTgdTkg4kRmnUmVcjy7pocEhjxwITS0AgXDPCRb-0QdnNAqyJu1uUCyhFiWpxRhNUzENeS6UonkfjRkQ",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#420000",
       "description": "Wine runs Windows applications on Linux, BSD, Solaris, macOS and Android.",
       "url": "https://www.winehq.org/",
       "category": "Other",
@@ -12502,7 +12502,7 @@
     {
       "name": "TimVideos.us",
       "image_url": "https://lh3.googleusercontent.com/MwfZ3hJ5uA30wVBDXzphSQyAn1UhWp78wk-ZXPgkqhRn8zc73JrNxglxk2BFKC0Xs7wc-vEQdoCUBSrtyQzkSQK1GnOKnspL",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#eeeeee",
       "description": "Software+hardware for recording & streaming conferences, meetings, user groups.",
       "url": "https://code.timvideos.us/",
       "category": "Media",

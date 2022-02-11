@@ -180,7 +180,7 @@
     {
       "name": "aimacode",
       "image_url": "https://lh3.googleusercontent.com/JzxNOZ9XiaGBC_TOJMYQIjaBB0Pzf7HZZOLiE3rzb8vHWQfQjVVgaFK7h42tCFkPJ10KKnhl_6KmaiMMP8RWJb6JNsRzTVE",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#0000cc",
       "description": "Code for the book \"Artificial Intelligence: A Modern Approach\"",
       "url": "https://github.com/aimacode/",
       "category": "Programming languages",
@@ -292,7 +292,7 @@
     {
       "name": "AOSSIE - Australian Open Source Software Innovation and Education",
       "image_url": "https://lh3.googleusercontent.com/tosbibSE_nLmbQ-M05qQpShZDErKCZ9DyMVXrF-wJZopzCiMFGudoQkLc-26hOd7CNVoDxgiOmLE9bkWmvBLhLTnGYnuag",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000",
       "description": "Umbrella Org for Open-Source Projects in Australia",
       "url": "http://www.aossie.org/",
       "category": "Science and medicine",
@@ -846,7 +846,7 @@
     {
       "name": "Babel",
       "image_url": "https://lh3.googleusercontent.com/SgPfGA3yKtXE8SpqyNFL0dPQlQbXYbawc4QS2A8UvG6pdZvw4zwPECNCkbNVtZ6nXyYIxDDxL_lniJCM2GbrIgQEnLropJk",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#323330",
       "description": "Babel, the community driven compiler for writing next generation JavaScript",
       "url": "https://babeljs.io/",
       "category": "Programming languages",
@@ -1047,7 +1047,7 @@
     {
       "name": "BeeWare Project",
       "image_url": "https://lh3.googleusercontent.com/LJhQB0OdkDuv3SBSDqwNwQ0kNFoTK6XTPXQ-wnzjnk2zkR9LhWPfRzNnmkCxdJQILveOdfONAU33m5ANiKZNBApH9r0n9jTp",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#eceeef",
       "description": "The IDEs of Python. Tools for cross-platform Python application development.",
       "url": "http://pybee.org",
       "category": "Programming languages",
@@ -1310,7 +1310,7 @@
     {
       "name": "BRL-CAD",
       "image_url": "https://lh3.googleusercontent.com/mWrBNnqPMRg1CGoqk7qFw7x22WW4OfT5e-Lyb2rRQamZh4MKUZKIfHpGzyLwZD7zv9g8YYQPZ5UYspGTbmL4MFEjZiDTjg",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#222",
       "description": "& LibreCAD, OpenSCAD, STEPcode, LinuxCNC, FreeCAD, & Slic3r!  Computer Graphics.",
       "url": "http://brlcad.org",
       "category": "Media",
@@ -2752,7 +2752,7 @@
     {
       "name": "Django Software Foundation",
       "image_url": "https://lh3.googleusercontent.com/gBM87Hc5cMcgbJSyfvXEXIsggzdZBgtcq5YDwM78D6bd-L_rFJuPoaEqtr8teCGjtvQZohTPof8X5ZRz9hMI61-VA8vFqCU",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#092e20",
       "description": "The web framework for perfectionists with deadlines.",
       "url": "https://www.djangoproject.com",
       "category": "Web",
@@ -2931,7 +2931,7 @@
     {
       "name": "Environmental Data And Governance Initiative",
       "image_url": "https://lh3.googleusercontent.com/6M5VZ3XHpr1IpCBDAb1NnmreVjiAW4PPYSh8kJUEspShRoZ4oTx2kPdWG0cJjfXeCwDbtfuYsSArr31ynvZMyAkIhMhrLx9C",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#f4f4f4",
       "description": "International network addressing threats to US environmental & energy policy",
       "url": "https://envirodatagov.org/",
       "category": "Data",
@@ -3043,7 +3043,7 @@
     {
       "name": "FFmpeg",
       "image_url": "https://lh3.googleusercontent.com/BOL9R6X621pzLGNGoD3i9DWT1WNbpbZB-4Jagpaf7Np8m77cA0A-JitDNtD1TK5TkFTQb_KsSHDZFHL1a8iZZGILJS4unw",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Cross-platform software to convert audio, video and subtitles.",
       "url": "https://ffmpeg.org/",
       "category": "Media",
@@ -3143,7 +3143,7 @@
     {
       "name": "FOSSASIA",
       "image_url": "https://lh3.googleusercontent.com/mEgX9LwkfS3_bHuqb54g9onkXAEq6PhQdTRTnv1Ts--M6NrXNrwpM1kmJOUuFdH79BFu9UG8IIqE0cvw1k_U8CMnIXCFqTQ",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Improve People's Lives",
       "url": "http://fossasia.org",
       "category": "Other",
@@ -3812,7 +3812,7 @@
     {
       "name": "Frescobaldi",
       "image_url": "https://lh3.googleusercontent.com/IRUCAU_NRRzhF33TmMt5o1k7eDlbSlcyfF59CwLJABUgeFMCXGAbRmVtozRAHmQu4xtz9T2H8Y0J2m1dJZlSpj7gHlWfU_sp",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFB",
       "description": "Edit music scores with GNU LilyPond.",
       "url": "http://frescobaldi.org",
       "category": "End user applications",
@@ -4440,7 +4440,7 @@
     {
       "name": "Haiku",
       "image_url": "https://lh3.googleusercontent.com/isqv6xucX1TkGooFI6nzguKu4BrefroDjvJ96DNvoXVDGLvzZ_nG18S-dPnXM0fiVsrgZ6eVRPqbx3KYpRTJ0iGrTJIQZW0",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#336698",
       "description": "Light open-source operating system that specifically targets personal computing.",
       "url": "http://www.haiku-os.org",
       "category": "Operating systems",
@@ -5449,7 +5449,7 @@
     {
       "name": "LibreHealth",
       "image_url": "https://lh3.googleusercontent.com/i74AjO1uZu3bqvBZ7LjQVdLAP53yy5lR30-LzKbiKR0tVWhFa56WMcdmostRUrVDX_hAVYagOvLM53CIMAB04k7wHwCqXA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFF",
       "description": "Healthcare for Humanity",
       "url": "http://librehealth.io",
       "category": "Science and medicine",
@@ -5949,7 +5949,7 @@
     {
       "name": "MetaBrainz Foundation Inc.",
       "image_url": "https://lh3.googleusercontent.com/qZLoNlICnffNGh_i7PolRUX2qYh-Pu-s9gfV3bI9bkkM2YHiVtLAOGjaRuayi6LB09tiJyRXMAQAQT-mjt88O6axQs0i9Kql",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFF",
       "description": "MetaBrainz operates MusicBrainz and a number of related open data projects.",
       "url": "http://metabrainz.org",
       "category": "Data",
@@ -6248,7 +6248,7 @@
     {
       "name": "Mixxx DJ Software",
       "image_url": "https://lh3.googleusercontent.com/y66G7cyFoEB-ny79vPLICRV0IS4r-AJZ-9Xbot5l8rBubSjBj66k9KVqL_jko94yVq4Z9b2Et94BjEVs-X8wV8kqu_x8-5Y",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#6A1B9A",
       "description": "DJ Your Way. For Free.",
       "url": "http://mixxx.org/",
       "category": "Media",
@@ -6283,7 +6283,7 @@
     {
       "name": "mlpack",
       "image_url": "https://lh3.googleusercontent.com/X8hF1Iz5fdFuR_T9k8AZ6DZc-kfN-xgFdl5VJ3PZPpmUAIuAswKbTX2uUZ-n8nmLQec0-yjkKABI3Ta5dSpWYSkfOiTr7i8",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "a scalable C++ machine learning library",
       "url": "http://www.mlpack.org/",
       "category": "Data",
@@ -6439,7 +6439,7 @@
     {
       "name": "Mono Project",
       "image_url": "https://lh3.googleusercontent.com/Wnx2UKIIjXTvvrIgRrPHvnIbw6WXjSbBGOleTchd-Kv0D9gbrdmf21-x9IpyXYONEza_KVi1TkwcIiyUpn8kOQV2wD3PGmo",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#222",
       "description": "Cross-platform C#/F#/.NET runtime and tools",
       "url": "http://www.mono-project.com/",
       "category": "Programming languages",
@@ -6536,7 +6536,7 @@
     {
       "name": "Moodle",
       "image_url": "https://lh3.googleusercontent.com/cNaaZ8_ej_R3YA-Pa3rZ75ksisMW6aew7zGuyBZNBWLDW89rM_t-y0DclFPY8TVFR9f2iM1XlMySjIfBv_EQ9sLBqmd83g",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "The world's open source learning platform",
       "url": "https://moodle.org/",
       "category": "Social and communication",
@@ -7082,7 +7082,7 @@
     {
       "name": "Netfilter project",
       "image_url": "https://lh3.googleusercontent.com/oaJnMbZY1omAC2NPmr0FdyhME582EygGU5dR8j_pSXrMHyEh_GZDVO-uVIww0LoXOW26e-l2tbE9gr0Ugl0MLgE6lrM81cQ",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "FOSS community-driven project that provides firewalling tools for Linux",
       "url": "http://www.netfilter.org",
       "category": "Operating systems",
@@ -7654,7 +7654,7 @@
     {
       "name": "OpenAstronomy",
       "image_url": "https://lh3.googleusercontent.com/k97j4nu_jYtIPGDm0_CGWlcchojQzSJ-1Xy8lqKLTYV7smiai61bIQryKr98QqlgQkpmEtYOx7Er9G_F4RtmC96jd1Zqbg",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Opening the eyes of research astronomy software to the whole world.",
       "url": "http://www.OpenAstronomy.org",
       "category": "Science and medicine",
@@ -8156,7 +8156,7 @@
     {
       "name": "OpenWISP",
       "image_url": "https://lh3.googleusercontent.com/--u1VxOKOF1MV64kY2wRdG6g1_wlidSOXAHqjigTogQ0RQdNXKnXXu8tO5kAzSX1te5I3QZk4wZobbMWbsJfOAXk8m5T8H0",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#333",
       "description": "Open Source solution to build and manage wifi networks",
       "url": "http://openwisp.org",
       "category": "Web",
@@ -8434,7 +8434,7 @@
     {
       "name": "ownCloud",
       "image_url": "https://lh3.googleusercontent.com/DfB90GrSxjjUVgE4ye84i6KbkUQVUkzoIJtpZfqCkHbRuIbf9h4Twj6DKYU4ul4zJHk01UKjz7NGXRfJ9NcIDcH1uMhxCqE",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#1d2d44",
       "description": "A safe home for all your data",
       "url": "http://owncloud.org",
       "category": "Infrastructure and cloud",
@@ -8931,7 +8931,7 @@
     {
       "name": "Polly Labs",
       "image_url": "https://lh3.googleusercontent.com/zRSoYfZa7Wx6lQzLq8MO_QkpWtZbVCP5jf3ZIUxStrDtEMI2QjRc5F8sueJR5gArWMgR4EdAe42nktNPVUgcCs-Bi_8U_aDL",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Promoting Polyhedral Compilation",
       "url": "http://www.pollylabs.org",
       "category": "Programming languages",
@@ -10257,7 +10257,7 @@
     {
       "name": "Ruby Science Foundation",
       "image_url": "https://lh3.googleusercontent.com/AGhVpjj4DSMCpJhxUjdFqGtTHoMDeyz4v4NFgacKReNQiaerwjC9AXrgHQ7A3s2QMw-4xGa9q4E_pIKos3FXue9tsHORVA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#eaeaea",
       "description": "Tools for Scientific Computing in Ruby",
       "url": "http://sciruby.com/",
       "category": "Science and medicine",
@@ -10386,7 +10386,7 @@
     {
       "name": "Scala",
       "image_url": "https://lh3.googleusercontent.com/EfPjiSXyWRJFZS5idWZo5thkjEbuVk0spqEsvV9SO46IEOIXwk6hRTdePYNGbV2AZ17z1dYGZDMsdZkeDBPG8D5f-HF3IK0F",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "The programming language where object-oriented meets functional.",
       "url": "http://www.scala-lang.org",
       "category": "Programming languages",
@@ -10474,7 +10474,7 @@
     {
       "name": "Scilab",
       "image_url": "https://lh3.googleusercontent.com/ciM8klwqNEZfQcSwIFTjazdZ2oBb_MhfRStvR7l_52RgNrfdle3XfebJtH6edg_3KfUnZCLwZoOEigXqvuajR7ABWyqBeJM",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#092F4D",
       "description": "Numerical computational package and high-level programming language.",
       "url": "http://www.scilab.org",
       "category": "End user applications",
@@ -11117,7 +11117,7 @@
     {
       "name": "SymPy",
       "image_url": "https://lh3.googleusercontent.com/_Z-ffewY-CgphMspm9NvlVaNeYSDLaYbU4u8ZW7FMhgYYsLe1gfxCBSQME-sZkyd-EmEkPL0yO4px_1Yy9O0oiOEkKTIGg",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#EEE",
       "description": "SymPy is a Python library for symbolic mathematics.",
       "url": "http://www.sympy.org/",
       "category": "Science and medicine",
@@ -11307,7 +11307,7 @@
     {
       "name": "TEAMMATES @ National University of Singapore",
       "image_url": "https://lh3.googleusercontent.com/luZzJwQlVaYB51AhxnDJaZe6lM-sN8VyEinlxbuFmC5JbKjeaKTMrZ8znvSHoTxtalBLz85S8_ImfDoqrcZ8od_89cbMYgY",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "An online feedback management system for students and teachers",
       "url": "https://github.com/teammates/teammates",
       "category": "Web",
@@ -11743,7 +11743,7 @@
     {
       "name": "The Honeynet Project",
       "image_url": "https://lh3.googleusercontent.com/9Q04KXcA1LwynVd9KNq5iyrGftX4SlLCsqkqNqfo1sCl-ojJSXtUpJz-R38uZIBzWDYPXozTelb0-JNWHj6Ib5ffQJaxMw",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "The Honeynet Project - R&D for Honeypot/Honeynet Technology and InfoSec Research",
       "url": "https://honeynet.org/",
       "category": "Security",
@@ -11945,7 +11945,7 @@
     {
       "name": "The Julia Language",
       "image_url": "https://lh3.googleusercontent.com/QkmKOCDnjRtNcTCB0waE8K4GGORcz5xAkXWakciX3ojPMZ7OGHsFFTfkGEZ4vq_j0G_btVvC0qBtTxgfKI-jN9ALBo56n9E",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFF",
       "description": "A fresh approach to Technical Computing",
       "url": "http://julialang.org/",
       "category": "Programming languages",
@@ -12098,7 +12098,7 @@
     {
       "name": "The Libreswan Project",
       "image_url": "https://lh3.googleusercontent.com/xieZvftH7NsAeeki3MpMGN5ShPyspPB84pmQbCa7pE9Gbichc2OntsSb_L2JrQSovN5QZdL8DTH4KRcfis843VqaYtuSOBA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "Encrypting the internet using IKE and IPsec",
       "url": "https://libreswan.org",
       "category": "Security",
@@ -12585,7 +12585,7 @@
     {
       "name": "TimVideos",
       "image_url": "https://lh3.googleusercontent.com/CFfiFkBCFCpy3Ca0VINsgQOJPLAa1GRAl3mX9JETHRyGKJ8SPmaN-j68TB_b85JtLIDEiLuke15X8pPfxT2J0JQkUGfBPw",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#efefef",
       "description": "Software & hardware to recording + streaming conferences, meetings & usergroups.",
       "url": "https://code.timvideos.us",
       "category": "Media",
@@ -12751,7 +12751,7 @@
     {
       "name": "VideoLAN",
       "image_url": "https://lh3.googleusercontent.com/qLSJFgSiCVKxEWT0bou38OWPKQIkhCs3chuGRiabN-zMkY3lzOZGo4JQ6rDhXwutHPRgh6SxA06X3xrkpii2gyZAqx6hT88",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "A team of volunteers, believing in the power of open source multimedia.",
       "url": "https://www.videolan.org",
       "category": "Media",
@@ -13166,7 +13166,7 @@
     {
       "name": "Xapian Search Engine Library",
       "image_url": "https://lh3.googleusercontent.com/nUKe3F1aZ12vp_VXwCKDRoFRT4VESQyh-Jo7luPj1ULSn_WCU8QvhoUEa-8B_l-gShRwsEPvAHNY47bF2mm2cAG88qjZZNg",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Fast, scalable and flexible search",
       "url": "https://xapian.org/",
       "category": "Data",
@@ -13422,7 +13422,7 @@
     {
       "name": "Zulip",
       "image_url": "https://lh3.googleusercontent.com/fOxr2i7xgNsXlEtEnnbCZCQQSVImnqXVKbf_-oo5Hm_Lq38KwmDryVdCmvd1lOnlQLtRsiess_b4WHce6FnsuvtF3F7kc1E",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#7e98ad",
       "description": "Powerful, modern, open source group chat, complete with apps for every platform.",
       "url": "https://zulip.org/",
       "category": "Social and communication",

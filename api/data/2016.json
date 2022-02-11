@@ -469,7 +469,7 @@
     {
       "name": "ArchC",
       "image_url": "https://lh3.googleusercontent.com/oT-xsIDhzuq_vQS6xdoI75pOBRrPXuSOR7XZRP4M3fKHop4kdHn6NtO397Jq6wccVTfqpkdbNhcVMN90-n2Tskp4P7lrvg",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "ArchC is an Architecture Description Language",
       "url": "http://www.archc.org",
       "category": "Programming languages",
@@ -626,7 +626,7 @@
     {
       "name": "Beam Community",
       "image_url": "https://lh3.googleusercontent.com/aFqcGbndy0g6U60siIEi2aJWoWGwv3qoXbYVz_QIXozvJjMYVLX59SqjsZCE3eikDth6tobzD3YwtaM5o3Fnf9VsERsQaA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#396cb1",
       "description": "From distributed systems, to robust servers and language design on the Erlang VM",
       "url": "http://beamcommunity.github.io",
       "category": "Programming languages",
@@ -853,7 +853,7 @@
     {
       "name": "Biomedical Informatics, Emory University",
       "image_url": "https://lh3.googleusercontent.com/CEhTk3nQabHKqhZvzqwKp1qB-c96eYbu92ybKyPCXFX2hV0vIw8oxxTmBAO6wTPnbRYA3RO7lz8fq8zfKTU-LS9DS-zl_fE",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Big Data for Healthcare and Biomedical Research",
       "url": "http://bmi.emory.edu",
       "category": "Science and medicine",
@@ -924,7 +924,7 @@
     {
       "name": "Blender Foundation",
       "image_url": "https://lh3.googleusercontent.com/i2Vs3SmBjsYd0GREMXanm7QgY99ocns8y5vIRISnkvAKGg0cOOKYMAt-i3R9fMJv5GFRf6WXoX8Ldc9pLWD8jWq-EqFIKQ",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000",
       "description": "We make a 100% free/open source 3D creation pipeline.",
       "url": "http://www.blender.org",
       "category": "Media",
@@ -1007,7 +1007,7 @@
     {
       "name": "Boston University / XIA",
       "image_url": "https://lh3.googleusercontent.com/bhR554gHUdC7qtAlBfF2iAWbBf-el8SowHTur-GoroLNT4Hvju9aUsmeDgpkhxn6FoOXdoQbe01L03o-IFq5rlHXeTbciKg",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Crowdsourcing the future Internet",
       "url": "https://github.com/AltraMayor/XIA-for-Linux/wiki",
       "category": "Infrastructure and cloud",
@@ -1137,7 +1137,7 @@
     {
       "name": "BuildmLearn",
       "image_url": "https://lh3.googleusercontent.com/cMBsjiaZFVKFs9mhSPbUqVvyeLXjYc3Cj7cFwCOVSqUn-32FtJvYHTckdoulgYGg5VNT_uLuNO0RJjh9O9C35Y8wdbgqaWea",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#043398",
       "description": "Building m-Learning applications",
       "url": "http://www.buildmlearn.org",
       "category": "End user applications",
@@ -1237,7 +1237,7 @@
     {
       "name": "Catrobat",
       "image_url": "https://lh3.googleusercontent.com/cSsj7r3ggaE9_j3G8GwdNyGPbxKAGyucNP579AgSp56dyEqpcUvctIQzbeDmgmrapyasP-Zc2o6K85mGjKb64n4-qfaNo2U",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Our apps empower teens to visually create their own apps directly on their phone",
       "url": "http://www.catrobat.org",
       "category": "Programming languages",
@@ -1383,7 +1383,7 @@
     {
       "name": "CCExtractor Development",
       "image_url": "https://lh3.googleusercontent.com/g-qHkbu5hP4huRhnbODLKqijUdAYdZ4hs6yKRbqsB297GFW0N_eBNpCtgBYcX-czw1Gb43v8bLXtYE3FPUsJJjHCy6NL1g",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "The de-facto standard tool for everything related to subtitles.",
       "url": "http://www.ccextractor.org",
       "category": "Media",
@@ -2553,7 +2553,7 @@
     {
       "name": "Django Software Foundation",
       "image_url": "https://lh3.googleusercontent.com/Y4t359YaIvGy1BUNnuHa07v8ZKgzGS5Du57cq7Bsw2VU4nQY8wLmIhZgoQarjrEyTBqmI1te3t5ZdtqhNeIaKfZjActpuyU",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#092e20",
       "description": "The web framework for perfectionists with deadlines.",
       "url": "https://www.djangoproject.com",
       "category": "Web",
@@ -3429,7 +3429,7 @@
     {
       "name": "Ganeti",
       "image_url": "https://lh3.googleusercontent.com/XlNb_Sabp2jyqUFTPwsSRUKRCErZZs__auwuotRQc8FLDQ0z6nWvTsYt5G9FB2h1G1e71PC0Tnb_-pE15uoGQPaKPyjh6VgG",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Cluster virtual server management software",
       "url": "http://www.ganeti.org",
       "category": "Other",
@@ -3496,7 +3496,7 @@
     {
       "name": "Gentoo Foundation",
       "image_url": "https://lh3.googleusercontent.com/Mso11Zvia9C0-6kmu0M4z96TBSLrcKzbP7JwtMpOZqpHEloV7GG_N7vUujdbzXioJFDZPZpoM6hZmA72JhEklcEr-GDfr4s",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "A flexible, source-based Linux distribution.",
       "url": "http://www.gentoo.org",
       "category": "Operating systems",
@@ -3682,7 +3682,7 @@
     {
       "name": "GNOME",
       "image_url": "https://lh3.googleusercontent.com/S9Ge740fhajxJZyBJAeWKiqEHaVOk7d2tTFXIJNNBZyfAB9aRYJefzwXrjnp8L7Fx-rb0O8i9kffMG0l9Zu2btNRkzyw3Ds",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#9cbbdd",
       "description": "Ease, comfort and control",
       "url": "https://www.gnome.org/",
       "category": "End user applications",
@@ -3893,7 +3893,7 @@
     {
       "name": "GNU Mailman",
       "image_url": "https://lh3.googleusercontent.com/aLx2N_rWW7eYmmm3MZ4YbmRxocrnfAQicenfA2T97xGd-eNMJrqQn9xuZDZ2BLDT8p3ihkPFGVnLDlnvzoOrrE5GFpkq1nc",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Mailman is free software for managing electronic mailing lists.",
       "url": "http://list.org",
       "category": "Social and communication",
@@ -4208,7 +4208,7 @@
     {
       "name": "Green Navigation",
       "image_url": "https://lh3.googleusercontent.com/3-vtRolYUq2v_iV2lyz5WLUUoS8TUW3RahB7Z49WbD7eHKdr8JTm6FgjVai6ZMdcFLyZ319fv3wYn7JIL1zB2Heo3UrMm98",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#fff",
       "description": "Routing Service for finding the shortest, fastest and most energy efficient way.",
       "url": "https://www.isp.uni-luebeck.de/research/projects/green-navigation",
       "category": "End user applications",
@@ -4310,7 +4310,7 @@
     {
       "name": "Health Information Systems Programme",
       "image_url": "https://lh3.googleusercontent.com/oRe9kPz3kcPnjQlpTvT92A3v3oUoT5_Z_oN_4SYqOmIGPekKT168KZqu2XupxcLScPEiNBIiAmxL4ko-3tYFu6uWuV0A8k0Y",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#1d5288",
       "description": "Health information system which is being used by 47 countries across world.",
       "url": "https://www.dhis2.org/",
       "category": "Web",
@@ -5020,7 +5020,7 @@
     {
       "name": "jQuery Foundation",
       "image_url": "https://lh3.googleusercontent.com/3y_twCisHNday397Rh2bgpt0BMwEATMtgr6MxmhH_mT_HT_mqCKRULvmYK7FJLar9czJhWnh_LRCk3_vguTf9LkXMDUcsEQ",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#fff",
       "description": "jQuery Foundation - home of jQuery, Dojo and many other JavaScript libraries",
       "url": "https://jquery.org/",
       "category": "Web",
@@ -6176,7 +6176,7 @@
     {
       "name": "Mixxx DJ Software",
       "image_url": "https://lh3.googleusercontent.com/Zow8-w56PA-YOyQdMvdqeLX7YnK7UD3nxIOCMNDyrP5Jpql0LXq6wgLDHTrug3PoDf0ujN33qB7auig-dr13Z8jSEVpjyZs",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "DJ Your Way, For Free. Join our friendly community of hackers, DJs, and artists!",
       "url": "http://www.mixxx.org/",
       "category": "Media",
@@ -6211,7 +6211,7 @@
     {
       "name": "mlpack: a scalable C++ machine learning library",
       "image_url": "https://lh3.googleusercontent.com/fMWKukyCzlRvrc0l6u9X0yMDWYrQ4ywEd0zFerDqY6ICHleHFCDa_-TxKyBnZIutfyH7Pk3vWzHdAOVDvk2LvsnEy-uERLsN",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "a scalable C++ machine learning library",
       "url": "http://www.mlpack.org/",
       "category": "Science and medicine",
@@ -6818,7 +6818,7 @@
     {
       "name": "Nmap Security Scanner",
       "image_url": "https://lh3.googleusercontent.com/3C69SxsKmQ0tjY_f229cqO5JismN9InFiW9AZJ3n1o3mefUYOgnW7AIoKjK3V_-uQ3P2QMbOGgPJq-2nKrWz29rmPYVpDx8",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#2A0D45",
       "description": "Swiss Army knife of network discovery and security auditing",
       "url": "https://nmap.org",
       "category": "Security",
@@ -6877,7 +6877,7 @@
     {
       "name": "NumFOCUS",
       "image_url": "https://lh3.googleusercontent.com/VJSL7inPDeFZwXk1-mB39-faX9b_l8HiGVVT7SGzkfzq7_P6ggXda03zB7Nb0ZEYl8mRuKxnOf150VX300oKOEaA_PIamPw",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "NumFOCUS promotes open source scientific software.",
       "url": "http://numfocus.org/",
       "category": "Science and medicine",
@@ -7520,7 +7520,7 @@
     {
       "name": "OpenMRS",
       "image_url": "https://lh3.googleusercontent.com/waZmF9rFgsNcZsJY6vFXWGN8UbL69Sshu43chLku2o5mKx-EvmUlHG_ZUXVb0-ZhVhXk1OHCQc8gUZyJux9P7qyh4z9Ai5k",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Write code. Save lives.",
       "url": "http://openmrs.org/",
       "category": "Science and medicine",
@@ -8115,7 +8115,7 @@
     {
       "name": "ownCloud",
       "image_url": "https://lh3.googleusercontent.com/VLSY4nbg6Zi21vb5XflyyTAHtef1Mlz6x38MUuaKTiGWM3ZGncxJG-3L_lfSwbkTY_TRkWmcRewrEGc0l250VLbBkwtz-ew",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#1d2d44",
       "description": "A safe home for all your data",
       "url": "https://owncloud.org",
       "category": "End user applications",
@@ -8150,7 +8150,7 @@
     {
       "name": "P2PSP.org",
       "image_url": "https://lh3.googleusercontent.com/24KX479Yu9JJB9daBfN1QsZyXwG3weYp7jDOPWMF0-tQ4NenwQ__aj7xVkA4tvQxgQZ84Fg4d15AXoTS0mazcVTN514vHg",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFF",
       "description": "Shaping the future Internet TV",
       "url": "http://www.p2psp.org/",
       "category": "Other",
@@ -8299,7 +8299,7 @@
     {
       "name": "PLASMA-UMass",
       "image_url": "https://lh3.googleusercontent.com/-9rCeol_lVeOVF1zTb2EaHP6fkAR-gqTXAtT-c5CuKlA8nSLFt6EW3YRhm1uqRB9AyahcBtBtdB7QiKxQpNUanGqGIbxGw",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "PLASMA explores ways to make programming languages faster, safer, and easier.",
       "url": "http://plasma.cs.umass.edu",
       "category": "Programming languages",
@@ -9666,7 +9666,7 @@
     {
       "name": "Ruby Science Foundation",
       "image_url": "https://lh3.googleusercontent.com/WTTQNaVnJd0hVh6fx39adCPFaEmzxLxY7FqXwmmCHQu1pf0cC76fSH_1XdQfgFnvQfsHlpvXNzqACLtONCN8b9-wxtTv8A",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Tools for Scientific Computing in Ruby",
       "url": "http://www.sciruby.com",
       "category": "Science and medicine",
@@ -9878,7 +9878,7 @@
     {
       "name": "Scilab Enterprises",
       "image_url": "https://lh3.googleusercontent.com/zo4jiZ-GCblnng-cgE0EuYFD7Bl36je3oERw3zSJnW6ukxmrS344f8Nk8NHSPI1PaXVeMH_72jn9zV-axp4SoGnHW1qDbQU",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#092F4D",
       "description": "Numerical computation IDE for engineering and scientific applications",
       "url": "http://www.scilab.org/",
       "category": "Science and medicine",
@@ -9943,7 +9943,7 @@
     {
       "name": "ScummVM",
       "image_url": "https://lh3.googleusercontent.com/YFl6gUOKaPcXxbAx6MQb1JFrJQK5WLa-Q2cS6srgv5AChaL5u_4riq6QZGA6NN_njq-NcHbVMtL0O4hIUb8eGJUzvDFseg",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFA500",
       "description": "ScummVM is a GSoC umbrella for game preservation projects",
       "url": "http://www.scummvm.org/",
       "category": "End user applications",
@@ -10364,7 +10364,7 @@
     {
       "name": "SymPy",
       "image_url": "https://lh3.googleusercontent.com/n35vugh7mfcc1Y42pF98r8_bWyQFmRACYw2Zsf6G7TQ3RpdE414D2KwaoT4xHCQojpySytFhG8yFF6vnW3TQgryx8h7zC00",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#EEEEEE",
       "description": "Computer algebra system in Python",
       "url": "http://sympy.org/",
       "category": "Science and medicine",
@@ -10664,7 +10664,7 @@
     {
       "name": "TEAMMATES @ National University of Singapore",
       "image_url": "https://lh3.googleusercontent.com/sopEcSI729avCNkdKm5SgRwqfPdglZmdnfgrYIW0WH6bKcLAc77-9BEOPaZbxTR2W-xwlvDzhxUIz4eh2o2Z1QXlSuD8Sq8",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "An online feedback management system for education",
       "url": "https://github.com/teammates/teammates",
       "category": "Web",
@@ -10897,7 +10897,7 @@
     {
       "name": "The Honeynet Project",
       "image_url": "https://lh3.googleusercontent.com/-61QP35MRCnq7e8rSw_J_O_m7EXKJsZ3sXw0aNqEJCGYcUr5leHuAzb71xSE88ARgRkKEQoHOaopj8En42hcbwcp-PCw6GY",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "The Honeynet Project - R&D for honeypot/honeynet technolgy and infosec research",
       "url": "http://www.honeynet.org/",
       "category": "Security",
@@ -11121,7 +11121,7 @@
     {
       "name": "The Linux Foundation",
       "image_url": "https://lh3.googleusercontent.com/FMGgwZidrlS_meyev4x79q203c3rMz83ojrUmHgh6PiBACsn-N1QHebAdJzJMDlYOIkwT96TCYgzqja9jcYezcvKfEg0p8E",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "A non-profit consortium dedicated to fostering the growth of Linux",
       "url": "http://www.linuxfoundation.org/",
       "category": "Operating systems",
@@ -11625,7 +11625,7 @@
     {
       "name": "Timelab Technologies Ltd.",
       "image_url": "https://lh3.googleusercontent.com/68Hw4cms8bhh17Ya-61UeLV_vNE3M-mrqgLCsHX3MUlQbHdx6BaeSbS1cxlcR3ajsXdmwgAtfAN46eKUxiUYyUCEMhlgN1w",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "We help scientists understanding information in time-series",
       "url": "http://www.timelabtechnologies.com/",
       "category": "End user applications",
@@ -11673,7 +11673,7 @@
     {
       "name": "TimVideos.us",
       "image_url": "https://lh3.googleusercontent.com/fMqqFWpT-XjqiyDlAuoh6J0Xpp5LcCy6sJZNb4NotC7oR9ZvrKgzAuIxh1HpH9Zpar8XtXH_zJDLPHQOVI4VOYFzlAqnWW0",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#efefef",
       "description": "TimVideos.us - FOSS event recording & streaming software and hardware.",
       "url": "https://code.timvideos.us",
       "category": "Media",
@@ -12027,7 +12027,7 @@
     {
       "name": "WSO2",
       "image_url": "https://lh3.googleusercontent.com/UYUdoPeWvJza3XQO1f63V3EMDxSsU2EV6zDGloykTtEciSIJaTxL_bxHh_FNONLDH-BRUkGuUf_4YWJwcHW7OZGEbefUQUYJ",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "Open Source Middleware Platform",
       "url": "http://wso2.com/",
       "category": "Other",

@@ -271,7 +271,7 @@
     {
       "name": "Android Graphics Tools Team",
       "image_url": "https://lh3.googleusercontent.com/Fim0FTxXCZAngG0K5O1XjS_iEl0SrxtytcdA0Ic0wWFtXqhCyIgrVZgS8eIBWZLp4EFkKTcwx6mph6ZZyQDfORh1vpBBLgqNj5qbbwN_21A",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#f9f9f9",
       "description": "Providing excellent tools for graphics developers and driver makers",
       "url": "https://github.com/google/graphicsfuzz/blob/master/docs/summer-of-code-ideas/2021.md",
       "category": "Programming languages",
@@ -635,7 +635,7 @@
     {
       "name": "ArduPilot",
       "image_url": "https://lh3.googleusercontent.com/9CYUief4fjutJWlMQljVvHaFaBN9YfAn5tw2UAEc8m8lLUsfm6bnE1-qOUM1Z93_3Gy0EuCCyNZJphWaQcqzU-L4VIYfgNPVGY1edfjq78L5",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "The world's most versatile, trusted and open autopilot",
       "url": "https://ardupilot.org",
       "category": "Other",
@@ -999,7 +999,7 @@
     {
       "name": "BRL-CAD",
       "image_url": "https://lh3.googleusercontent.com/M70UK1HZ_fb2U1Rf2Rgh33bfjrXV2drQ5QGicmxQ3-F3PEfcthvHZ_JIuUAOOld2mUvtkKvPN2F_CvWFQb0hPI4Z0Ujn3IUxBxT8zfOeQA230g",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "We do computer graphics, 3D printing, & develop computer-aided tech (CAx)",
       "url": "https://opencax.github.io",
       "category": "Media",
@@ -1072,7 +1072,7 @@
     {
       "name": "caMicroscope",
       "image_url": "https://lh3.googleusercontent.com/r-KIBpwbINiKvRnoXv-VmMWgC18HsZtyxk-Hft-X_xrQNkM-nJhPN9u7RPT-9McgkS1cM3QmNg_7ZIOZ-SZJ91RdiByQTlzK5sIY_00uFk7Y",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#24a9f6",
       "description": "Toolkit for cancer imaging research",
       "url": "http://camicroscope.github.io",
       "category": "Science and medicine",
@@ -2598,7 +2598,7 @@
     {
       "name": "Cuneiform Digital Library Initiative (CDLI)",
       "image_url": "https://lh3.googleusercontent.com/H0CTWDHbqX_SIOLfJxJMrAgxGTiOgHXPKvCME5ekgC0pED0kMToGyg-b1xiB2-alTRsSYUAEy-NB1glS34aineQ8IPc9ievGfM69W3KXKCzV",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "International digital library of artifacts inscribed with cuneiform writing",
       "url": "https://cdli.ucla.edu",
       "category": "Data",
@@ -2673,7 +2673,7 @@
     {
       "name": "Dart",
       "image_url": "https://lh3.googleusercontent.com/FHtQJqAq7mCbRMJewtwCrdNxQ50Ye98GhvPJXzJMf6ggMeSSEuAfTEIiOJPi07QJ_CvSUn7zp2s6RJzB-oMm0vpey-QkiCFl79bnqhr1Id7c",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#0d1520",
       "description": "Dart is a client-optimized language for fast apps on any platform.",
       "url": "https://dart.dev/",
       "category": "Programming languages",
@@ -2886,7 +2886,7 @@
     {
       "name": "DeepPavlov",
       "image_url": "https://lh3.googleusercontent.com/8My3sdK_IV-eO8auuG5u2b4zAtqDSkh8w6IyZFa11hZ9prbIGV6wI_Scgj87kUDcfFI15s9DsVNVyR4n_iY5g4Qnk-QEJzxJQEhB1y900k6c",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#0076BD",
       "description": "Open-source Conversational AI Stack",
       "url": "https://deeppavlov.ai/",
       "category": "Other",
@@ -3014,7 +3014,7 @@
     {
       "name": "Digital Impact Alliance (DIAL) at UN Foundation",
       "image_url": "https://lh3.googleusercontent.com/Le5g8nd_b866W_Pry3h8biYJAOYEsQfFrHFNW4Dm05BL3WS9ebElcVrR2DZZqAoykslldW50EO00vlnI7liRUApgfTUEJxY_-QDmKJVc-hG3",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Open source projects for humanitarian work, international development, and peace",
       "url": "https://www.digitalimpactalliance.org/",
       "category": "Other",
@@ -3135,7 +3135,7 @@
     {
       "name": "Django Software Foundation",
       "image_url": "https://lh3.googleusercontent.com/toQfBC2DoWA4uYeEQq_Qeqc6wVVitadKhET5YQhwgUxBRKoi-jZDE5hTZBlW5iCMz8VdhHIhbsFuTykmJhZiNnDsgoY9o5iosymiUMTmEkgJ",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#092e20",
       "description": "The web framework for perfectionists with deadlines.",
       "url": "https://www.djangoproject.com/",
       "category": "Web",
@@ -3345,7 +3345,7 @@
     {
       "name": "FOSSology",
       "image_url": "https://lh3.googleusercontent.com/adi0Bt6SjnvVH6G_dQxN1Zr5qxvbrn8Wua0_UD4OTuctiOG183dGd8dSkkVDWPqmk3KN2xR743SSwu9fPwjfJI7gWpKTrYMy1W7x8OAZI7w",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#f7f7f7",
       "description": "Open Source Compliance with Open Source Tools",
       "url": "https://www.fossology.org/",
       "category": "Other",
@@ -4712,7 +4712,7 @@
     {
       "name": "Haiku",
       "image_url": "https://lh3.googleusercontent.com/MMMpQoGU9zgpCmWVf6-F0q93QcMVFgUsHV1CtIe9BqC02oS28fQWKRlVUto1bfvSNrPCaTRI5DI0R23jTF0yzVhiM25c_t_YcSKD5_JgVrrmyQ",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#336699",
       "description": "A desktop operating system written in C++",
       "url": "http://www.haiku-os.org",
       "category": "Operating systems",
@@ -4900,7 +4900,7 @@
     {
       "name": "Hydra Ecosystem",
       "image_url": "https://lh3.googleusercontent.com/MqXE4XsYgTwqizedqCRdtcKRH87GYtNAPkfbw0Q5ATFYDB9S3szHr4A4QmSxZHp7KfPm6AKx6hCRsXsBUU6yGqpuhK6l3_lVTWGKcTczBXLS",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#fdd20b",
       "description": "Automate REST APIs. Build next generation API clients.",
       "url": "https://www.hydraecosystem.org/",
       "category": "Web",
@@ -7305,7 +7305,7 @@
     {
       "name": "MIT App Inventor",
       "image_url": "https://lh3.googleusercontent.com/faRoAKBN_gGKb6EhVRR9Brpt-5usgfcAoirmUs8uQ1ETnEdEJuWbi-9z8BUEIIIaI_fTaJc745nWRHy9vJs5EUGJ3TfDC2vKm7T3CrhJYVNB",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Anyone can build apps with global impact.",
       "url": "http://appinventor.mit.edu",
       "category": "Programming languages",
@@ -7364,7 +7364,7 @@
     {
       "name": "mlpack",
       "image_url": "https://lh3.googleusercontent.com/62NDiLquxOS723wQs7xr5ItAB-L_qyM-XtnzycMIbzqLbRsc4Vyfd_aeyUFgIYNDp0ZliWifawD3T6dRY3wIRpHJKPZ-U24Jsfoeeia77Ws",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000",
       "description": "fast, flexible C++ machine learning library",
       "url": "https://www.mlpack.org/",
       "category": "Science and medicine",
@@ -7453,7 +7453,7 @@
     {
       "name": "MoveIt",
       "image_url": "https://lh3.googleusercontent.com/TV_gUL7FsTXvn-iSMUByPCLXnobcg1lAtvehzP6owKll6qUmBA84WUSudkm2t-wGcLsWdNKVJyRc4bRHY87mXkcWYKfFTIQkHiYHuzkSthM",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "Software that is moving robots into the future",
       "url": "https://moveit.ros.org",
       "category": "Science and medicine",
@@ -9116,7 +9116,7 @@
     {
       "name": "Orcasound",
       "image_url": "https://lh3.googleusercontent.com/7AVxVXsmb1_RoNZm3Zvr68M8vl5_8w7n62omcy8S8w9o5Y2KMChn9Ohtsmm8FvCJ_o5BgwfOhyQM0vaZkpEVHaksKy17-SfpysHSD7UMFdj6Jw",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#008080",
       "description": "Open-source code to accelerate orca conservation & bioacoustic research",
       "url": "http://orcasound.net",
       "category": "Science and medicine",
@@ -10641,7 +10641,7 @@
     {
       "name": "Red Hen Lab",
       "image_url": "https://lh3.googleusercontent.com/HdrVnjxK-YqeoAzp9RV9fznEfaCdGJ6zoFBw375zWbZx3EhQu9K3p6-fMpaJTlQoOJWBwpvgOoAaqoEuEF9996T3fofSH0Da9ej5wBHYj_sgOg",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Research on Multimodal Communication",
       "url": "http://redhenlab.org",
       "category": "Science and medicine",
@@ -11158,7 +11158,7 @@
     {
       "name": "SageMath",
       "image_url": "https://lh3.googleusercontent.com/DnBw9vbgdILgpfLNbwJhj6kRU8XiRnoV7UKVNwVb_wYw4iHe9Y32AmlwobUK7L5hvMm-pxSQNZqRkwgQOKCM45s_-DeMtu4j8-g8C5ns0ssRJA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#c9c9f9",
       "description": "open-source mathematics software system",
       "url": "https://www.sagemath.org/",
       "category": "Science and medicine",
@@ -11251,7 +11251,7 @@
     {
       "name": "Scala Center",
       "image_url": "https://lh3.googleusercontent.com/83rJ1ynmdYd7npKK0o_lCFVFqjGSixG1AuXDq6qZyhll-8lwa1CSknWRmfiIV9pOnWNLu8MG4q4Vi_YA-hYOHBb7WHr5wkESZgE4BbZOgxUD",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#002b36",
       "description": "For open source, for education",
       "url": "http://scala.epfl.ch",
       "category": "Programming languages",
@@ -11975,7 +11975,7 @@
     {
       "name": "SymPy",
       "image_url": "https://lh3.googleusercontent.com/4FKaPgiqwwhD1f-2QZC-ZpTSkgYC1EWTZclm-YaMvNZXuPNUfAtNvzOcYNmrNj4hOW-_P3U96X667rjJqjxEA2ew0VH4pnEWwSdK5LWL2jwj",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#EEE",
       "description": "Symbolic mathematics in Python",
       "url": "http://sympy.org",
       "category": "Science and medicine",
@@ -12101,7 +12101,7 @@
     {
       "name": "Tarantool",
       "image_url": "https://lh3.googleusercontent.com/q1hwTmMInWfDLjUbZR0UJOfcyF-Q-nDK25xt-iCyhi6kcoAniuaEXFG1ACNdsqSeaxTmRRitMIpcYt5DDV4svkOtvXBo3LMCT2BpI9yR8Qtm",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "In-memory computing platform",
       "url": "http://tarantool.io",
       "category": "Data",
@@ -12600,7 +12600,7 @@
     {
       "name": "The ENIGMA Team",
       "image_url": "https://lh3.googleusercontent.com/fEhflEDjUm3j0P4eU-k0fsbr41Eb1n6jikQ9ZrNuzY7r1u4IODvZ6G0fWtPdJT-Tv6d6G1ZiyJBxE5q0mEe-_ZBfao_t4oWTrR7jzm0GxWg",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#223048",
       "description": "A free development environment geared towards game development.",
       "url": "https://enigma-dev.org",
       "category": "Programming languages",
@@ -13820,7 +13820,7 @@
     {
       "name": "vitrivr",
       "image_url": "https://lh3.googleusercontent.com/a5NdzEGPaMpZwYVi5ZliWes35t5wP6fOzmwlAF1GlUxAm4HYbsc5gTcwYjRyWDgJZe-RdStiC8Rgfivpgxl5xFtBf1Yff2q0lzlS7O3iuM2V",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "The multimedia search engine",
       "url": "https://vitrivr.org",
       "category": "Data",
@@ -14038,7 +14038,7 @@
     {
       "name": "xrdesktop",
       "image_url": "https://lh3.googleusercontent.com/9DVL8t3HZvIY-zQpA2vliolCzTLeYkO9EInYrXgfPJstmxVVLTt5J-YFfhWy8jrgfYji2f5DF6BLcjyI_B3bYrIYMWAR6rsTfzitXKDksp9HGw",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#1a1a1a",
       "description": "XR for the Linux Desktop",
       "url": "https://gitlab.freedesktop.org/xrdesktop/xrdesktop/-/wikis/home",
       "category": "Media",

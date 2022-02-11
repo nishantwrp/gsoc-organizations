@@ -774,7 +774,7 @@
     {
       "name": "ArduPilot",
       "image_url": "https://lh3.googleusercontent.com/XOG-kTrJgM69HWZejLiMvZWI76Ls2jzc2HI2CGXv2qANmcyl8pCLKAEJ31n4lMDS8CuRuGVLMCGn3g4b_KXNQa0XJOhR2iI",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "The world's most versatile, trusted and open autopilot",
       "url": "https://ardupilot.org",
       "category": "Other",
@@ -890,7 +890,7 @@
     {
       "name": "BioGears",
       "image_url": "https://lh3.googleusercontent.com/hQcH8RXDHGNt9yIvx1BnCI7Gi_cxgOngcq-6zwKRzwwhLmLypv-qb6w997bYmx485y0a46FheMwaEE8RYGMq9A5Tc2E-VA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "ARA is an employee-owned scientific research and engineering company.",
       "url": "https://www.biogearsengine.com/",
       "category": "Science and medicine",
@@ -2757,7 +2757,7 @@
     {
       "name": "Cuneiform Digital Library Initiative (CDLI)",
       "image_url": "https://lh3.googleusercontent.com/UrAkm4jiVk38kjWqXvIxA4GP4grkXqzfS4lV-f5fKjiMSSl4KKXYYFworzv443VZPsyOirfvh12oOTo5nlEKg2ivDPkGcwCE",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "International digital library of artifacts inscribed with cuneiform writing",
       "url": "https://cdli.ucla.edu",
       "category": "Data",
@@ -2854,7 +2854,7 @@
     {
       "name": "Dart",
       "image_url": "https://lh3.googleusercontent.com/BpjOZ2JJeNlrcGqFPatKd7CHati2lIbKl1qIIPPJdzdq_tOKq8qYR8cNbnyEQ8O4wCDk7lHCxrnBlyTGWGJkB6UtHMpo-p26",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#0d1520",
       "description": "Dart is a client-optimized language for fast apps on any platform.",
       "url": "https://dart.dev/",
       "category": "Programming languages",
@@ -3219,7 +3219,7 @@
     {
       "name": "Django Software Foundation",
       "image_url": "https://lh3.googleusercontent.com/pwolh34rTnKQ_hNWyd-TwU-SRz54sz38ueZtgGzWEWzuJmSbVVZwFXSzIXLlEtTHtkJnqxp-FAGzui30WGMSK47Ixjhqyuc",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#092e20",
       "description": "The web framework for perfectionists with deadlines.",
       "url": "https://www.djangoproject.com",
       "category": "Web",
@@ -4542,7 +4542,7 @@
     {
       "name": "Haiku",
       "image_url": "https://lh3.googleusercontent.com/-Xc9dJHfjFE8tZDOXGprOwZHCHsZOsGLdB0bNHfmJcdENhZZ7o-w8bGAlDKf4kAeWcrzBxLga-GvMwHXKK3iJwU1fk4IXQ",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#336699",
       "description": "A desktop operating system written in C++",
       "url": "http://www.haiku-os.org",
       "category": "Operating systems",
@@ -5742,7 +5742,7 @@
     {
       "name": "Kodi Foundation",
       "image_url": "https://lh3.googleusercontent.com/ZH3xmXhcXkOiFgo4zObSsvWvrbKGsozvnQkSIUT96reNJFsd3uq901rYEOddPKDSqN5fXR91sxAtj36Lm3Psaus5_Tvyt-E8",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "The ultimate entertainment center",
       "url": "http://www.kodi.tv",
       "category": "End user applications",
@@ -6424,7 +6424,7 @@
     {
       "name": "MBDyn",
       "image_url": "https://lh3.googleusercontent.com/bEiT7jhiptTiVVsAE9JVjviLHZfZ06dSWvQasRcrJ7MfPUCKPPjX5eIcCo0Wr6wTlnZU9PfwUnkw-ZeCG7vmJmdzKiDq9hk",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#FFFFFF",
       "description": "Free general purpose Multibody Dynamics analysis",
       "url": "https://www.mbdyn.org/",
       "category": "Science and medicine",
@@ -6581,7 +6581,7 @@
     {
       "name": "Metasploit",
       "image_url": "https://lh3.googleusercontent.com/qzdZq8P3uw5sgV2zecnc-zTSJdU45-aGewdGO6CU2wGBiU1Ll-3uAuuM_8654N5RAwv6CPW8ycfs_3LSUtClh2Mqj2DsPw",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "The world’s most used penetration testing framework",
       "url": "https://metasploit.com",
       "category": "Security",
@@ -6735,7 +6735,7 @@
     {
       "name": "Mixxx",
       "image_url": "https://lh3.googleusercontent.com/w28VGZTJuV6-x4BhRn9ec3kg4jE9GihpXpUK1JdBwU9ildfumuUhrw9iCfYWGY-yWNSswHMM7Bm7xXElLQc_cAsBSaAjTFuA",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "DJ Mixing App With Powerful Features For All DJs",
       "url": "https://www.mixxx.org",
       "category": "End user applications",
@@ -6778,7 +6778,7 @@
     {
       "name": "mlpack",
       "image_url": "https://lh3.googleusercontent.com/MEBO2Ke0IN5mlMxEbP_xyTCrgszgjl0LHVBYg6ltvkN-lSDlQkrvkiqPQ2D_wGINl-RR_QDBYOZmjbMSMLPGRxHKmROu8g",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "mlpack is a fast, flexible machine learning library written in C++.",
       "url": "http://mlpack.org/",
       "category": "Data",
@@ -6873,7 +6873,7 @@
     {
       "name": "Moira",
       "image_url": "https://lh3.googleusercontent.com/St549uV6D0eslwOwI2SyLFzn7fMDknX0P5p8EBkxVXwsKe_mDDLaWr7BYvo731-Zb6LrCDwPblOxbEKBpm8VxUAVyFRQN6t-",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#00bfa5",
       "description": "Moira is a realtime alerting system based on Graphite data",
       "url": "https://moira.readthedocs.io/",
       "category": "Programming languages",
@@ -8766,7 +8766,7 @@
     {
       "name": "Orcasound",
       "image_url": "https://lh3.googleusercontent.com/EKM9GoFHwj7yjXu0Srk6SGDXNnJtUZxDLV-psN1_IbIRLcyBdpZt-StOywKqeqJLSxSo6-gzQnDa8IcW5eaP2h0G9-RY70M",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#379EF0",
       "description": "Humans & machines listening together to save the whales.",
       "url": "http://orcasound.net",
       "category": "Science and medicine",
@@ -9758,7 +9758,7 @@
     {
       "name": "Qubes OS",
       "image_url": "https://lh3.googleusercontent.com/cGQDr-W17BaOL1j9x4MYZGdijiyeSAFCcVd657Mf-KiwYWdZDwjsrVtL68u65RvdrnaJGlWJ2_-EUzOLk1X42WGgB205eyY",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#E6E6FA",
       "description": "A reasonably security operating system",
       "url": "https://www.qubes-os.org/",
       "category": "Operating systems",
@@ -11284,7 +11284,7 @@
     {
       "name": "SymPy",
       "image_url": "https://lh3.googleusercontent.com/HER-dQLfDJ_12RhuHakV-SNNxtDAJm-Y5kYRq0RYuyOn-sU9u72WDIoQuHyXKYg915prV089IO7lbnrfDnMqZGYGmn8hLps",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#eee",
       "description": "Symbolic mathematics in Python",
       "url": "https://www.sympy.org/",
       "category": "Science and medicine",
@@ -11865,7 +11865,7 @@
     {
       "name": "The Honeynet Project",
       "image_url": "https://lh3.googleusercontent.com/2H5j99vFKXtDrEdFVx-p3PJDXSkdxeHsoYFaNPF00QpHaJGCeNWu4cYN4wDRbu9n__kgi_fUz7Gc7TP2dyEMaU42T0OPrew",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#000000",
       "description": "The Honeynet Project - R&D for Honeypot/Honeynet Technology and InfoSec Research",
       "url": "https://honeynet.org/",
       "category": "Security",
@@ -12862,7 +12862,7 @@
     {
       "name": "The Wine Project",
       "image_url": "https://lh3.googleusercontent.com/7tIOiveWazWsdJRPKX6R-vqBrN058T695JfanWME8t1aZKBz9g69ZABf6YbAgkuWH40WyGoeikalEErOmqN8DbkS24mIQ10",
-      "image_background_color": "#ffffff",
+      "image_background_color": "#420000",
       "description": "Wine runs Windows applications on Linux, BSD, Solaris, macOS and Android.",
       "url": "https://www.winehq.org/",
       "category": "Other",
