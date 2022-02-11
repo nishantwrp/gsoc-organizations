@@ -46,7 +46,7 @@
 .org-card-category-container span {
   display: inline-block;
   width: inherit;
-  padding: 1%;
+  padding: 3px;
   background-color: #db6400;
   color: #ffffff;
   border-radius: 5px;
@@ -59,8 +59,8 @@
 
 .org-card-year {
   display: inline-block;
-  margin: 1%;
-  padding: 1%;
+  margin: 3px;
+  padding: 3px;
   background-color: #16697a;
   color: white;
   border-radius: 2px;
@@ -73,8 +73,8 @@
 
 .org-card-technology {
   display: inline-block;
-  margin: 1%;
-  padding: 1%;
+  margin: 3px;
+  padding: 3px;
   border: 1px solid #db6400;
   color: #db6400;
   border-radius: 2px;
@@ -84,8 +84,8 @@
 .org-card-technology-extra {
   text-decoration: underline;
   display: inline-block;
-  margin: 1%;
-  padding: 1%;
+  margin: 3px;
+  padding: 3px;
   color: #db6400;
   border-radius: 2px;
   font-family: "Galano Grotesque Alt Medium";
