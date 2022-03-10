@@ -9,6 +9,7 @@ import "./index.css"
 import Layout from "../layouts/layout"
 import OrgCard from "../components/org-card"
 import SEO from "../components/seo"
+import Notification from "../components/notification"
 import { Grid } from "semantic-ui-react"
 import { useAppDispatch, useAppSelector } from "../store"
 import { getSearch, setSearch } from "../store/search"
@@ -242,6 +243,9 @@ const IndexPage = ({ data, location }) => {
   return (
     <Layout>
       <SEO title={"Home"} meta={meta} />
+      <Grid className="index-org-cards-grid">
+        <Notification />
+      </Grid>
       <div style={{ marginTop: "1rem", textAlign: "center" }}>
         <a className="ui orange label">{orgCards.length} results</a>
       </div>
