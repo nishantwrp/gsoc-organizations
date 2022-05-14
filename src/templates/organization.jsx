@@ -10,6 +10,7 @@ import ProjectsGraph from "../components/projects-graph"
 import ProjectsSection from "../components/projects-section"
 import SEO from "../components/seo"
 import { Grid } from "semantic-ui-react"
+import OrgLinks from "../components/org-links"
 
 const OrganizationPage = ({ pageContext: { organization }, data }) => {
   const metaTitle = `${organization.name} | ${data.site.siteMetadata.title}`
@@ -83,6 +84,7 @@ const OrganizationPage = ({ pageContext: { organization }, data }) => {
           <OrgInfo data={organization} />
         </Grid.Column>
         <Grid.Column>
+          <OrgLinks data={organization.name} />
           <ProjectsGraph data={organization.years} />
           <div className="organization-graph-ad-container">
             <ins
