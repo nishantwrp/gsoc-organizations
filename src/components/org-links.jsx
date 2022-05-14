@@ -1,5 +1,5 @@
 import React from "react"
-import { Grid, Header, List, Icon, GridColumn } from "semantic-ui-react"
+import { List, Icon } from "semantic-ui-react"
 
 import "./org-links.css"
 export default function OrgLinks(props) {
