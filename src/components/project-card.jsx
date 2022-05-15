@@ -3,10 +3,8 @@ import { Button, Card } from "semantic-ui-react"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import "./project-card.css"
-import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 const ProjectCard = ({ data }) => {
-  const isMobile = useBreakpoint().md
   return (
     <div className="project-card-main-container">
       <Card>
