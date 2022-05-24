@@ -36,9 +36,9 @@ const ProjectCard = ({ data }) => {
               </Button>
             </OutboundLink>
           </div>
-          <div className="project-proposal-container">
-            <Button color="orange" className="project-proposal-btn">
-              Project Proposal
+          <div className="proposal-btn-container">
+            <Button color="orange" className="proposal-btn">
+              Proposal
             </Button>
           </div>
         </Card.Content>
