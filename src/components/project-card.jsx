@@ -21,7 +21,7 @@ const ProjectCard = ({ data }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <Button basic color="green">
+              <Button basic color="green" className="project-card-btn">
                 More Details
               </Button>
             </OutboundLink>
@@ -31,10 +31,15 @@ const ProjectCard = ({ data }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <Button basic color="orange">
+              <Button basic color="orange" className="project-card-btn">
                 Code Submission
               </Button>
             </OutboundLink>
+          </div>
+          <div className="proposal-btn-container">
+            <Button color="orange" className="proposal-btn">
+              Proposal
+            </Button>
           </div>
         </Card.Content>
       </Card>
