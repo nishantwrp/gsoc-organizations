@@ -70,13 +70,15 @@ class FilterTemplate extends React.Component {
   }
 
   getSortedOptionIndexes() {
+    const sortOrder = this.props.order === "asc" ? 1 : -1
+
     const sortedOptions = this.getAllOptions().sort((a, b) => {
       if (this.isOptionSelected(a) ^ this.isOptionSelected(b)) {
         return this.isOptionSelected(a) ? -1 : 1
       }
 
       if (this.props.sortBy === "name") {
-        return a.name > b.name ? 1 : -1
+        return (a.name > b.name ? 1 : -1) * sortOrder
       }
 
       if (this.props.sortBy === "frequency") {
@@ -123,6 +125,11 @@ class FilterTemplate extends React.Component {
 FilterTemplate.propTypes = {
   name: PropTypes.string.isRequired,
   sortBy: PropTypes.oneOf(["name", "frequency"]).isRequired,
+  order: PropTypes.oneOf(["asc", "desc"]),
+}
+
+FilterTemplate.defaultProps = {
+  order: "asc",
 }
 
 export const mapStateWithProps = (state, ownProps) => {

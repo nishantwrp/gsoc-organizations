@@ -84,4 +84,8 @@ FilterModal.propTypes = {
   trigger: PropTypes.node.isRequired,
 }
 
+FilterModal.defaultProps = {
+  ...FilterTemplate.defaultProps,
+}
+
 export default connect(mapStateWithProps, mapDispatchWithProps)(FilterModal)
