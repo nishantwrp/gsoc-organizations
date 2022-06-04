@@ -104,7 +104,7 @@ const Sidebar = ({ config, showFilters }) => {
           </div>
           <Divider className="sidebar-divider" />
           <div className="sidebar-content-filters">
-            <Filter name="years" choices={years} sortBy="name" />
+            <Filter name="years" choices={years} sortBy="name" order="desc" />
             <Filter name="categories" choices={categories} sortBy="name" />
             <Filter
               name="technologies"

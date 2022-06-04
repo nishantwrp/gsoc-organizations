@@ -74,6 +74,7 @@ class Filter extends FilterTemplate {
             name={this.props.name}
             choices={this.props.choices}
             sortBy={this.props.sortBy}
+            order={this.props.order}
             trigger={<div className="filter-view-more">View all</div>}
           />
         </div>
@@ -93,6 +94,7 @@ Filter.propTypes = {
 }
 
 Filter.defaultProps = {
+  ...FilterTemplate.defaultProps,
   showDivider: true,
 }
 
