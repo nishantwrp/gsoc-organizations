@@ -4,5 +4,11 @@
       "title": "Contributing code to Oppia",
       "url": "https://github.com/oppia/oppia/wiki/Contributing-code-to-Oppia#setting-things-up"
     }
+  ],
+  "Joplin": [
+    {
+      "title": "GSoC pull request guidelines",
+      "url": "https://joplinapp.org/gsoc2022/pull_request_guidelines/"
+    }
   ]
 }
