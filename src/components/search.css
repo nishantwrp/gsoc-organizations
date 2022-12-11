@@ -1,3 +1,22 @@
 .search-search * {
   width: 90%;
 }
+
+.wrapper {
+  display: inline-block;
+}
+
+.view-stars-button {
+  background-color: transparent;
+  border: 1px solid grey;
+  color: gray;
+}
+
+.view-stars-button:active {
+  border: 1px solid #d3d3d3;
+  color: #d3d3d3;
+}
+
+.inline-div {
+  display: inline-block;
+}

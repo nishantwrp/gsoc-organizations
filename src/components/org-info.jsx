@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 
 import "./org-info.css"
 
+import { addOrgToShortlist } from "../store"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 import { Divider, Button, Header, Icon, Popup } from "semantic-ui-react"
 
@@ -135,6 +136,15 @@ const OrgInfo = ({ data }) => {
         )}
       </div>
       <div className="org-info-description-container">{data.description}</div>
+      <div>
+        <button
+          className="add-to-cart-button"
+          onClick={() => addOrgToShortlist(data.name)}
+        >
+          Star ⭐
+        </button>
+      </div>
+
       <center>
         <Divider horizontal className="org-info-divider">
           <Header as="h4">Category</Header>

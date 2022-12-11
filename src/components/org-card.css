@@ -90,3 +90,21 @@
   border-radius: 2px;
   font-family: "Galano Grotesque Alt Medium";
 }
+
+.add-to-cart-button {
+  width: 100%;
+  display: block;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: grey;
+}
+
+.add-to-cart-button:hover {
+  cursor: pointer;
+}
+
+.add-to-cart-button:active {
+  border: 1px solid #d3d3d3;
+  color: #d3d3d3;
+  background-color: #d3d3d3;
+}

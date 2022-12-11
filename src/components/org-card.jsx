@@ -4,7 +4,7 @@ import slugify from "slugify"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 import "./org-card.css"
-
+import { addOrgToShortlist } from "../store"
 import { Link } from "gatsby"
 
 const OrgCard = ({ data }) => {
@@ -28,8 +28,35 @@ const OrgCard = ({ data }) => {
     )
   }
 
+  // const card = (
+  //   <div className="org-card-container">
+  //     <div
+  //       className="org-card-logo-container"
+  //       style={{
+  //         backgroundColor: data.image_background_color,
+  //       }}
+  //     >
+  //       <div
+  //         className="org-card-logo"
+  //         style={{
+  //           backgroundImage: `url(${data.image_url})`,
+  //         }}
+  //       ></div>
+  //     </div>
+  //     <div className="org-card-name-container">{data.name}</div>
+  //     <div className="org-card-category-container">
+  //       <span>{data.category}</span>
+  //     </div>
+  //     <div className="org-card-description-container">{data.description}</div>
+  //     <div className="org-card-years-container">{years}</div>
+  //     <div className="org-card-technologies-container">{technologies}</div>
+  //     <div><button className="add-to-cart-button" onClick={()=>addOrgToShortlist(data.name)}>⭐</button></div>
+
+  //   </div>
+  // )
+
   const card = (
-    <div className="org-card-container">
+    <>
       <div
         className="org-card-logo-container"
         style={{
@@ -50,21 +77,41 @@ const OrgCard = ({ data }) => {
       <div className="org-card-description-container">{data.description}</div>
       <div className="org-card-years-container">{years}</div>
       <div className="org-card-technologies-container">{technologies}</div>
-    </div>
+    </>
   )
 
   return isMobile ? (
-    <Link to={`/organization/${slugify(data.name, { lower: true })}/`}>
-      {card}
-    </Link>
+    <div className="org-card-container">
+      <Link to={`/organization/${slugify(data.name, { lower: true })}/`}>
+        {card}
+      </Link>
+      <div>
+        <button
+          className="add-to-cart-button"
+          onClick={() => addOrgToShortlist(data.name)}
+        >
+          Star ⭐
+        </button>
+      </div>
+    </div>
   ) : (
-    <a
-      href={`/organization/${slugify(data.name, { lower: true })}/`}
-      target="_blank"
-      rel="noreferrer"
-    >
-      {card}
-    </a>
+    <div className="org-card-container">
+      <a
+        href={`/organization/${slugify(data.name, { lower: true })}/`}
+        target="_blank"
+        rel="noreferrer"
+      >
+        {card}
+      </a>
+      <div>
+        <button
+          className="add-to-cart-button"
+          onClick={() => addOrgToShortlist(data.name)}
+        >
+          Star ⭐
+        </button>
+      </div>
+    </div>
   )
 }
 

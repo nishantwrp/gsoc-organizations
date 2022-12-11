@@ -249,6 +249,15 @@ const IndexPage = ({ data, location }) => {
       <div style={{ marginTop: "1rem", textAlign: "center" }}>
         <a className="ui orange label">{orgCards.length} results</a>
       </div>
+
+      <div style={{ marginTop: "1rem", textAlign: "center" }}>
+        <a className="ui yellow label">
+          {JSON.parse(localStorage.getItem("gsoc_orgs"))
+            ? JSON.parse(localStorage.getItem("gsoc_orgs")).length
+            : 0}{" "}
+          stars
+        </a>
+      </div>
       <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
         {orgCards}
       </Grid>

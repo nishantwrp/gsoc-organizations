@@ -3,9 +3,10 @@ import { debounce } from "debounce"
 
 import "./search.css"
 
-import { Icon, Input } from "semantic-ui-react"
+import { Icon, Input, Button } from "semantic-ui-react"
 import { useAppDispatch, useAppSelector } from "../store"
 import { getSearch, setSearch } from "../store/search"
+import { Link } from "gatsby"
 
 const Search = () => {
   const search = useAppSelector(getSearch)
@@ -27,11 +28,19 @@ const Search = () => {
   }
 
   return (
-    <div className="search-search">
-      <Input icon placeholder="Search">
-        <input value={searchText} onChange={handleChange.bind(this)} />
-        <Icon name="search" />
-      </Input>
+    <div>
+      <div className="search-search ">
+        <Input icon placeholder="Search">
+          <input value={searchText} onChange={handleChange.bind(this)} />
+          <Icon name="search" />
+        </Input>
+      </div>
+
+      <div>
+        <Link to={`/stars/`}>
+          <button className="view-stars-button">View Stars ⭐</button>
+        </Link>
+      </div>
     </div>
   )
 }
