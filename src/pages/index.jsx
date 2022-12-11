@@ -232,6 +232,13 @@ const IndexPage = ({ data, location }) => {
     },
   ]
 
+  let starCount = 0
+  if (typeof window !== "undefined") {
+    starCount = JSON.parse(localStorage.getItem("gsoc_orgs"))
+      ? JSON.parse(localStorage.getItem("gsoc_orgs")).length
+      : 0
+  }
+
   const cardColumns = useBreakpoint().l ? 3 : 4
 
   React.useEffect(() => {
@@ -251,12 +258,7 @@ const IndexPage = ({ data, location }) => {
       </div>
 
       <div style={{ marginTop: "1rem", textAlign: "center" }}>
-        <a className="ui yellow label">
-          {JSON.parse(localStorage.getItem("gsoc_orgs"))
-            ? JSON.parse(localStorage.getItem("gsoc_orgs")).length
-            : 0}{" "}
-          stars
-        </a>
+        <a className="ui yellow label">{starCount} stars</a>
       </div>
       <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
         {orgCards}

@@ -14,7 +14,9 @@ import { Grid } from "semantic-ui-react"
 import { Link } from "gatsby"
 
 function clearStars() {
-  localStorage.clear()
+  if (typeof window !== "undefined") {
+    localStorage.clear()
+  }
 }
 
 const getOrganizations = data => {
@@ -36,7 +38,11 @@ const getOrganizations = data => {
 const getFilteredOrganizations = data => {
   const organizations = getOrganizations(data)
   let filteredOrganizations = []
-  const starredOrgs = JSON.parse(localStorage.getItem("gsoc_orgs"))
+  let starredOrgs
+
+  if (typeof window !== "undefined") {
+    starredOrgs = JSON.parse(localStorage.getItem("gsoc_orgs"))
+  }
 
   if (starredOrgs === null) {
     return []
@@ -65,7 +71,12 @@ const StarsPage = ({ data }) => {
       </Grid.Column>
     )
   }
-
+  let starCount = 0
+  if (typeof window !== "undefined") {
+    starCount = JSON.parse(localStorage.getItem("gsoc_orgs"))
+      ? JSON.parse(localStorage.getItem("gsoc_orgs")).length
+      : 0
+  }
   const cardColumns = useBreakpoint().l ? 3 : 4
 
   return (
@@ -76,12 +87,7 @@ const StarsPage = ({ data }) => {
       </Grid>
 
       <div style={{ marginTop: "1rem", textAlign: "center" }}>
-        <a className="ui yellow label">
-          {JSON.parse(localStorage.getItem("gsoc_orgs"))
-            ? JSON.parse(localStorage.getItem("gsoc_orgs")).length
-            : 0}{" "}
-          stars
-        </a>
+        <a className="ui yellow label">{starCount} stars</a>
       </div>
 
       <div style={{ marginTop: "1rem", textAlign: "center" }}>
