@@ -44,12 +44,11 @@ const getFilteredOrganizations = data => {
     starredOrgs = JSON.parse(localStorage.getItem("gsoc_orgs"))
   }
 
-  if (starredOrgs === null) {
-    return []
-  }
-  for (const org of organizations) {
-    if (starredOrgs.indexOf(org.name) > -1) {
-      filteredOrganizations.push(org)
+  if (starredOrgs != null) {
+    for (const org of organizations) {
+      if (starredOrgs.indexOf(org.name) > -1) {
+        filteredOrganizations.push(org)
+      }
     }
   }
 
