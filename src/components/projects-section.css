@@ -10,6 +10,7 @@
   justify-content: center;
   text-align: center;
   margin-bottom: 0px;
+  flex-wrap: wrap;
 }
 
 .project-cards-container {
