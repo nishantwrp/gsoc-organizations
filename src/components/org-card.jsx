@@ -1,4 +1,4 @@
-import React from "react"
+import React, { memo } from "react"
 import PropTypes from "prop-types"
 import slugify from "slugify"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
@@ -7,17 +7,29 @@ import "./org-card.css"
 
 import { Link } from "gatsby"
 
-const OrgCard = ({ data }) => {
+const isSameOrg = (prevData, newData) => {
+  return prevData.data.name === newData.data.name
+}
+
+const OrgCard = memo(({ data }) => {
   const isMobile = useBreakpoint().md
 
   const years = Object.keys(data.years)
     .map(year => {
-      return <span className="org-card-year">{year}</span>
+      return (
+        <span key={year} className="org-card-year">
+          {year}
+        </span>
+      )
     })
     .reverse()
 
   let technologies = data.technologies.map(tech => {
-    return <span className="org-card-technology">{tech}</span>
+    return (
+      <span key={tech} className="org-card-technology">
+        {tech}
+      </span>
+    )
   })
 
   if (technologies.length > 5) {
@@ -66,7 +78,7 @@ const OrgCard = ({ data }) => {
       {card}
     </a>
   )
-}
+}, isSameOrg)
 
 OrgCard.propTypes = {
   data: PropTypes.object.isRequired,

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useMemo } from "react"
 import Fuse from "fuse.js"
 import { graphql } from "gatsby"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
@@ -40,8 +40,7 @@ const getFuseSearch = organizations => {
   return new Fuse(organizations, options)
 }
 
-const getFilteredOrganizations = (data, searchQuery, filters) => {
-  const organizations = getOrganizations(data)
+const getFilteredOrganizations = (organizations, searchQuery, filters) => {
   let filteredOrganizations = organizations
 
   if (searchQuery !== "") {
@@ -113,41 +112,27 @@ const getFilteredOrganizations = (data, searchQuery, filters) => {
 const IndexPage = ({ data }) => {
   const searchQuery = useAppSelector(getSearch)
   const filters = useAppSelector(getFilters)
-  const [orgCards, setOrgCards] = useState([])
+  const allOrganizations = useMemo(() => getOrganizations(data), [])
+  const filteredOrganizations = getFilteredOrganizations(
+    allOrganizations,
+    searchQuery,
+    filters
+  )
 
   useEffect(() => {
     // Update the search params in the url if filters or search query
     // change.
-    const searchParams = {};
+    const searchParams = {}
 
     if (searchQuery) {
-      searchParams["search"] = searchQuery;
+      searchParams["search"] = searchQuery
     }
 
     if (Object.values(filters).filter(arr => arr.length !== 0).length !== 0) {
-      searchParams["filters"] = JSON.stringify(filters);
+      searchParams["filters"] = JSON.stringify(filters)
     }
 
-    setSearchParams(searchParams);
-  }, [searchQuery, filters])
-
-  React.useEffect(() => {
-    let filteredOrganizations = getFilteredOrganizations(
-      data,
-      searchQuery,
-      filters
-    )
-
-    const cards = []
-    for (const organization of filteredOrganizations) {
-      cards.push(
-        <Grid.Column>
-          <OrgCard data={organization} />
-        </Grid.Column>
-      )
-    }
-
-    setOrgCards(cards)
+    setSearchParams(searchParams)
   }, [searchQuery, filters])
 
   const metaDescription =
@@ -219,10 +204,16 @@ const IndexPage = ({ data }) => {
         <Notification />
       </Grid>
       <div style={{ marginTop: "1rem", textAlign: "center" }}>
-        <a className="ui orange label">{orgCards.length} results</a>
+        <a className="ui orange label">
+          {filteredOrganizations.length} results
+        </a>
       </div>
       <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
-        {orgCards}
+        {filteredOrganizations.map(org => (
+          <Grid.Column key={org.name}>
+            <OrgCard data={org} />
+          </Grid.Column>
+        ))}
       </Grid>
       <div style={{ padding: "1rem" }}>
         <ins
