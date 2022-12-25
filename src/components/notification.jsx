@@ -9,10 +9,9 @@ const Notification = () => {
   return (
     <Message positive style={style}>
       <Message.Header>
-        Coding period for GSoC 2022 has started. You can check the program
-        timeline{" "}
+        GSoC 2023 has been announced. Read the announcement blog{" "}
         <a
-          href="https://developers.google.com/open-source/gsoc/timeline"
+          href="https://opensource.googleblog.com/2022/11/get-ready-for-google-summer-of-code-2023.html"
           target="_blank"
         >
           <u>here</u>
