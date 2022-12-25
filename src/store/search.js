@@ -1,9 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit"
+import { getSearchParam } from "../utils/searchParams"
 
 const searchSlice = createSlice({
   name: "search",
-  initialState: {
-    value: "",
+  initialState: () => {
+    return {
+      value: getSearchParam("search") || ""
+    }
   },
   reducers: {
     setSearch: (state, action) => {

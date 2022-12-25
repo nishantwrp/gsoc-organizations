@@ -1,12 +1,15 @@
 import { createSlice } from "@reduxjs/toolkit"
+import { getSearchParam } from "../utils/searchParams";
 
 const filtersSlice = createSlice({
   name: "filters",
-  initialState: {
-    years: [],
-    categories: [],
-    technologies: [],
-    topics: [],
+  initialState: () => {
+    return JSON.parse(getSearchParam("filters")) || {
+      years: [],
+      categories: [],
+      technologies: [],
+      topics: [],
+    };
   },
   reducers: {
     addFilter: (state, action) => {

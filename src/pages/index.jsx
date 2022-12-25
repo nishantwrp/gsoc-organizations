@@ -1,8 +1,7 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import Fuse from "fuse.js"
 import { graphql } from "gatsby"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
-import { navigate } from "@reach/router"
 
 import "./index.css"
 
@@ -11,9 +10,10 @@ import OrgCard from "../components/org-card"
 import SEO from "../components/seo"
 import Notification from "../components/notification"
 import { Grid } from "semantic-ui-react"
-import { useAppDispatch, useAppSelector } from "../store"
-import { getSearch, setSearch } from "../store/search"
-import { getFilters, setFilters } from "../store/filters"
+import { useAppSelector } from "../store"
+import { getSearch } from "../store/search"
+import { getFilters } from "../store/filters"
+import { setSearchParams } from "../utils/searchParams"
 
 const getOrganizations = data => {
   return data.allOrganization.edges.map(orgNode => {
@@ -110,54 +110,26 @@ const getFilteredOrganizations = (data, searchQuery, filters) => {
   return filteredOrganizations
 }
 
-const IndexPage = ({ data, location }) => {
-  const dispatch = useAppDispatch()
+const IndexPage = ({ data }) => {
   const searchQuery = useAppSelector(getSearch)
   const filters = useAppSelector(getFilters)
-
-  // Any url would work here.
-  const currentURL = new URL("https://www.gsocorganizations.dev/")
-
-  try {
-    currentURL.search = location.search
-  } catch (err) {}
-
-  const getSearchQueryInUrl = () => {
-    return currentURL.searchParams.get("search") || ""
-  }
-
-  const getFiltersFromUrl = () => {
-    return (
-      JSON.parse(currentURL.searchParams.get("filters")) || {
-        years: [],
-        categories: [],
-        technologies: [],
-        topics: [],
-      }
-    )
-  }
+  const [orgCards, setOrgCards] = useState([])
 
   useEffect(() => {
-    dispatch(setSearch(getSearchQueryInUrl()))
-    dispatch(setFilters(getFiltersFromUrl()))
-  }, [])
+    // Update the search params in the url if filters or search query
+    // change.
+    const searchParams = {};
 
-  useEffect(() => {
-    // Don't append search params if there is no filter or searchQurey.
-    if (searchQuery !== "") {
-      currentURL.searchParams.set("search", searchQuery)
-    } else {
-      currentURL.searchParams.delete("search")
+    if (searchQuery) {
+      searchParams["search"] = searchQuery;
     }
+
     if (Object.values(filters).filter(arr => arr.length !== 0).length !== 0) {
-      currentURL.searchParams.set("filters", JSON.stringify(filters))
-    } else {
-      currentURL.searchParams.delete("filters")
+      searchParams["filters"] = JSON.stringify(filters);
     }
-    navigate(currentURL.search === "" ? "/" : currentURL.search)
-  }, [searchQuery, filters])
 
-  const [orgCards, setOrgCards] = React.useState([])
+    setSearchParams(searchParams);
+  }, [searchQuery, filters])
 
   React.useEffect(() => {
     let filteredOrganizations = getFilteredOrganizations(
