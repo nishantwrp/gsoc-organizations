@@ -8,23 +8,8 @@ import Search from "../../components/search"
 import { Grid } from "semantic-ui-react"
 
 const Layout = ({ children, showFiltersAndSearch }) => {
-  const searchStyle = () => {
-    if (!showFiltersAndSearch) {
-      return {
-        display: "none",
-      }
-    }
-    return {}
-  }
-
-  const contentStyle = () => {
-    if (showFiltersAndSearch) {
-      return {
-        paddingTop: "60px",
-      }
-    }
-    return {}
-  }
+  const searchStyle = showFiltersAndSearch ? {} : { display: "none" }
+  const contentStyle = showFiltersAndSearch ? { paddingTop: "60px" } : {}
 
   return (
     <Grid className="desktop-layout-grid">
@@ -34,11 +19,11 @@ const Layout = ({ children, showFiltersAndSearch }) => {
         </Grid.Column>
         <Grid.Column className="desktop-layout-grid-column" width={12}>
           <center>
-            <div className="desktop-layout-search" style={searchStyle()}>
+            <div className="desktop-layout-search" style={searchStyle}>
               <Search />
             </div>
           </center>
-          <div className="desktop-layout-content" style={contentStyle()}>
+          <div className="desktop-layout-content" style={contentStyle}>
             {children}
           </div>
         </Grid.Column>

@@ -7,11 +7,7 @@ import "./org-card.css"
 
 import { Link } from "gatsby"
 
-const isSameOrg = (prevData, newData) => {
-  return prevData.data.name === newData.data.name
-}
-
-const OrgCard = memo(({ data }) => {
+const OrgCard = ({ data }) => {
   const isMobile = useBreakpoint().md
 
   const years = Object.keys(data.years)
@@ -36,7 +32,9 @@ const OrgCard = memo(({ data }) => {
     const extra = technologies.length - 5
     technologies = technologies.slice(0, 5)
     technologies.push(
-      <span className="org-card-technology-extra">{extra} more</span>
+      <span key={`#${extra} more`} className="org-card-technology-extra">
+        {extra} more
+      </span>
     )
   }
 
@@ -78,10 +76,14 @@ const OrgCard = memo(({ data }) => {
       {card}
     </a>
   )
-}, isSameOrg)
+}
 
 OrgCard.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default OrgCard
+const isSameOrg = (prevData, newData) => {
+  return prevData.data.name === newData.data.name
+}
+
+export default memo(OrgCard, isSameOrg)

@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useEffect } from "react"
+import React, { useMemo, useState, useCallback, memo } from "react"
 import { debounce } from "debounce"
 
 import "./search.css"
@@ -12,19 +12,19 @@ const Search = () => {
   const dispatch = useAppDispatch()
   const [searchText, setSearchText] = useState(search)
 
-  const dispatchSetSearch = value => {
+  const dispatchSetSearch = useCallback(value => {
     dispatch(setSearch(value))
-  }
+  }, [])
 
   const debouncedDispatchSetSearch = useMemo(
     () => debounce(dispatchSetSearch, 200),
     []
   )
 
-  const handleChange = ({ target: { value } }) => {
+  const handleChange = useCallback(({ target: { value } }) => {
     setSearchText(value)
     debouncedDispatchSetSearch(value)
-  }
+  }, [])
 
   return (
     <div className="search-search">
@@ -36,4 +36,4 @@ const Search = () => {
   )
 }
 
-export default Search
+export default memo(Search)

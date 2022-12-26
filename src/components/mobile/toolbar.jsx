@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useCallback, useState, memo } from "react"
 import PropTypes from "prop-types"
 
 import "./toolbar.css"
@@ -12,37 +12,27 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "gatsby"
 
 const Toolbar = ({ showSearch }) => {
-  const [isSidebarVisible, setSidebarVisibilty] = React.useState(false)
+  const [isSidebarVisible, setSidebarVisibilty] = useState(false)
+  const searchStyle = showSearch ? {} : { display: "none" }
 
-  const toggleSidebarVisibilty = () => {
-    setSidebarVisibilty(!isSidebarVisible)
-  }
-
-  const searchStyle = () => {
-    if (!showSearch) {
-      return {
-        display: "none",
-      }
-    }
-    return {}
-  }
-
-  const getLogo = () => {
-    return showSearch ? (
-      <Logo />
-    ) : (
-      <Link to="/">
-        <Logo />
-      </Link>
-    )
-  }
+  const toggleSidebarVisibilty = useCallback(() => {
+    setSidebarVisibilty(isVisible => !isVisible)
+  }, [])
 
   return (
     <div className="mobile-toolbar">
       <div className="mobile-toolbar-logo noselect">
-        <center>{getLogo()}</center>
+        <center>
+          {showSearch ? (
+            <Logo />
+          ) : (
+            <Link to="/">
+              <Logo />
+            </Link>
+          )}
+        </center>
       </div>
-      <div className="mobile-toolbar-search" style={searchStyle()}>
+      <div className="mobile-toolbar-search" style={searchStyle}>
         <center>
           <Search />
         </center>
@@ -74,4 +64,4 @@ Toolbar.propTypes = {
   showSearch: PropTypes.bool.isRequired,
 }
 
-export default Toolbar
+export default memo(Toolbar)
