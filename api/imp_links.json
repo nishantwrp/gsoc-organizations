@@ -16,5 +16,18 @@
       "title": "Discord Server for GSoC 2023",
       "url": "https://discord.gg/peGA5K8tJU"
     }
+  ],
+  "Ceph": [
+    {
+      "title": "Ceph Foundation ",
+      "url": "https://www.gsocorganizations.dev/organization/ceph-foundation/"
+    }
+  ],
+  "Australian Umbrella Org ": [
+    {
+      "title": "Australian Umbrella Org for Open-Source Projects",
+      "url": "https://www.gsocorganizations.dev/organization/aossie/"
+    }
   ]
+  
 }
