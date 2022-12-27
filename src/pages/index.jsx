@@ -2,6 +2,7 @@ import React, { useEffect, useMemo } from "react"
 import Fuse from "fuse.js"
 import { graphql } from "gatsby"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
+import { useLocation } from "@reach/router"
 
 import "./index.css"
 
@@ -10,10 +11,12 @@ import OrgCard from "../components/org-card"
 import SEO from "../components/seo"
 import Notification from "../components/notification"
 import { Grid } from "semantic-ui-react"
-import { useAppSelector } from "../store"
+import { useAppSelector, useAppDispatch } from "../store"
 import { getSearch } from "../store/search"
 import { getFilters } from "../store/filters"
-import { setSearchParams } from "../utils/searchParams"
+import { getSearchParam } from "../utils/searchParams"
+import { EventBus } from "../utils/events"
+import { urlChanged } from "../store/actions"
 
 const getOrganizations = data => {
   return data.allOrganization.edges.map(orgNode => {
@@ -110,9 +113,11 @@ const getFilteredOrganizations = (organizations, searchQuery, filters) => {
 }
 
 const IndexPage = ({ data }) => {
+  const dispatch = useAppDispatch()
   const searchQuery = useAppSelector(getSearch)
   const filters = useAppSelector(getFilters)
-  const allOrganizations = useMemo(() => getOrganizations(data), [])
+  const location = useLocation()
+  const allOrganizations = useMemo(() => getOrganizations(data), [data])
   const filteredOrganizations = getFilteredOrganizations(
     allOrganizations,
     searchQuery,
@@ -120,20 +125,24 @@ const IndexPage = ({ data }) => {
   )
 
   useEffect(() => {
-    // Update the search params in the url if filters or search query
-    // change.
-    const searchParams = {}
+    // This executes when there's an update in the url. (Example: User pressed back)
+    // This will not execute when setSearchParams is used because
+    // it uses JS history api. This is the desired behaviour so that this function
+    // doesn't run when the filters or search is being modified in the app itself.
 
-    if (searchQuery) {
-      searchParams["search"] = searchQuery
+    const updatedSearchQuery = getSearchParam("search") || ""
+    const updatedFilters = JSON.parse(getSearchParam("filters")) || {
+      years: [],
+      categories: [],
+      technologies: [],
+      topics: [],
     }
 
-    if (Object.values(filters).filter(arr => arr.length !== 0).length !== 0) {
-      searchParams["filters"] = JSON.stringify(filters)
-    }
-
-    setSearchParams(searchParams)
-  }, [searchQuery, filters])
+    dispatch(
+      urlChanged({ search: updatedSearchQuery, filters: updatedFilters })
+    )
+    EventBus.emit("updateSearch", updatedSearchQuery)
+  }, [location, dispatch])
 
   const metaDescription =
     "View and analyse the info of the organizations participating in Google Summer of Code and filter them by various parameters."

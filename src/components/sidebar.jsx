@@ -71,7 +71,7 @@ const Sidebar = ({ config, showFilters }) => {
 
   const clearAllFilters = useCallback(() => {
     dispatch(clearFilters())
-  }, [])
+  }, [dispatch])
 
   return (
     <div className="sidebar-sidebar" style={sidebarStyle}>
