@@ -1,4 +1,4 @@
-import React from "react"
+import React, { memo } from "react"
 import PropTypes from "prop-types"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -38,4 +38,4 @@ Logo.defaultProps = {
   color: "#ffa62b",
 }
 
-export default Logo
+export default memo(Logo)

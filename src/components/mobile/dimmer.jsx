@@ -1,23 +1,13 @@
-import React from "react"
+import React, { memo } from "react"
 import PropTypes from "prop-types"
 
 import "./dimmer.css"
 
-const getDimmerStyle = isSidebarVisible => {
-  if (!isSidebarVisible) {
-    return {
-      display: "none",
-    }
-  }
-}
-
 const Dimmer = ({ onClick, isSidebarVisible }) => {
+  const dimmerStyle = isSidebarVisible ? {} : { display: "none" }
+
   return (
-    <div
-      className="mobile-dimmer"
-      onClick={onClick}
-      style={getDimmerStyle(isSidebarVisible)}
-    ></div>
+    <div className="mobile-dimmer" onClick={onClick} style={dimmerStyle}></div>
   )
 }
 
@@ -26,4 +16,4 @@ Dimmer.propTypes = {
   isSidebarVisible: PropTypes.bool.isRequired,
 }
 
-export default Dimmer
+export default memo(Dimmer)

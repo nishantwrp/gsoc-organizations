@@ -1,4 +1,4 @@
-import React from "react"
+import React, { memo } from "react"
 import { Message } from "semantic-ui-react"
 
 const Notification = () => {
@@ -6,6 +6,7 @@ const Notification = () => {
     width: "100%",
     margin: "1rem",
   }
+
   return (
     <Message positive style={style}>
       <Message.Header>
@@ -22,4 +23,4 @@ const Notification = () => {
   )
 }
 
-export default Notification
+export default memo(Notification)

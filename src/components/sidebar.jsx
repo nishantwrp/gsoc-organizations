@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useCallback, useMemo, memo } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -41,6 +41,8 @@ const getSidebarStyles = config => {
 
 const Sidebar = ({ config, showFilters }) => {
   const dispatch = useAppDispatch()
+  const sidebarStyle = useMemo(() => getSidebarStyles(config), [config])
+  const filterStyle = showFilters ? {} : { display: "none" }
 
   const {
     filter: { topics, technologies, years, categories },
@@ -67,36 +69,25 @@ const Sidebar = ({ config, showFilters }) => {
     }
   `)
 
-  const clearAllFilters = () => {
+  const clearAllFilters = useCallback(() => {
     dispatch(clearFilters())
-  }
-
-  const filterStyle = () => {
-    if (!showFilters) {
-      return {
-        display: "none",
-      }
-    }
-    return {}
-  }
-
-  const getSidebarHeading = () => {
-    return showFilters ? (
-      <Container>GSoC Organizations</Container>
-    ) : (
-      <Link to="/">
-        <Container>GSoC Organizations</Container>
-      </Link>
-    )
-  }
+  }, [dispatch])
 
   return (
-    <div className="sidebar-sidebar" style={getSidebarStyles(config)}>
+    <div className="sidebar-sidebar" style={sidebarStyle}>
       <div className="sidebar-div">
         <div className="sidebar-logo-description">
-          <div className="sidebar-description">{getSidebarHeading()}</div>
+          <div className="sidebar-description">
+            {showFilters ? (
+              <Container>GSoC Organizations</Container>
+            ) : (
+              <Link to="/">
+                <Container>GSoC Organizations</Container>
+              </Link>
+            )}
+          </div>
         </div>
-        <div className="sidebar-content" style={filterStyle()}>
+        <div className="sidebar-content" style={filterStyle}>
           <div className="sidebar-content-clear-filters">
             <Button size="tiny" basic color="orange" onClick={clearAllFilters}>
               Clear all filters
@@ -207,4 +198,4 @@ Sidebar.defaultProps = {
   showFilters: true,
 }
 
-export default Sidebar
+export default memo(Sidebar)
