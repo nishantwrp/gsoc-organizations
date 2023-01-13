@@ -11,3 +11,10 @@
 .project-card-link {
   margin: 1%;
 }
+
+.ui.two.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
