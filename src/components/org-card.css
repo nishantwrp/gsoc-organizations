@@ -15,6 +15,19 @@
   padding: 5% 10%;
 }
 
+.bookmark {
+  color: rgb(207, 199, 199);
+  position: absolute;
+  background-color: white;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.bookmark:hover {
+  cursor: pointer;
+}
+
 .org-card-logo {
   background-size: contain;
   background-position: center center;

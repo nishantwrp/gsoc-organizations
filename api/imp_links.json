@@ -17,10 +17,10 @@
       "url": "https://discord.gg/peGA5K8tJU"
     }
   ],
-  "Casbin" : [
+  "Casbin": [
     {
       "title": "Contribution guidelines for Casbin",
-      "url":"https://github.com/casbin/casbin/blob/master/CONTRIBUTING.md"
+      "url": "https://github.com/casbin/casbin/blob/master/CONTRIBUTING.md"
     }
   ]
 }

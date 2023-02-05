@@ -1,4 +1,4 @@
-openapi: '3.0.2'
+openapi: "3.0.2"
 info:
   title: GSoC Organizations API
   description: |
@@ -7,7 +7,7 @@ info:
   contact:
     name: GSoC Organizations
     email: contact@gsocorganizations.dev
-  version: '1.0'
+  version: "1.0"
 servers:
   - url: https://api.gsocorganizations.dev/
 
@@ -182,7 +182,7 @@ paths:
       description: |
         Get the data of all the organizations that participated in Google Summer of Code from 2016 to 2022.
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
@@ -197,7 +197,7 @@ paths:
       description: |
         Get the data of all the organizations that participated in Google Summer of Code 2022.
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
@@ -211,7 +211,7 @@ paths:
                   organizations:
                     type: array
                     items:
-                      $ref: "#/components/schemas/OrganizationSingleYear"                  
+                      $ref: "#/components/schemas/OrganizationSingleYear"
   /2021.json:
     get:
       operationId: orgs2021
@@ -219,7 +219,7 @@ paths:
       description: |
         Get the data of all the organizations that participated in Google Summer of Code 2021.
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
@@ -241,7 +241,7 @@ paths:
       description: |
         Get the data of all the organizations that participated in Google Summer of Code 2020.
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
@@ -263,7 +263,7 @@ paths:
       description: |
         Get the data of all the organizations that participated in Google Summer of Code 2019.
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
@@ -285,7 +285,7 @@ paths:
       description: |
         Get the data of all the organizations that participated in Google Summer of Code 2018.
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
@@ -307,7 +307,7 @@ paths:
       description: |
         Get the data of all the organizations that participated in Google Summer of Code 2017.
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
@@ -329,7 +329,7 @@ paths:
       description: |
         Get the data of all the organizations that participated in Google Summer of Code 2016.
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
