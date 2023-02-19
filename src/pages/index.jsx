@@ -117,7 +117,7 @@ const IndexPage = ({ data }) => {
   const dispatch = useAppDispatch()
   const searchQuery = useAppSelector(getSearch)
   const filters = useAppSelector(getFilters)
-  const starCount = useAppSelector(getBookmarkedOrgsCount)
+  const bookmarkCount = useAppSelector(getBookmarkedOrgsCount)
   const location = useLocation()
   const allOrganizations = useMemo(() => getOrganizations(data), [data])
   const filteredOrganizations = getFilteredOrganizations(
@@ -223,10 +223,13 @@ const IndexPage = ({ data }) => {
           </a>
         </div>
         <div style={{ display: "inline-block" }}>
-          {starCount ? (
-            <Link to={`/stars/`}>
+          {bookmarkCount ? (
+            <Link to={`/bookmarks/`}>
               <div>
-                <div className="ui yellow label">{starCount} bookmark</div>
+                <div className="ui yellow label">
+                  {" "}
+                  {bookmarkCount} {bookmarkCount > 1 ? "bookmarks" : "bookmark"}
+                </div>
               </div>
             </Link>
           ) : null}

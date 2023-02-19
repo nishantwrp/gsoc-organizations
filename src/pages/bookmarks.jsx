@@ -30,15 +30,15 @@ const getOrganizations = data => {
 const getFilteredOrganizations = data => {
   const organizations = getOrganizations(data)
   let filteredOrganizations = []
-  let starredOrgs
+  let bookmarkedOrgs
 
   if (typeof window !== "undefined") {
-    starredOrgs = JSON.parse(localStorage.getItem("gsoc_orgs"))
+    bookmarkedOrgs = JSON.parse(localStorage.getItem("gsoc_orgs"))
   }
 
-  if (starredOrgs != null) {
+  if (bookmarkedOrgs != null) {
     for (const org of organizations) {
-      if (starredOrgs.indexOf(org.name) > -1) {
+      if (bookmarkedOrgs.indexOf(org.name) > -1) {
         filteredOrganizations.push(org)
       }
     }
@@ -47,10 +47,10 @@ const getFilteredOrganizations = data => {
   return filteredOrganizations
 }
 
-const StarsPage = ({ data }) => {
+const BookmarksPage = ({ data }) => {
   const dispatch = useAppDispatch()
   let filteredOrganizations = getFilteredOrganizations(data)
-  function clearStars() {
+  function clearBookmark() {
     removeAll()
     dispatch(clearCount())
   }
@@ -63,12 +63,14 @@ const StarsPage = ({ data }) => {
       </Grid.Column>
     )
   }
-  const starCount = useAppSelector(getBookmarkedOrgsCount)
+  const bookmarkCount = useAppSelector(getBookmarkedOrgsCount)
   const cardColumns = useBreakpoint().l ? 3 : 4
   return (
     <Layout>
       <div style={{ marginTop: "1rem", textAlign: "center" }}>
-        <a className="ui yellow label">{starCount} stars</a>
+        <a className="ui yellow label">
+          {bookmarkCount} {bookmarkCount > 1 ? "bookmarks" : "bookmark"}
+        </a>
       </div>
 
       <div
@@ -80,7 +82,7 @@ const StarsPage = ({ data }) => {
               size="tiny"
               basic
               color="orange"
-              onClick={() => clearStars()}
+              onClick={() => clearBookmark()}
             >
               Clear bookmarks
             </Button>
@@ -162,4 +164,4 @@ export const query = graphql`
   }
 `
 
-export default StarsPage
+export default BookmarksPage
