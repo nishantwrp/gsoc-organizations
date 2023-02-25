@@ -52,7 +52,7 @@ const getFilteredOrganizations = (organizations, searchQuery, filters) => {
   }
 
   // NOTE: YEARS - intersection, REST - union.
-  const { years, categories, technologies, topics } = filters
+  const { years, categories, technologies, topics, shortcuts } = filters
 
   if (years.length > 0) {
     let newFilteredOrganizations = []
@@ -109,6 +109,18 @@ const getFilteredOrganizations = (organizations, searchQuery, filters) => {
     filteredOrganizations = newFilteredOrganizations
   }
 
+  if (shortcuts.length > 0) {
+    // There is only one shortcut. Directly implement it. Need to refactor this.
+    let newFilteredOrganizations = []
+    for (const organization of filteredOrganizations) {
+      const orgYears = Object.keys(organization.years)
+      if (orgYears.length == 1 && orgYears[0] == 2023) {
+        newFilteredOrganizations.push(organization)
+      }
+    }
+    filteredOrganizations = newFilteredOrganizations
+  }
+
   return filteredOrganizations
 }
 
@@ -136,6 +148,7 @@ const IndexPage = ({ data }) => {
       categories: [],
       technologies: [],
       topics: [],
+      shortcuts: [],
     }
 
     dispatch(
