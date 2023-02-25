@@ -6,7 +6,7 @@ const {
   nameFilters,
 } = require("./filters")
 
-const YEARS = [2016, 2017, 2018, 2019, 2020, 2021, 2022]
+const YEARS = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
 
 const getDataPath = year => {
   return `api/data/${year}.json`
@@ -157,6 +157,8 @@ const updateOrg = (combinedJson, orgJson) => {
     "twitter_url",
     "blog_url",
     "category",
+    "ideas_url",
+    "guide_url"
   ]
   for (const prop of basic_properties) {
     combinedJson[prop] = orgJson[prop] || combinedJson[prop]
@@ -208,6 +210,8 @@ const getCombinedOrgJson = orgList => {
     irc_channel: "",
     contact_email: "",
     mailing_list: "",
+    ideas_url: "",
+    guide_url: ""
   }
 
   orgList = orgList.sort((a, b) => {

@@ -286,6 +286,10 @@ export const query = graphql`
               num_projects
               projects_url
             }
+            _2023 {
+              num_projects
+              projects_url
+            }
           }
         }
       }
