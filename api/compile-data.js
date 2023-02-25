@@ -158,7 +158,7 @@ const updateOrg = (combinedJson, orgJson) => {
     "blog_url",
     "category",
     "ideas_url",
-    "guide_url"
+    "guide_url",
   ]
   for (const prop of basic_properties) {
     combinedJson[prop] = orgJson[prop] || combinedJson[prop]
@@ -211,7 +211,7 @@ const getCombinedOrgJson = orgList => {
     contact_email: "",
     mailing_list: "",
     ideas_url: "",
-    guide_url: ""
+    guide_url: "",
   }
 
   orgList = orgList.sort((a, b) => {
