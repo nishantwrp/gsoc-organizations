@@ -10,9 +10,10 @@ const Notification = () => {
   return (
     <Message positive style={style}>
       <Message.Header>
-        GSoC 2023 has been announced. Read the announcement blog{" "}
+        Organizations participating in GSoC 2023 have been announced. View them
+        in the official site{" "}
         <a
-          href="https://opensource.googleblog.com/2022/11/get-ready-for-google-summer-of-code-2023.html"
+          href="https://summerofcode.withgoogle.com/programs/2023/organizations"
           target="_blank"
         >
           <u>here</u>
