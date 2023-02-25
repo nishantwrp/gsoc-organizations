@@ -1,15 +1,31 @@
-import React, { memo } from "react"
+import React, { memo, useState, useEffect } from "react"
 import PropTypes from "prop-types"
 import slugify from "slugify"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 import "./org-card.css"
-
+import { useAppDispatch } from "../store"
+import { addOrgToShortlist, removeOrgToShortlist } from "../store/bookmark"
 import { Link } from "gatsby"
+import { addCount, removeCount } from "../store/bookmark"
+import { Icon } from "semantic-ui-react"
 
+const getIfOrgSaved = orgname => {
+  if (typeof window !== "undefined") {
+    var curr_orgs = localStorage.getItem("gsoc_orgs")
+    if (curr_orgs === null || curr_orgs.indexOf(orgname) == -1) {
+      return false
+    } else {
+      return true
+    }
+  }
+}
 const OrgCard = ({ data }) => {
+  const [ifOrgNotSaved, setIfOrgSaved] = useState(
+    !getIfOrgSaved(data.name) ? true : false
+  )
   const isMobile = useBreakpoint().md
-
+  const dispatch = useAppDispatch()
   const years = Object.keys(data.years)
     .map(year => {
       return (
@@ -19,6 +35,13 @@ const OrgCard = ({ data }) => {
       )
     })
     .reverse()
+
+  const addOrRemoveBookmark = value => {
+    let isPresent = getIfOrgSaved(value)
+    isPresent ? removeOrgToShortlist(value) : addOrgToShortlist(value)
+    isPresent ? dispatch(removeCount()) : dispatch(addCount())
+    setIfOrgSaved(ifOrgNotSaved => !ifOrgNotSaved)
+  }
 
   let technologies = data.technologies.map(tech => {
     return (
@@ -64,17 +87,37 @@ const OrgCard = ({ data }) => {
   )
 
   return isMobile ? (
-    <Link to={`/organization/${slugify(data.name, { lower: true })}/`}>
-      {card}
-    </Link>
+    <div className="org-card-container">
+      <div onClick={() => addOrRemoveBookmark(data.name)}>
+        <Icon
+          key={Math.random()}
+          name={ifOrgNotSaved ? "bookmark outline" : "remove bookmark"}
+          size="big"
+        />
+      </div>
+      <Link to={`/organization/${slugify(data.name, { lower: true })}/`}>
+        {card}
+      </Link>
+    </div>
   ) : (
-    <a
-      href={`/organization/${slugify(data.name, { lower: true })}/`}
-      target="_blank"
-      rel="noreferrer"
-    >
-      {card}
-    </a>
+    <div>
+      <div className="org-card-container">
+        <div onClick={() => addOrRemoveBookmark(data.name)}>
+          <Icon
+            key={Math.random()}
+            name={ifOrgNotSaved ? "bookmark outline" : "remove bookmark"}
+            size="big"
+          />
+        </div>
+        <a
+          href={`/organization/${slugify(data.name, { lower: true })}/`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {card}
+        </a>
+      </div>
+    </div>
   )
 }
 

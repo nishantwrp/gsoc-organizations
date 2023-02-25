@@ -5,7 +5,7 @@ import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import { useLocation } from "@reach/router"
 
 import "./index.css"
-
+import { Link } from "gatsby"
 import Layout from "../layouts/layout"
 import OrgCard from "../components/org-card"
 import SEO from "../components/seo"
@@ -14,6 +14,7 @@ import { Grid } from "semantic-ui-react"
 import { useAppSelector, useAppDispatch } from "../store"
 import { getSearch } from "../store/search"
 import { getFilters } from "../store/filters"
+import { getBookmarkedOrgsCount } from "../store/bookmark"
 import { getSearchParam } from "../utils/searchParams"
 import { EventBus } from "../utils/events"
 import { urlChanged } from "../store/actions"
@@ -128,6 +129,7 @@ const IndexPage = ({ data }) => {
   const dispatch = useAppDispatch()
   const searchQuery = useAppSelector(getSearch)
   const filters = useAppSelector(getFilters)
+  const bookmarkCount = useAppSelector(getBookmarkedOrgsCount)
   const location = useLocation()
   const allOrganizations = useMemo(() => getOrganizations(data), [data])
   const filteredOrganizations = getFilteredOrganizations(
@@ -225,10 +227,26 @@ const IndexPage = ({ data }) => {
       <Grid className="index-org-cards-grid">
         <Notification />
       </Grid>
-      <div style={{ marginTop: "1rem", textAlign: "center" }}>
-        <a className="ui orange label">
-          {filteredOrganizations.length} results
-        </a>
+      <div
+        style={{ marginTop: "1rem", marginBottom: "1rem", textAlign: "center" }}
+      >
+        <div style={{ display: "inline-block", marginRight: "10px" }}>
+          <a className="ui orange label">
+            {filteredOrganizations.length} results
+          </a>
+        </div>
+        <div style={{ display: "inline-block" }}>
+          {bookmarkCount ? (
+            <Link to={`/bookmarks/`}>
+              <div>
+                <div className="ui yellow label">
+                  {" "}
+                  {bookmarkCount} {bookmarkCount > 1 ? "bookmarks" : "bookmark"}
+                </div>
+              </div>
+            </Link>
+          ) : null}
+        </div>
       </div>
       <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
         {filteredOrganizations.map(org => (
