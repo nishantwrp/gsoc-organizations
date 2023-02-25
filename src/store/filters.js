@@ -25,6 +25,7 @@ const filtersSlice = createSlice({
         categories: [],
         technologies: [],
         topics: [],
+        shortcuts: [],
       }
     )
   },
@@ -40,11 +41,18 @@ const filtersSlice = createSlice({
       updateFiltersInUrl(state)
     },
     setFilters: (state, action) => {
-      const { years, categories, technologies, topics } = action.payload
+      const {
+        years,
+        categories,
+        technologies,
+        topics,
+        shortcuts,
+      } = action.payload
       state.years = years
       state.categories = categories
       state.technologies = technologies
       state.topics = topics
+      state.shortcuts = shortcuts
       updateFiltersInUrl(state)
     },
     clearFilters: state => {
@@ -52,6 +60,7 @@ const filtersSlice = createSlice({
       state.categories = []
       state.technologies = []
       state.topics = []
+      state.shortcuts = []
       updateFiltersInUrl(state)
     },
   },

@@ -17,7 +17,10 @@ const ProjectsGraph = ({ data }) => {
     }
   `)
 
-  const years = queryData.filter.years.map(item => item.name).sort()
+  const years = queryData.filter.years
+    .map(item => item.name)
+    .sort()
+    .filter(item => item != 2023)
   const numProjects = []
 
   for (const year of years) {
