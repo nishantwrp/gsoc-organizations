@@ -96,8 +96,13 @@ const OrganizationPage = ({ pageContext: { organization }, data }) => {
           </div>
         </Grid.Column>
       </Grid>
-      <div className="organization-heading-container">Past Projects</div>
-      <ProjectsSection data={organization.years} />
+      {/* TODO(nishantwrp): This is temp fix. Refactor it. */}
+      {!!Object.keys(organization.years).filter(y => y != 2023).length && (
+        <>
+          <div className="organization-heading-container">Past Projects</div>
+          <ProjectsSection data={organization.years} />
+        </>
+      )}
     </Layout>
   )
 }

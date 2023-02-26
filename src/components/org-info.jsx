@@ -72,14 +72,18 @@ const OrgInfo = ({ data }) => {
             >
               <u>ideas list</u>
             </OutboundLink>{" "}
-            and the{" "}
-            <OutboundLink
-              href={data.guide_url}
-              rel="noreferrer"
-              target="_blank"
-            >
-              <u>contribution guide</u>
-            </OutboundLink>{" "}
+            {!!data.guide_url && (
+              <>
+                and the{" "}
+                <OutboundLink
+                  href={data.guide_url}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <u>contribution guide</u>
+                </OutboundLink>{" "}
+              </>
+            )}
             for this organization.
           </Message.Header>
         </Message>
