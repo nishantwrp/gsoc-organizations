@@ -13,7 +13,7 @@ import Notification from "../components/notification"
 import { Grid } from "semantic-ui-react"
 import { useAppSelector, useAppDispatch } from "../store"
 import { getSearch } from "../store/search"
-import { getFilters } from "../store/filters"
+import { getFilters, getFiltersFromSearchUrl } from "../store/filters"
 import { getSearchParam } from "../utils/searchParams"
 import { EventBus } from "../utils/events"
 import { urlChanged } from "../store/actions"
@@ -143,13 +143,7 @@ const IndexPage = ({ data }) => {
     // doesn't run when the filters or search is being modified in the app itself.
 
     const updatedSearchQuery = getSearchParam("search") || ""
-    const updatedFilters = JSON.parse(getSearchParam("filters")) || {
-      years: [],
-      categories: [],
-      technologies: [],
-      topics: [],
-      shortcuts: [],
-    }
+    const updatedFilters = getFiltersFromSearchUrl()
 
     dispatch(
       urlChanged({ search: updatedSearchQuery, filters: updatedFilters })

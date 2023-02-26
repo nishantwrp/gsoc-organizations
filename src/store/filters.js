@@ -6,6 +6,8 @@ import {
 } from "../utils/searchParams"
 import { urlChanged } from "./actions"
 
+const FILTERS = ["years", "categories", "technologies", "topics", "shortcuts"]
+
 const updateFiltersInUrl = filters => {
   if (Object.values(filters).filter(arr => arr.length !== 0).length === 0) {
     removeSearchParam("filters")
@@ -16,19 +18,21 @@ const updateFiltersInUrl = filters => {
   }
 }
 
+const ensureAllFilters = o => {
+  for (const filter of FILTERS) {
+    o[filter] = o[filter] || []
+  }
+}
+
+export const getFiltersFromSearchUrl = () => {
+  const filters = JSON.parse(getSearchParam("filters")) || {}
+  ensureAllFilters(filters)
+  return filters
+}
+
 const filtersSlice = createSlice({
   name: "filters",
-  initialState: () => {
-    return (
-      JSON.parse(getSearchParam("filters")) || {
-        years: [],
-        categories: [],
-        technologies: [],
-        topics: [],
-        shortcuts: [],
-      }
-    )
-  },
+  initialState: () => getFiltersFromSearchUrl(),
   reducers: {
     addFilter: (state, action) => {
       const { name, val } = action.payload
@@ -41,32 +45,22 @@ const filtersSlice = createSlice({
       updateFiltersInUrl(state)
     },
     setFilters: (state, action) => {
-      const {
-        years,
-        categories,
-        technologies,
-        topics,
-        shortcuts,
-      } = action.payload
-      state.years = years
-      state.categories = categories
-      state.technologies = technologies
-      state.topics = topics
-      state.shortcuts = shortcuts
+      for (const filter of FILTERS) {
+        state[filter] = action.payload[filter] || []
+      }
       updateFiltersInUrl(state)
     },
     clearFilters: state => {
-      state.years = []
-      state.categories = []
-      state.technologies = []
-      state.topics = []
-      state.shortcuts = []
+      for (const filter of FILTERS) {
+        state[filter] = []
+      }
       updateFiltersInUrl(state)
     },
   },
   extraReducers: builder => {
     builder.addCase(urlChanged, (state, action) => {
       const { filters } = action.payload
+      ensureAllFilters(filters)
       return { ...filters }
     })
   },
