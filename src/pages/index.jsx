@@ -18,8 +18,24 @@ import { getSearchParam } from "../utils/searchParams"
 import { EventBus } from "../utils/events"
 import { urlChanged } from "../store/actions"
 
+// const getOrganizations = data => {
+//   return data.allOrganization.edges.map(orgNode => {
+//     let org = orgNode.node
+//     for (const yearKey of Object.keys(org.years)) {
+//       if (yearKey[0] === "_") {
+//         if (org.years[yearKey] !== null) {
+//           let year = yearKey.slice(1)
+//           org.years[year] = org.years[yearKey]
+//         }
+//         delete org.years[yearKey]
+//       }
+//     }
+//     return org
+//   })
+// }
+
 const getOrganizations = data => {
-  return data.allOrganization.edges.map(orgNode => {
+  return data.allOrganization.edges.reduce((result, orgNode) => {
     let org = orgNode.node
     for (const yearKey of Object.keys(org.years)) {
       if (yearKey[0] === "_") {
@@ -30,9 +46,11 @@ const getOrganizations = data => {
         delete org.years[yearKey]
       }
     }
-    return org
-  })
+    result.push(org)
+    return result
+  }, [])
 }
+
 
 const getFuseSearch = organizations => {
   const options = {
