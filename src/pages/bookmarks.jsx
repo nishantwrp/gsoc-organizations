@@ -76,8 +76,8 @@ const BookmarksPage = ({ data }) => {
       <div
         style={{ marginTop: "1rem", textAlign: "center", marginBottom: "1rem" }}
       >
-        <Link to={`/`}>
-          <div className="sidebar-content-clear-filters">
+        <div className="sidebar-content-clear-filters">
+          <Link to={`/`}>
             <Button
               size="tiny"
               basic
@@ -86,8 +86,8 @@ const BookmarksPage = ({ data }) => {
             >
               Clear bookmarks
             </Button>
-          </div>
-        </Link>
+          </Link>
+        </div>
       </div>
 
       <div></div>

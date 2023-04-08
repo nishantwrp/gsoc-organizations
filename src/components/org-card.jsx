@@ -62,7 +62,7 @@ const OrgCard = ({ data }) => {
   }
 
   const card = (
-    <div className="org-card-container">
+    <div>
       <div
         className="org-card-logo-container"
         style={{
@@ -100,23 +100,21 @@ const OrgCard = ({ data }) => {
       </Link>
     </div>
   ) : (
-    <div>
-      <div className="org-card-container">
-        <div onClick={() => addOrRemoveBookmark(data.name)}>
-          <Icon
-            key={Math.random()}
-            name={ifOrgNotSaved ? "bookmark outline" : "remove bookmark"}
-            size="big"
-          />
-        </div>
-        <a
-          href={`/organization/${slugify(data.name, { lower: true })}/`}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {card}
-        </a>
+    <div className="org-card-container">
+      <div onClick={() => addOrRemoveBookmark(data.name)}>
+        <Icon
+          key={Math.random()}
+          name={ifOrgNotSaved ? "bookmark outline" : "remove bookmark"}
+          size="big"
+        />
       </div>
+      <a
+        href={`/organization/${slugify(data.name, { lower: true })}/`}
+        target="_blank"
+        rel="noreferrer"
+      >
+        {card}
+      </a>
     </div>
   )
 }
