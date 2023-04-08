@@ -58,7 +58,7 @@ const BookmarksPage = ({ data }) => {
   const cards = []
   for (const organization of filteredOrganizations) {
     cards.push(
-      <Grid.Column>
+      <Grid.Column key={organization.name}>
         <OrgCard data={organization} />
       </Grid.Column>
     )
