@@ -16,7 +16,9 @@ jobs:
         os: [ubuntu-latest]
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Install dependencies
         run: yarn install
       - name: Run check
@@ -28,7 +30,9 @@ jobs:
         os: [ubuntu-latest]
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Install dependencies
         run: yarn install
       - name: Run check
