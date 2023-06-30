@@ -6,6 +6,7 @@ import "./sidebar.css"
 import Filter from "./filters/filter"
 
 import GitHubButton from "react-github-btn"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 import { Link } from "gatsby"
 import { Container, Divider, Button, Icon } from "semantic-ui-react"
 import { useAppDispatch } from "../store"
@@ -133,7 +134,7 @@ const Sidebar = ({ config, showFilters }) => {
                       </GitHubButton>
                     </td>
                     <td>
-                      <a
+                      <OutboundLink
                         href="https://api.gsocorganizations.dev/"
                         target="_blank"
                         rel="noreferrer"
@@ -145,10 +146,10 @@ const Sidebar = ({ config, showFilters }) => {
                         >
                           <Icon name="database"></Icon>
                         </Button>
-                      </a>
+                      </OutboundLink>
                     </td>
                     <td>
-                      <a
+                      <OutboundLink
                         href="https://www.twitter.com/nishantwrp"
                         target="_blank"
                         rel="noreferrer"
@@ -160,7 +161,7 @@ const Sidebar = ({ config, showFilters }) => {
                         >
                           <Icon name="twitter"></Icon>
                         </Button>
-                      </a>
+                      </OutboundLink>
                     </td>
                   </tr>
                 </tbody>
@@ -172,14 +173,14 @@ const Sidebar = ({ config, showFilters }) => {
                     <Icon name="heart"></Icon>
                   </span>{" "}
                   by{" "}
-                  <a
+                  <OutboundLink
                     href="https://www.github.com/nishantwrp"
                     className="sidebar-footer-text"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <u>nishantwrp</u>
-                  </a>
+                  </OutboundLink>
                 </span>
               </div>
             </center>
