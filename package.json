@@ -56,5 +56,8 @@
   },
   "bugs": {
     "url": "https://github.com/nishantwrp/gsoc-organizations/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
