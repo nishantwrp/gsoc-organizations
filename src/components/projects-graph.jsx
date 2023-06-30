@@ -47,8 +47,6 @@ const ProjectsGraph = ({ data }) => {
     ],
   }
 
-  console.log(state)
-
   return (
     <div className="projects-graph-container">
       <Line
