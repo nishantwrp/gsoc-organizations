@@ -16,7 +16,7 @@
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
     "gatsby-plugin-breakpoints": "^1.2.6",
-    "gatsby-plugin-google-analytics": "^2.8.0",
+    "gatsby-plugin-google-gtag": "^5.11.0",
     "gatsby-plugin-manifest": "^2.6.1",
     "gatsby-plugin-nprogress": "^2.7.0",
     "gatsby-plugin-offline": "^3.4.0",

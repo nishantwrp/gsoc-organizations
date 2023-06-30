@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 
 import "./org-info.css"
 
-import { OutboundLink } from "gatsby-plugin-google-analytics"
 import {
   Divider,
   Button,
@@ -17,13 +16,13 @@ const OrgInfo = ({ data }) => {
   const years = Object.keys(data.years)
     .map(year => {
       return (
-        <OutboundLink
+        <a
           href={data.years[year].projects_url}
           rel="noreferrer"
           target="_blank"
         >
           <span className="org-info-year">{year}</span>
-        </OutboundLink>
+        </a>
       )
     })
     .reverse()
@@ -57,31 +56,23 @@ const OrgInfo = ({ data }) => {
         <Message color="orange" style={{ margin: "1%" }}>
           <Message.Header>
             {data.name} is participating in{" "}
-            <OutboundLink
+            <a
               href={data.years["2023"].projects_url}
               rel="noreferrer"
               target="_blank"
             >
               <u>GSoC 2023</u>
-            </OutboundLink>
+            </a>
             . View the{" "}
-            <OutboundLink
-              href={data.ideas_url}
-              rel="noreferrer"
-              target="_blank"
-            >
+            <a href={data.ideas_url} rel="noreferrer" target="_blank">
               <u>ideas list</u>
-            </OutboundLink>{" "}
+            </a>{" "}
             {!!data.guide_url && (
               <>
                 and the{" "}
-                <OutboundLink
-                  href={data.guide_url}
-                  rel="noreferrer"
-                  target="_blank"
-                >
+                <a href={data.guide_url} rel="noreferrer" target="_blank">
                   <u>contribution guide</u>
-                </OutboundLink>{" "}
+                </a>{" "}
               </>
             )}
             for this organization.
@@ -89,27 +80,23 @@ const OrgInfo = ({ data }) => {
         </Message>
       )}
       <div className="org-info-site-container">
-        <OutboundLink href={data.url} rel="noreferrer" target="_blank">
+        <a href={data.url} rel="noreferrer" target="_blank">
           <Button icon labelPosition="left" color="orange">
             <Icon name="world" />
             Visit Site
           </Button>
-        </OutboundLink>
+        </a>
       </div>
       <div className="org-info-site-container">
         {data.twitter_url && (
           <Popup
             content="Twitter"
             trigger={
-              <OutboundLink
-                href={data.twitter_url}
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href={data.twitter_url} rel="noreferrer" target="_blank">
                 <Button icon>
                   <Icon name="twitter" />
                 </Button>
-              </OutboundLink>
+              </a>
             }
           />
         )}
@@ -117,15 +104,11 @@ const OrgInfo = ({ data }) => {
           <Popup
             content="Mailing List"
             trigger={
-              <OutboundLink
-                href={data.mailing_list}
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href={data.mailing_list} rel="noreferrer" target="_blank">
                 <Button icon color>
                   <Icon name="envelope outline" />
                 </Button>
-              </OutboundLink>
+              </a>
             }
           />
         )}
@@ -133,15 +116,11 @@ const OrgInfo = ({ data }) => {
           <Popup
             content="Communication Channel"
             trigger={
-              <OutboundLink
-                href={data.irc_channel}
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href={data.irc_channel} rel="noreferrer" target="_blank">
                 <Button icon>
                   <Icon name="comment" />
                 </Button>
-              </OutboundLink>
+              </a>
             }
           />
         )}
@@ -149,15 +128,11 @@ const OrgInfo = ({ data }) => {
           <Popup
             content="Contact Email"
             trigger={
-              <OutboundLink
-                href={data.contact_email}
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href={data.contact_email} rel="noreferrer" target="_blank">
                 <Button icon>
                   <Icon name="mail" />
                 </Button>
-              </OutboundLink>
+              </a>
             }
           />
         )}
@@ -165,15 +140,11 @@ const OrgInfo = ({ data }) => {
           <Popup
             content="Blog"
             trigger={
-              <OutboundLink
-                href={data.blog_url}
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href={data.blog_url} rel="noreferrer" target="_blank">
                 <Button icon>
                   <Icon name="blogger" />
                 </Button>
-              </OutboundLink>
+              </a>
             }
           />
         )}

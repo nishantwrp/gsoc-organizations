@@ -1,6 +1,5 @@
 import React from "react"
 import { Button, Card } from "semantic-ui-react"
-import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import "./project-card.css"
 
@@ -15,7 +14,7 @@ const ProjectCard = ({ data }) => {
         </Card.Content>
         <Card.Content extra>
           <div className="ui two buttons">
-            <OutboundLink
+            <a
               className="project-card-link"
               href={data.project_url}
               target="_blank"
@@ -24,8 +23,8 @@ const ProjectCard = ({ data }) => {
               <Button basic color="green">
                 More Details
               </Button>
-            </OutboundLink>
-            <OutboundLink
+            </a>
+            <a
               className="project-card-link"
               href={data.code_url}
               target="_blank"
@@ -34,7 +33,7 @@ const ProjectCard = ({ data }) => {
               <Button basic color="orange">
                 Code Submission
               </Button>
-            </OutboundLink>
+            </a>
           </div>
         </Card.Content>
       </Card>

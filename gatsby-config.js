@@ -12,13 +12,6 @@ module.exports = {
     siteUrl: `https://www.gsocorganizations.dev`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-114654874-3",
-        head: true,
-      },
-    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
@@ -58,6 +51,15 @@ module.exports = {
       options: {
         googleAdClientId: "ca-pub-9769516184087442",
         head: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-HJ9QY230LB"],
+        pluginConfig: {
+          head: true,
+        },
       },
     },
   ],
