@@ -4,60 +4,41 @@
   "description": "A site for viewing and analysing the info of the organizations participating in Google Summer of Code.",
   "version": "1.0.0",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.32",
-    "@fortawesome/free-brands-svg-icons": "^5.15.1",
-    "@fortawesome/free-solid-svg-icons": "^5.15.1",
-    "@fortawesome/react-fontawesome": "^0.1.13",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@isamrish/gatsby-plugin-google-adsense": "^1.2.0",
-    "@reduxjs/toolkit": "^1.7.1",
-    "chart.js": "^2.9.4",
+    "@reduxjs/toolkit": "^1.9.5",
+    "chart.js": "^4.3.0",
     "debounce": "^1.2.1",
-    "fuse.js": "^6.4.3",
-    "gatsby": "^2.26.1",
-    "gatsby-image": "^2.5.0",
-    "gatsby-plugin-breakpoints": "^1.2.6",
-    "gatsby-plugin-google-analytics": "^2.8.0",
-    "gatsby-plugin-manifest": "^2.6.1",
-    "gatsby-plugin-nprogress": "^2.7.0",
-    "gatsby-plugin-offline": "^3.4.0",
-    "gatsby-plugin-react-helmet": "^3.4.0",
-    "gatsby-plugin-robots-txt": "^1.5.5",
-    "gatsby-plugin-sitemap": "^2.9.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-chartjs-2": "^2.11.1",
-    "react-dom": "^16.12.0",
-    "react-github-btn": "^1.2.0",
+    "fuse.js": "^6.6.2",
+    "gatsby": "^5.11.0",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-breakpoints": "^1.3.10",
+    "gatsby-plugin-google-gtag": "^5.11.0",
+    "gatsby-plugin-manifest": "^5.11.0",
+    "gatsby-plugin-nprogress": "^5.11.0",
+    "gatsby-plugin-offline": "^6.11.0",
+    "gatsby-plugin-react-helmet": "^6.11.0",
+    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-sitemap": "^6.11.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-github-btn": "^1.4.0",
     "react-helmet": "^6.1.0",
-    "react-redux": "^7.2.6",
-    "redoc-cli": "^0.10.2",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.0.1",
-    "slugify": "^1.4.6"
+    "react-redux": "^8.1.1",
+    "redoc-cli": "^0.13.21",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "slugify": "^1.6.6"
   },
   "devDependencies": {
-    "husky": "^4.3.0",
-    "lint-staged": "^10.5.2",
-    "prettier": "2.1.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "prettier --write"
-    ],
-    "*.json": [
-      "prettier --write"
-    ],
-    "*.css": [
-      "prettier --write"
-    ],
-    "*.md": [
-      "prettier --write"
-    ]
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.3",
+    "prettier": "^2.8.8"
   },
   "scripts": {
     "build": "gatsby build",
@@ -66,7 +47,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "redoc": "redoc-cli serve api/openapi.yml"
+    "redoc": "redoc-cli serve api/openapi.yml",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -74,5 +56,8 @@
   },
   "bugs": {
     "url": "https://github.com/nishantwrp/gsoc-organizations/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

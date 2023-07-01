@@ -136,14 +136,8 @@ const updateTechnologies = (combinedJson, technologies) => {
 }
 
 const updateOrg = (combinedJson, orgJson) => {
-  const {
-    projects_url,
-    topics,
-    technologies,
-    num_projects,
-    projects,
-    year,
-  } = orgJson
+  const { projects_url, topics, technologies, num_projects, projects, year } =
+    orgJson
 
   const basic_properties = [
     "name",

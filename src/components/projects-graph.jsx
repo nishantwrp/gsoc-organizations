@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import "./projects-graph.css"
 
+import "chart.js/auto"
 import { Line } from "react-chartjs-2"
 
 const ProjectsGraph = ({ data }) => {
@@ -52,36 +53,34 @@ const ProjectsGraph = ({ data }) => {
         data={state}
         scaleFontColor="red"
         options={{
-          title: {
-            display: true,
-            text: "Number of completed projects year-wise",
-            fontSize: 14,
-          },
-          legend: {
-            display: false,
-          },
-          tooltips: {
-            enabled: true,
+          plugins: {
+            title: {
+              display: true,
+              text: "Number of completed projects year-wise",
+              fontSize: 14,
+            },
+            legend: {
+              display: false,
+            },
+            tooltip: {
+              enabled: true,
+            },
           },
           scales: {
-            xAxes: [
-              {
-                gridLines: {
-                  drawOnChartArea: false,
-                },
+            x: {
+              grid: {
+                drawOnChartArea: false,
               },
-            ],
-            yAxes: [
-              {
-                gridLines: {
-                  drawOnChartArea: false,
-                },
-                ticks: {
-                  beginAtZero: true,
-                  stepSize: 1,
-                },
+            },
+            y: {
+              beginAtZero: true,
+              grid: {
+                drawOnChartArea: false,
               },
-            ],
+              ticks: {
+                stepSize: 1,
+              },
+            },
           },
         }}
       />

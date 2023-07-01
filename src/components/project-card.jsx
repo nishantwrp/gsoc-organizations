@@ -1,7 +1,7 @@
 import React from "react"
 import { Button, Card } from "semantic-ui-react"
-import { OutboundLink } from "gatsby-plugin-google-analytics"
 
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 import "./project-card.css"
 
 const ProjectCard = ({ data }) => {

@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 import "./org-info.css"
 
-import { OutboundLink } from "gatsby-plugin-google-analytics"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 import {
   Divider,
   Button,
