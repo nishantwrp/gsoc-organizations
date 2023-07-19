@@ -22,5 +22,11 @@
       "title": "Contribution guidelines for Casbin",
       "url": "https://github.com/casbin/casbin/blob/master/CONTRIBUTING.md"
     }
+  ],
+  "Gnome Foundation": [
+    {
+      "title": "Newcomers Guide",
+      "url": "https://wiki.gnome.org/Newcomers/"
+    }
   ]
 }
