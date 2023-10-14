@@ -1,32 +1,246 @@
 {
+  "Google Summer of Code": [
+    {
+      "title": "Google Summer of Code website",
+      "url": "https://summerofcode.withgoogle.com/"
+    },
+    {
+      "title": "Google Summer of Code documentation",
+      "url": "https://summerofcode.withgoogle.com/student/participant-guide"
+    },
+    {
+      "title": "Google Summer of Code GitHub repository",
+      "url": "https://github.com/google/"
+    },
+    {
+      "title": "Google Summer of Code blog",
+      "url": "https://summerofcode.withgoogle.com/"
+    },
+    {
+      "title": "Google Summer of Code community forum",
+      "url": "https://groups.google.com/g/google-summer-of-code-discuss"
+    }
+  ],
   "Oppia Foundation": [
     {
       "title": "Contributing code to Oppia",
       "url": "https://github.com/oppia/oppia/wiki/Contributing-code-to-Oppia#setting-things-up"
+    },
+    {
+      "title": "Oppia Foundation website",
+      "url": "https://www.oppiafoundation.org/"
+    },
+    {
+      "title": "Oppia Foundation GitHub repository",
+      "url": "https://github.com/oppia/"
+    },
+    {
+      "title": "Oppia Foundation documentation",
+      "url": "https://oppia.github.io/"
     }
   ],
   "Joplin": [
     {
       "title": "GSoC pull request guidelines",
       "url": "https://joplinapp.org/gsoc2022/pull_request_guidelines/"
+    },
+    {
+      "title": "Joplin website",
+      "url": "https://joplinapp.org/"
+    },
+    {
+      "title": "Joplin GitHub repository",
+      "url": "https://github.com/laurent22/joplin"
+    },
+    {
+      "title": "Joplin documentation",
+      "url": "https://joplinapp.org/help/"
     }
   ],
   "Liquid Galaxy project": [
     {
       "title": "Discord Server for GSoC 2023",
       "url": "https://discord.gg/peGA5K8tJU"
+    },
+    {
+      "title": "Liquid Galaxy website",
+      "url": "https://liquidgalaxy.org/"
+    },
+    {
+      "title": "Liquid Galaxy GitHub repository",
+      "url": "https://github.com/LiquidGalaxyLAB/liquid-galaxy"
+    },
+    {
+      "title": "Liquid Galaxy documentation",
+      "url": "https://www.liquidgalaxy.eu/2021/02/documentation.html"
     }
   ],
   "Casbin": [
     {
       "title": "Contribution guidelines for Casbin",
       "url": "https://github.com/casbin/casbin/blob/master/CONTRIBUTING.md"
+    },
+    {
+      "title": "Casbin website",
+      "url": "https://casbin.org/"
+    },
+    {
+      "title": "Casbin GitHub repository",
+      "url": "https://github.com/casbin/"
+    },
+    {
+      "title": "Casbin documentation",
+      "url": "https://casbin.org/"
     }
   ],
   "Gnome Foundation": [
     {
       "title": "Newcomers Guide",
       "url": "https://wiki.gnome.org/Newcomers/"
+    },
+    {
+      "title": "Gnome Foundation website",
+      "url": "https://www.gnome.org/"
+    },
+    {
+      "title": "Gnome Foundation GitHub repository",
+      "url": "https://github.com/GNOME/"
+    },
+    {
+      "title": "Gnome Foundation documentation",
+      "url": "https://developer.gnome.org/"
+    }
+  ],
+  "Apache Software Foundation": [
+    {
+      "title": "Apache Software Foundation official documentation",
+      "url": "https://www.apache.org/docs/"
+    },
+    {
+      "title": "Apache Software Foundation GitHub repository",
+      "url": "https://github.com/apache"
+    },
+    {
+      "title": "Apache Software Foundation blog",
+      "url": "https://blogs.apache.org/"
+    },
+    {
+      "title": "Apache Software Foundation Twitter page",
+      "url": "https://twitter.com/apache"
+    },
+    {
+      "title": "Apache Software Foundation LinkedIn page",
+      "url": "https://www.linkedin.com/company/apache-software-foundation"
+    }
+  ],
+  "Linux Foundation": [
+    {
+      "title": "Linux Foundation official documentation",
+      "url": "https://www.linuxfoundation.org/resources/"
+    },
+    {
+      "title": "Linux Foundation GitHub repository",
+      "url": "https://github.com/linuxfoundation"
+    },
+    {
+      "title": "Linux Foundation blog",
+      "url": "https://linuxfoundation.org/blog/"
+    },
+    {
+      "title": "Linux Foundation Twitter page",
+      "url": "https://twitter.com/linuxfoundation"
+    },
+    {
+      "title": "Linux Foundation LinkedIn page",
+      "url": "https://www.linkedin.com/company/linux-foundation"
+    }
+  ],
+  "Mozilla Foundation": [
+    {
+      "title": "Mozilla Foundation official documentation",
+      "url": "https://developer.mozilla.org/"
+    },
+    {
+      "title": "Mozilla Foundation GitHub repository",
+      "url": "https://github.com/mozilla"
+    },
+    {
+      "title": "Mozilla Foundation blog",
+      "url": "https://blog.mozilla.org/"
+    },
+    {
+      "title": "Mozilla Foundation Twitter page",
+      "url": "https://twitter.com/mozilla"
+    },
+    {
+      "title": "Mozilla Foundation LinkedIn page",
+      "url": "https://www.linkedin.com/company/mozilla-foundation"
+    }
+  ],
+  "Wikimedia Foundation": [
+    {
+      "title": "Wikimedia Foundation official documentation",
+      "url": "https://www.mediawiki.org/wiki/MediaWiki"
+    },
+    {
+      "title": "Wikimedia Foundation GitHub repository",
+      "url": "https://github.com/wikimedia"
+    },
+    {
+      "title": "Wikimedia Foundation blog",
+      "url": "https://blog.wikimedia.org/"
+    },
+    {
+      "title": "Wikimedia Foundation Twitter page",
+      "url": "https://twitter.com/wikimedia"
+    },
+    {
+      "title": "Wikimedia Foundation LinkedIn page",
+      "url": "https://www.linkedin.com/company/wikimedia-foundation"
+    }
+  ],
+  "Internet Archive": [
+    {
+      "title": "Internet Archive official documentation",
+      "url": "https://archive.org/about/faqs/"
+    },
+    {
+      "title": "Internet Archive GitHub repository",
+      "url": "https://github.com/archiveorg"
+    },
+    {
+      "title": "Internet Archive blog",
+      "url": "https://blog.archive.org/"
+    },
+    {
+      "title": "Internet Archive Twitter page",
+      "url": "https://twitter.com/internetarchive"
+    },
+    {
+      "title": "Internet Archive LinkedIn page",
+      "url": "https://www.linkedin.com/company/internet-archive"
+    }
+  ],
+  "Electronic Frontier Foundation": [
+    {
+      "title": "Electronic Frontier Foundation official documentation",
+      "url": "https://www.eff.org/legal/cases/"
+    },
+    {
+      "title": "Electronic Frontier Foundation GitHub repository",
+      "url": "https://github.com/eff"
+    },
+    {
+      "title": "Electronic Frontier Foundation blog",
+      "url": "https://www.eff.org/deeplinks/"
+    },
+    {
+      "title": "Electronic Frontier Foundation Twitter page",
+      "url": "https://twitter.com/eff"
+    },
+    {
+      "title": "Electronic Frontier Foundation LinkedIn page",
+      "url": "https://www.linkedin.com/company/electronic-frontier-foundation"
     }
   ]
 }
