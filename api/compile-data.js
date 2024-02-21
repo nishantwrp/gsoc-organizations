@@ -6,7 +6,7 @@ const {
   nameFilters,
 } = require("./filters")
 
-const YEARS = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+const YEARS = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
 const getDataPath = year => {
   return `api/data/${year}.json`
