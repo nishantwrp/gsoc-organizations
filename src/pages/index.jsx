@@ -9,6 +9,7 @@ import "./index.css"
 import Layout from "../layouts/layout"
 import OrgCard from "../components/org-card"
 import SEO from "../components/seo"
+import Notification from "../components/notification"
 import { Grid } from "semantic-ui-react"
 import { useAppSelector, useAppDispatch } from "../store"
 import { getSearch } from "../store/search"
@@ -113,7 +114,7 @@ const getFilteredOrganizations = (organizations, searchQuery, filters) => {
     let newFilteredOrganizations = []
     for (const organization of filteredOrganizations) {
       const orgYears = Object.keys(organization.years)
-      if (orgYears.length == 1 && orgYears[0] == 2023) {
+      if (orgYears.length == 1 && orgYears[0] == 2024) {
         newFilteredOrganizations.push(organization)
       }
     }
@@ -215,6 +216,9 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title={"Home"} meta={meta} />
+      <Grid className="index-org-cards-grid">
+        <Notification />
+      </Grid>
       <div style={{ marginTop: "1rem", textAlign: "center" }}>
         <a className="ui orange label">
           {filteredOrganizations.length} results
@@ -290,6 +294,10 @@ export const query = graphql`
               projects_url
             }
             _2023 {
+              num_projects
+              projects_url
+            }
+            _2024 {
               num_projects
               projects_url
             }
