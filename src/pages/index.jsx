@@ -21,11 +21,13 @@ import { urlChanged } from "../store/actions"
 const getOrganizations = data => {
   return data.allOrganization.edges.map(orgNode => {
     let org = orgNode.node
+    org.totalProjects = 0
     for (const yearKey of Object.keys(org.years)) {
       if (yearKey[0] === "_") {
         if (org.years[yearKey] !== null) {
           let year = yearKey.slice(1)
           org.years[year] = org.years[yearKey]
+          org.totalProjects += org.years[yearKey].num_projects
         }
         delete org.years[yearKey]
       }

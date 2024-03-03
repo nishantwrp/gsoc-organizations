@@ -54,6 +54,9 @@ const OrgCard = ({ data }) => {
         ></div>
       </div>
       <div className="org-card-name-container">{data.name}</div>
+      <div className="org-card-project-count-container">
+        Total Projects: {data.totalProjects}
+      </div>
       <div className="org-card-category-container">
         <span>{data.category}</span>
       </div>
