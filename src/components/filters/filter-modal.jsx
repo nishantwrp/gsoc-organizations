@@ -29,11 +29,11 @@ class FilterModal extends FilterTemplate {
   render() {
     const filteredCheckboxes = this.getFilteredOptionsIndexes().map(index => {
       return (
-        <Grid.Column>
+        <Grid.Column key={index}>
           <Checkbox
             checked={this.isIndexSelected(index)}
             label={this.getCheckboxLabel(index)}
-            value={this.isIndexSelected(index)}
+            value={this.isIndexSelected(index).toString()}
             onChange={this.toggleChecked(index)}
           />
         </Grid.Column>

@@ -18,6 +18,7 @@ const OrgInfo = ({ data }) => {
     .map(year => {
       return (
         <OutboundLink
+          key={year}
           href={data.years[year].projects_url}
           rel="noreferrer"
           target="_blank"
@@ -29,11 +30,19 @@ const OrgInfo = ({ data }) => {
     .reverse()
 
   let technologies = data.technologies.map(tech => {
-    return <span className="org-info-technology">{tech}</span>
+    return (
+      <span key={tech} className="org-info-technology">
+        {tech}
+      </span>
+    )
   })
 
   let topics = data.topics.map(topic => {
-    return <span className="org-info-topic">{topic}</span>
+    return (
+      <span key={topic} className="org-info-topic">
+        {topic}
+      </span>
+    )
   })
 
   const isParticipatingIn2024 = "2024" in data.years

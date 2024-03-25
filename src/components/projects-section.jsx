@@ -10,21 +10,25 @@ const ProjectsSection = ({ data }) => {
   const projectColumns = useBreakpoint().l ? 3 : 4
 
   const projectPanes = Object.entries(data)
-    .filter(([year, _]) => year != 2024)
+    .filter(([year, _]) => year !== 2024)
     .map(([year, yearData]) => {
       return {
         menuItem: year,
         render: () => {
           if (yearData.projects.length) {
             return (
-              <Tab.Pane attached={false} className="project-cards-container">
+              <Tab.Pane
+                key={year}
+                attached={false}
+                className="project-cards-container"
+              >
                 <Grid
                   className="project-cards-grid"
                   stackable
                   columns={projectColumns}
                 >
                   {yearData.projects.map(project => (
-                    <Grid.Column>
+                    <Grid.Column key={project}>
                       <ProjectCard data={project} />
                     </Grid.Column>
                   ))}
