@@ -21,12 +21,12 @@ class Filter extends FilterTemplate {
   render() {
     let filteredCheckboxes = this.getFilteredOptionsIndexes().map(index => {
       return (
-        <tr>
+        <tr key={index}>
           <td>
             <Checkbox
               checked={this.isIndexSelected(index)}
               label={this.getCheckboxLabel(index)}
-              value={this.isIndexSelected(index)}
+              value={this.isIndexSelected(index).toString()}
               onChange={this.toggleChecked(index)}
             />
           </td>
@@ -53,6 +53,7 @@ class Filter extends FilterTemplate {
         </div>
         <div className="filter-search">
           <Input
+            className="custom-input"
             size="mini"
             icon="search"
             value={this.state.searchQuery}

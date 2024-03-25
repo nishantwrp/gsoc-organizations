@@ -21,6 +21,7 @@
   flex-direction: column;
   height: 100%;
   overflow: auto;
+  margin-bottom: -1rem;
 }
 
 .sidebar-content-clear-filters {
@@ -33,6 +34,9 @@
 .sidebar-content-filters {
   height: 100%;
   overflow: auto;
+  padding-bottom: 1rem;
+  margin-top: -1rem;
+  padding-top: 1rem;
 }
 
 .sidebar-logo-description {

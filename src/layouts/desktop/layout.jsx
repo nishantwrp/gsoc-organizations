@@ -5,19 +5,18 @@ import "./layout.css"
 
 import Sidebar from "../../components/sidebar"
 import Search from "../../components/search"
-import { Grid } from "semantic-ui-react"
 
 const Layout = ({ children, showFiltersAndSearch }) => {
   const searchStyle = showFiltersAndSearch ? {} : { display: "none" }
   const contentStyle = showFiltersAndSearch ? { paddingTop: "60px" } : {}
 
   return (
-    <Grid className="desktop-layout-grid">
-      <Grid.Row className="desktop-layout-grid-row">
-        <Grid.Column className="desktop-layout-grid-column" width={4}>
+    <div className="desktop-layout-flex">
+      <div className="desktop-layout-flex-row">
+        <div className="desktop-layout-sidebar">
           <Sidebar showFilters={showFiltersAndSearch} />
-        </Grid.Column>
-        <Grid.Column className="desktop-layout-grid-column" width={12}>
+        </div>
+        <div className="desktop-layout-flex-column">
           <center>
             <div className="desktop-layout-search" style={searchStyle}>
               <Search />
@@ -26,9 +25,9 @@ const Layout = ({ children, showFiltersAndSearch }) => {
           <div className="desktop-layout-content" style={contentStyle}>
             {children}
           </div>
-        </Grid.Column>
-      </Grid.Row>
-    </Grid>
+        </div>
+      </div>
+    </div>
   )
 }
 

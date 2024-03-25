@@ -20,6 +20,10 @@
   justify-content: left;
 }
 
+.custom-input {
+  width: 80%;
+}
+
 .filter-view-more {
   cursor: pointer;
   color: #16697a;

@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo } from "react"
 import Fuse from "fuse.js"
 import { graphql } from "gatsby"
-import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import { useLocation } from "@reach/router"
 
 import "./index.css"
@@ -17,6 +16,7 @@ import { getFilters, getFiltersFromSearchUrl } from "../store/filters"
 import { getSearchParam } from "../utils/searchParams"
 import { EventBus } from "../utils/events"
 import { urlChanged } from "../store/actions"
+import useScreenSize from "../hook/useScreenSize"
 
 const getOrganizations = data => {
   return data.allOrganization.edges.map(orgNode => {
@@ -205,7 +205,16 @@ const IndexPage = ({ data }) => {
     },
   ]
 
-  const cardColumns = useBreakpoint().l ? 3 : 4
+  let screenSize = useScreenSize()
+  let cardColumns
+
+  if (screenSize.width < 1150) {
+    cardColumns = 2
+  } else if (screenSize.width < 1550) {
+    cardColumns = 3
+  } else {
+    cardColumns = 4
+  }
 
   React.useEffect(() => {
     setTimeout(() => {
@@ -219,7 +228,7 @@ const IndexPage = ({ data }) => {
       <Grid className="index-org-cards-grid">
         <Notification />
       </Grid>
-      <div style={{ marginTop: "1rem", textAlign: "center" }}>
+      <div style={{ textAlign: "center" }}>
         <a className="ui orange label">
           {filteredOrganizations.length} results
         </a>

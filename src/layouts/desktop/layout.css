@@ -1,19 +1,26 @@
-.desktop-layout-grid {
+.desktop-layout-flex {
   margin-left: 0px !important;
   margin-top: 0px !important;
   margin-bottom: 0px !important;
   margin-right: 0px !important;
 }
 
-.desktop-layout-grid-row {
+.desktop-layout-flex-row {
   padding-bottom: 0px !important;
   padding-top: 0px !important;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.desktop-layout-grid-column {
+.desktop-layout-flex-column {
   padding-right: 0px !important;
   padding-left: 0px !important;
   padding-bottom: 0px !important;
+  width: calc(100% - 300px);
+}
+
+.desktop-layout-sidebar {
+  width: 300px;
 }
 
 .desktop-layout-search {
@@ -22,7 +29,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   /* 75% because sidebar is 25% of the width. */
-  width: 75%;
+  width: calc(100% - 300px);
   background-color: #ffff;
   border-bottom: 1px solid rgb(212, 218, 223);
   box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;

@@ -15,7 +15,7 @@ import { clearFilters } from "../store/filters"
 const getSidebarStyles = config => {
   if (config.mode === "desktop") {
     return {
-      width: "inherit",
+      width: "300px",
     }
   }
 
