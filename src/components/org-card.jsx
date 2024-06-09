@@ -40,6 +40,7 @@ const OrgCard = ({ data }) => {
 
   const card = (
     <div className="org-card-container">
+      <div className="blur"></div>
       <div
         className="org-card-logo-container"
         style={{

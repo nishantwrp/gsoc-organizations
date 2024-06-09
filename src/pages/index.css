@@ -1,3 +1,15 @@
 .index-org-cards-grid {
-  margin: 0px !important;
+  margin: 10px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.results {
+  background-color: #fcfff5;
+  border: 1px solid #a3c293;
+  color: #29531b;
+  font-weight: 600;
+  padding: 10px 80px;
+  border-radius: 5px;
 }

@@ -2,18 +2,19 @@
   z-index: 20;
   height: 100%;
   position: fixed;
-  transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: transform;
   overflow: hidden;
-  background-color: #f5f7f9;
-  border-right: 1px solid rgb(230, 236, 241);
 }
 
 .sidebar-div {
-  height: 100%;
-  width: 100%;
+  height: calc(100vh - 50px);
+  margin: 2rem;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
+  background-color: white;
+  filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1))
+    drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
 }
 
 .sidebar-content {
@@ -44,7 +45,8 @@
 .sidebar-description {
   font-family: "Galano Grotesque Alt Medium";
   font-size: 18px;
-  color: #ffa62b;
+  color: #db6400;
+  padding: 1rem 0;
 }
 
 .sidebar-footer {
