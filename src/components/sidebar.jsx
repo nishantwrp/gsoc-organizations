@@ -21,19 +21,26 @@ const getSidebarStyles = config => {
 
   if (config.mode === "mobile") {
     const mobileCss = {
-      width: "400px",
-      maxWidth: "70%",
+      position: "absolute",
+      left: "0",
+      right: "0",
+      top: "10px",
+      margin: "auto",
+      width: "50%",
+      minWidth: "270px",
+      height: "calc(100vh - 20px)",
+      padding: "0",
     }
 
     if (config.visible) {
       return {
         ...mobileCss,
-        transform: "translateX(0%)",
+        display: "block",
       }
     } else {
       return {
         ...mobileCss,
-        transform: "translateX(-100%)",
+        display: "none",
       }
     }
   }

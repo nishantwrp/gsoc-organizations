@@ -4,12 +4,13 @@
   position: fixed;
   transition-property: transform;
   overflow: hidden;
+  border-radius: 20px;
+  padding: 2rem;
 }
 
 .sidebar-div {
-  height: calc(100vh - 50px);
-  margin: 2rem;
-  border-radius: 20px;
+  height: 100%;
+  border-radius: inherit;
   display: flex;
   flex-direction: column;
   background-color: white;
