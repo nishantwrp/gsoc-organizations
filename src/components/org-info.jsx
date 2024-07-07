@@ -53,7 +53,7 @@ const OrgInfo = ({ data }) => {
           }}
         ></div>
       </div>
-      {isParticipatingIn2024 && (
+      {/* {isParticipatingIn2024 && (
         <Message color="orange" style={{ margin: "1%" }}>
           <Message.Header>
             {data.name} is participating in{" "}
@@ -87,7 +87,7 @@ const OrgInfo = ({ data }) => {
             for this organization.
           </Message.Header>
         </Message>
-      )}
+      )} */}
       <div className="org-info-site-container">
         <OutboundLink href={data.url} rel="noreferrer" target="_blank">
           <Button icon labelPosition="left" color="orange">

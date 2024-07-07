@@ -21,7 +21,7 @@ const ProjectsGraph = ({ data }) => {
   const years = queryData.filter.years
     .map(item => item.name)
     .sort()
-    .filter(item => item != 2024)
+    .filter(item => item != 2025)
   const numProjects = []
 
   for (const year of years) {
