@@ -1,8 +1,16 @@
+:root {
+  --background: rgba(255, 255, 255, 1);
+  --card: rgba(237, 237, 237, 1);
+  --primary: rgba(247, 247, 247, 0.9);
+  --primary-foreground: rgba(240, 240, 240, 1);
+  --secondary: rgba(127, 127, 127, 1);
+  --secondary-foreground: rgba(237, 237, 237, 1);
+}
 body {
   margin: 0px;
   padding: 0px;
   min-height: 100vh;
-  background-color: #fdfdfd;
+  background-color: var(--primary);
 }
 
 a {
