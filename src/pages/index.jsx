@@ -219,15 +219,11 @@ const IndexPage = ({ data }) => {
       <Grid className="index-org-cards-grid">
         <Notification />
       </Grid>
-      <div
-        style={{
-          margin: "2rem 0",
-          textAlign: "center",
-        }}
-      >
-        <a className="results">{filteredOrganizations.length} results</a>
+
+      <div className="results-container">
+        <p className="results">{filteredOrganizations.length} results</p>
       </div>
-      <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
+      <Grid className="index-org-cards-grid " stackable columns={cardColumns}>
         {filteredOrganizations.map(org => (
           <Grid.Column key={org.name}>
             <OrgCard data={org} />

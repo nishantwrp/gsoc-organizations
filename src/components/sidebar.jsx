@@ -8,7 +8,7 @@ import Filter from "./filters/filter"
 import GitHubButton from "react-github-btn"
 import { OutboundLink } from "gatsby-plugin-google-gtag"
 import { Link } from "gatsby"
-import { Container, Divider, Button, Icon } from "semantic-ui-react"
+import { Container, Divider, Button, Icon, Image } from "semantic-ui-react"
 import { useAppDispatch } from "../store"
 import { clearFilters } from "../store/filters"
 
@@ -21,26 +21,19 @@ const getSidebarStyles = config => {
 
   if (config.mode === "mobile") {
     const mobileCss = {
-      position: "absolute",
-      left: "0",
-      right: "0",
-      top: "10px",
-      margin: "auto",
-      width: "50%",
-      minWidth: "270px",
-      height: "calc(100vh - 20px)",
-      padding: "0",
+      width: "400px",
+      maxWidth: "70%",
     }
 
     if (config.visible) {
       return {
         ...mobileCss,
-        display: "block",
+        transform: "translateX(0%)",
       }
     } else {
       return {
         ...mobileCss,
-        display: "none",
+        transform: "translateX(-100%)",
       }
     }
   }
@@ -86,10 +79,18 @@ const Sidebar = ({ config, showFilters }) => {
         <div className="sidebar-logo-description">
           <div className="sidebar-description">
             {showFilters ? (
-              <Container>GSoC Organizations</Container>
+              <Image
+                src="/images/Gsoc Organizations.svg"
+                size="medium"
+                alt="logo"
+              />
             ) : (
               <Link to="/">
-                <Container>GSoC Organizations</Container>
+                <Image
+                  src="/images/Gsoc Organizations.svg"
+                  size="medium"
+                  alt="logo"
+                />
               </Link>
             )}
           </div>

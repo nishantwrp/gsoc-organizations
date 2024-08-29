@@ -5,11 +5,12 @@
   justify-content: center;
   align-items: center;
 }
+.results-container {
+  user-select: none;
+  margin: 1rem 0;
+  text-align: center;
+}
 .results {
-  background-color: #fcfff5;
-  border: 1px solid #a3c293;
-  color: #29531b;
-  font-weight: 600;
-  padding: 10px 80px;
-  border-radius: 5px;
+  letter-spacing: 2px;
+  font-weight: 700;
 }

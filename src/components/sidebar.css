@@ -1,11 +1,12 @@
 .sidebar-sidebar {
-  z-index: 20;
+  overflow: hidden;
   height: 100%;
+  z-index: 20;
+  border-radius: 20px;
+  padding: 10px;
   position: fixed;
   transition-property: transform;
-  overflow: hidden;
-  border-radius: 20px;
-  padding: 2rem;
+  transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sidebar-div {
@@ -44,12 +45,10 @@
 }
 
 .sidebar-description {
-  font-family: "Galano Grotesque Alt Medium";
-  font-size: 18px;
-  color: #db6400;
-  padding: 1rem 0;
+  display: grid;
+  place-content: center;
+  padding: 1rem 10px;
 }
-
 .sidebar-footer {
   text-align: center;
   margin-top: auto;

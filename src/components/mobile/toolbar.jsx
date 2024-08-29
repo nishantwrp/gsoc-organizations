@@ -10,6 +10,7 @@ import Search from "../search"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "gatsby"
+import ScrollToTop from "../scrollToTop"
 
 const Toolbar = ({ showSearch }) => {
   const [isSidebarVisible, setSidebarVisibilty] = useState(false)
@@ -21,6 +22,7 @@ const Toolbar = ({ showSearch }) => {
 
   return (
     <div className="mobile-toolbar">
+      {!isSidebarVisible && <ScrollToTop />}
       <div className="mobile-toolbar-logo noselect">
         <center>
           {showSearch ? (

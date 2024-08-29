@@ -3,18 +3,22 @@
   width: 100%;
   padding: 0 1rem;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   cursor: pointer;
   border-radius: 10px;
-  background-color: var(--background);
+  background: linear-gradient(to bottom, var(--background), var(--card));
   transition: all 1ms ease-in;
-  border: 1px solid var(--background);
+  border: 2px solid var(--background);
   filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1))
     drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
   color: rgba(37, 37, 37, 0.794);
 }
 
 .org-card-container:hover {
-  border: 1px solid var(--secondary-foreground);
+  background: linear-gradient(to bottom, var(--background), #fafafa);
+  border: 2px solid var(--card);
 }
 
 .org-card-logo-container {
@@ -51,11 +55,10 @@
   border-radius: 10px;
   text-align: center;
   background-color: var(--primary);
+  border: 2px solid white;
   color: #29531b;
   padding: 2%;
   margin: 10px 0;
-
-  filter: drop-shadow(0 0 1px rgb(0 0 0 / 0.3));
 }
 
 .org-card-category-container span {
@@ -73,34 +76,38 @@
   align-items: center;
   flex-wrap: wrap;
   flex: 0 0 1;
-  gap: 7px;
 }
 
 .org-card-year {
   border-radius: 5px;
   display: inline-block;
   padding: 5px 10px;
+  font-size: xx-small;
   color: rgba(37, 37, 37, 0.6);
-  border: 1px solid var(--secondary-foreground);
   font-weight: 200;
   font-family: "Galano Grotesque Alt Medium";
 }
 
 .org-card-technologies-container {
+  height: 150px;
   padding: 10px 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin: 10px;
+  border-top: 1px solid #d3d3d3;
   font-family: "Galano Grotesque Alt Medium";
-  color: #29531bda;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  align-content: start;
+  flex-wrap: wrap;
+  color: #29531bda;
+  overflow: hidden;
 }
 
 .org-card-technology {
-  margin: 3px;
-  padding: 3px;
+  box-sizing: border-box;
+  text-wrap: wrap;
+  padding: 5px;
   text-align: center;
-  border-radius: 2px;
 }
 
 .org-card-technology-extra {
