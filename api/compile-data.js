@@ -222,6 +222,10 @@ const getCombinedOrgJson = orgList => {
 const compileData = () => {
   const organizationSet = new DisjointSet()
 
+  // new code ---- Read imp_links.json -----------
+  const impLinks = JSON.parse(fs.readFileSync("api/imp_links.json"))
+  // ------------------------------------------
+
   for (const year of YEARS) {
     const data = JSON.parse(fs.readFileSync(getDataPath(year)))
 
@@ -241,7 +245,18 @@ const compileData = () => {
   const distinctOrganizations = organizationSet.extract()
   const gsocOrganizations = []
   distinctOrganizations.forEach(orgList => {
-    gsocOrganizations.push(getCombinedOrgJson(orgList))
+    // ---------new code ------------
+    const combinedOrg = getCombinedOrgJson(orgList)
+    // Add imp_links.json data if available
+    if (impLinks[combinedOrg.name]) {
+      combinedOrg.links = impLinks[combinedOrg.name]
+    } else {
+      combinedOrg.links = [] // Default empty array if no links are found
+    }
+    gsocOrganizations.push(combinedOrg)
+    // -----------------------------------------------
+
+    // gsocOrganizations.push(getCombinedOrgJson(orgList)) ------------ previous code
   })
 
   const sortedOrganizations = gsocOrganizations.sort((a, b) => {
