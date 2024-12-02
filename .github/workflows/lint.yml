@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - master
+      - important-links-proposals
   pull_request:
     branches:
       - master
+      - important-links-proposals
 
 jobs:
   package-lock:
