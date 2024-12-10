@@ -179,7 +179,7 @@ const OrgInfo = ({ data }) => {
           />
         )}
         {data.links &&
-          data?.links?.map(item => {
+          data.links.map(item => {
             return (
               <Popup
                 content={item.title}
