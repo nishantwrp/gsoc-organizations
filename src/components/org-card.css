@@ -53,6 +53,27 @@
   font-family: "Galano Grotesque Alt Medium";
 }
 
+/* new added styles */
+.org-card-github-container {
+  margin-top: 10px;
+}
+
+.org-card-github-container a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.org-card-github-container a:hover {
+  color: #0366d6;
+}
+
+.org-card-github-container svg {
+  margin-right: 5px;
+}
+
 .org-card-years-container {
   padding: 2% 2%;
 }

@@ -2,6 +2,7 @@ import React, { memo } from "react"
 import PropTypes from "prop-types"
 import slugify from "slugify"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
+import { FaGithub } from "react-icons/fa"
 
 import "./org-card.css"
 
@@ -11,22 +12,18 @@ const OrgCard = ({ data }) => {
   const isMobile = useBreakpoint().md
 
   const years = Object.keys(data.years)
-    .map(year => {
-      return (
-        <span key={year} className="org-card-year">
-          {year}
-        </span>
-      )
-    })
+    .map(year => (
+      <span key={year} className="org-card-year">
+        {year}
+      </span>
+    ))
     .reverse()
 
-  let technologies = data.technologies.map(tech => {
-    return (
-      <span key={tech} className="org-card-technology">
-        {tech}
-      </span>
-    )
-  })
+  let technologies = data.technologies.map(tech => (
+    <span key={tech} className="org-card-technology">
+      {tech}
+    </span>
+  ))
 
   if (technologies.length > 5) {
     const extra = technologies.length - 5
@@ -42,15 +39,11 @@ const OrgCard = ({ data }) => {
     <div className="org-card-container">
       <div
         className="org-card-logo-container"
-        style={{
-          backgroundColor: data.image_background_color,
-        }}
+        style={{ backgroundColor: data.image_background_color }}
       >
         <div
           className="org-card-logo"
-          style={{
-            backgroundImage: `url(${data.image_url})`,
-          }}
+          style={{ backgroundImage: `url(${data.image_url})` }}
         ></div>
       </div>
       <div className="org-card-name-container">{data.name}</div>
@@ -60,6 +53,13 @@ const OrgCard = ({ data }) => {
       <div className="org-card-description-container">{data.description}</div>
       <div className="org-card-years-container">{years}</div>
       <div className="org-card-technologies-container">{technologies}</div>
+      {data.github_url && (
+        <div className="org-card-github-container">
+          <a href={data.github_url} target="_blank" rel="noopener noreferrer">
+            <FaGithub /> GitHub Repository
+          </a>
+        </div>
+      )}
     </div>
   )
 
@@ -77,13 +77,3 @@ const OrgCard = ({ data }) => {
     </a>
   )
 }
-
-OrgCard.propTypes = {
-  data: PropTypes.object.isRequired,
-}
-
-const isSameOrg = (prevData, newData) => {
-  return prevData.data.name === newData.data.name
-}
-
-export default memo(OrgCard, isSameOrg)
