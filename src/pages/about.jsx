@@ -147,7 +147,7 @@ const AboutPage = ({ data }) => {
     </Layout>
   )
 }
-//view all GSoC Org link button should be there , i have to keep about us very short , then define what is GSoC , should include one image in background for GSoC , and some org examples too maybe depends on repo guy bro
+
 export const query = graphql`
   query {
     site {
