@@ -74,3 +74,8 @@
   font-family: "Galano Grotesque Alt Medium";
   color: #db6400;
 }
+.nav-link {
+  color: #db6400;
+  text-decoration: none;
+  padding: 12px;
+}
