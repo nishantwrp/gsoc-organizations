@@ -28,5 +28,17 @@
       "title": "Newcomers Guide",
       "url": "https://wiki.gnome.org/Newcomers/"
     }
+  ],
+  "52North Spatial Information Research GmbH": [
+    {
+      "title":"Public Repository for the Connected Systems SWG",
+      "url": "https://github.com/52North/ogcapi-connected-systems"
+    }
+  ],
+  "aossie.org":[
+      {
+        "title": "Contributing to aossie.org",
+        "url": "https://github.com/AOSSIE-Org/EduAid"
+      }
   ]
 }
