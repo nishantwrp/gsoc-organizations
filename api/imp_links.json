@@ -35,7 +35,7 @@
       "url": "https://github.com/52North/ogcapi-connected-systems"
     }
   ],
-  "aossie.org":[
+  "aossie":[
       {
         "title": "A tool that can auto-generate short quizzes on the basis of the content provided",
         "url": "https://github.com/AOSSIE-Org/EduAid"
