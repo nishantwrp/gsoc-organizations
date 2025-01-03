@@ -31,11 +31,11 @@
   ],
   "52North Spatial Information Research GmbH": [
     {
-      "title":"Public Repository for the Connected Systems SWG",
+      "title": "Public Repository for the Connected Systems SWG",
       "url": "https://github.com/52North/ogcapi-connected-systems"
     }
   ],
-  "aossie":[
+  "Aossie":[
       {
         "title": "A tool that can auto-generate short quizzes on the basis of the content provided",
         "url": "https://github.com/AOSSIE-Org/EduAid"
