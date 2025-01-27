@@ -7,6 +7,7 @@ import { useLocation } from "@reach/router"
 import "./index.css"
 
 import Layout from "../layouts/layout"
+import ModalExampleModal from "../components/modal"
 import OrgCard from "../components/org-card"
 import SEO from "../components/seo"
 import Notification from "../components/notification"
@@ -219,10 +220,21 @@ const IndexPage = ({ data }) => {
       <Grid className="index-org-cards-grid">
         <Notification />
       </Grid>
-      <div style={{ marginTop: "1rem", textAlign: "center" }}>
-        <a className="ui orange label">
+      <div
+        style={{
+          display: "flex",
+          textAlign: "center",
+          justifyContent: "space-between",
+          padding: "1rem",
+        }}
+      >
+        <a
+          className="ui orange label"
+          style={{ margin: "auto", padding: "1rem" }}
+        >
           {filteredOrganizations.length} results
         </a>
+        <ModalExampleModal />
       </div>
       <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
         {filteredOrganizations.map(org => (
