@@ -43,7 +43,7 @@ const ModalExampleModal = ({ filteredOrganizations }) => {
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
       open={open}
-      trigger={<Button className="ui orange label">Show Modal</Button>}
+      trigger={<Button className="ui orange label">Export</Button>}
     >
       <ModalHeader>Select a File Format</ModalHeader>
       <ModalContent image>
@@ -67,7 +67,7 @@ const ModalExampleModal = ({ filteredOrganizations }) => {
           onClick={handleDownload}
           disabled={!selectedOption}
         >
-          Download
+          Export
         </Button>
       </ModalActions>
     </Modal>
