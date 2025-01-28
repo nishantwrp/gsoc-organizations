@@ -234,7 +234,7 @@ const IndexPage = ({ data }) => {
         >
           {filteredOrganizations.length} results
         </a>
-        <ModalExampleModal />
+        <ModalExampleModal filteredOrganizations={filteredOrganizations} />
       </div>
       <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
         {filteredOrganizations.map(org => (
