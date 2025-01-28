@@ -1,5 +1,6 @@
 import React from "react"
-import { Dropdown } from "semantic-ui-react"
+import { generateExcel } from "./export-modals/export-xlsx"
+import { generatePDF } from "./export-modals/export-pdf"
 import {
   ModalHeader,
   ModalDescription,
@@ -7,8 +8,8 @@ import {
   ModalActions,
   Button,
   Modal,
+  Dropdown,
 } from "semantic-ui-react"
-
 const options = [
   {
     key: "Excel file",
@@ -22,12 +23,19 @@ const options = [
   },
 ]
 
-function ModalExampleModal() {
+const ModalExampleModal = ({ filteredOrganizations }) => {
   const [open, setOpen] = React.useState(false)
   const [selectedOption, setSelectedOption] = React.useState(null)
 
   const handleDownload = () => {
     console.log("Selected file format:", selectedOption)
+    console.log("filteredOrganizations:", filteredOrganizations)
+    if (selectedOption === "Excel file") {
+      generateExcel(filteredOrganizations)
+    } else if (selectedOption === "PDF file") {
+      generatePDF(filteredOrganizations)
+    }
+    setOpen(false)
   }
 
   return (
@@ -47,7 +55,7 @@ function ModalExampleModal() {
             selection
             options={options}
             value={selectedOption}
-            onChange={(e, { value }) => setSelectedOption(value)}
+            onChange={(_, { value }) => setSelectedOption(value)}
           />
           <p>available formats: .xlsx, .pdf</p>
         </ModalDescription>
