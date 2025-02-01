@@ -31,7 +31,11 @@ const ProjectCard = ({ data }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <Button basic color="orange">
+              <Button
+                basic
+                color="orange"
+                disabled={!data.code_url || data.code_url === ""}
+              >
                 Code Submission
               </Button>
             </OutboundLink>
