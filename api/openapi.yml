@@ -119,6 +119,8 @@ components:
               $ref: "#/components/schemas/OrganizationYear"
             2024:
               $ref: "#/components/schemas/OrganizationYear"
+            2025:
+              $ref: "#/components/schemas/OrganizationYear"
     OrganizationSingleYear:
       type: object
       required:
@@ -184,7 +186,7 @@ paths:
       operationId: orgsAll
       summary: All Organizations
       description: |
-        Get the data of all the organizations that participated in Google Summer of Code from 2016 to 2024.
+        Get the data of all the organizations that participated in Google Summer of Code from 2016 to 2025.
       responses:
         '200':
           description: OK
@@ -194,6 +196,28 @@ paths:
                 type: array
                 items:
                   $ref: "#/components/schemas/Organizations"
+  /2025.json:
+    get:
+      operationId: orgs2025
+      summary: 2025 Organizations
+      description: |
+        Get the data of all the organizations that participated in Google Summer of Code 2025.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  year:
+                    type: number
+                  archive_url:
+                    type: string
+                  organizations:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/OrganizationSingleYear"
   /2024.json:
     get:
       operationId: orgs2024
