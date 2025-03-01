@@ -10,6 +10,7 @@ import ProjectsGraph from "../components/projects-graph"
 import ProjectsSection from "../components/projects-section"
 import SEO from "../components/seo"
 import { Grid } from "semantic-ui-react"
+import { createOrgChartData } from "../utils/chartData"
 
 const OrganizationPage = ({ pageContext: { organization }, data }) => {
   const metaTitle = `${organization.name} | ${data.site.siteMetadata.title}`
@@ -69,6 +70,11 @@ const OrganizationPage = ({ pageContext: { organization }, data }) => {
     },
   ]
 
+  const orgChartData = createOrgChartData(
+    data.filter.years.map(item => item.name),
+    organization.years
+  )
+
   React.useEffect(() => {
     setTimeout(() => {
       ;(window.adsbygoogle = window.adsbygoogle || []).push({})
@@ -84,7 +90,7 @@ const OrganizationPage = ({ pageContext: { organization }, data }) => {
           <OrgInfo data={organization} />
         </Grid.Column>
         <Grid.Column>
-          <ProjectsGraph data={organization.years} />
+          {!!orgChartData.years.length && <ProjectsGraph data={orgChartData} />}
           <div className="organization-graph-ad-container">
             <ins
               className="adsbygoogle"
@@ -114,6 +120,11 @@ export const query = graphql`
       siteMetadata {
         title
         siteUrl
+      }
+    }
+    filter {
+      years {
+        name
       }
     }
   }

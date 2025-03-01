@@ -1,37 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import "./projects-graph.css"
 
 import "chart.js/auto"
 import { Line } from "react-chartjs-2"
 
-const ProjectsGraph = ({ data }) => {
-  const queryData = useStaticQuery(graphql`
-    query {
-      filter {
-        years {
-          name
-        }
-      }
-    }
-  `)
-
-  const years = queryData.filter.years
-    .map(item => item.name)
-    .sort()
-    .filter(item => item != 2025)
-  const numProjects = []
-
-  for (const year of years) {
-    if (Object.keys(data).includes(year)) {
-      numProjects.push(data[year].num_projects)
-    } else {
-      numProjects.push(0)
-    }
-  }
-
+const ProjectsGraph = ({ data: { years, numProjects } }) => {
   const state = {
     labels: years,
     datasets: [
