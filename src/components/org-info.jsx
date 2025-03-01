@@ -98,84 +98,80 @@ const OrgInfo = ({ data }) => {
       </div>
       <div className="org-info-site-container">
         {data.twitter_url && (
-          <Popup
-            content="Twitter"
-            trigger={
-              <OutboundLink
-                href={data.twitter_url}
-                rel="noreferrer"
-                target="_blank"
-              >
+          <OutboundLink
+            href={data.twitter_url}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <Popup
+              content="Twitter"
+              trigger={
                 <Button icon>
                   <Icon name="twitter" />
                 </Button>
-              </OutboundLink>
-            }
-          />
+              }
+            />
+          </OutboundLink>
         )}
         {data.mailing_list && (
-          <Popup
-            content="Mailing List"
-            trigger={
-              <OutboundLink
-                href={data.mailing_list}
-                rel="noreferrer"
-                target="_blank"
-              >
+          <OutboundLink
+            href={data.mailing_list}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <Popup
+              content="Mailing List"
+              trigger={
                 <Button icon color>
                   <Icon name="envelope outline" />
                 </Button>
-              </OutboundLink>
-            }
-          />
+              }
+            />
+          </OutboundLink>
         )}
         {data.irc_channel && (
-          <Popup
-            content="Communication Channel"
-            trigger={
-              <OutboundLink
-                href={data.irc_channel}
-                rel="noreferrer"
-                target="_blank"
-              >
+          <OutboundLink
+            href={data.irc_channel}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <Popup
+              content="Communication Channel"
+              trigger={
                 <Button icon>
                   <Icon name="comment" />
                 </Button>
-              </OutboundLink>
-            }
-          />
+              }
+            />
+          </OutboundLink>
         )}
         {data.contact_email && (
-          <Popup
-            content="Contact Email"
-            trigger={
-              <OutboundLink
-                href={data.contact_email}
-                rel="noreferrer"
-                target="_blank"
-              >
+          <OutboundLink
+            href={data.contact_email}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <Popup
+              content="Contact Email"
+              trigger={
                 <Button icon>
                   <Icon name="mail" />
                 </Button>
-              </OutboundLink>
-            }
-          />
+              }
+            />
+          </OutboundLink>
         )}
         {data.blog_url && (
-          <Popup
-            content="Blog"
-            trigger={
-              <OutboundLink
-                href={data.blog_url}
-                rel="noreferrer"
-                target="_blank"
-              >
+          <OutboundLink href={data.blog_url} rel="noreferrer" target="_blank">
+            <Popup
+              content="Blog"
+              trigger={
                 <Button icon>
                   <Icon name="blogger" />
                 </Button>
-              </OutboundLink>
-            }
-          />
+              }
+            />
+          </OutboundLink>
         )}
       </div>
       <div className="org-info-description-container">{data.description}</div>
