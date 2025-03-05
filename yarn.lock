@@ -2420,6 +2420,11 @@
   resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
   integrity sha512-EaObqwIvayI5a8dCzhFrjKzVwKLxjoG9T6Ppd5CEo07LRKfQ8Yokw54r5+Wq7FaBQ+yXRvQAYPrHwya1/UFt9g==
 
+"@types/gatsby-plugin-breakpoints@^1.3.5":
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/@types/gatsby-plugin-breakpoints/-/gatsby-plugin-breakpoints-1.3.5.tgz#1b55619a3e07831d3da6d3f19fe73009005cca35"
+  integrity sha512-xFgiwjf9VS7lh7zJ09QF4CKYHF9HhAcUz8QK7euuMsg0+iZQ9A9H3J12a8NJlhkoh6NdjIA97AuT3PmPkYQeBw==
+
 "@types/get-port@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@types/get-port/-/get-port-3.2.0.tgz#f9e0a11443cc21336470185eae3dfba4495d29bc"
