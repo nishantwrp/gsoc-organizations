@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "module": "commonjs",
+    // "strict": true ,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "es5",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

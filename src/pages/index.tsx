@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo } from "react"
 import Fuse from "fuse.js"
-import { graphql } from "gatsby"
+import { graphql, PageProps } from "gatsby"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import { useLocation } from "@reach/router"
 
@@ -18,7 +18,37 @@ import { getSearchParam } from "../utils/searchParams"
 import { EventBus } from "../utils/events"
 import { urlChanged } from "../store/actions"
 
-const getOrganizations = data => {
+//Define the shape of an organization
+interface Organization {
+  name: string
+  category: string
+  description: string
+  technologies: string[]
+  image_url: string
+  image_background_color: string
+  topics: string[]
+  url: string
+  years: Record<string, { num_projects: number; projects_url: string }>
+}
+
+//Define the shape of graphql data
+interface IndexPageData {
+  site: {
+    siteMetadata: {
+      title: string
+      siteUrl: string
+    }
+  }
+  allOrganization: {
+    edges: Array<{
+      node: Organization
+    }>
+  }
+}
+
+type IndexPageProps = PageProps<IndexPageData>
+
+const getOrganizations = (data: IndexPageData): Organization[] => {
   return data.allOrganization.edges.map(orgNode => {
     let org = orgNode.node
     for (const yearKey of Object.keys(org.years)) {
@@ -34,16 +64,19 @@ const getOrganizations = data => {
   })
 }
 
-const getFuseSearch = organizations => {
+const getFuseSearch = (organizations: Organization[]): Fuse<Organization> => {
   const options = {
     threshold: 0.3,
     keys: ["name"],
   }
-
   return new Fuse(organizations, options)
 }
 
-const getFilteredOrganizations = (organizations, searchQuery, filters) => {
+const getFilteredOrganizations = (
+  organizations: Organization[],
+  searchQuery: string,
+  filters: Record<string, string[]>
+): Organization[] => {
   let filteredOrganizations = organizations
 
   if (searchQuery !== "") {
@@ -55,7 +88,7 @@ const getFilteredOrganizations = (organizations, searchQuery, filters) => {
   const { years, categories, technologies, topics, shortcuts } = filters
 
   if (years.length > 0) {
-    let newFilteredOrganizations = []
+    let newFilteredOrganizations: Organization[] = []
     for (const organization of filteredOrganizations) {
       let matches = 0
       for (const year of years) {
@@ -71,7 +104,7 @@ const getFilteredOrganizations = (organizations, searchQuery, filters) => {
   }
 
   if (categories.length > 0) {
-    let newFilteredOrganizations = []
+    let newFilteredOrganizations: Organization[] = []
     for (const organization of filteredOrganizations) {
       for (const category of categories) {
         if (organization.category === category) {
@@ -84,7 +117,7 @@ const getFilteredOrganizations = (organizations, searchQuery, filters) => {
   }
 
   if (technologies.length > 0) {
-    let newFilteredOrganizations = []
+    let newFilteredOrganizations: Organization[] = []
     for (const organization of filteredOrganizations) {
       for (const technology of technologies) {
         if (organization.technologies.includes(technology)) {
@@ -97,7 +130,7 @@ const getFilteredOrganizations = (organizations, searchQuery, filters) => {
   }
 
   if (topics.length > 0) {
-    let newFilteredOrganizations = []
+    let newFilteredOrganizations: Organization[] = []
     for (const organization of filteredOrganizations) {
       for (const topic of topics) {
         if (organization.topics.includes(topic)) {
@@ -111,10 +144,10 @@ const getFilteredOrganizations = (organizations, searchQuery, filters) => {
 
   if (shortcuts.length > 0) {
     // There is only one shortcut. Directly implement it. Need to refactor this.
-    let newFilteredOrganizations = []
+    let newFilteredOrganizations: Organization[] = []
     for (const organization of filteredOrganizations) {
       const orgYears = Object.keys(organization.years)
-      if (orgYears.length == 1 && orgYears[0] == 2025) {
+      if (orgYears.length == 1 && orgYears[0] == "2025") {
         newFilteredOrganizations.push(organization)
       }
     }
@@ -124,7 +157,13 @@ const getFilteredOrganizations = (organizations, searchQuery, filters) => {
   return filteredOrganizations
 }
 
-const IndexPage = ({ data }) => {
+declare global {
+  interface Window {
+    adsbygoogle: any[]
+  }
+}
+
+const IndexPage: React.FC<IndexPageProps> = ({ data }) => {
   const dispatch = useAppDispatch()
   const searchQuery = useAppSelector(getSearch)
   const filters = useAppSelector(getFilters)

@@ -5,7 +5,7 @@ import "./404.css"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 
-const NotFoundPage = () => (
+const NotFoundPage: React.FC = () => (
   <div className="page-404-container">
     <SEO title="404 - Not found" />
     <table className="page-404-table">
