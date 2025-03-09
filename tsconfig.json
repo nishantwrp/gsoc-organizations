@@ -5,7 +5,7 @@
     "outDir": "./dist",
     "rootDir": "./",
     "module": "commonjs",
-    // "strict": true ,
+    "strict": true,
     "noImplicitAny": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
