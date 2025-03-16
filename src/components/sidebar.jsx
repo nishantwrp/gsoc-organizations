@@ -11,7 +11,6 @@ import { Link } from "gatsby"
 import { Container, Divider, Button, Icon } from "semantic-ui-react"
 import { useAppDispatch } from "../store"
 import { clearFilters } from "../store/filters"
-
 const getSidebarStyles = config => {
   if (config.mode === "desktop") {
     return {
@@ -162,6 +161,13 @@ const Sidebar = ({ config, showFilters }) => {
                           <Icon name="twitter"></Icon>
                         </Button>
                       </OutboundLink>
+                    </td>
+                    <td>
+                      <li>
+                        <Link to="/about" className="nav-link">
+                          About Us
+                        </Link>
+                      </li>
                     </td>
                   </tr>
                 </tbody>
