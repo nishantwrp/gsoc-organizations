@@ -4,34 +4,32 @@ import PropTypes from "prop-types"
 import "./projects-graph.css"
 
 import "chart.js/auto"
-import { Line } from "react-chartjs-2"
+import { Bar } from "react-chartjs-2"
 
 const ProjectsGraph = ({ data: { years, numProjects } }) => {
   const state = {
     labels: years,
     datasets: [
       {
-        label: "Number of projects",
-        fill: false,
-        lineTension: 0.38,
-        backgroundColor: "#db6400",
-        borderColor: "#16697a",
-        borderWidth: 3,
+        label: "Number of completed projects",
+        backgroundColor: "rgba(22, 105, 122, 0.7)",
+        hoverBackgroundColor: "rgba(22, 105, 122, 1)",
+        borderRadius: 5,
         data: numProjects,
+        maxBarThickness: 50,
       },
     ],
   }
 
   return (
     <div className="projects-graph-container">
-      <Line
+      <Bar
         data={state}
-        scaleFontColor="red"
         options={{
           plugins: {
             title: {
               display: true,
-              text: "Number of completed projects year-wise",
+              text: "Number of completed projects",
               fontSize: 14,
             },
             legend: {
