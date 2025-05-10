@@ -53,7 +53,22 @@ const OrgInfo = ({ data }) => {
           }}
         ></div>
       </div>
-      {isParticipatingIn2025 && (
+      {!!data.guide_url && (
+        <Message color="orange" style={{ margin: "1%" }}>
+          <Message.Header>
+            View the official{" "}
+            <OutboundLink
+              href={data.guide_url}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <u>contribution guidelines</u>
+            </OutboundLink>{" "}
+            for {data.name}
+          </Message.Header>
+        </Message>
+      )}
+      {/* {isParticipatingIn2025 && (
         <Message color="orange" style={{ margin: "1%" }}>
           <Message.Header>
             {data.name} is participating in{" "}
@@ -87,7 +102,7 @@ const OrgInfo = ({ data }) => {
             for this organization.
           </Message.Header>
         </Message>
-      )}
+      )} */}
       <div className="org-info-site-container">
         <OutboundLink href={data.url} rel="noreferrer" target="_blank">
           <Button icon labelPosition="left" color="orange">
