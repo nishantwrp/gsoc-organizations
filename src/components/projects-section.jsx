@@ -10,7 +10,7 @@ const ProjectsSection = ({ data }) => {
   const projectColumns = useBreakpoint().l ? 3 : 4
 
   const projectPanes = Object.entries(data)
-    .filter(([year, _]) => year != 2025)
+    .filter(([year, _]) => year != 2026)
     .map(([year, yearData]) => {
       return {
         menuItem: year,
