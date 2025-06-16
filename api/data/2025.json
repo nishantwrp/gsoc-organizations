@@ -6949,6 +6949,15 @@
           "project_url": "https://summerofcode.withgoogle.com/programs/2025/projects/cKbZO2vr"
         },
         {
+          "title": "Containerized Deployment of Airavata Services.",
+          "short_description": "My project for GSoC 2025 focuses on improving the deployment process of Apache Airavata by containerizing its core services using Docker. Currently...",
+          "description": "My project for GSoC 2025 focuses on improving the deployment process of Apache Airavata by containerizing its core services using Docker. Currently, Airavata services are packaged as Java bundles, which makes deployment complex, inconsistent across environments, and difficult to manage. My goal is to create Dockerfiles for each service and set up a complete Docker Compose environment for easy local development and testing. I will also integrate CI/CD pipelines using GitHub Actions or Jenkins to automate the build and deployment processes. This will not only simplify dependency management and make deployments more reliable but also improve the overall development experience for contributors. Throughout the project, I’ll optimize the Docker images for production use, support different configurations for development and production, and provide full documentation along with a final demo. With my background in DevOps, containerization, and open-source contributions including work on MetaCall, OpenMRS, Apache Hadoop, and Airavata itself I’m confident in my ability to deliver a high-quality solution that will benefit the Apache community.",
+          "student_name": "Yasindu Dissanayake",
+          "code_url": null,
+          "proposal_id": "",
+          "project_url": "https://summerofcode.withgoogle.com/programs/2025/projects/XV40d7XV"
+        },
+        {
           "title": "Modernizing RocketMQ Dashboard: UI Refactor, Performance Optimization & Security Enhancements",
           "short_description": "Problem: The current RocketMQ Dashboard suffers from outdated UI design, slow API responses, security vulnerabilities (e.g., plaintext passwords),...",
           "description": "Problem:\nThe current RocketMQ Dashboard suffers from outdated UI design, slow API responses, security vulnerabilities (e.g., plaintext passwords), and incomplete documentation. These issues hinder usability, performance, and adoption.\nSolution:\nI propose a comprehensive refactor to modernize the dashboard by:\nFrontend:  Replacing AngularJS/Bootstrap with modular components (e.g., ECharts for dynamic charts) and fixing misaligned UI elements.\nBackend:  Optimizing APIs via caching and async processing to reduce latency (e.g., topic queries from 30s to <1s).\nSecurity: Implementing Spring Security with BCrypt encryption, RBAC, and audit logs.\nInfrastructure: Updating Docker images and improving documentation with quick-start guides.\n\nDeliverables:\nModernized UI with responsive design and interactive charts.\nOptimized APIs with reduced response times.\nSecure authentication (RBAC + audit logging).\nUpdated Docker deployment and comprehensive documentation.",
