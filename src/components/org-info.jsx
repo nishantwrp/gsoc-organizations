@@ -14,6 +14,7 @@ import {
 } from "semantic-ui-react"
 
 const OrgInfo = ({ data }) => {
+  console.log(data)
   const years = Object.keys(data.years)
     .map(year => {
       return (
@@ -188,6 +189,25 @@ const OrgInfo = ({ data }) => {
             />
           </OutboundLink>
         )}
+        {data.links &&
+          data.links.map(item => {
+            return (
+              <Popup
+                content={item.title}
+                trigger={
+                  <OutboundLink
+                    href={item.url}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <Button icon>
+                      <Icon name={item.icon} />
+                    </Button>
+                  </OutboundLink>
+                }
+              />
+            )
+          })}
       </div>
       <div className="org-info-description-container">{data.description}</div>
       <center>
