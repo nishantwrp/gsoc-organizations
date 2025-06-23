@@ -33,6 +33,11 @@
   font-family: "Galano Grotesque Alt Medium";
 }
 
+.org-card-project-count-container {
+  text-align: center;
+  padding: 2% 2%;
+}
+
 .org-card-description-container {
   padding: 2% 3%;
   font-family: "Galano Grotesque Alt Light";
