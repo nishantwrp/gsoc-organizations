@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import DOMPurify from 'dompurify'; // DOMPurify를 import 합니다.
 
 export default function HTML(props) {
   return (
@@ -47,7 +48,7 @@ export default function HTML(props) {
           key={`body`}
           id="___gatsby"
           style={{ display: "none" }}
-          dangerouslySetInnerHTML={{ __html: props.body }}
+          dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(props.body) }} // DOMPurify를 사용하여 props.body를 sanitize 합니다.
         />
         {props.postBodyComponents}
       </body>
