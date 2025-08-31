@@ -26,6 +26,8 @@ const ProjectsGraph = ({ data: { years, numProjects } }) => {
       <Bar
         data={state}
         options={{
+          responsive: true,
+          maintainAspectRatio: false,
           plugins: {
             title: {
               display: true,
