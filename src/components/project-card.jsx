@@ -14,7 +14,11 @@ const ProjectCard = ({ data }) => {
           <Card.Description>{data.short_description}</Card.Description>
         </Card.Content>
         <Card.Content extra>
-          <div className="ui two buttons">
+          <div
+            className={`ui ${
+              data.code_url && data.code_url !== "" ? "two" : "one"
+            } buttons`}
+          >
             <OutboundLink
               className="project-card-link"
               href={data.project_url}
@@ -25,20 +29,18 @@ const ProjectCard = ({ data }) => {
                 More Details
               </Button>
             </OutboundLink>
-            <OutboundLink
-              className="project-card-link"
-              href={data.code_url}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Button
-                basic
-                color="orange"
-                disabled={!data.code_url || data.code_url === ""}
+            {data.code_url && data.code_url !== "" && (
+              <OutboundLink
+                className="project-card-link"
+                href={data.code_url}
+                target="_blank"
+                rel="noreferrer"
               >
-                Code Submission
-              </Button>
-            </OutboundLink>
+                <Button basic color="orange">
+                  Code Submission
+                </Button>
+              </OutboundLink>
+            )}
           </div>
         </Card.Content>
       </Card>

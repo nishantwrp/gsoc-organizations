@@ -13,9 +13,14 @@
   margin: 1%;
 }
 
-.ui.two.buttons {
+.ui.two.buttons,
+.ui.one.buttons {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.ui.one.buttons {
+  justify-content: center;
 }
