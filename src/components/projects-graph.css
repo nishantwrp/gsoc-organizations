@@ -2,4 +2,21 @@
   margin: 3%;
   border: 2px solid rgb(230, 236, 241);
   box-shadow: 9px 9px 10px #d1d9e6, -6px -6px 10px rgb(230, 236, 241);
+  height: 300px;
+  min-height: 250px;
+  padding: 15px;
+  position: relative;
+}
+
+.projects-graph-container canvas {
+  max-height: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .projects-graph-container {
+    height: 250px;
+    min-height: 200px;
+    margin: 2%;
+    padding: 10px;
+  }
 }
