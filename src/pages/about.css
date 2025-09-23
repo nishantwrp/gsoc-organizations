@@ -1,0 +1,92 @@
+/* about.css */
+
+.about-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-heading {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.about-subheading {
+  font-size: 1.8em;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #444;
+  text-align: center;
+}
+.about-subheading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #444;
+  margin-top: 2rem;
+  text-align: center;
+}
+.about-subheading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #444;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+.boton-elegante {
+  padding: 15px 30px;
+  border: 2px solid #ffc400;
+  background-color: #0b0b09;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  margin-left: 600px;
+}
+
+.boton-elegante::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  transform: scale(0);
+  transition: transform 0.5s ease;
+}
+
+.boton-elegante:hover::after {
+  transform: scale(4);
+}
+
+.boton-elegante:hover {
+  border-color: #666666;
+  background: #292929;
+}
+.about-content > .row {
+  margin-bottom: 30px;
+}
