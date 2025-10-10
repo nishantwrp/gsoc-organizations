@@ -1,3 +1,5 @@
 .search-search * {
-  width: 90%;
+  width: 70%;
+  filter: drop-shadow(0 0 0.5px rgb(0 0 0 / 0.04))
+    drop-shadow(0 0 0.5px rgb(0 0 0 / 0.06));
 }
