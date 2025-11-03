@@ -12,7 +12,7 @@ import { Container, Divider, Button, Icon } from "semantic-ui-react"
 import { useAppDispatch } from "../store"
 import { clearFilters } from "../store/filters"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faXTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faSquareXTwitter } from "@fortawesome/free-brands-svg-icons"
 
 const getSidebarStyles = config => {
   if (config.mode === "desktop") {
@@ -158,10 +158,9 @@ const Sidebar = ({ config, showFilters }) => {
                       >
                         <Button
                           className="sidebar-footer-icon-link"
-                          icon
                           compact={true}
                         >
-                          <FontAwesomeIcon icon={faXTwitter} />
+                          <FontAwesomeIcon icon={faSquareXTwitter} />
                         </Button>
                       </OutboundLink>
                     </td>
