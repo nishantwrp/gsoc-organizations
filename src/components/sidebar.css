@@ -66,6 +66,11 @@
   margin: 0px !important;
 }
 
+.sidebar-footer-icon-link svg {
+  width: 1em;
+  height: 1em;
+}
+
 .sidebar-footer-text-container {
   margin-top: 5px;
 }
