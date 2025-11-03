@@ -11,6 +11,8 @@ import { Link } from "gatsby"
 import { Container, Divider, Button, Icon } from "semantic-ui-react"
 import { useAppDispatch } from "../store"
 import { clearFilters } from "../store/filters"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons"
 
 const getSidebarStyles = config => {
   if (config.mode === "desktop") {
@@ -150,7 +152,7 @@ const Sidebar = ({ config, showFilters }) => {
                     </td>
                     <td>
                       <OutboundLink
-                        href="https://www.twitter.com/nishantwrp"
+                        href="https://x.com/nishantwrp"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -159,7 +161,7 @@ const Sidebar = ({ config, showFilters }) => {
                           icon
                           compact={true}
                         >
-                          <Icon name="twitter"></Icon>
+                          <FontAwesomeIcon icon={faXTwitter} />
                         </Button>
                       </OutboundLink>
                     </td>
