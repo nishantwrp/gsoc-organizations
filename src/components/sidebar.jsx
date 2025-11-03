@@ -157,7 +157,7 @@ const Sidebar = ({ config, showFilters }) => {
                         rel="noreferrer"
                       >
                         <Button
-                          className="sidebar-footer-icon-link sidebar-footer-x"
+                          className="sidebar-footer-icon-link"
                           compact={true}
                         >
                           <FontAwesomeIcon icon={faXTwitter} />
