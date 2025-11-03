@@ -12,7 +12,8 @@ import { Container, Divider, Button, Icon } from "semantic-ui-react"
 import { useAppDispatch } from "../store"
 import { clearFilters } from "../store/filters"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faSquareXTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faDatabase } from "@fortawesome/free-solid-svg-icons"
 
 const getSidebarStyles = config => {
   if (config.mode === "desktop") {
@@ -143,10 +144,9 @@ const Sidebar = ({ config, showFilters }) => {
                       >
                         <Button
                           className="sidebar-footer-icon-link"
-                          icon
                           compact={true}
                         >
-                          <Icon name="database"></Icon>
+                          <FontAwesomeIcon icon={faDatabase} />
                         </Button>
                       </OutboundLink>
                     </td>
@@ -157,10 +157,10 @@ const Sidebar = ({ config, showFilters }) => {
                         rel="noreferrer"
                       >
                         <Button
-                          className="sidebar-footer-icon-link"
+                          className="sidebar-footer-icon-link sidebar-footer-x"
                           compact={true}
                         >
-                          <FontAwesomeIcon icon={faSquareXTwitter} />
+                          <FontAwesomeIcon icon={faXTwitter} />
                         </Button>
                       </OutboundLink>
                     </td>

@@ -71,6 +71,11 @@
   height: 1em;
 }
 
+.sidebar-footer-x .svg-inline--fa {
+  width: 1.15em;
+  height: 1.15em;
+}
+
 .sidebar-footer-text-container {
   margin-top: 5px;
 }
