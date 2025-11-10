@@ -144,9 +144,12 @@ const Sidebar = ({ config, showFilters }) => {
                       >
                         <Button
                           className="sidebar-footer-icon-link"
+                          icon
                           compact={true}
                         >
-                          <FontAwesomeIcon icon={faDatabase} />
+                          <Icon>
+                            <FontAwesomeIcon icon={faDatabase} />
+                          </Icon>
                         </Button>
                       </OutboundLink>
                     </td>
@@ -158,9 +161,12 @@ const Sidebar = ({ config, showFilters }) => {
                       >
                         <Button
                           className="sidebar-footer-icon-link"
+                          icon
                           compact={true}
                         >
-                          <FontAwesomeIcon icon={faXTwitter} />
+                          <Icon>
+                            <FontAwesomeIcon icon={faXTwitter} />
+                          </Icon>
                         </Button>
                       </OutboundLink>
                     </td>
