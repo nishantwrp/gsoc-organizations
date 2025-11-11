@@ -17,15 +17,21 @@ import { getFilters, getFiltersFromSearchUrl } from "../store/filters"
 import { getSearchParam } from "../utils/searchParams"
 import { EventBus } from "../utils/events"
 import { urlChanged } from "../store/actions"
+import Sort from "../components/filters/sort"
 
 const getOrganizations = data => {
   return data.allOrganization.edges.map(orgNode => {
     let org = orgNode.node
+    org.total_projects = 0
     for (const yearKey of Object.keys(org.years)) {
       if (yearKey[0] === "_") {
         if (org.years[yearKey] !== null) {
           let year = yearKey.slice(1)
           org.years[year] = org.years[yearKey]
+          if (org.years[year].num_projects) {
+            org.total_projects =
+              org.total_projects + org.years[year].num_projects
+          }
         }
         delete org.years[yearKey]
       }
@@ -108,9 +114,9 @@ const getFilteredOrganizations = (organizations, searchQuery, filters) => {
     }
     filteredOrganizations = newFilteredOrganizations
   }
-
   if (shortcuts.length > 0) {
     // There is only one shortcut. Directly implement it. Need to refactor this.
+
     let newFilteredOrganizations = []
     for (const organization of filteredOrganizations) {
       const orgYears = Object.keys(organization.years)
@@ -128,6 +134,8 @@ const IndexPage = ({ data }) => {
   const dispatch = useAppDispatch()
   const searchQuery = useAppSelector(getSearch)
   const filters = useAppSelector(getFilters)
+  const sortBy = useAppSelector(state => state.filters.sortBy)
+
   const location = useLocation()
   const allOrganizations = useMemo(() => getOrganizations(data), [data])
   const filteredOrganizations = getFilteredOrganizations(
@@ -150,6 +158,17 @@ const IndexPage = ({ data }) => {
     )
     EventBus.emit("updateSearch", updatedSearchQuery)
   }, [location, dispatch])
+
+  const sortedOrganizations = useMemo(() => {
+    let orgs = [...filteredOrganizations]
+
+    if (sortBy === "projects_desc") {
+      orgs.sort((a, b) => b.total_projects - a.total_projects)
+    } else if (sortBy === "projects_asc") {
+      orgs.sort((a, b) => a.total_projects - b.total_projects)
+    }
+    return orgs
+  }, [filteredOrganizations, sortBy])
 
   const metaDescription =
     "View and analyse the info of the organizations participating in Google Summer of Code and filter them by various parameters."
@@ -219,14 +238,23 @@ const IndexPage = ({ data }) => {
       <Grid className="index-org-cards-grid">
         <Notification />
       </Grid>
-      <div style={{ marginTop: "1rem", textAlign: "center" }}>
-        <a className="ui orange label">
-          {filteredOrganizations.length} results
-        </a>
+
+      <div
+        style={{
+          marginTop: "1rem",
+          padding: "0 1rem",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <a className="ui orange label">{sortedOrganizations.length} results</a>
+        <Sort />
       </div>
+
       <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
-        {filteredOrganizations.map(org => (
-          <Grid.Column key={org.name}>
+        {sortedOrganizations.map((org, index) => (
+          <Grid.Column key={org.name + index}>
             <OrgCard data={org} />
           </Grid.Column>
         ))}
