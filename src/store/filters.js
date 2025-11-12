@@ -44,6 +44,13 @@ const filtersSlice = createSlice({
       state[name] = state[name].filter(v => v !== val)
       updateFiltersInUrl(state)
     },
+    clearFilter: (state, action) => {
+      const { name } = action.payload
+      if (FILTERS.includes(name)) {
+        state[name] = []
+        updateFiltersInUrl(state)
+      }
+    },
     setFilters: (state, action) => {
       for (const filter of FILTERS) {
         state[filter] = action.payload[filter] || []
@@ -72,5 +79,5 @@ export const getFilters = state => {
 
 export const {
   reducer,
-  actions: { addFilter, removeFilter, setFilters, clearFilters },
+  actions: { addFilter, removeFilter, clearFilter, setFilters, clearFilters },
 } = filtersSlice

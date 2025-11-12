@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Fuse from "fuse.js"
 
-import { addFilter, removeFilter } from "../../store/filters"
+import { addFilter, removeFilter, clearFilter } from "../../store/filters"
 
 class FilterTemplate extends React.Component {
   constructor(props, initialStates) {
@@ -140,6 +140,7 @@ export const mapDispatchWithProps = (dispatch, ownProps) => {
   return {
     addFilter: val => dispatch(addFilter({ val, name: ownProps.name })),
     removeFilter: val => dispatch(removeFilter({ val, name: ownProps.name })),
+    clearFilter: () => dispatch(clearFilter({ name: ownProps.name })),
   }
 }
 
