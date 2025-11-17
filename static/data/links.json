@@ -1,0 +1,16 @@
+{
+  "aboutcode": {
+    "website": "https://aboutcode.org",
+    "github": "https://github.com/aboutcode-org",
+    "docs": "https://aboutcode.readthedocs.io/en/latest/",
+    "contributing": "https://aboutcode.readthedocs.io/en/latest/contributing.html",
+    "gsoc": "https://summerofcode.withgoogle.com/programs/2025/organizations/aboutcode"
+  },
+  "aossie": {
+    "website": "https://aossie.org",
+    "github": "https://github.com/AOSSIE-Org",
+    "website_repo": "https://github.com/AOSSIE-Org/website",
+    "contributing": "https://gitlab.com/aossie/agora-android/-/blob/develop/CONTRIBUTING.md",
+    "gsoc": "https://summerofcode.withgoogle.com/programs/2025/organizations/aossie"
+  }
+}
