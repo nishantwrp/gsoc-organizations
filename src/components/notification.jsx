@@ -10,7 +10,7 @@ const Notification = () => {
   return (
     <Message positive style={style}>
       <Message.Header>
-        Coding period for GSoC 2025 has started. You can check the program
+        Timeline for GSoC 2026 has been published. You can check the program
         timeline{" "}
         <a
           href="https://developers.google.com/open-source/gsoc/timeline"
