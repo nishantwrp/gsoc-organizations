@@ -1,8 +1,28 @@
+:root {
+  /* Light Mode (Default) */
+  --bg-color: #fdfdfd;
+  --text-color: #000000;
+  --sidebar-bg: #ffffff;
+  --border-color: #e0e0e0;
+  --card-bg: #ffffff;
+}
+
+[data-theme="dark"] {
+  /* Dark Mode */
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --sidebar-bg: #1e1e1e;
+  --border-color: #333333;
+  --card-bg: #1e1e1e;
+}
+
 body {
   margin: 0px;
   padding: 0px;
   min-height: 100vh;
-  background-color: #fdfdfd;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
 }
 
 a {
@@ -25,11 +45,10 @@ a:hover {
 }
 
 .noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Old versions of Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Edge, Opera and Firefox */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
