@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import "./sidebar.css"
 import Filter from "./filters/filter"
-import ThemeToggle from "./theme-toggle"
+// REMOVED: import ThemeToggle from "./theme-toggle"
 
 import GitHubButton from "react-github-btn"
 import { OutboundLink } from "gatsby-plugin-google-gtag"
@@ -171,9 +171,7 @@ const Sidebar = ({ config, showFilters }) => {
                         </Button>
                       </OutboundLink>
                     </td>
-                    <td>
-                      <ThemeToggle />
-                    </td>
+                    {/* REMOVED THE THEME TOGGLE BUTTON FROM HERE */}
                   </tr>
                 </tbody>
               </table>

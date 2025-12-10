@@ -23,7 +23,10 @@
   padding-bottom: 10px;
   /* 75% because sidebar is 25% of the width. */
   width: 75%;
-  background-color: #ffff;
-  border-bottom: 1px solid rgb(212, 218, 223);
+
+  /* UPDATED: Use variables for Dark Mode compatibility */
+  background-color: var(--bg-color);
+  border-bottom: 1px solid var(--border-color);
+
   box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
 }
