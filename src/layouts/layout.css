@@ -6,6 +6,8 @@
   --border-color: #e0e0e0;
   --card-bg: #ffffff;
   --input-bg: #ffffff;
+  /* Shadow Variable (Light Gray for White Mode) */
+  --box-shadow: 0px 3px 8px 0px rgba(116, 129, 141, 0.1);
 }
 
 [data-theme="dark"] {
@@ -16,6 +18,8 @@
   --border-color: #333333;
   --card-bg: #1e1e1e;
   --input-bg: #2b2b2b;
+  /* Shadow Variable (Dark Black for Dark Mode) */
+  --box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 body {
@@ -58,20 +62,20 @@ a:hover {
 /* --- DARK MODE OVERRIDES FOR SEMANTIC UI --- */
 
 /* Force Headers, Text, and Checkboxes to use our white variable in Dark Mode */
-[data-theme='dark'] .ui.header,
-[data-theme='dark'] .ui.card > .content > .header,
-[data-theme='dark'] .ui.card > .content > .description,
-[data-theme='dark'] .ui.item,
-[data-theme='dark'] .ui.breadcrumb,
-[data-theme='dark'] .ui.list .list > .item .header, 
-[data-theme='dark'] .ui.list > .item .header,
-[data-theme='dark'] .ui.checkbox label,  /* <--- ADDED THIS LINE */
-[data-theme='dark'] h1, 
-[data-theme='dark'] h2, 
-[data-theme='dark'] h3, 
-[data-theme='dark'] h4, 
-[data-theme='dark'] h5, 
-[data-theme='dark'] h6 {
+[data-theme="dark"] .ui.header,
+[data-theme="dark"] .ui.card > .content > .header,
+[data-theme="dark"] .ui.card > .content > .description,
+[data-theme="dark"] .ui.item,
+[data-theme="dark"] .ui.breadcrumb,
+[data-theme="dark"] .ui.list .list > .item .header,
+[data-theme="dark"] .ui.list > .item .header,
+[data-theme="dark"] .ui.checkbox label,
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
   color: var(--text-color) !important;
 }
 
@@ -87,6 +91,12 @@ a:hover {
   background-color: var(--input-bg) !important;
   color: var(--text-color) !important;
   border-color: var(--border-color) !important;
+}
+
+/* Fix Search Icon in Dark Mode - <--- ADDED THIS SECTION */
+[data-theme="dark"] .ui.input > .icon {
+  color: var(--text-color) !important;
+  opacity: 1 !important; /* Ensures it's fully visible */
 }
 
 /* Fix Dropdowns or Menus if any */
