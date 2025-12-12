@@ -6,8 +6,8 @@
   --border-color: #e0e0e0;
   --card-bg: #ffffff;
   --input-bg: #ffffff;
-  /* Shadow Variable (Light Gray for White Mode) */
   --box-shadow: 0px 3px 8px 0px rgba(116, 129, 141, 0.1);
+  --card-hover-bg: #f5f7fa;
 }
 
 [data-theme="dark"] {
@@ -18,8 +18,8 @@
   --border-color: #333333;
   --card-bg: #1e1e1e;
   --input-bg: #2b2b2b;
-  /* Shadow Variable (Dark Black for Dark Mode) */
   --box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+  --card-hover-bg: #2d2d2d;
 }
 
 body {
@@ -86,25 +86,52 @@ a:hover {
   border: 1px solid var(--border-color) !important;
 }
 
-/* Fix Input Field (Search Bar & Filter Search) in Dark Mode */
+/* Override Hover State for Semantic UI Cards */
+[data-theme="dark"] .ui.card.link:hover,
+[data-theme="dark"] .ui.link.cards .card:hover,
+[data-theme="dark"] a.ui.card:hover {
+  background-color: var(--card-hover-bg) !important;
+  border-color: var(--border-color) !important;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Fix Input Field */
 [data-theme="dark"] .ui.input > input {
   background-color: var(--input-bg) !important;
   color: var(--text-color) !important;
   border-color: var(--border-color) !important;
 }
 
-/* Fix Search Icon in Dark Mode - <--- ADDED THIS SECTION */
+/* Fix Search Icon */
 [data-theme="dark"] .ui.input > .icon {
   color: var(--text-color) !important;
-  opacity: 1 !important; /* Ensures it's fully visible */
+  opacity: 1 !important;
 }
 
-/* Fix Dropdowns or Menus if any */
+/* Fix Dropdowns/Menus */
 [data-theme="dark"] .ui.menu {
   background-color: var(--card-bg) !important;
   border: 1px solid var(--border-color) !important;
 }
 
 [data-theme="dark"] .ui.menu .item {
+  color: var(--text-color) !important;
+}
+
+/* NEW: Fix Modals (The 'View All' Popup) */
+[data-theme="dark"] .ui.modal {
+  background-color: var(--card-bg) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+[data-theme="dark"] .ui.modal > .header,
+[data-theme="dark"] .ui.modal > .content,
+[data-theme="dark"] .ui.modal > .actions {
+  background-color: var(--card-bg) !important;
+  color: var(--text-color) !important;
+  border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .ui.modal > .close.icon {
   color: var(--text-color) !important;
 }

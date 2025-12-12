@@ -2,6 +2,13 @@
   margin: 3%;
   border: 2px solid rgb(230, 236, 241);
   box-shadow: 9px 9px 10px #d1d9e6, -6px -6px 10px rgb(230, 236, 241);
+  border-radius: 10px; /* Added rounded corners for better look with this shadow style */
+}
+
+/* Dark Mode Override */
+[data-theme="dark"] .org-info-container {
+  border: 2px solid rgb(165, 170, 175);
+  box-shadow: 9px 9px 10px #55575b, -6px -6px 10px rgb(119, 121, 123);
 }
 
 .org-info-logo-container {
@@ -28,6 +35,7 @@
   padding: 2% 3%;
   font-family: "Nunito", sans-serif;
   font-size: 15px;
+  color: var(--text-color); /* Ensure text adapts */
 }
 
 .org-info-divider {
