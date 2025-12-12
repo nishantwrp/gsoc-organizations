@@ -21,10 +21,18 @@
   z-index: 10;
   padding-top: 10px;
   padding-bottom: 10px;
+
+  /* UPDATED: Add padding to create breathing space from the sidebar */
+  padding-left: 30px;
+  padding-right: 30px;
+
+  /* UPDATED: Ensure padding is included in the width calculation */
+  box-sizing: border-box;
+
   /* 75% because sidebar is 25% of the width. */
   width: 75%;
 
-  /* UPDATED: Use variables for Dark Mode compatibility */
+  /* Use variables for Dark Mode */
   background-color: var(--bg-color);
   border-bottom: 1px solid var(--border-color);
 
