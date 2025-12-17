@@ -2,8 +2,13 @@
   /* Light Mode (Default) */
   --bg-color: #fdfdfd;
   --text-color: #000000;
-  --sidebar-bg: #ffffff;
-  --border-color: #e0e0e0;
+
+  /* FIX: Restored original sidebar color */
+  --sidebar-bg: #f5f7f9;
+
+  /* FIX: Restored original border color (rgb(230, 236, 241)) */
+  --border-color: #e6ecf1;
+
   --card-bg: #ffffff;
   --input-bg: #ffffff;
   --box-shadow: 0px 3px 8px 0px rgba(116, 129, 141, 0.1);
@@ -61,7 +66,6 @@ a:hover {
 
 /* --- DARK MODE OVERRIDES FOR SEMANTIC UI --- */
 
-/* Force Headers, Text, and Checkboxes to use our white variable in Dark Mode */
 [data-theme="dark"] .ui.header,
 [data-theme="dark"] .ui.card > .content > .header,
 [data-theme="dark"] .ui.card > .content > .description,
@@ -79,14 +83,12 @@ a:hover {
   color: var(--text-color) !important;
 }
 
-/* Force Cards to be dark */
 [data-theme="dark"] .ui.card {
   background-color: var(--card-bg) !important;
   box-shadow: none !important;
   border: 1px solid var(--border-color) !important;
 }
 
-/* Override Hover State for Semantic UI Cards */
 [data-theme="dark"] .ui.card.link:hover,
 [data-theme="dark"] .ui.link.cards .card:hover,
 [data-theme="dark"] a.ui.card:hover {
@@ -95,20 +97,17 @@ a:hover {
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.7) !important;
 }
 
-/* Fix Input Field */
 [data-theme="dark"] .ui.input > input {
   background-color: var(--input-bg) !important;
   color: var(--text-color) !important;
   border-color: var(--border-color) !important;
 }
 
-/* Fix Search Icon */
 [data-theme="dark"] .ui.input > .icon {
   color: var(--text-color) !important;
   opacity: 1 !important;
 }
 
-/* Fix Dropdowns/Menus */
 [data-theme="dark"] .ui.menu {
   background-color: var(--card-bg) !important;
   border: 1px solid var(--border-color) !important;
@@ -118,7 +117,6 @@ a:hover {
   color: var(--text-color) !important;
 }
 
-/* NEW: Fix Modals (The 'View All' Popup) */
 [data-theme="dark"] .ui.modal {
   background-color: var(--card-bg) !important;
   border: 1px solid var(--border-color) !important;

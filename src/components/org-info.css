@@ -2,13 +2,15 @@
   margin: 3%;
   border: 2px solid rgb(230, 236, 241);
   box-shadow: 9px 9px 10px #d1d9e6, -6px -6px 10px rgb(230, 236, 241);
-  border-radius: 10px; /* Added rounded corners for better look with this shadow style */
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
-/* Dark Mode Override for Container */
+/* FIXED: Dark Mode Info Container */
 [data-theme="dark"] .org-info-container {
-  border: 2px solid rgb(165, 170, 175);
-  box-shadow: 9px 9px 10px #55575b, -6px -6px 10px rgb(119, 121, 123);
+  background-color: var(--card-bg);
+  border: 2px solid var(--border-color);
+  box-shadow: none;
 }
 
 .org-info-logo-container {
@@ -16,9 +18,7 @@
   padding: 12px 12px;
 }
 
-/* NEW: Smart Invert for Dark Mode 
-   Inverts colors (white bg -> black) and rotates hue back 180deg to preserve brand colors 
-*/
+/* FIXED: Smart Invert for Logo in Dark Mode (Same as Org Card) */
 [data-theme="dark"] .org-info-logo-container {
   filter: invert(1) hue-rotate(180deg);
 }
@@ -42,7 +42,12 @@
   padding: 2% 3%;
   font-family: "Nunito", sans-serif;
   font-size: 15px;
-  color: var(--text-color); /* Ensure text adapts */
+  color: #000000;
+}
+
+/* FIXED: Dark Mode Description Text */
+[data-theme="dark"] .org-info-description-container {
+  color: var(--text-color);
 }
 
 .org-info-divider {
