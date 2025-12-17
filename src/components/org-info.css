@@ -5,7 +5,7 @@
   border-radius: 10px; /* Added rounded corners for better look with this shadow style */
 }
 
-/* Dark Mode Override */
+/* Dark Mode Override for Container */
 [data-theme="dark"] .org-info-container {
   border: 2px solid rgb(165, 170, 175);
   box-shadow: 9px 9px 10px #55575b, -6px -6px 10px rgb(119, 121, 123);
@@ -14,6 +14,13 @@
 .org-info-logo-container {
   height: 128px;
   padding: 12px 12px;
+}
+
+/* NEW: Smart Invert for Dark Mode 
+   Inverts colors (white bg -> black) and rotates hue back 180deg to preserve brand colors 
+*/
+[data-theme="dark"] .org-info-logo-container {
+  filter: invert(1) hue-rotate(180deg);
 }
 
 .org-info-logo {

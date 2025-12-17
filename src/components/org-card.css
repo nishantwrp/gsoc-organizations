@@ -15,6 +15,13 @@
   padding: 5% 10%;
 }
 
+/* NEW: Smart Invert for Dark Mode 
+   Inverts colors (white bg -> black) and rotates hue back 180deg to preserve brand colors 
+*/
+[data-theme="dark"] .org-card-logo-container {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 .org-card-logo {
   background-size: contain;
   background-position: center center;
