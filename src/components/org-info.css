@@ -6,11 +6,12 @@
   border-radius: 10px;
 }
 
-/* FIXED: Dark Mode Info Container */
+/* FIXED: Dark Mode Info Container with Glow Shadow */
 [data-theme="dark"] .org-info-container {
   background-color: var(--card-bg);
   border: 2px solid var(--border-color);
-  box-shadow: none;
+  /* Added whitish/grayish glow shadow */
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
 }
 
 .org-info-logo-container {
@@ -18,7 +19,7 @@
   padding: 12px 12px;
 }
 
-/* FIXED: Smart Invert for Logo in Dark Mode (Same as Org Card) */
+/* Smart Invert for Logo */
 [data-theme="dark"] .org-info-logo-container {
   filter: invert(1) hue-rotate(180deg);
 }
@@ -45,7 +46,7 @@
   color: #000000;
 }
 
-/* FIXED: Dark Mode Description Text */
+/* Dark Mode Description Text */
 [data-theme="dark"] .org-info-description-container {
   color: var(--text-color);
 }

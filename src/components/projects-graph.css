@@ -6,9 +6,10 @@
   border-radius: 10px;
 }
 
-/* FIXED: Dark Mode Graph Container */
+/* FIXED: Dark Mode Graph Container with Glow Shadow */
 [data-theme="dark"] .projects-graph-container {
   background-color: var(--card-bg);
   border: 2px solid var(--border-color);
-  box-shadow: none;
+  /* Added whitish/grayish glow shadow */
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
 }
