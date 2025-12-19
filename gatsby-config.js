@@ -14,7 +14,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-offline`,
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
@@ -44,13 +43,6 @@ module.exports = {
       options: {
         color: `#db6400`,
         showSpinner: false,
-      },
-    },
-    {
-      resolve: `@isamrish/gatsby-plugin-google-adsense`,
-      options: {
-        googleAdClientId: "ca-pub-9769516184087442",
-        head: true,
       },
     },
     {
