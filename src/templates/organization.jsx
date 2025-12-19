@@ -1,6 +1,6 @@
 import React from "react"
 import slugify from "slugify"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import "./organization.css"
 
@@ -84,8 +84,27 @@ const OrganizationPage = ({ pageContext: { organization }, data }) => {
   return (
     <Layout>
       <SEO title={organization.name} meta={meta} />
-      <div className="organization-heading-container">{organization.name}</div>
-      <Grid className="organization-content-grid" stackable columns={2}>
+      <div className="organization-back-btn-container">
+        <Link to="/" className="organization-back-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+            fill="currentColor"
+          >
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+          </svg>
+          Back to Home
+        </Link>
+      </div>
+      <Grid
+        className="organization-content-grid"
+        stackable
+        columns={2}
+        stretched
+      >
         <Grid.Column>
           <OrgInfo data={organization} />
         </Grid.Column>
@@ -105,10 +124,10 @@ const OrganizationPage = ({ pageContext: { organization }, data }) => {
       </Grid>
       {/* TODO(nishantwrp): This is temp fix. Refactor it. */}
       {!!Object.keys(organization.years).filter(y => y != 2026).length && (
-        <>
-          <div className="organization-heading-container">Past Projects</div>
+        <div className="organization-projects-wrapper">
+          <h2 className="organization-section-heading">Past Projects</h2>
           <ProjectsSection data={organization.years} />
-        </>
+        </div>
       )}
     </Layout>
   )

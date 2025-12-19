@@ -1,3 +1,8 @@
 .index-org-cards-grid {
   margin: 0px !important;
+  padding: 8px !important;
+}
+
+.index-org-cards-grid .column {
+  padding: 8px !important;
 }

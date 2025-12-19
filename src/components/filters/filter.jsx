@@ -21,16 +21,14 @@ class Filter extends FilterTemplate {
   render() {
     let filteredCheckboxes = this.getFilteredOptionsIndexes().map(index => {
       return (
-        <tr>
-          <td>
-            <Checkbox
-              checked={this.isIndexSelected(index)}
-              label={this.getCheckboxLabel(index)}
-              value={this.isIndexSelected(index)}
-              onChange={this.toggleChecked(index)}
-            />
-          </td>
-        </tr>
+        <div className="filter-checkbox-item" key={index}>
+          <Checkbox
+            checked={this.isIndexSelected(index)}
+            label={this.getCheckboxLabel(index)}
+            value={this.isIndexSelected(index)}
+            onChange={this.toggleChecked(index)}
+          />
+        </div>
       )
     })
 
@@ -48,26 +46,9 @@ class Filter extends FilterTemplate {
 
     return (
       <div className="filter-filter">
-        <div className="filter-topic">
-          <u>{this.getDisplayableName()}</u>
-        </div>
-        <div className="filter-search">
-          <Input
-            size="mini"
-            icon="search"
-            value={this.state.searchQuery}
-            placeholder={`Search ${this.props.name}`}
-            onChange={this.handleSearchQuery.bind(this)}
-          />
-        </div>
+        <div className="filter-topic">{this.getDisplayableName()}</div>
         <div className="filter-boxes">
-          <center>
-            <div className="filter-boxes-container">
-              <table>
-                <tbody>{filteredCheckboxes}</tbody>
-              </table>
-            </div>
-          </center>
+          <div className="filter-boxes-container">{filteredCheckboxes}</div>
         </div>
         <div style={displayModalOption ? {} : { display: "none" }}>
           <FilterModal
@@ -79,9 +60,9 @@ class Filter extends FilterTemplate {
           />
         </div>
         <div style={this.props.showDivider ? {} : { display: "none" }}>
-          <center>
+          <div className="filter-divider-container">
             <Divider className="filter-divider" />
-          </center>
+          </div>
         </div>
       </div>
     )

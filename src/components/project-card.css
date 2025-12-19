@@ -1,26 +1,72 @@
-.project-card-main-container {
+.gsoc-project-card {
+  background: #ffffff;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 16px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s;
 }
 
-.project-card-main-container > .card {
-  height: 100%;
-  margin: 0px auto;
-  width: 100%;
-  word-wrap: break-word;
+.gsoc-project-card:hover {
+  box-shadow: 0 4px 12px rgba(60, 64, 67, 0.15);
+  border-color: #d2e3fc;
+  transform: translateY(-2px);
 }
 
-.project-card-link {
-  margin: 1%;
+.gsoc-project-title {
+  font-family: "Google Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #202124;
+  margin-bottom: 4px;
+  line-height: 1.4;
 }
 
-.ui.two.buttons,
-.ui.one.buttons {
-  width: 100%;
+.gsoc-project-student {
+  font-size: 13px;
+  color: #5f6368;
+  margin-bottom: 12px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 6px;
 }
 
-.ui.one.buttons {
-  justify-content: center;
+.gsoc-project-desc {
+  font-size: 14px;
+  color: #3c4043;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  flex-grow: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gsoc-project-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid #f1f3f4;
+}
+
+.gsoc-project-btn {
+  font-family: "Google Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #1a73e8;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  background: transparent;
+}
+
+.gsoc-project-btn:hover {
+  background-color: #e8f0fe;
+  color: #174ea6;
 }

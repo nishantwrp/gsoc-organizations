@@ -7,20 +7,25 @@ import Sidebar from "../../components/sidebar"
 import Search from "../../components/search"
 import { Grid } from "semantic-ui-react"
 
-const Layout = ({ children, showFiltersAndSearch }) => {
+const Layout = ({ children, showFiltersAndSearch, resultsCount }) => {
   const searchStyle = showFiltersAndSearch ? {} : { display: "none" }
-  const contentStyle = showFiltersAndSearch ? { paddingTop: "60px" } : {}
+  const contentStyle = showFiltersAndSearch ? { paddingTop: "64px" } : {}
 
   return (
     <Grid className="desktop-layout-grid">
       <Grid.Row className="desktop-layout-grid-row">
-        <Grid.Column className="desktop-layout-grid-column" width={4}>
-          <Sidebar showFilters={showFiltersAndSearch} />
-        </Grid.Column>
-        <Grid.Column className="desktop-layout-grid-column" width={12}>
+        {showFiltersAndSearch && (
+          <Grid.Column className="desktop-layout-grid-column" width={4}>
+            <Sidebar showFilters={showFiltersAndSearch} />
+          </Grid.Column>
+        )}
+        <Grid.Column
+          className="desktop-layout-grid-column"
+          width={showFiltersAndSearch ? 12 : 16}
+        >
           <center>
             <div className="desktop-layout-search" style={searchStyle}>
-              <Search />
+              <Search resultsCount={resultsCount} />
             </div>
           </center>
           <div className="desktop-layout-content" style={contentStyle}>
@@ -35,6 +40,7 @@ const Layout = ({ children, showFiltersAndSearch }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   showFiltersAndSearch: PropTypes.bool,
+  resultsCount: PropTypes.number,
 }
 
 export default Layout

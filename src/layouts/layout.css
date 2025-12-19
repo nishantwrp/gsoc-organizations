@@ -2,7 +2,11 @@ body {
   margin: 0px;
   padding: 0px;
   min-height: 100vh;
-  background-color: #fdfdfd;
+  background-color: #f3f4f6;
+  font-family: "Google Sans", "Galano Grotesque Alt Medium", Roboto, Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
