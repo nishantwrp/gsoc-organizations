@@ -17,14 +17,18 @@ const filters = {
   "web/html/css": ["web", "html", "css"],
   node: ["node.js"],
   nodejs: ["node.js"],
+  vue: ["Vue.js"],
+  vuejs: ["Vue.js"],
+  "vue.js": ["Vue.js"],
 }
 
 const filter = tech => {
-  if (tech in filters) {
-    return filters[tech]
+  const lowerTech = tech.toLowerCase().trim()
+  if (lowerTech in filters) {
+    return filters[lowerTech]
   }
 
-  return [tech.trim()]
+  return [lowerTech]
 }
 
 module.exports = {
