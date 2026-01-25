@@ -17,9 +17,9 @@ const filters = {
   "web/html/css": ["web", "html", "css"],
   node: ["node.js"],
   nodejs: ["node.js"],
-  vue: ["Vue.js"],
-  vuejs: ["Vue.js"],
-  "vue.js": ["Vue.js"],
+  vue: ["vue.js"],
+  vuejs: ["vue.js"],
+  "vue.js": ["vue.js"],
 }
 
 const filter = tech => {
@@ -28,7 +28,7 @@ const filter = tech => {
     return filters[lowerTech]
   }
 
-  return [lowerTech]
+  return [tech.trim()]
 }
 
 module.exports = {
