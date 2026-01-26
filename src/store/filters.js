@@ -32,7 +32,10 @@ export const getFiltersFromSearchUrl = () => {
 
 const filtersSlice = createSlice({
   name: "filters",
-  initialState: () => getFiltersFromSearchUrl(),
+  initialState: () => ({
+    ...getFiltersFromSearchUrl(),
+    sortBy: getSearchParam("sort") || "",
+  }),
   reducers: {
     addFilter: (state, action) => {
       const { name, val } = action.payload
@@ -56,12 +59,25 @@ const filtersSlice = createSlice({
       }
       updateFiltersInUrl(state)
     },
+    setSortBy: (state, action) => {
+      state.sortBy = action.payload
+      if (action.payload) {
+        setSearchParams({ sort: action.payload })
+      } else {
+        removeSearchParam("sort")
+      }
+    },
   },
   extraReducers: builder => {
     builder.addCase(urlChanged, (state, action) => {
       const { filters } = action.payload
       ensureAllFilters(filters)
-      return { ...filters }
+      const newSortBy = getSearchParam("sort") || ""
+
+      for (const filter of FILTERS) {
+        state[filter] = filters[filter] || []
+      }
+      state.sortBy = newSortBy
     })
   },
 })
@@ -72,5 +88,5 @@ export const getFilters = state => {
 
 export const {
   reducer,
-  actions: { addFilter, removeFilter, setFilters, clearFilters },
+  actions: { addFilter, removeFilter, setFilters, clearFilters, setSortBy },
 } = filtersSlice
