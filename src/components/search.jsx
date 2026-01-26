@@ -1,5 +1,5 @@
 import React, { useMemo, useState, useCallback, useEffect, memo } from "react"
-import { debounce } from "debounce"
+import debounce from "debounce"
 import PropTypes from "prop-types"
 
 import "./search.css"
