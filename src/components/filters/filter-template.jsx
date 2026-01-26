@@ -87,8 +87,8 @@ class FilterTemplate extends React.Component {
             ? 1
             : -1
           : a.frequency > b.frequency
-          ? -1
-          : 1
+            ? -1
+            : 1
       }
     })
     return sortedOptions.map(item => this.getAllOptions().indexOf(item))
