@@ -17,12 +17,12 @@ const Search = () => {
     value => {
       dispatch(setSearch(value))
     },
-    [dispatch],
+    [dispatch]
   )
 
   const debouncedDispatchSetSearch = useMemo(
     () => debounce(dispatchSetSearch, 200),
-    [dispatchSetSearch],
+    [dispatchSetSearch]
   )
 
   const handleChange = useCallback(
@@ -30,7 +30,7 @@ const Search = () => {
       setSearchText(value)
       debouncedDispatchSetSearch(value)
     },
-    [debouncedDispatchSetSearch],
+    [debouncedDispatchSetSearch]
   )
 
   useEffect(() => {

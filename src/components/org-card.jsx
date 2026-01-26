@@ -34,7 +34,7 @@ const OrgCard = ({ data }) => {
     technologies.push(
       <span key={`#${extra} more`} className="org-card-technology-extra">
         {extra} more
-      </span>,
+      </span>
     )
   }
 

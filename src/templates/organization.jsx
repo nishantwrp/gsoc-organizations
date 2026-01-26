@@ -49,7 +49,7 @@ const OrganizationPage = ({ pageContext: { organization }, data }) => {
       property: "og:url",
       content: `${data.site.siteMetadata.siteUrl}/organization/${slugify(
         organization.name,
-        { lower: true },
+        { lower: true }
       )}/`,
     },
     {
@@ -72,7 +72,7 @@ const OrganizationPage = ({ pageContext: { organization }, data }) => {
 
   const orgChartData = createOrgChartData(
     data.filter.years.map(item => item.name),
-    organization.years,
+    organization.years
   )
 
   React.useEffect(() => {

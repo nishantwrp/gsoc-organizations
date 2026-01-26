@@ -110,7 +110,7 @@ const updateYears = (
   year,
   projects_url,
   num_projects,
-  projects,
+  projects
 ) => {
   combinedJson.years[year] = {
     projects_url: projects_url,
