@@ -3,30 +3,40 @@
     {
       "title": "Contributing code to Oppia",
       "url": "https://github.com/oppia/oppia/wiki/Contributing-code-to-Oppia#setting-things-up"
+    },
+    {
+      "title": "Developer Guide",
+      "url": "https://github.com/oppia/oppia/wiki/Developer-Overview"
     }
   ],
   "Joplin": [
     {
       "title": "GSoC pull request guidelines",
       "url": "https://joplinapp.org/gsoc2022/pull_request_guidelines/"
+    },
+    {
+      "title": "Code Contributions",
+      "url": "https://github.com/laurent22/joplin/blob/dev/CONTRIBUTING.md"
     }
   ],
-  "Liquid Galaxy project": [
+  "LibreOffice": [
     {
-      "title": "Discord Server for GSoC 2023",
-      "url": "https://discord.gg/peGA5K8tJU"
+      "title": "Development Instructions",
+      "url": "https://wiki.documentfoundation.org/Development/GetInvolved"
+    },
+    {
+      "title": "Easy Hacks",
+      "url": "https://wiki.documentfoundation.org/Development/Easy_Hacks"
     }
   ],
-  "Casbin": [
+  "Python Software Foundation": [
     {
-      "title": "Contribution guidelines for Casbin",
-      "url": "https://github.com/casbin/casbin/blob/master/CONTRIBUTING.md"
-    }
-  ],
-  "Gnome Foundation": [
+      "title": "Getting Started with Development",
+      "url": "https://devguide.python.org/getting-started/"
+    },
     {
-      "title": "Newcomers Guide",
-      "url": "https://wiki.gnome.org/Newcomers/"
+      "title": "Core Development Workflow",
+      "url": "https://devguide.python.org/development-workflow/"
     }
   ]
 }
