@@ -1,3 +1,16 @@
 .index-org-cards-grid {
-  margin: 0px !important;
+  margin: 10px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.results-container {
+  user-select: none;
+  margin: 1rem 0;
+  text-align: center;
+}
+.results {
+  letter-spacing: 2px;
+  font-weight: 700;
 }
