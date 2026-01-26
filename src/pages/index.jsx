@@ -133,7 +133,7 @@ const IndexPage = ({ data }) => {
   const filteredOrganizations = getFilteredOrganizations(
     allOrganizations,
     searchQuery,
-    filters
+    filters,
   )
 
   useEffect(() => {
@@ -146,7 +146,7 @@ const IndexPage = ({ data }) => {
     const updatedFilters = getFiltersFromSearchUrl()
 
     dispatch(
-      urlChanged({ search: updatedSearchQuery, filters: updatedFilters })
+      urlChanged({ search: updatedSearchQuery, filters: updatedFilters }),
     )
     EventBus.emit("updateSearch", updatedSearchQuery)
   }, [location, dispatch])

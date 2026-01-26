@@ -36,11 +36,11 @@ class Filter extends FilterTemplate {
 
     const max_options_displayed = Math.max(
       this.getOptionIndexes(true).length,
-      this.DEFAULT_OPTIONS_DISPLAYED
+      this.DEFAULT_OPTIONS_DISPLAYED,
     )
     const num_options_displayed = Math.min(
       max_options_displayed,
-      filteredCheckboxes.length
+      filteredCheckboxes.length,
     )
     filteredCheckboxes = filteredCheckboxes.slice(0, num_options_displayed)
     const displayModalOption =

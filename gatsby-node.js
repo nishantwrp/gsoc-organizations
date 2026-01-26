@@ -122,7 +122,7 @@ exports.createPages = ({ actions: { createPage } }) => {
         project => {
           delete project["description"]
           return project
-        }
+        },
       )
     }
 
