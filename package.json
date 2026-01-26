@@ -38,7 +38,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "prettier": "^3.8.1"
-  },
+    },
   "resolutions": {
     "@hapi/hoek": "9.2.1",
     "@hapi/topo": "5.1.0",
