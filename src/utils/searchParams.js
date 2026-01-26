@@ -12,8 +12,6 @@ export const setSearchParams = params => {
       url.searchParams.set(param, value)
     }
     window.history.pushState({}, "", url)
-  } else {
-    console.error("error setting search params. window is not defined.")
   }
 }
 
@@ -25,10 +23,8 @@ export const setSearchParams = params => {
 export const getSearchParam = param => {
   if (typeof window !== "undefined" && window) {
     return new URL(window.location).searchParams.get(param)
-  } else {
-    console.error("error getting search params. window is not defined.")
-    return null
   }
+  return null
 }
 
 /**
@@ -40,7 +36,5 @@ export const removeSearchParam = param => {
     const url = new URL(window.location)
     url.searchParams.delete(param)
     window.history.pushState({}, "", url)
-  } else {
-    console.error("error removing search param. window is not defined.")
   }
 }

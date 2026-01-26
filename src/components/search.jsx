@@ -1,14 +1,15 @@
 import React, { useMemo, useState, useCallback, useEffect, memo } from "react"
 import debounce from "debounce"
+import PropTypes from "prop-types"
 
 import "./search.css"
 
-import { Icon, Input } from "semantic-ui-react"
+import { Icon } from "semantic-ui-react"
 import { useAppDispatch, useAppSelector } from "../store"
 import { getSearch, setSearch } from "../store/search"
 import { EventBus } from "../utils/events"
 
-const Search = () => {
+const Search = ({ resultsCount }) => {
   const search = useAppSelector(getSearch)
   const dispatch = useAppDispatch()
   const [searchText, setSearchText] = useState(search)
@@ -40,13 +41,25 @@ const Search = () => {
   }, [])
 
   return (
-    <div className="search-search">
-      <Input icon placeholder="Search">
-        <input value={searchText} onChange={handleChange.bind(this)} />
-        <Icon name="search" />
-      </Input>
+    <div className="search-container">
+      <div className="search-bar">
+        <Icon name="search" className="search-icon" />
+        <input
+          className="search-input"
+          placeholder="Search organizations"
+          value={searchText}
+          onChange={handleChange}
+        />
+        {resultsCount !== undefined && (
+          <div className="search-results-badge">{resultsCount} results</div>
+        )}
+      </div>
     </div>
   )
+}
+
+Search.propTypes = {
+  resultsCount: PropTypes.number,
 }
 
 export default memo(Search)

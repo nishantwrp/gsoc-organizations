@@ -19,11 +19,13 @@
 .desktop-layout-search {
   position: fixed;
   z-index: 10;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 8px 0;
+  height: 64px;
   /* 75% because sidebar is 25% of the width. */
   width: 75%;
-  background-color: #ffff;
-  border-bottom: 1px solid rgb(212, 218, 223);
-  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dadce0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

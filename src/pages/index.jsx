@@ -214,16 +214,8 @@ const IndexPage = ({ data }) => {
   }, [])
 
   return (
-    <Layout>
+    <Layout resultsCount={filteredOrganizations.length}>
       <SEO title={"Home"} meta={meta} />
-      <Grid className="index-org-cards-grid">
-        <Notification />
-      </Grid>
-      <div style={{ marginTop: "1rem", textAlign: "center" }}>
-        <a className="ui orange label">
-          {filteredOrganizations.length} results
-        </a>
-      </div>
       <Grid className="index-org-cards-grid" stackable columns={cardColumns}>
         {filteredOrganizations.map(org => (
           <Grid.Column key={org.name}>

@@ -1,26 +1,58 @@
 .projects-section-container {
-  margin-top: 1rem;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #dadce0;
+  padding: 24px;
+  margin-bottom: 24px;
 }
 
-.project-cards-grid {
-  margin: 0px !important;
+/* Override Semantic UI Tab Styles */
+.ui.secondary.menu {
+  border-bottom: 1px solid #dadce0 !important;
+  margin-bottom: 24px !important;
 }
 
-.projects-section-year-headings > .menu {
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 0px;
-  flex-wrap: wrap;
+.ui.secondary.menu .item {
+  border-bottom: 2px solid transparent !important;
+  border-radius: 0 !important;
+  margin-bottom: -1px !important;
+  padding: 12px 24px !important;
+  font-family: "Google Sans", sans-serif !important;
+  font-weight: 500 !important;
+  color: #5f6368 !important;
+  transition: color 0.2s !important;
+}
+
+.ui.secondary.menu .item:hover {
+  color: #202124 !important;
+  background: transparent !important;
+}
+
+.ui.secondary.menu .active.item {
+  border-color: #1a73e8 !important;
+  color: #1a73e8 !important;
+  background: transparent !important;
 }
 
 .project-cards-container {
-  border: 0px !important;
+  border: none !important;
   box-shadow: none !important;
-  background: none !important;
-  margin: 0px !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+.project-cards-grid {
+  margin: -8px !important;
+  width: calc(100% + 16px) !important;
+}
+
+.project-cards-grid .column {
+  padding: 8px !important;
 }
 
 .projects-section-message-container {
   text-align: center;
-  justify-content: center;
+  color: #5f6368;
+  font-family: "Google Sans", sans-serif;
+  padding: 40px !important;
 }

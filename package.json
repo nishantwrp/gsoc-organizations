@@ -19,7 +19,6 @@
     "gatsby-plugin-google-gtag": "^5.11.0",
     "gatsby-plugin-manifest": "^5.11.0",
     "gatsby-plugin-nprogress": "^5.11.0",
-    "gatsby-plugin-offline": "^6.11.0",
     "gatsby-plugin-react-helmet": "^6.11.0",
     "gatsby-plugin-robots-txt": "^1.8.0",
     "gatsby-plugin-sitemap": "^6.11.0",
@@ -39,6 +38,12 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "prettier": "^3.8.1"
+    },
+  "resolutions": {
+    "@hapi/hoek": "9.2.1",
+    "@hapi/topo": "5.1.0",
+    "@hapi/joi": "17.1.1",
+    "@webassemblyjs/wast-printer": "1.12.1"
   },
   "scripts": {
     "build": "gatsby build",

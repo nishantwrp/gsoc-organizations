@@ -1,33 +1,39 @@
 .mobile-toolbar {
-  height: 54px;
+  height: 64px;
   width: 100%;
   position: fixed;
   top: 0px;
   display: flex;
+  align-items: center;
   z-index: 10;
-  background-color: #ffff;
-  border-bottom: 1px solid rgb(212, 218, 223);
-  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dadce0;
+  padding: 0 8px;
 }
 
 .mobile-toolbar-logo {
-  margin-top: auto;
-  margin-bottom: auto;
-  min-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  height: 48px;
 }
 
 .mobile-toolbar-sidebar-toggle {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  font-size: 35px;
-  min-width: 50px;
-  color: #ffa62b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  min-width: 48px;
+  height: 48px;
+  color: #5f6368;
   cursor: pointer;
 }
 
 .mobile-toolbar-search {
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
 }

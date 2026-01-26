@@ -8,7 +8,7 @@ import Filter from "./filters/filter"
 import GitHubButton from "react-github-btn"
 import { OutboundLink } from "gatsby-plugin-google-gtag"
 import { Link } from "gatsby"
-import { Container, Divider, Button, Icon } from "semantic-ui-react"
+import { Icon } from "semantic-ui-react"
 import { useAppDispatch } from "../store"
 import { clearFilters } from "../store/filters"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -79,24 +79,23 @@ const Sidebar = ({ config, showFilters }) => {
   return (
     <div className="sidebar-sidebar" style={sidebarStyle}>
       <div className="sidebar-div">
-        <div className="sidebar-logo-description">
-          <div className="sidebar-description">
-            {showFilters ? (
-              <Container>GSoC Organizations</Container>
-            ) : (
-              <Link to="/">
-                <Container>GSoC Organizations</Container>
-              </Link>
-            )}
-          </div>
+        <div className="sidebar-header">
+          {showFilters ? (
+            <span className="sidebar-title">GSoC Organizations</span>
+          ) : (
+            <Link to="/" className="sidebar-title-link">
+              <span className="sidebar-title">GSoC Organizations</span>
+            </Link>
+          )}
         </div>
+
         <div className="sidebar-content" style={filterStyle}>
           <div className="sidebar-content-clear-filters">
-            <Button size="tiny" basic color="orange" onClick={clearAllFilters}>
-              Clear all filters
-            </Button>
+            <button className="sidebar-clear-btn" onClick={clearAllFilters}>
+              <Icon name="refresh" /> Clear filters
+            </button>
           </div>
-          <Divider className="sidebar-divider" />
+
           <div className="sidebar-content-filters">
             <Filter
               name="shortcuts"
@@ -118,79 +117,52 @@ const Sidebar = ({ config, showFilters }) => {
             />
           </div>
         </div>
+
         <div className="sidebar-footer">
-          <Divider className="sidebar-divider" />
-          <div>
-            <center>
-              <table>
-                <tbody>
-                  <tr>
-                    <td>
-                      <GitHubButton
-                        data-size="large"
-                        href="https://github.com/nishantwrp/gsoc-organizations"
-                        data-icon="octicon-star"
-                        data-show-count="true"
-                        aria-label="Star nishantwrp/gsoc-organizations-site on GitHub"
-                      >
-                        Star
-                      </GitHubButton>
-                    </td>
-                    <td>
-                      <OutboundLink
-                        href="https://api.gsocorganizations.dev/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <Button
-                          className="sidebar-footer-icon-link"
-                          icon
-                          compact={true}
-                        >
-                          <Icon>
-                            <FontAwesomeIcon icon={faDatabase} />
-                          </Icon>
-                        </Button>
-                      </OutboundLink>
-                    </td>
-                    <td>
-                      <OutboundLink
-                        href="https://x.com/nishantwrp"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <Button
-                          className="sidebar-footer-icon-link"
-                          icon
-                          compact={true}
-                        >
-                          <Icon>
-                            <FontAwesomeIcon icon={faXTwitter} />
-                          </Icon>
-                        </Button>
-                      </OutboundLink>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <div className="sidebar-footer-text-container">
-                <span className="sidebar-footer-text">
-                  Made with{" "}
-                  <span className="sidebar-footer-icon">
-                    <Icon name="heart"></Icon>
-                  </span>{" "}
-                  by{" "}
-                  <OutboundLink
-                    href="https://www.github.com/nishantwrp"
-                    className="sidebar-footer-text"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <u>nishantwrp</u>
-                  </OutboundLink>
-                </span>
-              </div>
-            </center>
+          <div className="sidebar-footer-social">
+            <GitHubButton
+              data-size="large"
+              href="https://github.com/nishantwrp/gsoc-organizations"
+              data-icon="octicon-star"
+              data-show-count="true"
+              aria-label="Star nishantwrp/gsoc-organizations-site on GitHub"
+            >
+              Star
+            </GitHubButton>
+
+            <div className="sidebar-social-icons">
+              <OutboundLink
+                href="https://api.gsocorganizations.dev/"
+                target="_blank"
+                rel="noreferrer"
+                className="sidebar-icon-link"
+              >
+                <FontAwesomeIcon icon={faDatabase} />
+              </OutboundLink>
+
+              <OutboundLink
+                href="https://x.com/nishantwrp"
+                target="_blank"
+                rel="noreferrer"
+                className="sidebar-icon-link"
+              >
+                <FontAwesomeIcon icon={faXTwitter} />
+              </OutboundLink>
+            </div>
+          </div>
+
+          <div className="sidebar-footer-text-container">
+            <span className="sidebar-footer-text">
+              Made with <Icon name="heart" className="sidebar-heart-icon" /> by{" "}
+              <OutboundLink
+                href="https://www.github.com/nishantwrp"
+                className="sidebar-footer-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                nishantwrp
+              </OutboundLink>
+            </span>
           </div>
         </div>
       </div>

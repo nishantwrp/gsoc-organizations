@@ -1,5 +1,7 @@
 .projects-graph-container {
-  margin: 3%;
-  border: 2px solid rgb(230, 236, 241);
-  box-shadow: 9px 9px 10px #d1d9e6, -6px -6px 10px rgb(230, 236, 241);
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #dadce0;
+  padding: 24px;
+  margin-bottom: 24px;
 }

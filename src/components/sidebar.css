@@ -1,12 +1,16 @@
 .sidebar-sidebar {
-  z-index: 20;
+  z-index: 50;
   height: 100%;
+  width: 25%;
   position: fixed;
-  transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: transform;
+  top: 0;
+  left: 0;
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
-  background-color: #f5f7f9;
-  border-right: 1px solid rgb(230, 236, 241);
+  background-color: #ffffff;
+  border-right: 1px solid #dadce0;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar-div {
@@ -16,61 +20,130 @@
   flex-direction: column;
 }
 
+.sidebar-header {
+  padding: 0 24px;
+  border-bottom: 1px solid #dadce0;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  min-height: 64px;
+}
+
+.sidebar-title {
+  font-family: "Google Sans", sans-serif;
+  font-size: 22px;
+  color: #202124;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+.sidebar-title-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar-title-link:hover {
+  color: inherit;
+}
+
 .sidebar-content {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  overflow: auto;
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .sidebar-content-clear-filters {
-  text-align: center;
-  justify-content: center;
-  padding-top: 10px;
-  margin-bottom: auto;
+  padding: 16px 24px 8px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sidebar-clear-btn {
+  background: none;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  padding: 6px 12px;
+  color: #1a73e8;
+  font-family: "Google Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.2s;
+}
+
+.sidebar-clear-btn:hover {
+  background-color: #f1f3f4;
+  border-color: #dadce0;
 }
 
 .sidebar-content-filters {
-  height: 100%;
-  overflow: auto;
-}
-
-.sidebar-logo-description {
-  padding-top: 10px;
-  justify-content: center;
-  text-align: center;
-}
-
-.sidebar-description {
-  font-family: "Galano Grotesque Alt Medium";
-  font-size: 18px;
-  color: #ffa62b;
+  padding-bottom: 16px;
 }
 
 .sidebar-footer {
-  text-align: center;
-  margin-top: auto;
-  padding-bottom: 15px;
+  padding: 12px 20px;
+  border-top: 1px solid #dadce0;
+  background-color: #ffffff;
 }
 
-.sidebar-divider {
-  width: 100%;
-  color: rgb(228, 228, 231);
+.sidebar-footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  height: 28px;
 }
 
-.sidebar-footer-icon {
-  color: #db6400;
+.sidebar-social-icons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
 }
 
-.sidebar-footer-icon-link {
-  margin: 0px !important;
+.sidebar-icon-link {
+  color: #5f6368;
+  font-size: 18px;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.sidebar-icon-link:hover {
+  color: #202124;
+  background-color: #f1f3f4;
 }
 
 .sidebar-footer-text-container {
-  margin-top: 5px;
+  text-align: center;
 }
 
 .sidebar-footer-text {
-  font-family: "Galano Grotesque Alt Medium";
-  color: #db6400;
+  font-family: "Google Sans", sans-serif;
+  font-size: 12px;
+  color: #5f6368;
+}
+
+.sidebar-heart-icon {
+  color: #ea4335;
+  font-size: 10px !important;
+  margin: 0 2px;
+}
+
+.sidebar-footer-link {
+  color: #5f6368;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sidebar-footer-link:hover {
+  color: #1a73e8;
 }

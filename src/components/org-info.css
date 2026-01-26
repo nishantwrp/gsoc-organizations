@@ -1,92 +1,245 @@
-.org-info-container {
-  margin: 3%;
-  border: 2px solid rgb(230, 236, 241);
-  box-shadow: 9px 9px 10px #d1d9e6, -6px -6px 10px rgb(230, 236, 241);
-}
-
-.org-info-logo-container {
-  height: 128px;
-  padding: 12px 12px;
-}
-
-.org-info-logo {
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
+/* Main Container */
+.gsoc-org-info {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #dadce0;
+  overflow: hidden;
+  margin-bottom: 24px;
   height: 100%;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.org-info-site-container {
-  padding-top: 2%;
-  text-align: center;
+/* Header Section */
+.gsoc-org-header {
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+  border-bottom: 1px solid #f1f3f4;
+  align-items: flex-start;
 }
 
-.org-info-description-container {
-  text-align: center;
+.gsoc-org-logo-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  border: 1px solid #f1f3f4;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  padding: 2% 3%;
-  font-family: "Nunito", sans-serif;
-  font-size: 15px;
+  flex-shrink: 0;
+  padding: 8px;
+  background-color: #fff;
 }
 
-.org-info-divider {
-  width: 80%;
+.gsoc-org-logo {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.org-info-category-container {
-  text-align: center;
+.gsoc-org-header-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.org-info-category-container span {
+.gsoc-org-title {
+  margin: 0;
+  font-family: "Google Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: #202124;
+  line-height: 1.2;
+}
+
+.gsoc-org-category {
   display: inline-block;
-  width: inherit;
-  padding: 1%;
-  background-color: #db6400;
+  font-size: 14px;
+  color: #5f6368;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.gsoc-org-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-top: 4px;
+}
+
+/* Buttons */
+.gsoc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 16px;
+  border-radius: 18px;
+  font-family: "Google Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  border: none;
+  gap: 8px;
+}
+
+.gsoc-btn-primary {
+  background-color: #1a73e8;
   color: #ffffff;
-  border-radius: 5px;
-  font-family: "Galano Grotesque Alt Medium";
 }
 
-.org-info-years-container {
-  text-align: center;
+.gsoc-btn-primary:hover {
+  background-color: #1765cc;
+  box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3),
+    0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  color: #ffffff;
 }
 
-.org-info-year {
-  display: inline-block;
-  margin-left: 1%;
-  padding: 1%;
-  background-color: #16697a;
-  color: white;
-  border-radius: 2px;
-  font-family: "Galano Grotesque Alt Medium";
+.gsoc-btn-icon {
+  width: 36px;
+  padding: 0;
+  color: #5f6368;
+  background-color: transparent;
+  border: 1px solid #dadce0;
 }
 
-.org-info-technologies-container {
-  text-align: center;
+.gsoc-btn-icon:hover {
+  background-color: #f1f3f4;
+  color: #202124;
 }
 
-.org-info-technology {
-  display: inline-block;
-  margin: 1%;
-  padding: 1%;
-  border: 1px solid #db6400;
-  color: #db6400;
-  border-radius: 2px;
-  font-family: "Galano Grotesque Alt Medium";
+/* Body Section */
+.gsoc-org-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
-.org-info-topics-container {
-  text-align: center;
-  padding-bottom: 2%;
+.gsoc-section-title {
+  font-family: "Google Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #202124;
+  margin: 0 0 12px 0;
 }
 
-.org-info-topic {
-  display: inline-block;
-  margin: 1%;
-  padding: 1%;
-  border: 1px solid #16697a;
-  color: #16697a;
-  border-radius: 2px;
-  font-family: "Galano Grotesque Alt Medium";
+.gsoc-org-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #3c4043;
+  margin: 0;
+}
+
+/* Contribution Card */
+.gsoc-contrib-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.gsoc-contrib-icon {
+  color: #1a73e8;
+  font-size: 24px;
+}
+
+.gsoc-contrib-text {
+  flex-grow: 1;
+  font-size: 14px;
+  color: #3c4043;
+}
+
+.gsoc-contrib-link {
+  color: #1a73e8;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.gsoc-contrib-link:hover {
+  text-decoration: underline;
+}
+
+/* Grid Layout for Tech/Topics */
+.gsoc-org-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .gsoc-org-grid {
+    grid-template-columns: 1fr;
+  }
+  .gsoc-org-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .gsoc-org-actions {
+    justify-content: center;
+  }
+}
+
+/* Chips */
+.gsoc-chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.gsoc-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid #dadce0;
+  background-color: #ffffff;
+  color: #3c4043;
+}
+
+.gsoc-chip.tech {
+  background-color: #f1f3f4;
+  border-color: transparent;
+}
+
+.gsoc-chip.topic {
+  border-color: #dadce0;
+}
+
+/* Years List */
+.gsoc-years-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.gsoc-year-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #e8f0fe;
+  color: #1967d2;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.gsoc-year-chip:hover {
+  background-color: #d2e3fc;
+  color: #174ea6;
 }
