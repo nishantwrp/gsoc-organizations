@@ -17,11 +17,15 @@ const filters = {
   "web/html/css": ["web", "html", "css"],
   node: ["node.js"],
   nodejs: ["node.js"],
+  vue: ["vue.js"],
+  vuejs: ["vue.js"],
+  "vue.js": ["vue.js"],
 }
 
 const filter = tech => {
-  if (tech in filters) {
-    return filters[tech]
+  const lowerTech = tech.toLowerCase().trim()
+  if (lowerTech in filters) {
+    return filters[lowerTech]
   }
 
   return [tech.trim()]
