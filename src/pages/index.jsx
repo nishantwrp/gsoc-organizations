@@ -114,7 +114,7 @@ const getFilteredOrganizations = (organizations, searchQuery, filters) => {
     let newFilteredOrganizations = []
     for (const organization of filteredOrganizations) {
       const orgYears = Object.keys(organization.years)
-      if (orgYears.length == 1 && orgYears[0] == 2025) {
+      if (orgYears.length == 1 && orgYears[0] == 2026) {
         newFilteredOrganizations.push(organization)
       }
     }
@@ -302,6 +302,10 @@ export const query = graphql`
               projects_url
             }
             _2025 {
+              num_projects
+              projects_url
+            }
+            _2026 {
               num_projects
               projects_url
             }
