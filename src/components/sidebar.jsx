@@ -100,7 +100,7 @@ const Sidebar = ({ config, showFilters }) => {
           <div className="sidebar-content-filters">
             <Filter
               name="shortcuts"
-              choices={[{ name: "First-time organizations", frequency: 14 }]}
+              choices={[{ name: "First-time organizations", frequency: 16 }]}
               sortBy="frequency"
             />
             <Filter name="years" choices={years} sortBy="name" order="desc" />
