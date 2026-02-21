@@ -36,7 +36,7 @@ const OrgInfo = ({ data }) => {
     return <span className="org-info-topic">{topic}</span>
   })
 
-  const isParticipatingIn2025 = "2025" in data.years
+  const isParticipatingIn2026 = "2026" in data.years
 
   return (
     <div className="org-info-container">
@@ -53,7 +53,7 @@ const OrgInfo = ({ data }) => {
           }}
         ></div>
       </div>
-      {!!data.guide_url && (
+      {!isParticipatingIn2026 && !!data.guide_url && (
         <Message color="orange" style={{ margin: "1%" }}>
           <Message.Header>
             View the official{" "}
@@ -68,16 +68,16 @@ const OrgInfo = ({ data }) => {
           </Message.Header>
         </Message>
       )}
-      {/* {isParticipatingIn2025 && (
+      {isParticipatingIn2026 && (
         <Message color="orange" style={{ margin: "1%" }}>
           <Message.Header>
             {data.name} is participating in{" "}
             <OutboundLink
-              href={data.years["2025"].projects_url}
+              href={data.years["2026"].projects_url}
               rel="noreferrer"
               target="_blank"
             >
-              <u>GSoC 2025</u>
+              <u>GSoC 2026</u>
             </OutboundLink>
             . View the{" "}
             <OutboundLink
@@ -102,7 +102,7 @@ const OrgInfo = ({ data }) => {
             for this organization.
           </Message.Header>
         </Message>
-      )} */}
+      )}
       <div className="org-info-site-container">
         <OutboundLink href={data.url} rel="noreferrer" target="_blank">
           <Button icon labelPosition="left" color="orange">
