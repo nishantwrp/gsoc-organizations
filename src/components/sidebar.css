@@ -5,8 +5,10 @@
   transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: transform;
   overflow: hidden;
-  background-color: #f5f7f9;
-  border-right: 1px solid rgb(230, 236, 241);
+
+  /* UPDATED: Use Theme Variables */
+  background-color: var(--sidebar-bg);
+  border-right: 1px solid var(--border-color);
 }
 
 .sidebar-div {
@@ -55,7 +57,10 @@
 
 .sidebar-divider {
   width: 100%;
-  color: rgb(228, 228, 231);
+  /* UPDATED: Use Theme Variable for divider line */
+  background-color: var(--border-color);
+  height: 1px;
+  border: none;
 }
 
 .sidebar-footer-icon {
