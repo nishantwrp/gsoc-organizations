@@ -1,4 +1,5 @@
 const fs = require("fs")
+const path = require("path")
 const { compileData } = require("../api/compile-data")
 
 const organizations = compileData()
@@ -22,4 +23,4 @@ const filters = {
     .sort((a, b) => b.count - a.count),
 }
 
-fs.writeFileSync("./filters.json", JSON.stringify(filters))
+fs.writeFileSync(path.join(__dirname, "filters.json"), JSON.stringify(filters))

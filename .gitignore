@@ -74,3 +74,4 @@ redoc-static.html
 api-dist 
 organizations.json
 filters.json
+scripts/*.json
