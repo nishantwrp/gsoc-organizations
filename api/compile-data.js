@@ -149,14 +149,19 @@ const getFinalFilterList = (rawFilterList, mergeFilterFn) => {
   }
 
   let finalFilterList = rawFilterList.sort()
-  let nextFilterList = applyMergeFilters(rawFilterList).sort()
+  let nextFilterList = applyMergeFilters(rawFilterList, mergeFilterFn).sort()
   let iterations = 0
-  while (finalFilterList != nextFilterList) {
+  while (finalFilterList.join(",") != nextFilterList.join(",")) {
     finalFilterList = nextFilterList
-    nextFilterList = applyMergeFilters(finalFilterList).sort()
+    nextFilterList = applyMergeFilters(finalFilterList, mergeFilterFn).sort()
     iterations++
 
     if (iterations >= 15) {
+      console.error(
+        "Too many iterations in applyMergeFilters",
+        finalFilterList,
+        nextFilterList
+      )
       throw new Error(
         "Too many iterations in applyMergeFilters, there's probably a cycle in the merge filters."
       )

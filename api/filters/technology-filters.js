@@ -110,7 +110,6 @@ const filters = {
   rails: ["ruby on rails"],
   "apache beam": ["beam"],
   "gnu autotools": ["autotools"],
-  "gnu make": ["make"],
   make: ["gnu make"],
   "c++ template metaprogramming": ["c++"],
   "open source databases": ["database"],
