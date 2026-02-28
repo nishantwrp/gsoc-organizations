@@ -25,3 +25,8 @@ This skill is used to propose new merges for different kinds of filters based on
 2. Run `bun scripts/aggregate-single-filter-data.js --filter-type <filter-type> --analytics-dir <analytics-dir>` to aggregate analytics data. Here filter-type is the filter type you received from the user as input. analytics-dir is the full path for directory "../gsoc-organizations-store/analytics/data/quarterly".
 3. Now look at the file `scripts/<filter-type>-data.json` to see the aggregated data. It is sorted by the historical user view count and the number of orgs having that technology or topic.
 4. Now based on the data and some common sense, edit the filters to make the app more useful to users. Feel free to propose, new filters (that don't exist) to be added to the app if that makes sense.
+
+## Tips
+
+1. Try to merge into the most viewed filters.
+2. Try to merge filters that have just 1 org or very less orgs (less than 5) into other filters if that makes sense. Don't do it forcefully so that the original filter loses its meaning or the new filter becomes too broad.

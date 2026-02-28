@@ -182,7 +182,7 @@ const applyFilters = orgJson => {
   for (const technology of orgJson.technologies) {
     const filteredTechnologies = technologyFilters.filter(technology)
     for (const filteredTechnology of filteredTechnologies) {
-      if (!technologies.includes(filteredTechnologies)) {
+      if (!technologies.includes(filteredTechnology)) {
         technologies.push(filteredTechnology)
       }
     }
@@ -221,6 +221,7 @@ const getCombinedOrgJson = orgList => {
 
 const compileData = () => {
   const organizationSet = new DisjointSet()
+  const allElements = []
 
   for (const year of YEARS) {
     const data = JSON.parse(fs.readFileSync(getDataPath(year)))
@@ -230,11 +231,12 @@ const compileData = () => {
       currentOrg.year = Number.parseInt(data.year)
 
       organizationSet.add(currentOrg)
-      for (const otherOrg of organizationSet.getAllElements()) {
+      for (const otherOrg of allElements) {
         if (isMergePossible(currentOrg, otherOrg)) {
           organizationSet.union(currentOrg, otherOrg)
         }
       }
+      allElements.push(currentOrg)
     }
   }
 
