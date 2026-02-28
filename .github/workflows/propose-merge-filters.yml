@@ -12,8 +12,8 @@ jobs:
         with:
           prompt: |
             Note that all file references are for repository `nishantwrp/gsoc-organizations` and you can use github MCP to read files. 
-            1. Read `.agent/skills/propose-merge-filters/SKILL.md`
-            2. Propose merge filters for technologies.
+            1. Look at files in `api/data` directory. Look at the `technologies` array in each file.
+            2. Propose merge filters in `api/filters/technology-filters.js` for technologies.
           enable-github-mcp: true
           token: ${{ secrets.GITHUB_TOKEN }}
           github-mcp-token: ${{ secrets.PERSONAL_PAT }}
