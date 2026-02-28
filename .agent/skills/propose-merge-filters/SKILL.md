@@ -30,3 +30,4 @@ This skill is used to propose new merges for different kinds of filters based on
 
 1. Try to merge into the most viewed filters.
 2. Try to merge filters that have just 1 org or very less orgs (less than 5) into other filters if that makes sense. Don't do it forcefully so that the original filter loses its meaning or the new filter becomes too broad.
+3. Also feel free to remove/edit existing filters in the file.
