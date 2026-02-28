@@ -11,7 +11,9 @@ jobs:
         uses: actions/ai-inference@v1
         with:
           prompt: |
-            Read `.agent/skills/propose-merge-filters/SKILL.md` and propose merge filters for technologies.
+            Read `skill_prompt` and propose merge filters for technologies.
+          file_input: |
+            skill_prompt: .agent/skills/propose-merge-filters/SKILL.md
       - name: Print Output
         id: output
         run: echo "${{ steps.inference.outputs.response }}"
