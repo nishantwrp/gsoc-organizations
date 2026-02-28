@@ -13,7 +13,8 @@ jobs:
           prompt: |
             Read `.agent/skills/propose-merge-filters/SKILL.md` via github MCP and propose merge filters for technologies.
           enable-github-mcp: true
-          token: ${{ secrets.PERSONAL_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          github-mcp-token: ${{ secrets.PERSONAL_PAT }}
       - name: Print Output
         id: output
         run: echo "${{ steps.inference.outputs.response }}"
