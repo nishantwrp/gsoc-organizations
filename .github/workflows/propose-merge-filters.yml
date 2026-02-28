@@ -1,0 +1,17 @@
+name: 'Propose Merge Filters'
+on: workflow_dispatch
+jobs:
+  technologies:
+    permissions:
+      models: read
+    runs-on: ubuntu-latest
+    steps:
+      - name: Make code changes
+        id: inference
+        uses: actions/ai-inference@v1
+        with:
+          prompt: |
+            Read `.agent/skills/propose-merge-filters/SKILL.md` and propose merge filters for technologies.
+      - name: Print Output
+        id: output
+        run: echo "${{ steps.inference.outputs.response }}"
