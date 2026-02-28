@@ -11,7 +11,9 @@ jobs:
         uses: actions/ai-inference@v1
         with:
           prompt: |
-            Read `.agent/skills/propose-merge-filters/SKILL.md` via github MCP and propose merge filters for technologies.
+            Note that all file references are for repository `nishantwrp/gsoc-organizations` and you can use github MCP to read files. 
+            1. Read `.agent/skills/propose-merge-filters/SKILL.md`
+            2. Propose merge filters for technologies.
           enable-github-mcp: true
           token: ${{ secrets.GITHUB_TOKEN }}
           github-mcp-token: ${{ secrets.PERSONAL_PAT }}
