@@ -11,9 +11,9 @@ jobs:
         uses: actions/ai-inference@v1
         with:
           prompt: |
-            Read `skill_prompt` input and propose merge filters for technologies.
-          file_input: |
-            skill_prompt: ./.agent/skills/propose-merge-filters/SKILL.md
+            Read `.agent/skills/propose-merge-filters/SKILL.md` via github MCP and propose merge filters for technologies.
+          enable-github-mcp: true
+          token: ${{ secrets.PERSONAL_PAT }}
       - name: Print Output
         id: output
         run: echo "${{ steps.inference.outputs.response }}"
