@@ -1,8 +1,70 @@
-const filters = {}
+const filters = {
+  ai: ["artificial intelligence"],
+  "ai/ml": ["artificial intelligence", "machine learning"],
+  "ml/al": ["artificial intelligence", "machine learning"],
+  "generative ai": ["artificial intelligence"],
+  genai: ["artificial intelligence"],
+  "artificial intelligence": ["artificial intelligence"],
+  "machine learning": ["machine learning"],
+  "machine-learning": ["machine learning"],
+  "deep learning": ["deep learning"],
+  "deep-learning": ["deep learning"],
+  nlp: ["natural language processing"],
+  "natural language processing": ["natural language processing"],
+  web: ["web"],
+  "web development": ["web"],
+  "web applications": ["web"],
+  "web application": ["web"],
+  "web apps": ["web"],
+  webapps: ["web"],
+  "front-end": ["web"],
+  frontend: ["web"],
+  backend: ["web"],
+  "full stack": ["web"],
+  "full stack web and mobile": ["web", "mobile"],
+  "data science": ["data"],
+  "data-science": ["data"],
+  "data analysis": ["data"],
+  "data visualization": ["data"],
+  "data visualisation": ["data"],
+  "data analytics": ["data"],
+  "data processing": ["data"],
+  "data management": ["data"],
+  "data integration": ["data"],
+  "data-wrangling": ["data"],
+  "data-collection": ["data"],
+  databases: ["database"],
+  "database systems": ["database"],
+  compilers: ["compiler"],
+  android: ["mobile"],
+  cybersecurity: ["security"],
+  "cloud computing": ["cloud"],
+  "cloud infrastructure": ["cloud"],
+  "embedded systems": ["embedded"],
+  "embedded hardware": ["embedded"],
+  embeddded: ["embedded"],
+  "game development": ["games"],
+  "game design": ["games"],
+  gaming: ["games"],
+  apis: ["api"],
+  ui: ["user interface"],
+  "end user application": ["applications"],
+  "end user applications": ["applications"],
+  application: ["applications"],
+  apps: ["applications"],
+  "application development": ["applications"],
+  "app development": ["applications"],
+  "mobile apps": ["mobile", "applications"],
+  "software analysis": ["software engineering"],
+  software: ["software engineering"],
+  "free software": ["software engineering"],
+  "software development": ["software engineering"],
+}
 
 const filter = topic => {
-  if (topic in filters) {
-    return filters[topic]
+  const lowerTopic = topic.toLowerCase().trim()
+  if (lowerTopic in filters) {
+    return filters[lowerTopic]
   }
 
   return [topic.trim()]
