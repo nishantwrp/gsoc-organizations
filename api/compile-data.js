@@ -135,6 +135,37 @@ const updateTechnologies = (combinedJson, technologies) => {
   }
 }
 
+// Recursively apply merge filters until no more merges are possible.
+const getFinalFilterList = (rawFilterList, mergeFilterFn) => {
+  const applyMergeFilters = (rawFilters, mergeFilterFn) => {
+    const dedupedFilters = new Set()
+    for (const filter of rawFilters) {
+      const mergedFilters = mergeFilterFn(filter)
+      for (const mergedFilter of mergedFilters) {
+        dedupedFilters.add(mergedFilter)
+      }
+    }
+    return Array.from(dedupedFilters)
+  }
+
+  let finalFilterList = rawFilterList.sort()
+  let nextFilterList = applyMergeFilters(rawFilterList).sort()
+  let iterations = 0
+  while (finalFilterList != nextFilterList) {
+    finalFilterList = nextFilterList
+    nextFilterList = applyMergeFilters(finalFilterList).sort()
+    iterations++
+
+    if (iterations >= 15) {
+      throw new Error(
+        "Too many iterations in applyMergeFilters, there's probably a cycle in the merge filters."
+      )
+    }
+  }
+
+  return finalFilterList
+}
+
 const updateOrg = (combinedJson, orgJson) => {
   const { projects_url, topics, technologies, num_projects, projects, year } =
     orgJson
@@ -166,28 +197,13 @@ const updateOrg = (combinedJson, orgJson) => {
 const applyFilters = orgJson => {
   orgJson.name = nameFilters.filter(orgJson.name)
   orgJson.category = categoryFilters.filter(orgJson.category)
-
-  const topics = []
-  for (const topic of orgJson.topics) {
-    const filteredTopics = topicFilters.filter(topic)
-    for (const filteredTopic of filteredTopics) {
-      if (!topics.includes(filteredTopic)) {
-        topics.push(filteredTopic)
-      }
-    }
-  }
-  orgJson.topics = topics
-
-  const technologies = []
-  for (const technology of orgJson.technologies) {
-    const filteredTechnologies = technologyFilters.filter(technology)
-    for (const filteredTechnology of filteredTechnologies) {
-      if (!technologies.includes(filteredTechnology)) {
-        technologies.push(filteredTechnology)
-      }
-    }
-  }
-  orgJson.technologies = technologies
+  // AI curated filters can sometimes have un-ordered mergings (e.b. [b->c, a->b] instead of [a->b, b->c]).
+  // This is why we need to apply the filters recursively.
+  orgJson.topics = getFinalFilterList(orgJson.topics, topicFilters.filter)
+  orgJson.technologies = getFinalFilterList(
+    orgJson.technologies,
+    technologyFilters.filter
+  )
 }
 
 const getCombinedOrgJson = orgList => {
@@ -221,7 +237,6 @@ const getCombinedOrgJson = orgList => {
 
 const compileData = () => {
   const organizationSet = new DisjointSet()
-  const allElements = []
 
   for (const year of YEARS) {
     const data = JSON.parse(fs.readFileSync(getDataPath(year)))
@@ -231,12 +246,11 @@ const compileData = () => {
       currentOrg.year = Number.parseInt(data.year)
 
       organizationSet.add(currentOrg)
-      for (const otherOrg of allElements) {
+      for (const otherOrg of organizationSet.getAllElements()) {
         if (isMergePossible(currentOrg, otherOrg)) {
           organizationSet.union(currentOrg, otherOrg)
         }
       }
-      allElements.push(currentOrg)
     }
   }
 
