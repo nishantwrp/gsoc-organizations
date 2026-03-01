@@ -124,7 +124,7 @@ const filters = {
   "object-oriented": ["object oriented programming"],
   "natural language processing": ["machine learning", "nlp"],
   rails: ["ruby on rails"],
-  "apache beam": ["beam"],
+  "apache beam": ["apache beam"],
   "gnu autotools": ["autotools"],
   make: ["gnu make"],
   "c++ template metaprogramming": ["c++"],
