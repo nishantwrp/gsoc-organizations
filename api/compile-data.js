@@ -171,7 +171,7 @@ const getFinalFilterList = (rawFilterList, mergeFilterFn) => {
   return finalFilterList
 }
 
-const updateOrg = (combinedJson, orgJson) => {
+const updateOrg = (combinedJson, orgJson, isFreshData) => {
   const { projects_url, topics, technologies, num_projects, projects, year } =
     orgJson
 
@@ -195,8 +195,10 @@ const updateOrg = (combinedJson, orgJson) => {
   }
 
   updateYears(combinedJson, year, projects_url, num_projects, projects)
-  updateTopics(combinedJson, topics)
-  updateTechnologies(combinedJson, technologies)
+  if (isFreshData) {
+    updateTopics(combinedJson, topics)
+    updateTechnologies(combinedJson, technologies)
+  }
 }
 
 const applyFilters = orgJson => {
@@ -233,8 +235,12 @@ const getCombinedOrgJson = orgList => {
     return a.year > b.year ? 1 : -1
   })
 
+  let yearIndex = 0
   for (const orgJson of orgList) {
-    updateOrg(combinedJson, orgJson)
+    // Discard some data less than 3 years old.
+    const isFreshData = orgList.length - yearIndex <= 3
+    updateOrg(combinedJson, orgJson, isFreshData)
+    yearIndex++
   }
 
   return combinedJson
