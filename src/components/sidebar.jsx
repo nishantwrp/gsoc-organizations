@@ -8,7 +8,7 @@ import Filter from "./filters/filter"
 import GitHubButton from "react-github-btn"
 import { OutboundLink } from "gatsby-plugin-google-gtag"
 import { Link } from "gatsby"
-import { Container, Divider, Button, Icon } from "semantic-ui-react"
+import { Container, Divider, Button, Icon, Image } from "semantic-ui-react"
 import { useAppDispatch } from "../store"
 import { clearFilters } from "../store/filters"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -82,10 +82,18 @@ const Sidebar = ({ config, showFilters }) => {
         <div className="sidebar-logo-description">
           <div className="sidebar-description">
             {showFilters ? (
-              <Container>GSoC Organizations</Container>
+              <Image
+                src="/images/Gsoc Organizations.svg"
+                size="medium"
+                alt="logo"
+              />
             ) : (
               <Link to="/">
-                <Container>GSoC Organizations</Container>
+                <Image
+                  src="/images/Gsoc Organizations.svg"
+                  size="medium"
+                  alt="logo"
+                />
               </Link>
             )}
           </div>
