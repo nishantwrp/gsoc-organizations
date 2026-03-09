@@ -24,3 +24,12 @@
 .ui.one.buttons {
   justify-content: center;
 }
+
+/* FIX: Ensure Student Name (Meta) is visible and gray in both modes */
+.project-card-main-container .ui.card > .content > .meta {
+  color: #606060; /* Standard Gray for Light Mode */
+}
+
+[data-theme="dark"] .project-card-main-container .ui.card > .content > .meta {
+  color: #b0b0b0 !important; /* Lighter Gray for Dark Mode visibility */
+}

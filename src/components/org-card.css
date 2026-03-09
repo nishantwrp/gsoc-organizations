@@ -3,16 +3,31 @@
   border: 1px solid rgb(230, 236, 241);
   height: 100%;
   cursor: pointer;
+  transition: box-shadow 0.3s ease; /* Smooth hover transition */
 }
 
+/* Light Mode Hover (Standard) */
 .org-card-container:hover {
   box-shadow: 0 4.5px 5.5px -2.5px rgba(0, 0, 0, 0.2),
     0 9px 14px 1px rgba(0, 0, 0, 0.14), 0 3.5px 17px 3px rgba(0, 0, 0, 0.12);
 }
 
+/* FIXED: Dark Mode Hover (Light Glow) */
+[data-theme="dark"] .org-card-container:hover {
+  border-color: var(--border-color);
+  box-shadow: 0 4.5px 5.5px -2.5px rgba(255, 255, 255, 0.2),
+    0 9px 14px 1px rgba(255, 255, 255, 0.14),
+    0 3.5px 17px 3px rgba(255, 255, 255, 0.12);
+}
+
 .org-card-logo-container {
   height: 128px;
   padding: 5% 10%;
+}
+
+/* Smart Invert for Dark Mode Logo */
+[data-theme="dark"] .org-card-logo-container {
+  filter: invert(1) hue-rotate(180deg);
 }
 
 .org-card-logo {

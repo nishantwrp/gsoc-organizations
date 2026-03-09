@@ -7,6 +7,7 @@ import Dimmer from "./dimmer"
 import Logo from "../logo"
 import Sidebar from "../sidebar"
 import Search from "../search"
+import ThemeToggle from "../theme-toggle"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "gatsby"
@@ -37,6 +38,14 @@ const Toolbar = ({ showSearch }) => {
           <Search />
         </center>
       </div>
+
+      <div
+        className="mobile-toolbar-theme-toggle"
+        style={{ display: "flex", alignItems: "center" }}
+      >
+        <ThemeToggle />
+      </div>
+
       <div
         className="mobile-toolbar-sidebar-toggle noselect"
         onClick={toggleSidebarVisibilty}

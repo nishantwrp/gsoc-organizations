@@ -9,6 +9,11 @@
   font-size: 15px;
 }
 
+/* NEW: Dark Mode Override for Filter Topics */
+[data-theme="dark"] .filter-topic {
+  color: var(--text-color) !important;
+}
+
 .filter-search {
   padding-top: 4px;
   padding-bottom: 4px;
@@ -25,6 +30,12 @@
   color: #16697a;
   font-family: "Lato";
   font-size: 12px;
+}
+
+/* NEW: Dark Mode Override for 'View More' link */
+[data-theme="dark"] .filter-view-more {
+  color: var(--text-color) !important;
+  text-decoration: underline; /* Optional: adds underline to make it clear it's a link */
 }
 
 .filter-divider {

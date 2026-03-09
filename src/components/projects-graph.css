@@ -2,4 +2,14 @@
   margin: 3%;
   border: 2px solid rgb(230, 236, 241);
   box-shadow: 9px 9px 10px #d1d9e6, -6px -6px 10px rgb(230, 236, 241);
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+/* FIXED: Dark Mode Graph Container with Glow Shadow */
+[data-theme="dark"] .projects-graph-container {
+  background-color: var(--card-bg);
+  border: 2px solid var(--border-color);
+  /* Added whitish/grayish glow shadow */
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
 }

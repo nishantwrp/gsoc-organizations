@@ -10,6 +10,16 @@
   box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
 }
 
+/* NEW: Dark Mode Override */
+[data-theme="dark"] .mobile-toolbar {
+  /* The specific background color you requested */
+  background-color: rgba(0, 0, 0, 0.95) !important;
+
+  /* Ensure border and shadow blend with dark mode */
+  border-bottom: 1px solid var(--border-color) !important;
+  box-shadow: var(--box-shadow) !important;
+}
+
 .mobile-toolbar-logo {
   margin-top: auto;
   margin-bottom: auto;
