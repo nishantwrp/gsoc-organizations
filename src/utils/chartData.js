@@ -1,7 +1,7 @@
 export const createOrgChartData = (allYears, orgYearData) => {
   const years = allYears
     .sort()
-    .filter(item => item != 2026)
+    .filter(item => item != 2027)
     .reduce((yearsToPlot, year) => {
       if (yearsToPlot.length != 0) {
         yearsToPlot.push(year)
