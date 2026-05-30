@@ -28,5 +28,24 @@
       "title": "Newcomers Guide",
       "url": "https://wiki.gnome.org/Newcomers/"
     }
+  ],
+  "AboutCode": [
+    {
+      "title": "Github",
+      "icon": "github",
+      "url": "https://github.com/aboutcode-org/aboutcode"
+    }
+  ],
+  "The Rust Foundation": [
+    {
+      "title": "Github",
+      "icon": "github",
+      "url": "https://github.com/rustfoundation"
+    },
+    {
+      "title": "communication Channle",
+      "icon": "chat",
+      "url": "https://rust-lang.zulipchat.com/#narrow/channel/445688-safety-critical-consortium"
+    }
   ]
 }
