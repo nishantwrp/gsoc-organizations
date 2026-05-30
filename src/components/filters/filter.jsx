@@ -9,7 +9,7 @@ import FilterTemplate, {
   mapStateWithProps,
 } from "./filter-template"
 import FilterModal from "./filter-modal"
-import { Checkbox, Input, Divider } from "semantic-ui-react"
+import { Checkbox, Input, Divider, Button } from "semantic-ui-react"
 
 class Filter extends FilterTemplate {
   DEFAULT_OPTIONS_DISPLAYED = 6
@@ -50,6 +50,23 @@ class Filter extends FilterTemplate {
       <div className="filter-filter">
         <div className="filter-topic">
           <u>{this.getDisplayableName()}</u>
+          <span
+            style={
+              this.props.filters.length
+                ? { marginLeft: "8px" }
+                : { display: "none" }
+            }
+          >
+            <Button
+              size="mini"
+              basic
+              color="orange"
+              onClick={this.props.clearFilter}
+              compact={true}
+            >
+              Clear filter
+            </Button>
+          </span>
         </div>
         <div className="filter-search">
           <Input
