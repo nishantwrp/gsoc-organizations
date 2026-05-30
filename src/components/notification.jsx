@@ -3,8 +3,7 @@ import { Message } from "semantic-ui-react"
 
 const Notification = () => {
   const style = {
-    width: "100%",
-    margin: "1rem",
+    width: "fit-content",
   }
 
   return (

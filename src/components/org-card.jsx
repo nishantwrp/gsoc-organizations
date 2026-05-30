@@ -40,25 +40,27 @@ const OrgCard = ({ data }) => {
 
   const card = (
     <div className="org-card-container">
-      <div
-        className="org-card-logo-container"
-        style={{
-          backgroundColor: data.image_background_color,
-        }}
-      >
+      <div>
         <div
-          className="org-card-logo"
+          className="org-card-logo-container"
           style={{
-            backgroundImage: `url(${data.image_url})`,
+            backgroundColor: data.image_background_color,
           }}
-        ></div>
+        >
+          <div
+            className="org-card-logo"
+            style={{
+              backgroundImage: `url(${data.image_url})`,
+            }}
+          ></div>
+        </div>
+        <div className="org-card-name-container">{data.name}</div>
+        <div className="org-card-category-container">
+          <span>{data.category}</span>
+        </div>
+        <div className="org-card-description-container">{data.description}</div>
+        <div className="org-card-years-container">{years}</div>
       </div>
-      <div className="org-card-name-container">{data.name}</div>
-      <div className="org-card-category-container">
-        <span>{data.category}</span>
-      </div>
-      <div className="org-card-description-container">{data.description}</div>
-      <div className="org-card-years-container">{years}</div>
       <div className="org-card-technologies-container">{technologies}</div>
     </div>
   )
