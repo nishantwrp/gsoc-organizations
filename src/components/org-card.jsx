@@ -38,28 +38,79 @@ const OrgCard = ({ data }) => {
     )
   }
 
-  const card = (
-    <div className="org-card-container">
+  const ALL_YEARS = [
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+  ]
+
+  const slotsGrid = ALL_YEARS.map(year => {
+    const yearData = data.years[year]
+    const participated = !!yearData
+    const slots = participated ? yearData.num_projects : 0
+    return (
       <div
-        className="org-card-logo-container"
-        style={{
-          backgroundColor: data.image_background_color,
-        }}
+        key={year}
+        className={`org-card-slot-box ${participated ? "active" : "inactive"}`}
       >
-        <div
-          className="org-card-logo"
-          style={{
-            backgroundImage: `url(${data.image_url})`,
-          }}
-        ></div>
+        <span className="org-card-slot-box-year">{year}</span>
+        <span className="org-card-slot-box-slots">
+          {participated ? slots : "-"}
+        </span>
       </div>
-      <div className="org-card-name-container">{data.name}</div>
-      <div className="org-card-category-container">
-        <span>{data.category}</span>
+    )
+  })
+
+  const card = (
+    <div className="org-card-flip-container">
+      <div className="org-card-inner">
+        <div className="org-card-front">
+          <div className="org-card-container">
+            <div
+              className="org-card-logo-container"
+              style={{
+                backgroundColor: data.image_background_color,
+              }}
+            >
+              <div
+                className="org-card-logo"
+                style={{
+                  backgroundImage: `url(${data.image_url})`,
+                }}
+              ></div>
+            </div>
+            <div className="org-card-name-container">{data.name}</div>
+            <div className="org-card-category-container">
+              <span>{data.category}</span>
+            </div>
+            <div className="org-card-description-container">
+              {data.description}
+            </div>
+            <div className="org-card-years-container">{years}</div>
+            <div className="org-card-technologies-container">
+              {technologies}
+            </div>
+          </div>
+        </div>
+        <div className="org-card-back">
+          <div className="org-card-back-header">
+            <div className="org-card-back-name">{data.name}</div>
+            <div className="org-card-back-subtitle">Annual GSoC Slots</div>
+          </div>
+          <div className="org-card-slots-grid">{slotsGrid}</div>
+          <div className="org-card-back-footer">
+            <span>Click to view profile ➔</span>
+          </div>
+        </div>
       </div>
-      <div className="org-card-description-container">{data.description}</div>
-      <div className="org-card-years-container">{years}</div>
-      <div className="org-card-technologies-container">{technologies}</div>
     </div>
   )
 
