@@ -42,6 +42,8 @@ Some of the things you could help with currently are -
 
    The data displayed is scraped from the official [GSoC Archive](https://summerofcode.withgoogle.com/archive). There may be some errors in the data. To tackle that custom filters are applied on the data which are defined in [api/filters](https://github.com/nishantwrp/gsoc-organizations/tree/master/api/filters). The filters can be improved a lot.
 
+   When a URL contains a malformed `?filters=` value, the app treats it as no active filters instead of crashing. This is useful when a stale or manually-edited URL is opened, and it is the expected behaviour for malformed filter state.
+
    Example 1 - There may be duplicate organizations on the site which is due to them having different names. To tackle them you can add filters in [api/filters/name-filters.js](https://github.com/nishantwrp/gsoc-organizations/blob/master/api/filters/name-filters.js).
 
    Example 2 - Some technologies are also modified because they may have some spelling mistakes or for the sake of better filtering. You can see that in [api/filters/technology-filters.js](https://github.com/nishantwrp/gsoc-organizations/blob/master/api/filters/technology-filters.js). For instance we have broken down `javascript/html/css` technology to `javascript`, `html` and `css`.
