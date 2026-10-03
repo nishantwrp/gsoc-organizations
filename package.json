@@ -44,6 +44,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "lint": "prettier -c \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "test": "node --test",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
