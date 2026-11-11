@@ -5,6 +5,7 @@ import {
   setSearchParams,
 } from "../utils/searchParams"
 import { urlChanged } from "./actions"
+import { parseFiltersParam } from "../utils/parseFilters"
 
 const FILTERS = ["years", "categories", "technologies", "topics", "shortcuts"]
 
@@ -25,7 +26,7 @@ const ensureAllFilters = o => {
 }
 
 export const getFiltersFromSearchUrl = () => {
-  const filters = JSON.parse(getSearchParam("filters")) || {}
+  const filters = parseFiltersParam(getSearchParam("filters"))
   ensureAllFilters(filters)
   return filters
 }
