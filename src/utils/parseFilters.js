@@ -1,3 +1,8 @@
+/**
+ * Parses the `filters` search param. Returns {} (no active filters)
+ * if it's missing, isn't valid JSON, or isn't an object.
+ */
+
 export const parseFiltersParam = raw => {
   if (!raw) {
     return {}
@@ -12,8 +17,3 @@ export const parseFiltersParam = raw => {
   }
   return {}
 }
-
-/**
- * Parses the `filters` search param. Returns {} (no active filters)
- * if it's missing, isn't valid JSON, or isn't an object.
- */
